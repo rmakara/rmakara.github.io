@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-03-01T20:33:55+01:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Ohayō, czyli wstęp do pisania o Krawędzi</title><link href="https://rmakara.github.io/notes/Start" rel="alternate" type="text/html" title="Ohayō, czyli wstęp do pisania o Krawędzi" /><published>2017-03-01T00:00:00+01:00</published><updated>2017-03-01T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Start</id><content type="html" xml:base="https://rmakara.github.io/notes/Start">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-03-01T20:35:32+01:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Ohayō, czyli wstęp do pisania o Krawędzi</title><link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi" rel="alternate" type="text/html" title="Ohayō, czyli wstęp do pisania o Krawędzi" /><published>2017-03-01T00:00:00+01:00</published><updated>2017-03-01T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi</id><content type="html" xml:base="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
 
 &lt;p&gt;Konkurs programistyczny &lt;a href=&quot;http://dajsiepoznac.pl&quot;&gt;Daj się poznać 2017&lt;/a&gt; organizowany przez &lt;a href=&quot;https://www.linkedin.com/in/maciejaniserowicz&quot;&gt;Macieja Aniserowicza&lt;/a&gt; był jednym z trzech głównych czynników mających wpływ na rozpoczęcie dzielenia się własną treścią w Internecie. DSP17 polega na rozwijaniu własnego projektu open source w dowolnej, wybranej przez Ciebie technologii i dzieleniu się nim ze światem. Przez 3 miesiące uczestnicy rozwijają wyżej wymieniony projekt opisując go jednym artykułem tygodniowo. Drugi artykuł nie musi dotyczyć rozwijanego kawałku oprogramowania, ale dalej powinien być nastawiony na branżę IT.&lt;/p&gt;
 
@@ -8,57 +8,6 @@
   &lt;li&gt;Poznanie ludzi z polskiej sceny programistycznej.&lt;/li&gt;
   &lt;li&gt;Otwarcie się na publikacje własnych treści i poddanie ich ocenie.&lt;/li&gt;
   &lt;li&gt;Wzajemną motywację uczestników konkursu.&lt;/li&gt;
-  &lt;li&gt;Poprawę umiejętności i cech związanych z lingwistyką, marketingiem, programowaniem, ewaluacją, pewnością siebie, determinacją.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;kawałek-mojej-historii---linkedin&quot;&gt;Kawałek mojej historii - &lt;a href=&quot;https://www.linkedin.com/in/rafalmakara/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;W życiu dzisiejszym zawodowo wykonuję obowiązki Project Managera. W przeszłości jednak, przez kilka lat zarabiałem na życie programowaniem, a w ramach odskoczni od codzienności pojawiały się inne przychody związane z nagrywaniem filmów, montażem, żonglerką czy założeniem 3-osobowej firmy zajmującej się międzynarodowym importem towaru (Azja!) i sprzedażą internetową.&lt;/p&gt;
-
-&lt;p&gt;Decyzja, którą podjąłem mając 21 lat mówiła o tym, że nie wyobrażam sobie mojej osoby programującej przez 8 godzin dziennie w wieku 30 lat. Ta magiczna granica stała się deadlinem na zmianę ścieżki programistycznej na rzecz zarządzania. Stało się to jednak 4 lata szybciej.&lt;/p&gt;
-
-&lt;h1 id=&quot;motywacja&quot;&gt;Motywacja&lt;/h1&gt;
-
-&lt;p&gt;Pierwszym z głównych motywatorów programowania w godzinach nocnych nawet na bardzo podstawowym poziomie oraz blogowania było zderzenie z rzeczywistością pracy Project Managera oraz pożegnaniu się z odczuwaniem flow - lub jak kto woli, przepływu - stanie o którym mówi świetna prezentacja &lt;a href=&quot;https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en&quot;&gt;Flow, the secret to happiness by Mihaly Csikszentmihalyi&lt;/a&gt;. Stan ten podczas programowania daje możliwość zamknięcia się w piwnicy i zapomnienia o istnieniu pojęcia czasu przez wiele godzin. Praca Project Managera przekształca flow w spotkania, arkusze kalkulacyjne, harmonogramy, issue tracker i często w brak możliwości pokazania wyprodukowanego przez siebie klocka, na koniec produktywnego dnia.&lt;/p&gt;
-
-&lt;p&gt;Drugim i najważniejszym motywatorem byli ludzie, którzy ramie w ramie wystartowali w konkursie. Każda z ponad 1000 zgłoszonych osób przyłożyła swoją rękę do powstania tego artykułu. Jednak osoby mające największy wpływ na mnie to te, które znam:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Andrzej Pawcenis - &lt;a href=&quot;https://inkoguto.github.io&quot;&gt;https://inkoguto.github.io&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Filip Rakowski - &lt;a href=&quot;https://github.com/dravek99/daj-sie-poznac&quot;&gt;https://github.com/dravek99/daj-sie-poznac&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Iwona Jóźwiak - &lt;a href=&quot;http://iwona.giat.pl&quot;&gt;http://iwona.giat.pl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Łukasz Marszałek - &lt;a href=&quot;http://www.lmarszalek.pl/blog&quot;&gt;http://www.lmarszalek.pl/blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Łukasz Żmudziński - &lt;a href=&quot;http://zmudzinski.me&quot;&gt;http://zmudzinski.me&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Maciej Daniłowicz - &lt;a href=&quot;http://maciej-danilowicz.pl&quot;&gt;http://maciej-danilowicz.pl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Marcin Kwiatkowski - &lt;a href=&quot;http://marcin-kwiatkowski.com&quot;&gt;http://marcin-kwiatkowski.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Marcin Lasak - &lt;a href=&quot;http://blog.marlas.pl&quot;&gt;http://blog.marlas.pl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Za fakt zmuszenia mnie do tego należy się Wam - dziękuję! ;)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jeśli będziesz przychodził przykładowo o czwartej, zacznę być szczęśliwy już o trzeciej.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;motyw-przewodni-czyli-krawędź&quot;&gt;Motyw przewodni, czyli Krawędź&lt;/h1&gt;
-
-&lt;p&gt;Blog będzie opowiadał o różnicach i podobieństwach świata programistycznego i świata zarządzania projektami - Krawędzi. Poruszy odmienne sposoby patrzenia na te same problemy oraz zobrazuje aspekty jednego świata, niedostrzegalne z powierzchni drugiego.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Dorośli nigdy nie potrafią sami zrozumieć. A dzieci bardzo męczy konieczność stałego objaśniania.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;projekt-programistyczny&quot;&gt;Projekt programistyczny&lt;/h1&gt;
-
-&lt;p&gt;Równolegle do publikowanych treści powstaną podstawowe narzędzia automatyzujące żmudne czynności wykonywane w ramach pracy PMa. Początkowo przyjmie to formę opiewających w duże ilości hardcodu skryptów Pythonowych, a po wyklarowaniu wizji na projekt zacznie przeobrażać się w aplikację opartą o framework Django, która będzie możliwa do wykorzystywania przez nieprogramistów.&lt;/p&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><summary type="html">Daj się poznać 2017</summary></entry><entry><title type="html">Ohayō, czyli wstęp do pisania o Krawędzi</title><link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi" rel="alternate" type="text/html" title="Ohayō, czyli wstęp do pisania o Krawędzi" /><published>2017-03-01T00:00:00+01:00</published><updated>2017-03-01T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi</id><content type="html" xml:base="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
-
-&lt;p&gt;Konkurs programistyczny &lt;a href=&quot;http://dajsiepoznac.pl&quot;&gt;Daj się poznać 2017&lt;/a&gt; organizowany przez &lt;a href=&quot;https://www.linkedin.com/in/maciejaniserowicz&quot;&gt;Macieja Aniserowicza&lt;/a&gt; był jednym z trzech głównych czynników mających wpływ na rozpoczęcie dzielenia się własną treścią w Internecie. DSP17 polega na rozwijaniu własnego projektu open source w dowolnej, wybranej przez Ciebie technologii i dzieleniu się nim ze światem. Przez 3 miesiące uczestnicy rozwijają wyżej wymieniony projekt opisując go jednym artykułem tygodniowo. Drugi artykuł nie musi dotyczyć rozwijanego kawałku oprogramowania, ale dalej powinien być nastawiony na branżę IT.&lt;/p&gt;
-
-&lt;p&gt;Takie założenia konkursowe ułatwiają:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poznanie interesującej nas technologii - niekoniecznie związanej z naszą codzienną pracą.&lt;/li&gt;
-  &lt;li&gt;Poznanie ludzi z polskiej sceny programistycznej.&lt;/li&gt;
-  &lt;li&gt;Otwarcie się na publikacje własnych treści i poddanie ich ocenie.&lt;/li&gt;
-  &lt;li&gt;Wzajemną motywację innych uczestników konkursu.&lt;/li&gt;
   &lt;li&gt;Poprawę umiejętności i cech związanych z lingwistyką, marketingiem, programowaniem, ewaluacją, pewnością siebie, determinacją.&lt;/li&gt;
 &lt;/ul&gt;
 
