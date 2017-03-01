@@ -2,19 +2,19 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-02-28T20:49:06+01:00</updated>
+        <updated>2017-03-01T18:39:57+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged <b>DAJSIEPOZNAC2017</b> - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                
+          
         <entry>
             <title>Post I</title>
             <link href="https://rmakara.github.io/notes/Post-I/" />
-            <published>2016-10-18T00:00:00+02:00</published>
-            <updated>2016-10-18T00:00:00+02:00</updated>
+            <published>2017-02-28T00:00:00+01:00</published>
+            <updated>2017-02-28T00:00:00+01:00</updated>
             <id>https://rmakara.github.io/notes/Post-I/</id>
             <content type="html" xml:base="https://rmakara.github.io/notes/Post-I/">&lt;blockquote&gt;
   &lt;p&gt;This is Markdown Cheatsheet Demo for &lt;strong&gt;The Plain&lt;/strong&gt;, this Jekyll theme. Please check the raw content of this file for the markdown usage.&lt;/p&gt;
