@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-01T20:26:41+01:00</updated>
+        <updated>2017-03-01T20:29:38+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged <b>DAJSIEPOZNAC2017</b> - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -12,11 +12,11 @@
           
         <entry>
             <title>Ohayō, czyli wstęp do pisania o Krawędzi</title>
-            <link href="https://rmakara.github.io/notes/Start/" />
+            <link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/" />
             <published>2017-03-01T00:00:00+01:00</published>
             <updated>2017-03-01T00:00:00+01:00</updated>
-            <id>https://rmakara.github.io/notes/Start/</id>
-            <content type="html" xml:base="https://rmakara.github.io/notes/Start/">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
+            <id>https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
 
 &lt;p&gt;Konkurs programistyczny &lt;a href=&quot;http://dajsiepoznac.pl&quot;&gt;Daj się poznać 2017&lt;/a&gt; organizowany przez &lt;a href=&quot;https://www.linkedin.com/in/maciejaniserowicz&quot;&gt;Macieja Aniserowicza&lt;/a&gt; był jednym z trzech głównych czynników mających wpływ na rozpoczęcie dzielenia się własną treścią w Internecie. DSP17 polega na rozwijaniu własnego projektu open source w dowolnej, wybranej przez Ciebie technologii i dzieleniu się nim ze światem. Przez 3 miesiące uczestnicy rozwijają wyżej wymieniony projekt opisując go jednym artykułem tygodniowo. Drugi artykuł nie musi dotyczyć rozwijanego kawałku oprogramowania, ale dalej powinien być nastawiony na branżę IT.&lt;/p&gt;
 
