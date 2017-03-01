@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-01T18:39:57+01:00</updated>
+        <updated>2017-03-01T20:26:41+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged <b>DAJSIEPOZNAC2017</b> - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -11,198 +11,64 @@
         </author>
           
         <entry>
-            <title>Post I</title>
-            <link href="https://rmakara.github.io/notes/Post-I/" />
-            <published>2017-02-28T00:00:00+01:00</published>
-            <updated>2017-02-28T00:00:00+01:00</updated>
-            <id>https://rmakara.github.io/notes/Post-I/</id>
-            <content type="html" xml:base="https://rmakara.github.io/notes/Post-I/">&lt;blockquote&gt;
-  &lt;p&gt;This is Markdown Cheatsheet Demo for &lt;strong&gt;The Plain&lt;/strong&gt;, this Jekyll theme. Please check the raw content of this file for the markdown usage.&lt;/p&gt;
-&lt;/blockquote&gt;
+            <title>Ohayō, czyli wstęp do pisania o Krawędzi</title>
+            <link href="https://rmakara.github.io/notes/Start/" />
+            <published>2017-03-01T00:00:00+01:00</published>
+            <updated>2017-03-01T00:00:00+01:00</updated>
+            <id>https://rmakara.github.io/notes/Start/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/Start/">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
 
-&lt;h2 id=&quot;typography-elements-in-one&quot;&gt;Typography Elements in One&lt;/h2&gt;
+&lt;p&gt;Konkurs programistyczny &lt;a href=&quot;http://dajsiepoznac.pl&quot;&gt;Daj się poznać 2017&lt;/a&gt; organizowany przez &lt;a href=&quot;https://www.linkedin.com/in/maciejaniserowicz&quot;&gt;Macieja Aniserowicza&lt;/a&gt; był jednym z trzech głównych czynników mających wpływ na rozpoczęcie dzielenia się własną treścią w Internecie. DSP17 polega na rozwijaniu własnego projektu open source w dowolnej, wybranej przez Ciebie technologii i dzieleniu się nim ze światem. Przez 3 miesiące uczestnicy rozwijają wyżej wymieniony projekt opisując go jednym artykułem tygodniowo. Drugi artykuł nie musi dotyczyć rozwijanego kawałku oprogramowania, ale dalej powinien być nastawiony na branżę IT.&lt;/p&gt;
 
-&lt;p&gt;Let’s start with a informative paragraph. &lt;strong&gt;This text is bolded.&lt;/strong&gt; But not this one! &lt;em&gt;How about italic text?&lt;/em&gt; Cool right? Ok, let’s &lt;strong&gt;&lt;em&gt;combine&lt;/em&gt;&lt;/strong&gt; them together. Yeah, that’s right! I have code to highlight, so &lt;code class=&quot;highlighter-rouge&quot;&gt;ThisIsMyCode()&lt;/code&gt;. What a nice! Good people will hyperlink away, so &lt;a href=&quot;#&quot;&gt;here we go&lt;/a&gt; or &lt;a href=&quot;http://www.example.com&quot;&gt;http://www.example.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Takie założenia konkursowe ułatwiają:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Poznanie interesującej nas technologii - niekoniecznie związanej z naszą codzienną pracą.&lt;/li&gt;
+  &lt;li&gt;Poznanie ludzi z polskiej sceny programistycznej.&lt;/li&gt;
+  &lt;li&gt;Otwarcie się na publikacje własnych treści i poddanie ich ocenie.&lt;/li&gt;
+  &lt;li&gt;Wzajemną motywację innych uczestników konkursu.&lt;/li&gt;
+  &lt;li&gt;Poprawę umiejętności i cech związanych z lingwistyką, marketingiem, programowaniem, ewaluacją, pewnością siebie, determinacją.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
+&lt;h1 id=&quot;kawałek-mojej-historii---linkedin&quot;&gt;Kawałek mojej historii - &lt;a href=&quot;https://www.linkedin.com/in/rafalmakara/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h2 id=&quot;headings-h1-to-h6&quot;&gt;Headings H1 to H6&lt;/h2&gt;
+&lt;p&gt;W życiu dzisiejszym zawodowo wykonuję obowiązki Project Managera. W przeszłości jednak, przez kilka lat zarabiałem na życie programowaniem, a w ramach odskoczni od codzienności pojawiały się inne przychody związane z nagrywaniem filmów, montażem, żonglerką czy założeniem 3-osobowej firmy zajmującej się międzynarodowym importem towaru (Azja!) i sprzedażą internetową.&lt;/p&gt;
 
-&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
+&lt;p&gt;Decyzja, którą podjąłem mając 21 lat mówiła o tym, że nie wyobrażam sobie mojej osoby programującej przez 8 godzin dziennie w wieku 30 lat. Ta magiczna granica stała się deadlinem na zmianę ścieżki programistycznej na rzecz zarządzania. Stało się to jednak 4 lata szybciej.&lt;/p&gt;
 
-&lt;h2 id=&quot;h2-heading&quot;&gt;H2 Heading&lt;/h2&gt;
+&lt;h1 id=&quot;motywacja&quot;&gt;Motywacja&lt;/h1&gt;
 
-&lt;h3 id=&quot;h3-heading&quot;&gt;H3 Heading&lt;/h3&gt;
+&lt;p&gt;Pierwszym z głównych motywatorów programowania w godzinach nocnych nawet na bardzo podstawowym poziomie oraz blogowania było zderzenie z rzeczywistością pracy Project Managera oraz pożegnaniu się z odczuwaniem flow - lub jak kto woli, przepływu - stanie o którym mówi świetna prezentacja &lt;a href=&quot;https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en&quot;&gt;Flow, the secret to happiness by Mihaly Csikszentmihalyi&lt;/a&gt;. Stan ten podczas programowania daje możliwość zamknięcia się w piwnicy i zapomnienia o istnieniu pojęcia czasu przez wiele godzin. Praca Project Managera przekształca flow w spotkania, arkusze kalkulacyjne, harmonogramy, issue tracker i często w brak możliwości pokazania wyprodukowanego przez siebie klocka, na koniec produktywnego dnia.&lt;/p&gt;
 
-&lt;h4 id=&quot;h4-heading&quot;&gt;H4 Heading&lt;/h4&gt;
+&lt;p&gt;Drugim i najważniejszym motywatorem byli ludzie, którzy ramie w ramie wystartowali w konkursie. Każda z ponad 1000 zgłoszonych osób przyłożyła swoją rękę do powstania tego artykułu. Jednak osoby mające największy wpływ na mnie to te, które znam:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Andrzej Pawcenis - &lt;a href=&quot;https://inkoguto.github.io&quot;&gt;https://inkoguto.github.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Filip Rakowski - &lt;a href=&quot;https://github.com/dravek99/daj-sie-poznac&quot;&gt;https://github.com/dravek99/daj-sie-poznac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Iwona Jóźwiak - &lt;a href=&quot;http://iwona.giat.pl&quot;&gt;http://iwona.giat.pl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Łukasz Marszałek - &lt;a href=&quot;http://www.lmarszalek.pl/blog&quot;&gt;http://www.lmarszalek.pl/blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Łukasz Żmudziński - &lt;a href=&quot;http://zmudzinski.me&quot;&gt;http://zmudzinski.me&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Maciej Daniłowicz - &lt;a href=&quot;http://maciej-danilowicz.pl&quot;&gt;http://maciej-danilowicz.pl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Marcin Kwiatkowski - &lt;a href=&quot;http://marcin-kwiatkowski.com&quot;&gt;http://marcin-kwiatkowski.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Marcin Lasak - &lt;a href=&quot;http://blog.marlas.pl&quot;&gt;http://blog.marlas.pl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h5 id=&quot;h5-heading&quot;&gt;H5 Heading&lt;/h5&gt;
-
-&lt;h6 id=&quot;h6-heading&quot;&gt;H6 Heading&lt;/h6&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;footnote&quot;&gt;Footnote&lt;/h2&gt;
-
-&lt;p&gt;Let’s say you have text that you want to refer with a footnote, you can do that too! This is an example for the footnote number one &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. You can even add more footnotes, with link! &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h2&gt;
+&lt;p&gt;Za fakt zmuszenia mnie do tego należy się Wam - dziękuję! ;)&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Start by doing what’s necessary; then do what’s possible; and suddenly you are doing the impossible. –Francis of Assisi&lt;/p&gt;
+  &lt;p&gt;Jeśli będziesz przychodził przykładowo o czwartej, zacznę być szczęśliwy już o trzeciej.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This theme does NOT support nested blockquotes.&lt;/p&gt;
+&lt;h1 id=&quot;motyw-przewodni-czyli-krawędź&quot;&gt;Motyw przewodni, czyli Krawędź&lt;/h1&gt;
 
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
+&lt;p&gt;Blog będzie opowiadał o różnicach i podobieństwach świata programistycznego i świata zarządzania projektami - Krawędzi. Poruszy odmienne sposoby patrzenia na te same problemy oraz zobrazuje aspekty jednego świata, niedostrzegalne z powierzchni drugiego.&lt;/p&gt;
 
-&lt;h2 id=&quot;list-items&quot;&gt;List Items&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Dorośli nigdy nie potrafią sami zrozumieć. A dzieci bardzo męczy konieczność stałego objaśniania.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;First order list item&lt;/li&gt;
-  &lt;li&gt;Second item&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&quot;projekt-programistyczny&quot;&gt;Projekt programistyczny&lt;/h1&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
-  &lt;li&gt;Or minuses&lt;/li&gt;
-  &lt;li&gt;Or pluses&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Równolegle do publikowanych treści powstaną podstawowe narzędzia automatyzujące żmudne czynności wykonywane w ramach pracy PMa. Początkowo przyjmie to formę opiewających w duże ilości hardcodu skryptów Pythonowych, a po wyklarowaniu wizji na projekt zacznie przeobrażać się w aplikację opartą o framework Django, która będzie możliwa do wykorzystywania przez nieprogramistów.&lt;/p&gt;
 
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h2&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;JavaScript syntax highlighting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python syntax highlighting&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No language indicated, so no syntax highlighting.
-But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;mathematics&quot;&gt;Mathematics&lt;/h2&gt;
-
-&lt;p&gt;The theme comes ready with &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;mathjax&lt;/a&gt; support built in, allowing for both simple inline equations like &lt;script type=&quot;math/tex&quot;&gt;ax^2 + bx + c = 0&lt;/script&gt; and much more complex mathematical expressions such as equation &lt;script type=&quot;math/tex&quot;&gt;\eqref{eq:sample}&lt;/script&gt; below.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align}
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t}  &amp;= \frac{4\pi}{c}\vec{\mathbf{j}} \\   
-\nabla \cdot \vec{\mathbf{E}} &amp;= 4 \pi \rho \tag{2} \label{eq:sample}\\
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t}  &amp;= \vec{\mathbf{0}} \\
-\nabla \cdot \vec{\mathbf{B}}  &amp;= 0\\
-\end{align} %]]&gt;&lt;/script&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;table&quot;&gt;Table&lt;/h2&gt;
-
-&lt;h3 id=&quot;table-1-with-alignment&quot;&gt;Table 1: With Alignment&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;zebra stripes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;table-2-with-typography-elements&quot;&gt;Table 2: With Typography Elements&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Markdown&lt;/th&gt;
-      &lt;th&gt;Less&lt;/th&gt;
-      &lt;th&gt;Pretty&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;renders&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;horizontal-line&quot;&gt;Horizontal Line&lt;/h2&gt;
-
-&lt;p&gt;The HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; element is for creating a “thematic break” between paragraph-level elements. In markdown, you can create a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; with any of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;___&lt;/code&gt;: three consecutive underscores&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;---&lt;/code&gt;: three consecutive dashes&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;***&lt;/code&gt;: three consecutive asterisks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;renders to:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
-
-&lt;h3 id=&quot;youtube-embedded-iframe&quot;&gt;YouTube Embedded Iframe&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n1a7o44WxNo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;image&quot;&gt;Image&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Footnote number one yeah baby! Long sentence test of footnote to see how the words are wrapping between each other. Might overflowww!&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;A footnote you can link to - &lt;a href=&quot;#&quot;&gt;click here!&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </content>
         </entry>
           
