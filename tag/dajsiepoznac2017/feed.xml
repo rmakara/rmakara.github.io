@@ -2,21 +2,21 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-02T19:58:24+01:00</updated>
+        <updated>2017-03-11T12:53:45+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DAJSIEPOZNAC2017 - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-          
+                
         <entry>
-            <title>Ohayō, czyli wstęp do pisania o Krawędzi</title>
-            <link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/" />
+            <title>Ohayō, czyli wstęp do pisania o granicy dwóch światów.</title>
+            <link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-granicy-dwoch-%C5%9Bwiatow/" />
             <published>2017-03-01T00:00:00+01:00</published>
             <updated>2017-03-01T00:00:00+01:00</updated>
-            <id>https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/</id>
-            <content type="html" xml:base="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-Kraw%C4%99dzi/">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
+            <id>https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-granicy-dwoch-%C5%9Bwiatow/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-granicy-dwoch-%C5%9Bwiatow/">&lt;h1 id=&quot;daj-siępoznać-2017&quot;&gt;Daj się poznać 2017&lt;/h1&gt;
 
 &lt;p&gt;Konkurs programistyczny &lt;a href=&quot;http://dajsiepoznac.pl&quot;&gt;Daj się poznać 2017&lt;/a&gt; organizowany przez &lt;a href=&quot;https://www.linkedin.com/in/maciejaniserowicz&quot;&gt;Macieja Aniserowicza&lt;/a&gt; był jednym z trzech głównych czynników mających wpływ na rozpoczęcie dzielenia się własną treścią w Internecie. DSP17 polega na rozwijaniu własnego projektu open source w dowolnej, wybranej przez Ciebie technologii i dzieleniu się nim ze światem. Przez 3 miesiące uczestnicy rozwijają wyżej wymieniony projekt opisując go jednym artykułem tygodniowo. Drugi artykuł nie musi dotyczyć rozwijanego kawałku oprogramowania, ale dalej powinien być nastawiony na branżę IT.&lt;/p&gt;
 
@@ -56,20 +56,31 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;Jeśli będziesz przychodził przykładowo o czwartej, zacznę być szczęśliwy już o trzeciej.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;motyw-przewodni-czyli-krawędź&quot;&gt;Motyw przewodni, czyli Krawędź&lt;/h1&gt;
+&lt;h1 id=&quot;motyw-przewodni-czyli-granica-światów&quot;&gt;Motyw przewodni, czyli granica światów&lt;/h1&gt;
 
-&lt;p&gt;Blog będzie opowiadał o różnicach i podobieństwach świata programistycznego i świata zarządzania projektami - Krawędzi. Poruszy odmienne sposoby patrzenia na te same problemy oraz zobrazuje aspekty jednego świata, niedostrzegalne z powierzchni drugiego.&lt;/p&gt;
+&lt;p&gt;Blog będzie opowiadał o różnicach i podobieństwach świata programistycznego i świata zarządzania projektami. Poruszy odmienne sposoby patrzenia na te same problemy oraz zobrazuje aspekty jednego świata, niedostrzegalne z powierzchni drugiego.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Dorośli nigdy nie potrafią sami zrozumieć. A dzieci bardzo męczy konieczność stałego objaśniania.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 id=&quot;projekt-programistyczny&quot;&gt;Projekt programistyczny&lt;/h1&gt;
 
 &lt;p&gt;Równolegle do publikowanych treści powstaną podstawowe narzędzia automatyzujące żmudne czynności wykonywane w ramach pracy PMa. Początkowo przyjmie to formę opiewających w duże ilości hardcodu skryptów Pythonowych, a po wyklarowaniu wizji na projekt zacznie przeobrażać się w aplikację opartą o framework Django, która będzie możliwa do wykorzystywania przez nieprogramistów.&lt;/p&gt;
 
+&lt;hr /&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en&quot;&gt;Mihaly Csikszentmihalyi. Flow, the secret to happiness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         </entry>
           
