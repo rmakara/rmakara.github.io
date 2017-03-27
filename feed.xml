@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-03-11T15:06:33+01:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Jira &amp;amp; Toggl. Jak uspójnić formę raportowania?</title><link href="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania" rel="alternate" type="text/html" title="Jira &amp; Toggl. Jak uspójnić formę raportowania?" /><published>2017-03-08T00:00:00+01:00</published><updated>2017-03-08T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania</id><content type="html" xml:base="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania">&lt;h1 id=&quot;projekt-i-początkowe-założenia&quot;&gt;Projekt i początkowe założenia&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-03-27T22:55:38+02:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">OnEstimates. Część I: Too long, did not read.</title><link href="https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read" rel="alternate" type="text/html" title="OnEstimates. Część I&amp;#58; Too long, did not read." /><published>2017-03-27T00:00:00+02:00</published><updated>2017-03-27T00:00:00+02:00</updated><id>https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read</id><content type="html" xml:base="https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read">&lt;h1 id=&quot;przewidywanie-przeszłości&quot;&gt;Przewidywanie przeszłości&lt;/h1&gt;
+
+&lt;p&gt;Wyobraźmy sobie, że mamy do zrealizowania projekt (lub produkt) dzięki któremu zarobimy pieniądze. Nasz Klient oczekuje od Nas zadeklarowania terminu, zakresu oraz budżetu w jakim prace zostaną zrealizowane. W celu przekazania takiej informacji estymujemy, czyli szacujemy jakiego rozmiaru, wielkości, kosztu są poszczególne elementy. Po zsumowaniu wszystkich części składowych, jesteśmy w stanie udzielić Klientowi informacji, której oczekuje. Czy na pewno?&lt;/p&gt;
+
+&lt;p&gt;W serii czterech artykułów skupię się na wdrożeniu w temat estymacji, omówię wykorzystywane techniki, zagrożenia oraz odmienne perspektywy specjalistów oraz biznesu.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read&quot;&gt;OnEstimates. Część I: Too long, did not read.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OnEstimates. Część II: Techniki estymowania.&lt;/li&gt;
+  &lt;li&gt;OnEstimates. Część III: Zagrożenia płynące z estymacji.&lt;/li&gt;
+  &lt;li&gt;OnEstimates. Część IV: Biznes/Manager vs Specjalista.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;estymacja-jest-trudna&quot;&gt;Estymacja jest trudna&lt;/h1&gt;
+
+&lt;p&gt;W świecie IT, często przytaczane są statystyki mówiące, że opóźniona realizacja projektów w branży IT to standard. Liczba projektów zakończonych w planowanym czasie i budżecie to jedynie 30%. Na podstawie tej danej można wysnuć bardzo wiele wniosków - mówiących, dlaczego popełniamy błędy - z których każdy ma w sobie zarówno trochę prawdy, jak i fikcji:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;W momencie szacowania dysponujemy zbyt wąskim zakresem wiedzy.&lt;/li&gt;
+  &lt;li&gt;Estymujemy prace, które będą realizowane przez kogoś innego, posiadającego inne kompetencje, niż nasze.&lt;/li&gt;
+  &lt;li&gt;Estymujemy nie mając do tego odpowiednich kompetencji.&lt;/li&gt;
+  &lt;li&gt;Wytwarzamy nie mając do tego odpowiednich kompetencji.&lt;/li&gt;
+  &lt;li&gt;Jesteśmy zbyt wielkimi optymistami.&lt;/li&gt;
+  &lt;li&gt;Pomijamy zależności od czynników/aktorów 3-cich.&lt;/li&gt;
+  &lt;li&gt;Boimy się okazania swojego nieprofesjonalizmu w postaci podania zbyt pesymistycznej estymacji.&lt;/li&gt;
+  &lt;li&gt;Boimy się mówić ”nie wiem”.&lt;/li&gt;
+  &lt;li&gt;Szacujemy pod presją.&lt;/li&gt;
+  &lt;li&gt;Dostosowujemy szacunki do procesu sprzedażowego.&lt;/li&gt;
+  &lt;li&gt;Zapominamy o wliczaniu kosztów obecnych w tle wytwarzania oprogramowania (organizacja pracy, komunikacja, testowanie, analiza, wyjazdy), a skupiamy się jedynie na stukaniu w klawiaturę, rysowaniu lub malowaniu.&lt;/li&gt;
+  &lt;li&gt;Boimy się odrzucenia i negatywnej reakcji osoby, która oczekuje od nas informacji.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Przewidywanie jest bardzo trudne, szczególnie jeśli idzie o przyszłość.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Niels Bohr, Mark Twain i wielu innych&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;negocjacje&quot;&gt;Negocjacje&lt;/h1&gt;
+
+&lt;p&gt;W rozumieniu wielu ludzi, pojęcie estymacji jest równoznaczne ze złożeniem wiążącej obietnicy. Zgodnie z takim punktem widzenia, Klient stara się wymóc najbardziej korzystny szacunek w procesie negocjacji. Warto jednak pamiętać, że wartości szacunkowe nie podlegają negocjacjom. Są one obiektywną oceną czasu potrzebnego na wytworzenie danej rzeczy dokonaną na podstawie aktualnie dostępnej wiedzy. Negocjowalne mogą być jedynie wymagania, zakres, termin, cena. Rozpoczynając negocjacje, Klient powinien odpowiedzieć na pytanie czy korzystniejsze będzie poznanie realnych wartości, czy odłożone w czasie zaskoczenie. My natomiast, powinniśmy starać się nie składać obietnic zbyt wcześnie, w celu ochrony siebie oraz Klienta. Warto edukować, że estymata to szacunek, a nie gwarancja. Prawdopodobieństwo jej dokładności będzie rosło w czasie, wraz ze wzrostem doświadczenia zespołu, znajomości projektu oraz liczby osób estymujących. Należy również pamiętać, że wartość podana przez specjalistę, którą Klient (lub Manager) chce estymować - już jest zbyt optymistyczna.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Zadanie zawsze zajmie nam więcej, niż przewidywaliśmy. Nawet gdy weźmiemy pod uwagę prawo Hofstadtera.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Prawo Hofstadtera, Douglas Hofstadter&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;prawdomówność&quot;&gt;Prawdomówność&lt;/h1&gt;
+
+&lt;p&gt;Szacując dany zakres powinniśmy uświadamiać odbiorcę naszego komunikatu, że podawana wartość jest jedynie przybliżona i może okazać się błędna. Bez tego narażamy się na zarzucenie nam kłamstwa. Podnieść prawdziwość naszego komunikatu możemy przez rozbicie elementów na mniejsze i tym samym jawne wykazanie składowych z których wynika nasz szacunek. Możemy również wskazać optymistyczną i pesymistyczną wartość, które określą realny przedział - realizacja X zajmie od Y do Z osobodni - zamiast konkretnej wartości stwierdzonej z niskim prawdopodobieństwem.&lt;/p&gt;
+
+&lt;h1 id=&quot;rozmowa-kwalifikacyjna&quot;&gt;Rozmowa kwalifikacyjna&lt;/h1&gt;
+
+&lt;p&gt;Będąc na jednej z rozmów kwalifikacyjnych w moim życiu usłyszałem genialne pytanie:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ile jest autobusów w mieście X?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ma ono na celu weryfikację umiejętności estymowania u kandydata. Najgorszą możliwą odpowiedzią jest strzał konkretnej liczby. Najlepszą, nawiązanie dialogu z rozmówcą, domówienie szczegółow, wspólne dążenie do podniesienia prawdopodobieństwa na celne oszacowanie. Podobnie jak na tej rozmowie kwalifikacyjnej, warto traktować codzienną rzeczywistość specjalistów, managerów oraz biznesu jako wspólną drogę do osiągnięcia sukcesu przez każdą ze stron.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Praca rozszerza się tak, aby wypełnić czas dostępny na jej ukończenie.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Prawo Parkinsona, Cyril Northcote Parkinson[edytuj]&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><summary type="html">Przewidywanie przeszłości</summary></entry><entry><title type="html">Jira &amp;amp; Toggl. Jak uspójnić formę raportowania?</title><link href="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania" rel="alternate" type="text/html" title="Jira &amp; Toggl. Jak uspójnić formę raportowania?" /><published>2017-03-08T00:00:00+01:00</published><updated>2017-03-08T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania</id><content type="html" xml:base="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania">&lt;h1 id=&quot;projekt-i-początkowe-założenia&quot;&gt;Projekt i początkowe założenia&lt;/h1&gt;
 
 &lt;p&gt;Pomysł na realizowany kawałek oprogramowania wywodzi się z tego, że od ponad roku funkcjonuję jako miękka forma inteligencji (&lt;a href=&quot;https://www.youtube.com/watch?v=0XITfxBCYpc&amp;amp;t=7s&quot;&gt;Jak rozmawiać z obcymi formami inteligencji - poradnik dla craftsmanów, Slawomir Sobotka&lt;/a&gt;), a nie jako programista. W świecie zarządzania projektami (podobnie jak w programistycznym) często zachodzi zjawisko odkrywania koła na nowo lub wykorzystywania nieadekwatnych (lub zbyt wielu) narzędzi do osiągnięcia celów. Narzędzia tworzone w ramach projektu będą miały na celu automatyzację żmudnych czynności wykonywanych w pracy project managera.&lt;/p&gt;
 
