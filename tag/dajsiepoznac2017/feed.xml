@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-27T23:03:33+02:00</updated>
+        <updated>2017-03-27T23:16:32+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DAJSIEPOZNAC2017 - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -88,9 +88,9 @@
 &lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona, Wikipedie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera, Wikipedie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Wisdom_of_the_crowd&quot;&gt;Mądrość tłumu, Wikipedie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Wisdom_of_the_crowd&quot;&gt;Mądrość tłumu, Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
@@ -239,7 +239,7 @@
   &lt;li&gt;[9] &lt;a href=&quot;https://www.youtube.com/watch?v=7VJaprmuHcw&quot;&gt;Gynveal Coldwind: Gynvael’s Python 101: Hello World!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[10] &lt;a href=&quot;https://jira.readthedocs.io/en/master/&quot;&gt;jira-python&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[11] &lt;a href=&quot;https://github.com/matthewdowney/TogglPy&quot;&gt;TogglPy, matthewdowney&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;Pip, Wikipedie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;Pip, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[13] &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[14] &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;https://www.sublimetext.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[15] &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;https://www.jetbrains.com/pycharm/&lt;/a&gt;&lt;/li&gt;
