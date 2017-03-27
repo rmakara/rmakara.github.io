@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-27T22:58:48+02:00</updated>
+        <updated>2017-03-27T23:03:33+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DAJSIEPOZNAC2017 - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -56,7 +56,7 @@
 
 &lt;h1 id=&quot;negocjacje&quot;&gt;Negocjacje&lt;/h1&gt;
 
-&lt;p&gt;W rozumieniu wielu ludzi, pojęcie estymacji jest równoznaczne ze złożeniem wiążącej obietnicy. Zgodnie z takim punktem widzenia, Klient stara się wymóc najbardziej korzystny szacunek w procesie negocjacji. Warto jednak pamiętać, że wartości szacunkowe nie podlegają negocjacjom. Są one obiektywną oceną czasu potrzebnego na wytworzenie danej rzeczy dokonaną na podstawie aktualnie dostępnej wiedzy. Negocjowalne mogą być jedynie wymagania, zakres, termin, cena. Rozpoczynając negocjacje, Klient powinien odpowiedzieć na pytanie czy korzystniejsze będzie poznanie realnych wartości, czy odłożone w czasie zaskoczenie. My natomiast, powinniśmy starać się nie składać obietnic zbyt wcześnie, w celu ochrony siebie oraz Klienta. Warto edukować, że estymata to szacunek, a nie gwarancja. Prawdopodobieństwo jej dokładności będzie rosło w czasie, wraz ze wzrostem doświadczenia zespołu, znajomości projektu oraz liczby osób estymujących. Należy również pamiętać, że wartość podana przez specjalistę, którą Klient (lub Manager) chce estymować - już jest zbyt optymistyczna.&lt;/p&gt;
+&lt;p&gt;W rozumieniu wielu ludzi, pojęcie estymacji jest równoznaczne ze złożeniem wiążącej obietnicy. Zgodnie z takim punktem widzenia, Klient stara się wymóc najbardziej korzystny szacunek w procesie negocjacji. Warto jednak pamiętać, że wartości szacunkowe nie podlegają negocjacjom. Są one obiektywną oceną czasu potrzebnego na wytworzenie danej rzeczy dokonaną na podstawie aktualnie dostępnej wiedzy. Negocjowalne mogą być jedynie wymagania, zakres, termin, cena. Rozpoczynając negocjacje, Klient powinien odpowiedzieć na pytanie czy korzystniejsze będzie poznanie realnych wartości, czy odłożone w czasie zaskoczenie. My natomiast, powinniśmy starać się nie składać obietnic zbyt wcześnie, w celu ochrony siebie oraz Klienta. Warto edukować, że estymata to szacunek, a nie gwarancja. Prawdopodobieństwo jej dokładności będzie rosło w czasie, wraz ze wzrostem doświadczenia zespołu, znajomości projektu oraz liczby osób estymujących (mądrość tłumu). Należy również pamiętać, że wartość podana przez specjalistę, którą Klient (lub Manager) chce estymować - już jest zbyt optymistyczna.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Zadanie zawsze zajmie nam więcej, niż przewidywaliśmy. Nawet gdy weźmiemy pod uwagę prawo Hofstadtera.&lt;/p&gt;
@@ -88,8 +88,9 @@
 &lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona, Wikipedie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera, Wikipedie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Wisdom_of_the_crowd&quot;&gt;Mądrość tłumu, Wikipedie&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
@@ -232,16 +233,16 @@
   &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology_roadmap&quot;&gt;Roadmap&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;Pivot&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[5] &lt;a href=&quot;http://helion.pl/ksiazki/metoda-lean-startup-wykorzystaj-innowacyjne-narzedzia-i-stworz-firme-ktora-zdobedzie-rynek-eric-ries,melean.htm&quot;&gt;Eric Ries, Metoda Lean Startup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[6] &lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[7] &lt;a href=&quot;http://toggl.com/&quot;&gt;Toggl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[8] &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;https://www.atlassian.com/software/jira&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;http://toggl.com/&quot;&gt;http://toggl.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[8] &lt;a href=&quot;https://zapier.com/&quot;&gt;https://zapier.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[9] &lt;a href=&quot;https://www.youtube.com/watch?v=7VJaprmuHcw&quot;&gt;Gynveal Coldwind: Gynvael’s Python 101: Hello World!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[10] &lt;a href=&quot;https://jira.readthedocs.io/en/master/&quot;&gt;jira-python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[11] &lt;a href=&quot;https://github.com/matthewdowney/TogglPy&quot;&gt;matthewdowney, TogglPy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;Pip&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[13] &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;style guidem Pythona&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[14] &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[15] &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[11] &lt;a href=&quot;https://github.com/matthewdowney/TogglPy&quot;&gt;TogglPy, matthewdowney&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;Pip, Wikipedie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[13] &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[14] &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;https://www.sublimetext.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[15] &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;https://www.jetbrains.com/pycharm/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[16] Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
