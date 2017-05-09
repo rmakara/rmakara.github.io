@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-03-27T23:16:32+02:00</updated>
+        <updated>2017-05-09T22:27:03+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DAJSIEPOZNAC2017 - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -10,6 +10,112 @@
             <name>Rafał Makara - Blog</name>
         </author>
           
+        <entry>
+            <title>OnEstimates. Część II&amp;#58; Techniki estymowania.</title>
+            <link href="https://rmakara.github.io/notes/OnEstimates-Czesc-II-Techniki-estymowania/" />
+            <published>2017-05-09T00:00:00+02:00</published>
+            <updated>2017-05-09T00:00:00+02:00</updated>
+            <id>https://rmakara.github.io/notes/OnEstimates-Czesc-II-Techniki-estymowania/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/OnEstimates-Czesc-II-Techniki-estymowania/">&lt;h1 id=&quot;norma-czyli-wszystko-na-już&quot;&gt;Norma, czyli wszystko “na już”&lt;/h1&gt;
+
+&lt;p&gt;W momencie zapytania specjalisty o czas realizacji danego zadania - niezaleznie od jego objętości - dość szybko można uzyskać liczbę godzin w jakim szacunkowo będzie mogło ono zostać zrealizowane. Czasami taki proces estymowania trwa od kilku do kilkunastu sekund. Takie sytuacje obarczone są jednak dużym ryzykiem błędu. Na podstawie doświadczeń zebranych z punktu widzenia programisty oraz punktu widzenia project managera stwierdzam, że pytanie:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ile czasu zajmie Ci realizacja zadania X?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;gwarantuje uzyskanie bezwartościowej odpowiedzi. Bardziej wartościowym sformułowaniem okazuje się być:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kiedy będziesz wiedział(a) ile czasu zajmie Ci realizacja zadania X?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Postawienie specjalisty przed takim wyzwaniem umożliwia przygotowanie się do udzielenia odpowiedzi, granulacji zadania i zrobienia wstępnego rozeznania. W efekcie, taka lingwistyczna modyfikacja w przypadku estymacji potrzebnych “na już” umożliwia uzyskanie kompetentnej odpowiedzi, nawet po 10-15 minutach.&lt;/p&gt;
+
+&lt;h1 id=&quot;granulacja&quot;&gt;Granulacja&lt;/h1&gt;
+
+&lt;p&gt;Niezależnie od przyjętej techniki estymowania nieodłącznym krokiem wyceny danego zakresu pracy jest jego rozbicie na mniejsze elementy. Ocena epicu, który będzie realizowany przez najbliższe 3 miesiące lub nawet historyjki pozornie wymagającego dwóch dni pracy w postaci jednej liczby jest dość naiwnym posunięciem. Podział na podpunkty z których każdy zajmie od 0 do 4 godzin daje zdecydowanie lepsze efekty. Wyobraźmy sobie, że musimy przygotować mechanizm weryfikacji dwuetapowej (2FA), który będzie wykorzystywany w systemie umożliwiającym wykonywanie transferów pieniężnych pomiędzy kontami. Analizując jego estymację w głowię można rzucić losową liczbę godzin już po 10 sekundach. W takiej sytuacji, w przypadku chęci weryfikacji tej liczby można byłoby zastosować na niej technikę 5 Why. Możemy jednak spróbować rozbić zadanie na podzadania:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stworzenie paczki 2FA.&lt;/li&gt;
+  &lt;li&gt;Przemyślenie zależności i ich wstrzykiwania.&lt;/li&gt;
+  &lt;li&gt;Stworzenie kontrolera obsługującego request.&lt;/li&gt;
+  &lt;li&gt;Stworzenie handlera / serwisu zawierającego logikę działania.&lt;/li&gt;
+  &lt;li&gt;Stworzenie mechanizmu generowania kodów jednorazowych.&lt;/li&gt;
+  &lt;li&gt;Stworzenie interfejsu odpowiadającego za wysyłkę kodów.&lt;/li&gt;
+  &lt;li&gt;Stworzenie klasy implementującej powyższy interfejs dla wysyłki w formie maila.&lt;/li&gt;
+  &lt;li&gt;Stworzenie klasy implementującej powyższy interfejs dla wysyłki w formie sms.&lt;/li&gt;
+  &lt;li&gt;Stworzenie konfiguracji umożliwiającej zdefiniowanie długości kodów jednorazowych, sposobu wysyłki kodu (mail, sms), którą później wykorzystamy w naszym serwisie 2FA.&lt;/li&gt;
+  &lt;li&gt;Spięcie wszystkiego razem.&lt;/li&gt;
+  &lt;li&gt;Testy jednostkowe.&lt;/li&gt;
+  &lt;li&gt;Testy manualne.&lt;/li&gt;
+  &lt;li&gt;apiDoc.&lt;/li&gt;
+  &lt;li&gt;Komunikacja w zakresie doprecyzowania wymagań co do których wątpliwości pojawiły nam się podczas tworzenia podzadań (czy sms, czy email, czy kody numeryczne, czy alfanumeryczne, czas ważności kodu, czy function as a service).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Powyższa lista być może pomija kilka istotnych punktów. Daje jednak pewne wyobrażenie na to jak rozwiązanie będzie zaimplementowane i pokazuje, że zostało to wstępnie przemyślane i tym samym udostępnia tą wiedzę innym członkom zespołu. Estymacja każdego z powyższych podzadań pomaga w celnym oszacowaniu całości. Taka forma wzbudza zaufanie specjalisty, managera i klienta.&lt;/p&gt;
+
+&lt;h1 id=&quot;jednostka-pierwsza---godziny-idealne&quot;&gt;Jednostka pierwsza - Godziny idealne&lt;/h1&gt;
+
+&lt;p&gt;Najbardziej oczywistą jednostką wyrażającą szacunkową wartość, która poinformuje nas o koszcie realizacji danych czynności wydają się być godziny. Ze względu na fakt powszechności jej stosowania w naszym życiu codziennym wiele osób rozumie czas poświęcany na pracę w ciągu jednego dnia jako 8 godzin. W przypadku wyceny zadania na 24 godziny wydaje się być oczywistym, że czas jego realizacji to 3 dni robocze, czyli zadanie rozpoczęte w poniedziałek będzie gotowe na czwartek rano. Należy jednak pamiętać, że ludzie nie są w stanie wydajnie pracować przez 100% swojego czasu. Dodatkowo, należy od tej wartości odjąć czas na rzeczy towarzyszące naszej codzienności tj. lunch, kawę, spotkania, plotki oraz Wykop. Po urealnieniu wspomnianych 8 godzin okazuje się, że wydajnie pracujemy od 3 do 6 godzin dziennie.&lt;/p&gt;
+
+&lt;p&gt;Innym problemem płynącym z estymacji w postaci godzin idealnych (ang. ideal hours) jest różnica w poziomie umiejętności ludzi oraz presja pojawiająca się przy estymowaniu grupowym. Jeżeli proces wygląda tak, że zespół w pierwszej kolejności szacuje zadania do realizacji, a dopiero potem rozdziela je na konkretne osoby to wspólnie uzyskana estymata może być realna do osiągnięcia przez osobę mającą 5-letnie doświadczenie, a w przypadku przyporządkowania tego samego zadania do osoby dopiero rozpoczynającej swoją karierę - czas potrzebny na realizację będzie 12-krotnie wyższy. Taki problem można ominąć przez odwrócenie procesu i estymowanie czasu realizacji dopiero po wyznaczeniu konkretnych osób, które będą nad danymi zadaniami pracować. Wtedy jednak pojawia się stres i presja, a przez to tracimy największą wartość płynącą z estymacji grupowych - prawdziwą pracę zespołową, różne i obiektywne punkty widzenia.&lt;/p&gt;
+
+&lt;h1 id=&quot;jednostka-druga---punkty-rozmiary-koszulek&quot;&gt;Jednostka druga - Punkty, rozmiary koszulek&lt;/h1&gt;
+
+&lt;p&gt;Kolejną z jednostek są punkty (ang. story points). W wersjach alternatywnych możemy wykorzystywać również rozmiary koszulek (XS, S, M, L, XL, XXL) lub inne mniej, lub bardziej abstrakcyjne metafory. Punkty, których pula definiowana jest najczęściej przez liczby Fibonacciego (0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 […]) dają nam jednak wystarczająco wiele możliwości i nie zmuszają do wymyślania przenośni.&lt;/p&gt;
+
+&lt;p&gt;Podstawową różnicą między godzinami idealnymi i punktami jest fakt, że punkty służą do określenia rozmiaru danego zadania, a nie czasu jego realizacji. Pokażą czy zadanie X jest mniejsze lub większe od innych. W związku z tym, że estymacje punktowe bazują w sporej mierze na porównaniach, prawdziwa ich wartość ukazuje się dopiero po pewnym czasie, gdy zespół posiada doświadczenie w estymowaniu zadań wewnątrz danego projektu i tym samym dysponuje większą liczbą punktów odniesienia do których może porównywać kolejne zadania.&lt;/p&gt;
+
+&lt;p&gt;Taki sposób określenia zakresu zadania również rozwiązuje problem doświadczenia osoby, które będzie je realizowała. Niezależnie od tego czy będzie to osoba o mniejszym, czy większym doświadczeniu to na podstawie wspólnych ustaleń zespołu zadanie X stale jest mniejsze od zadania Y, a większe od zadania Z.&lt;/p&gt;
+
+&lt;p&gt;Wraz ze wzrostem doświadczenia możliwe jest stawianie celów dotyczących granulacji na zasadzie “Chcemy, aby maksymalną możliwą estymatą było 13 punktów.”. Wartość ta, wraz ze wzrostwem umiejętności szacowania i wiedzy o projekcie może być zmniejszana o kolejne skoki, czyli w tym przypadku do 8 (-&amp;gt; 5 -&amp;gt; 3…) punktów.&lt;/p&gt;
+
+&lt;p&gt;Zdecydowaną trudnością we wdrożeniu estymacji niegodzinowych jest konieczność przekonania klienta do wykorzystania wartości, których w pierwszym odczuciu nie można wykorzystać do wyliczenia szacunkowego kosztu danego zlecenia.&lt;/p&gt;
+
+&lt;h1 id=&quot;jednostka-trzecia---noestimates&quot;&gt;Jednostka trzecia - NoEstimates&lt;/h1&gt;
+
+&lt;p&gt;Kilka lat temu w świecie wytwarzania oprogramowania popularny zrobił się ruch popularyzowany przez hashtag #NoEstimates. Wbrew swojej nazwie, sposób ten nie polega na pełnej rezygnacji z szacowania pracy potrzebnej do wykonania, a na maksymalnym jej uproszczeniu. Wymaga jednak pewnej dojrzałości od zespołu i zakłada, że wszystkie historyjki będą zdefiniowane w taki sposób, aby ich objętość była podobna. Przy założeniu, że nauczymy się definiować wszystkie PBI (Product Backlog Item) tak, aby ich pracochłonność była podobna i była relatywnie mała to możemy badać progres w realizacji, prędkość zespołu (ang. velocity) przez zliczanie liczby historyjek obecnych w backlogu / rozpoczynanych / zamykanych w danym okresie czasu. W tej technice za jednostkę uznajemy pojedynczy PBI.&lt;/p&gt;
+
+&lt;p&gt;Przedsmakiem do osiągnięcia takich umiejętności może być rozpoczęcie od estymacji punktowych i zmierzanie z nimi do szacowania wszystkich historyjek tylko przy użyciu liczb 0, 1, 2.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;#NoEstimates nie jest porzuceniem estymowania, mierzenia, budżetowania.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;scrum&quot;&gt;Scrum&lt;/h1&gt;
+
+&lt;p&gt;Wykorzystywanie najpopularniejszego frameworku w świecie IT do organizacji pracy zespołowej uczy nas spotkań groomingowych oraz planingowych. Te pierwsze poświęcone są rozbijaniu zadań na mniejsze, niwelowanie zależności między nimi oraz estymowaniu (!#NoEstimates). Drugie natomiast, poświęcane są na dobór odpowiedniej liczby priorytetowych zadań do rozpoczynanego Sprintu, które uprzednio zostały wyznaczone przez Product Ownera oraz do wstępnego omówienia sposobu ich realizacji. Narzucenie takich ram pracy współgra z zespołowym podejściem do pracy, estymacji oraz wytwarzania oprogramowania.&lt;/p&gt;
+
+&lt;h1 id=&quot;wartości-dla-zespołu-i-klienta&quot;&gt;Wartości dla zespołu i klienta&lt;/h1&gt;
+
+&lt;p&gt;Rzetelne podejście do procesu granulacji oraz estymowania zadań niesie za sobą wiele benefitów zarówno dla firmy wytwarzającej oprogramowanie, jak i dla klienta, doprowadzając do sytuacji w której jest to proces opłacalny dla każdego. Dzięki zespołowym przeprowadzeniu tego procesu:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Szerzymy wiedzę zespołu o projekcie.&lt;/li&gt;
+  &lt;li&gt;Gromadzimy mierzalne dane umożliwiające planowanie w perspektywie długoterminowej.&lt;/li&gt;
+  &lt;li&gt;Dajemy sobie szansę na wyciąganie wniosków opartych o dane oraz dostosowywanie procesu dla podnoszenia efektywności.&lt;/li&gt;
+  &lt;li&gt;Zwiększamy przewidywalność efektów możliwych do osięgnięcia w trakcie kolejnych iteracji.&lt;/li&gt;
+  &lt;li&gt;Umożliwiamy Product Ownerowi realny dobór i priorytetyzację wartościowego dla Biznesu zakresu prac.&lt;/li&gt;
+  &lt;li&gt;Grupowo zastanawiamy się nad złożonością zadań, efektywnie omawiamy sposób ich realizacji oraz minimalizujemy liczbę zaskoczeń mogących pojawiać się podczas realizacji zadania, dzięki jego wstępnej ocenie przez osoby o różnych punktach widzenia.&lt;/li&gt;
+  &lt;li&gt;Obniżamy koszt wytworzenia oprogramowania.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Uwierzytelnianie_wielopoziomowe&quot;&gt;Uwierzytelnianie wielopoziomowe, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Wstrzykiwanie_zale%C5%BCno%C5%9Bci&quot;&gt;Wstrzykiwanie zależności, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/&quot;&gt;Services in Domain Driven Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;http://stackoverflow.com/questions/195357/what-is-a-handler&quot;&gt;What is a handler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;http://apidocjs.com/&quot;&gt;apiDoc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/&quot;&gt;Services in Domain Driven Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/&quot;&gt;Services in Domain Driven Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+        </entry>
+            
         <entry>
             <title>OnEstimates. Część I&amp;#58; Too long, did not read.</title>
             <link href="https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read/" />
