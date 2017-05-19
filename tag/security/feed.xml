@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/security/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-05-19T16:53:51+02:00</updated>
+        <updated>2017-05-19T17:04:18+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged SECURITY - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -18,7 +18,7 @@
             <id>https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/</id>
             <content type="html" xml:base="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/">&lt;h1 id=&quot;misje-gynvaela-coldwinda&quot;&gt;Misje Gynvaela Coldwinda&lt;/h1&gt;
 
-&lt;p&gt;Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Zrozumieć programowanie&lt;/a&gt; i &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Praktyczna Inżynieria Wsteczna&lt;/a&gt;. Prowadzi &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;anglojęzyczny kanał YouTube&lt;/a&gt; oraz &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;polskojęzyczny kanał YouTube&lt;/a&gt;. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal`s Mission omawiać moje realizacje zadań, pochodzących ze streamów Gynveala.&lt;/p&gt;
+&lt;p&gt;Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Zrozumieć programowanie&lt;/a&gt; i &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Praktyczna Inżynieria Wsteczna&lt;/a&gt;. Prowadzi &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;anglojęzyczny kanał YouTube&lt;/a&gt; oraz &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;polskojęzyczny kanał YouTube&lt;/a&gt;. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal`s Mission omawiać będzie moje realizacje zadań, pochodzących ze streamów Gynveala.&lt;/p&gt;
 
 &lt;h1 id=&quot;jak-nie-szyfrować---xor&quot;&gt;Jak nie szyfrować - XOR&lt;/h1&gt;
 
