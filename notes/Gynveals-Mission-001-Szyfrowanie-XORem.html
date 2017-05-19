@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<title>Gynveal&#39;s Mission 001&#58; Szyfrowanie XORem</title>
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@rafalmakara" />
+<meta name="twitter:title" content="Gynveal&#39;s Mission 001&#58; Szyfrowanie XORem" />
+<meta name="twitter:description" content="Misje Gynvaela Coldwinda">
+
+<meta name="description" content="Misje Gynvaela Coldwinda">
+
+
+
+<link type="application/atom+xml" rel="alternate" href="https://rmakara.github.io/feed.xml" title="Rafał Makara - Blog" />
+
+<link rel="icon" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/touch-icon.png">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link rel="stylesheet" href="/assets/core.css">
+<link rel="canonical" href="/notes/Gynveals-Mission-001-Szyfrowanie-XORem">
+<link rel="alternate" type="application/atom+xml" title="Rafał Makara - Blog" href="/feed.xml" />
+
+
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+   
+	</head>
+
+	<body>
+
+		<aside class="logo">
+
+	
+
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/7d539859a7986a42e6d2c43c081826b7.png?s=80" class="gravatar">
+	</a>	
+	<span class="logo-prompt">Wróć na Stronę Główną</span>
+
+</aside>
+
+
+		<main>
+			<article>
+
+	<div class="center">
+		<h1>Gynveal&#39;s Mission 001&#58; Szyfrowanie XORem</h1>
+		<time>2017-05-19</time>     
+        <br /><br />
+        
+            #dajsiepoznac2017
+        
+            #security
+        
+            #gynveal
+        
+            #coldwind
+        
+            #code
+        
+	</div>
+
+	<div class="divider"></div>
+
+	<h1 id="misje-gynvaela-coldwinda">Misje Gynvaela Coldwinda</h1>
+
+<p>Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak <a href="https://zrozumiecprogramowanie.pl/#/mainPage">Zrozumieć programowanie</a> i <a href="http://gynvael.coldwind.pl/?id=630">Praktyczna Inżynieria Wsteczna</a>. Prowadzi <a href="http://gynvael.coldwind.pl/0">blog</a>, <a href="https://www.youtube.com/user/GynvaelEN">anglojęzyczny kanał YouTube</a> oraz <a href="https://www.youtube.com/user/GynvaelColdwind">polskojęzyczny kanał YouTube</a>. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal`s Mission omawiać moje realizacje zadań, pochodzących ze streamów Gynveala.</p>
+
+<h1 id="jak-nie-szyfrować---xor">Jak nie szyfrować - XOR</h1>
+
+<p>W ramach odcinku <a href="https://www.youtube.com/watch?v=fBEe8DGZL5o">Gynvael’s Livestream #37: Jak nie szyfrować - XOR</a> omówiony został problem dotyczący pokładania wiary w bezpieczeństwo ciągów danych zaszyfrowanych przez XOR’owanie każdego bitu z nieznanym kluczem. Live stream prezentuje wykorzystanie <a href="https://pl.wikipedia.org/wiki/Atak_statystyczny">ataku statystycznego</a> celem odszyfrowanie tekstu. Z całego live streamu najbardziej spodobało mi się wykorzystanie hex editora z funkcjonalnością wizualizacji zapalonych i zgaszynych bitów do ustalenia długości wykorzystanego klucza. Polecam.</p>
+
+<p>W każdym razie, odcinek kończy się następującym zadaniem:</p>
+
+<blockquote>
+  <p><strong>Misja 001</strong> <br />
+<strong>DIFFICULTY: [4/10]</strong></p>
+
+  <p>Nasi przyjaciele z sekcji dziewiątej założyli podsłuch w biurze podejrzanego. Należy dodać, że to podsłuch najnowszej generacji. Posiada on m.in. wbudowaną sieć neuronową, która od razu zapisuje wszystkie rozpoznane słowa w formie tekstu. Co więcej, każde słowo jest oddzielnie szyfrowane XOR’em przy użyciu tego samego 160-bitowego klucza.</p>
+
+  <p>Ii… no… zgubiliśmy klucz. Trochę wstyd prosić sekcję dziewiątą znowu o pomoc, więc zadanie odzyskania danych i klucza powierzamy Tobie. Oto dane, które otrzymaliśmy:</p>
+
+  <p>1f9111
+1799
+0790001226d8
+0a9e1e5c3ada
+1f
+099e195e
+0a97075a21dac1
+0a9710
+199e075131d3
+1199
+12961350</p>
+
+  <p>Wiemy, że podejrzany posługuje się wyłącznie językiem angielskim.</p>
+
+  <p>Rozszyfruj słowa i podaj odzyskany fragment klucza.</p>
+</blockquote>
+
+<h1 id="czytanie-ze-zrozumieniem">Czytanie ze zrozumieniem</h1>
+
+<p>Na początek, wylistujmy istotne elementy z powyższej treści:</p>
+<ul>
+  <li>Zaszyfrowane dane są tekstem.</li>
+  <li>Tekst jest zapisany w języku angielskim, więc wszystkie słowa pochodzą z języka angielskiego.</li>
+  <li>Do zaszyfrowania tekstu XOR’em został użyty 160-bitowy klucz.</li>
+  <li>Wszystkie słowa zostały zaszyfrowane osobno, przy użyciu dokładnie tego samego klucza.</li>
+</ul>
+
+<p>Wiemy o języku angielskim, który występuje w wersji oryginalnej tekstu. Daje nam to możliwość przeprowadzenia ataku statystycznego, który został omówiony w firmie Gynveala. Tutaj jednak mamy dodatkową informację mówiącą o tym, że słowa zostały zaszyfrowane osobno. W związku z tym, że długość klucza (160 bitów) jest dłuższa od najdłuższego z zaszyfrowanych słów (56 bitów) można byłoby założyć, że mamy do czynienia z <a href="https://en.wikipedia.org/wiki/One-time_pad">one-time pad</a>. Jednak zaszyfrowanie każdego ze słów osobno sprawia, że tak nie jest i jednocześnie daje nam możliwość wykorzystania metody <a href="https://en.wiktionary.org/wiki/educated_guess">educated guessing</a>.</p>
+
+<h1 id="rozwiązanie">Rozwiązanie</h1>
+
+<p>Przygotujmy sobie tablicę zawierającą zaszyfrowany tekst. Dla ułatwienia odczytywania poszczególnych liter zapiszę każdy z bajtów osobno:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[</span>
+ <span class="p">[</span><span class="mh">0x1f</span><span class="p">,</span> <span class="mh">0x91</span><span class="p">,</span> <span class="mh">0x11</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x17</span><span class="p">,</span> <span class="mh">0x99</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x07</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x12</span><span class="p">,</span> <span class="mh">0x26</span><span class="p">,</span> <span class="mh">0xd8</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x0a</span><span class="p">,</span> <span class="mh">0x9e</span><span class="p">,</span> <span class="mh">0x1e</span><span class="p">,</span> <span class="mh">0x5c</span><span class="p">,</span> <span class="mh">0x3a</span><span class="p">,</span> <span class="mh">0xda</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x1f</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x09</span><span class="p">,</span> <span class="mh">0x9e</span><span class="p">,</span> <span class="mh">0x19</span><span class="p">,</span> <span class="mh">0x5e</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x0a</span><span class="p">,</span> <span class="mh">0x97</span><span class="p">,</span> <span class="mh">0x07</span><span class="p">,</span> <span class="mh">0x5a</span><span class="p">,</span> <span class="mh">0x21</span><span class="p">,</span> <span class="mh">0xda</span><span class="p">,</span> <span class="mh">0xc1</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x0a</span><span class="p">,</span> <span class="mh">0x97</span><span class="p">,</span> <span class="mh">0x10</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x19</span><span class="p">,</span> <span class="mh">0x9e</span><span class="p">,</span> <span class="mh">0x07</span><span class="p">,</span> <span class="mh">0x51</span><span class="p">,</span> <span class="mh">0x31</span><span class="p">,</span> <span class="mh">0xd3</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x11</span><span class="p">,</span> <span class="mh">0x99</span><span class="p">],</span>
+ <span class="p">[</span><span class="mh">0x12</span><span class="p">,</span> <span class="mh">0x96</span><span class="p">,</span> <span class="mh">0x13</span><span class="p">,</span> <span class="mh">0x50</span><span class="p">],</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+
+<p>W powyższym tekście widać, że:</p>
+<ul>
+  <li>1 słowo składa się z jednego bajtu,</li>
+  <li>2 słowa składają się z 2 bajtów,</li>
+  <li>2 słowa składają się z 3 bajtów,</li>
+  <li>2 słowa składają się z 4 bajtów,</li>
+  <li>3 słowa składają się z 6 bajtów,</li>
+  <li>1 słowo składa się z 7 bajtów.</li>
+</ul>
+
+<p>Pamiętając o tym, że jest to tekst anglojęzyczny możemy wywnioskować, że jedyne jednoliterowe słowa występujące w języku angielskim to <code class="highlighter-rouge">a</code> oraz <code class="highlighter-rouge">I</code>.</p>
+
+<p>Tablica prawdy XOR’a wygląda następująco:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p ^ q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Na jej podstawie można wywnioskować, że:</p>
+
+<blockquote>
+  <p>a^k ^ b^k</p>
+</blockquote>
+
+<p>jest równoznaczne z:</p>
+
+<blockquote>
+  <p>a^b</p>
+</blockquote>
+
+<p>Taką zależność można zobrazować poniższym kodem:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b111111</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b101001</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b010101</span>
+
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>		<span class="c"># 0b111111</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>		<span class="c"># 0b101001</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>		<span class="c"># 0b10101</span>
+<span class="k">print</span> <span class="s">'-'</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">k</span><span class="p">)</span>		<span class="c"># 0b101010</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">b</span><span class="o">^</span><span class="n">k</span><span class="p">)</span>		<span class="c"># 0b111100</span>
+<span class="k">print</span> <span class="s">'-'</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">k</span> <span class="o">^</span> <span class="n">b</span><span class="o">^</span><span class="n">k</span><span class="p">)</span>	<span class="c"># 0b10110</span>
+<span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">b</span><span class="p">)</span>		<span class="c"># 0b10110</span>
+</code></pre>
+</div>
+
+<p>Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo <code class="highlighter-rouge">0x1f</code> przy założeniu, że jest to <code class="highlighter-rouge">a</code> lub <code class="highlighter-rouge">I</code>. Tworzymy funkcję:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">XorHexLetterWithKeyIndex</span><span class="p">(</span><span class="n">hex_letter</span><span class="p">,</span> <span class="n">key_index</span><span class="p">):</span>
+  <span class="n">xored</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">hex_letter</span> <span class="o">^</span> <span class="n">keys</span><span class="p">[</span><span class="n">key_index</span><span class="p">]),</span> <span class="mi">2</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="n">xored</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p>oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR <code class="highlighter-rouge">0x1f</code> ze słowem <code class="highlighter-rouge">a</code>:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+
+<p>Teraz tworzymy pętlę, która wyświetli nam na ekranie wszystkie z zaszyfrowanych słów odszyfrowanych przy użyciu klucza przechowywanego w tablicy <code class="highlighter-rouge">keys</code>:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+  <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">+</span> <span class="s">' '</span><span class="p">)</span>
+
+  <span class="k">print</span> <span class="s">""</span>
+  <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="p">)):</span>  
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">j</span><span class="p">:</span>
+      <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">XorHexLetterWithKeyIndex</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">j</span><span class="p">))</span>
+
+  <span class="k">print</span> <span class="s">""</span>
+</code></pre>
+</div>
+<p>Wynik:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+a
+0x17 0x99 
+i
+0x7 0x90 0x0 0x12 0x26 0xd8 
+y
+0xa 0x9e 0x1e 0x5c 0x3a 0xda 
+t
+0x1f 
+a
+0x9 0x9e 0x19 0x5e 
+w
+0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
+t
+0xa 0x97 0x10 
+t
+0x19 0x9e 0x7 0x51 0x31 0xd3 
+g
+0x11 0x99 
+o
+0x12 0x96 0x13 0x50 
+l
+</code></pre>
+</div>
+
+<p>Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to <code class="highlighter-rouge">and</code>. Podstawiamy te znaki do tablicy z kluczem i testujemy:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+
+<p>Wynik:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+and
+0x17 0x99 
+if
+0x7 0x90 0x0 0x12 0x26 0xd8 
+you
+0xa 0x9e 0x1e 0x5c 0x3a 0xda 
+tak
+0x1f 
+a
+0x9 0x9e 0x19 0x5e 
+wal
+0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
+thr
+0xa 0x97 0x10 
+the
+0x19 0x9e 0x7 0x51 0x31 0xd3 
+gar
+0x11 0x99 
+of
+0x12 0x96 0x13 0x50 
+lif
+</code></pre>
+</div>
+
+<p>Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko <code class="highlighter-rouge">the</code>. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że <code class="highlighter-rouge">lif?</code> może oznaczać <code class="highlighter-rouge">life</code>. Podstawiamy do tablicy z kluczem:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+<p>Tym razem, wynik zawiera poprawnie odszyfrowane słówko <code class="highlighter-rouge">walk</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+and
+0x17 0x99 
+if
+0x7 0x90 0x0 0x12 0x26 0xd8 
+you'
+0xa 0x9e 0x1e 0x5c 0x3a 0xda 
+taki
+0x1f 
+a
+0x9 0x9e 0x19 0x5e 
+walk
+0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
+thro
+0xa 0x97 0x10 
+the
+0x19 0x9e 0x7 0x51 0x31 0xd3 
+gard
+0x11 0x99 
+of
+0x12 0x96 0x13 0x50 
+life
+</code></pre>
+</div>
+
+<p>Skupiamy się na słowach sześcioznakowych i początku <code class="highlighter-rouge">you'</code>. Można zaryzykować, że chodzi o <code class="highlighter-rouge">you're</code>:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'r'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">5</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+
+<p>Wynik:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+and
+0x17 0x99 
+if
+0x7 0x90 0x0 0x12 0x26 0xd8 
+you're
+0xa 0x9e 0x1e 0x5c 0x3a 0xda 
+taking
+0x1f 
+a
+0x9 0x9e 0x19 0x5e 
+walk
+0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
+throug
+0xa 0x97 0x10 
+the
+0x19 0x9e 0x7 0x51 0x31 0xd3 
+garden
+0x11 0x99 
+of
+0x12 0x96 0x13 0x50 
+life
+</code></pre>
+</div>
+
+<p>Do początku słówka <code class="highlighter-rouge">throug</code> dodajemy literkę <code class="highlighter-rouge">t</code>:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'r'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">5</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">),</span>
+  <span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="mi">6</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'t'</span><span class="p">),</span>
+<span class="p">]</span>
+</code></pre>
+</div>
+
+<p>dzięki czemu otrzymujemy w pełni odszyfrowany tekst:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+and
+0x17 0x99 
+if
+0x7 0x90 0x0 0x12 0x26 0xd8 
+you're
+0xa 0x9e 0x1e 0x5c 0x3a 0xda 
+taking
+0x1f 
+a
+0x9 0x9e 0x19 0x5e 
+walk
+0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
+througt
+0xa 0x97 0x10 
+the
+0x19 0x9e 0x7 0x51 0x31 0xd3 
+garden
+0x11 0x99 
+of
+0x12 0x96 0x13 0x50 
+life
+</code></pre>
+</div>
+
+<p>Możemy teraz odczytać pierwsze 7 bajtów klucza:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Key: '</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">:</span>
+  <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s">' '</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<h1 id="wynik-rozwiązania">Wynik rozwiązania</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Encrypted text:
+1f9111 1799 0790001226d8 0a9e1e5c3ada 1f 099e195e 0a97075a21dac1 0a9710 199e075131d3 1199 12961350
+
+Key: 
+0x7e 0xff 0x75 0x35 0x54 0xbd 0xb5 
+
+Decrypted text: 
+and if you're taking a walk throught the garden of life
+</code></pre>
+</div>
+
+<h1 id="posumowanie">Posumowanie</h1>
+
+<p>Głównym wnioskiem, który moglibyśmy pozostawić w tym miejscu jest to, że dane niemożliwe do odczytania przez człowieka w żadnym stopniu nie mówią o stopniu ich bezpieczeństwa. Wytwarzając oprogramowanie należy inwestować w często pomijane bezpieczeństwo. Podobnie jak umowy zawierane między firmami, czas poświęcony na security okazuje się być bezcenny, a jego prawdziwą wartość można docenić dopiero w czasie ‘wojny’.</p>
+
+<p>Powyższy artykuł został napisany podczas jednego z najwięszych ataków Ransomware na swiecie - WannaCry.</p>
+
+<h4 id="źródła-i-pojęcia">Źródła i pojęcia</h4>
+
+<ul>
+  <li>[1] <a href="https://zrozumiecprogramowanie.pl/#/mainPage">Gynveal Coldwind, Zrozumieć programowanie</a></li>
+  <li>[2] <a href="http://gynvael.coldwind.pl/?id=630">Gynveal Coldwind, Praktyczna Inżynieria Wsteczna</a></li>
+  <li>[3] <a href="http://gynvael.coldwind.pl/0">Gynveal Coldwind, Blog</a></li>
+  <li>[4] <a href="https://www.youtube.com/user/GynvaelEN">Gynveal Coldwind, YouTube ENG</a></li>
+  <li>[5] <a href="https://www.youtube.com/user/GynvaelColdwind">Gynveal Coldwind, YouTube PL</a></li>
+  <li>[6] <a href="https://www.youtube.com/watch?v=fBEe8DGZL5o">Gynvael’s Livestream #37: Jak nie szyfrować - XOR</a></li>
+  <li>[7] <a href="https://pl.wikipedia.org/wiki/Atak_statystyczny">Atak statystyczny</a></li>
+  <li>[8] <a href="https://en.wikipedia.org/wiki/One-time_pad">One-time pad</a></li>
+  <li>[9] <a href="https://en.wiktionary.org/wiki/educated_guess">Educated guessing</a></li>
+</ul>
+
+
+	<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'rmakara-github-io'; // required: replace example with your forum shortname
+        //var disqus_developer = 1; // Comment out when the site is live
+        var disqus_identifier = "/notes/Gynveals-Mission-001-Szyfrowanie-XORem";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+<div class="page-navigation">
+	
+		<a class="home" href="/" title="Wróć na Stronę Główną">Wróć na Stronę Główną</a>
+  
+		<span> &middot; </span>
+    <a class="prev" href="/notes/OnEstimates-Czesc-II-Techniki-estymowania" title="Poprzedni: OnEstimates. Część II&#58; Techniki estymowania.">&gt;&gt;</a>
+  
+</div>
+
+		</main>
+
+		<div class="footer">
+  <p class="rss-subscribe"><a href="/feed.xml">Subskrybuj RSS</a></p>
+
+  <span class="block">Made with &hearts; using <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/heiswayi/the-plain" title="The Plain theme by Heiswayi Nrird">The Plain</a> &middot; &lt;/&gt; on <a href="https://github.com/rmakara" title="Hosted on GitHub">GitHub</a></span>
+  <span class="block">&copy; 2017 Rafał Makara</span>
+</div>
+
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92815270-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+	</body>
+
+</html>
