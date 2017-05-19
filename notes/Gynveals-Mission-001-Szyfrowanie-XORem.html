@@ -216,9 +216,8 @@
 
 <p>Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo <code class="highlighter-rouge">0x1f</code> przy założeniu, że jest to <code class="highlighter-rouge">a</code> lub <code class="highlighter-rouge">I</code>. Tworzymy funkcję:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">XorHexLetterWithKeyIndex</span><span class="p">(</span><span class="n">hex_letter</span><span class="p">,</span> <span class="n">key_index</span><span class="p">):</span>
-  <span class="n">xored</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">hex_letter</span> <span class="o">^</span> <span class="n">keys</span><span class="p">[</span><span class="n">key_index</span><span class="p">]),</span> <span class="mi">2</span><span class="p">)</span>
-  <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="n">xored</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">Xor</span><span class="p">(</span><span class="n">hex_letter</span><span class="p">,</span> <span class="n">key_index</span><span class="p">):</span>
+  <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="n">hex_letter</span> <span class="o">^</span> <span class="n">keys</span><span class="p">[</span><span class="n">key_index</span><span class="p">])</span>
 </code></pre>
 </div>
 
@@ -239,7 +238,7 @@
   <span class="k">print</span> <span class="s">""</span>
   <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="p">)):</span>  
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">j</span><span class="p">:</span>
-      <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">XorHexLetterWithKeyIndex</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">j</span><span class="p">))</span>
+      <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">Xor</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">j</span><span class="p">))</span>
 
   <span class="k">print</span> <span class="s">""</span>
 </code></pre>
