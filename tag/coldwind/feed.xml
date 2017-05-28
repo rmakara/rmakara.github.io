@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/coldwind/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-05-28T12:03:26+02:00</updated>
+        <updated>2017-05-28T21:29:57+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged COLDWIND - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -11,7 +11,7 @@
         </author>
               
         <entry>
-            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja</title>
+            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja.</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/" />
             <published>2017-05-28T00:00:00+02:00</published>
             <updated>2017-05-28T00:00:00+02:00</updated>
@@ -85,7 +85,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Zauważamy, że zawiera one dwie pętle w których liczba przebiegów jest uwarunkowana od &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, czyli parametrów wpadających do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; są sobie równe. Po zakończeniu pętli &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest następnie zerowana w ramach przygotowania do wykonania kolejnej. Zmienna &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; natomiast zerowana nie jest, a w jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Zauważamy, że zawiera ona dwie pętle w których liczba przebiegów jest uwarunkowana od &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, czyli parametrów przekazywanych do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; są sobie równe. Po zakończeniu pętli &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; wartość zmiennej jest zerowana w ramach przygotowania do wykonania kolejnej. Zmienna &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; natomiast zerowana nie jest, a jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;W efekcie, pierwsza pętla ustawia wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; na równą parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, a druga pętla zwiększa wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; o wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt; realizuje operację dodawania. Możemy ją przekształcić do postaci:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -104,13 +104,13 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Wewnętrz pętli zawarte jest jednak wywołanie metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;. Podobnie jak w poprzednim przypadku &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest inkrementowane, aż do uzyskania wartości równej parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Zaczynamy z wartością &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; ustawioną na 0. Wewnątrz pętli, do wartości &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; jest przypisywany wynik dodawania otrzymany z metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;, czyli suma aktualnej wartości parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; i naszej dużej zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, dzieje się to tyle razy ile wynosi wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda realizuję operację mnożenia. Optymalizujemy i przekształcamy do postaci:&lt;/p&gt;
+&lt;p&gt;Wewnętrz pętli zawarte jest jednak wywołanie metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;. Podobnie jak w poprzednim przypadku &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest inkrementowane, aż do uzyskania wartości równej parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Zaczynamy z wartością &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; ustawioną na 0. Wewnątrz pętli, do wartości &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; jest przypisywany wynik dodawania otrzymany z metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;, czyli suma aktualnej wartości parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; i naszej dużej zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, dzieje się to tyle razy ile wynosi wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Oznacza to, że metoda realizuję operację mnożenia. Optymalizujemy przekształcając do postaci:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Finalna forma naszego optymalizowanego programu wygląda następująco:&lt;/p&gt;
+&lt;p&gt;Finalna wersja naszego zoptymalizowanego programu wygląda następująco:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
 
@@ -181,7 +181,7 @@
         </entry>
                     
         <entry>
-            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem</title>
+            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem.</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/" />
             <published>2017-05-19T00:00:00+02:00</published>
             <updated>2017-05-19T00:00:00+02:00</updated>
