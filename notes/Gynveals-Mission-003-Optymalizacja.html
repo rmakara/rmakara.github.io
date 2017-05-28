@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<title>Gynveal&#39;s Mission 003&#58; Optymalizacja</title>
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@rafalmakara" />
+<meta name="twitter:title" content="Gynveal&#39;s Mission 003&#58; Optymalizacja" />
+<meta name="twitter:description" content="Wystarczy poczekać">
+
+<meta name="description" content="Wystarczy poczekać">
+
+
+
+<link type="application/atom+xml" rel="alternate" href="https://rmakara.github.io/feed.xml" title="Rafał Makara - Blog" />
+
+<link rel="icon" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/touch-icon.png">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link rel="stylesheet" href="/assets/core.css">
+<link rel="canonical" href="/notes/Gynveals-Mission-003-Optymalizacja">
+<link rel="alternate" type="application/atom+xml" title="Rafał Makara - Blog" href="/feed.xml" />
+
+
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+   
+	</head>
+
+	<body>
+
+		<aside class="logo">
+
+	
+
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/7d539859a7986a42e6d2c43c081826b7.png?s=80" class="gravatar">
+	</a>	
+	<span class="logo-prompt">Wróć na Stronę Główną</span>
+
+</aside>
+
+
+		<main>
+			<article>
+
+	<div class="center">
+		<h1>Gynveal&#39;s Mission 003&#58; Optymalizacja</h1>
+		<time>2017-05-28</time>     
+        <br /><br />
+        
+            #dajsiepoznac2017
+        
+            #gynveal
+        
+            #coldwind
+        
+            #code
+        
+	</div>
+
+	<div class="divider"></div>
+
+	<h1 id="wystarczy-poczekać">Wystarczy poczekać</h1>
+
+<p>Powodem pominięcia Misji 002 jest fakt, że trudno było mi wpaść na pomysł jej rozwiązania. Uznałem, że na dzień dzisiejszy potrzebuję czegoś bardziej trywialnego, a taka wydała się być Misja 003. Z czasem jednak wrócę do wykonania również zadania drugiego.</p>
+
+<p>Misja 003 zawiera gotowy do wykonania kod, który pokaże nam poszukiwane przez hasło.</p>
+
+<blockquote>
+  <p><strong>Misja 003</strong> <br />
+<strong>DIFFICULTY: [2/10]</strong></p>
+
+  <p>Tym razem nie trzeba nic robić. Wystarczy uruchomić poniższy skrypt, chwilkę poczekać, a hasło zostanie wypisane. No, taką dłuższą chwilkę…</p>
+  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c">#!/usr/bin/python</span>
+<span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">o</span>
+
+<span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">=</span> <span class="n">magic1</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">o</span>
+
+<span class="n">n1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s">"2867279575674690971609643216365"</span>
+         <span class="s">"4161626212087501848651843132337"</span>
+         <span class="s">"3373323997065608342"</span><span class="p">)</span>
+
+<span class="n">n2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s">"1240905467219837578349182398365"</span>
+         <span class="s">"3459812983123659128386518235966"</span>
+         <span class="s">"4109783723654812937"</span><span class="p">)</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="n">magic2</span><span class="p">(</span><span class="n">magic1</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">),</span> <span class="mi">1337</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">hex</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+</code></pre>
+  </div>
+</blockquote>
+
+<p>Na pierwszy rzut oka program wygląda bardzo prosto. Poziom zadania określony jako 2/10 popiera tezę mówiącą o tym, że program wystarczy uruchomić. W celu rozwiązania zadania ściągamy kod, zapisujemy w pliku <code class="highlighter-rouge">Gynveal_003.py</code> i wykonujemy. Po dopiciu kawy tracimy nadzieję na otrzymanie wyniku jego działania i podejmujemy decyzję o przejściu do optymalizacji.</p>
+
+<h1 id="analiza">Analiza</h1>
+
+<p>W kodzie aplikacji mamy dwie zmienne <code class="highlighter-rouge">n1</code> oraz <code class="highlighter-rouge">n2</code> przechowujące bardzo duże wartości całkowite, które następnie wykorzystywane są jako parametry metody <code class="highlighter-rouge">magic1(n1, n2)</code>. Ta następnie jest wykorzystywana jako parametr metody <code class="highlighter-rouge">magic2(magic1(n1, n2), 1337)</code>. Żartobliwie, ostatnim parametrem jest <a href="https://pl.wikipedia.org/wiki/Leet_speak">leet</a> popularyzowany w społeczności IRCowej już kilkanaście lat temu.</p>
+
+<p>Przeanalizujmy metodę <code class="highlighter-rouge">magic1(a, b)</code>:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">o</span>
+</code></pre>
+</div>
+
+<p>Zauważamy, że zawiera one dwie pętle w których liczba przebiegów jest uwarunkowana od <code class="highlighter-rouge">a</code> oraz <code class="highlighter-rouge">b</code>, czyli parametrów wpadających do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych <code class="highlighter-rouge">o</code> oraz <code class="highlighter-rouge">i</code> są sobie równe. Po zakończeniu pętli <code class="highlighter-rouge">i</code> jest następnie zerowana w ramach przygotowania do wykonania kolejnej. Zmienna <code class="highlighter-rouge">o</code> natomiast zerowana nie jest, a w jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru <code class="highlighter-rouge">b</code>.</p>
+
+<p>W efekcie, pierwsza pętla ustawia wartość zmiennej <code class="highlighter-rouge">o</code> na równą parametrowi <code class="highlighter-rouge">a</code>, a druga pętla zwiększa wartość zmiennej <code class="highlighter-rouge">o</code> o wartość parametru <code class="highlighter-rouge">b</code>. Innymi słowy, metoda <code class="highlighter-rouge">magic1(a, b)</code> realizuje operację dodawania. Możemy ją przekształcić do postaci:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</code></pre>
+</div>
+
+<p>Druga z magicznych metod <code class="highlighter-rouge">magic2(a, b)</code> na pierwszy rzut oka wygląda dość ponownie:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">:</span>
+    <span class="n">o</span> <span class="o">=</span> <span class="n">magic1</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">o</span>
+</code></pre>
+</div>
+
+<p>Wewnętrz pętli zawarte jest jednak wywołanie metody <code class="highlighter-rouge">magic1(o, a)</code>. Podobnie jak w poprzednim przypadku <code class="highlighter-rouge">i</code> jest inkrementowane, aż do uzyskania wartości równej parametrowi <code class="highlighter-rouge">b</code>. Zaczynamy z wartością <code class="highlighter-rouge">o</code> ustawioną na 0. Wewnątrz pętli, do wartości <code class="highlighter-rouge">o</code> jest przypisywany wynik dodawania otrzymany z metody <code class="highlighter-rouge">magic1(o, a)</code>, czyli suma aktualnej wartości parametru <code class="highlighter-rouge">o</code> i naszej dużej zmiennej <code class="highlighter-rouge">a</code>, dzieje się to tyle razy ile wynosi wartość zmiennej <code class="highlighter-rouge">b</code>. Innymi słowy, metoda realizuję operację mnożenia. Optymalizujemy i przekształcamy do postaci:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+</code></pre>
+</div>
+
+<p>Finalna forma naszego optymalizowanego programu wygląda następująco:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+
+<span class="n">n1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s">"2867279575674690971609643216365"</span>
+         <span class="s">"4161626212087501848651843132337"</span>
+         <span class="s">"3373323997065608342"</span><span class="p">)</span>
+
+<span class="n">n2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s">"1240905467219837578349182398365"</span>
+         <span class="s">"3459812983123659128386518235966"</span>
+         <span class="s">"4109783723654812937"</span><span class="p">)</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="n">magic2</span><span class="p">(</span><span class="n">magic1</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">),</span> <span class="mi">1337</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">n</span>
+<span class="k">print</span> <span class="nb">hex</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+</code></pre>
+</div>
+
+<p>Jego wykonanie zwraca wynik:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">n</span> <span class="o">=</span> <span class="mi">549264340234998467129494984689502898642039973222263002891494221114915022603203250023</span>
+</code></pre>
+</div>
+<p>Ostatnia linia konwertuje wartość zapisaną w systemie dziesiętnym na system szesnastkowy. Wycina początkowe <code class="highlighter-rouge">0x</code> z notacji i dekoduje wszystkie kolejne bajty, aż do ostatniego znaku, tym samym zwracając:</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Haslo</span><span class="p">:</span> <span class="s">"WolneOprogramowanie!"</span>
+</code></pre>
+</div>
+
+<h1 id="podsumowanie">Podsumowanie</h1>
+
+<p>Mi osobiście po realizacji tego zadania do głowy dwa wnioski. Pierwszy z nich to cytat:</p>
+
+<blockquote>
+  <p>Premature optimization is the root of all evil.</p>
+
+  <p>– <cite>Donald Knuth</cite></p>
+</blockquote>
+
+<p>Zakładając, że kod z zadania byłby kodem produkcyjnym można byłoby wyobrazić sobie, że przyjęte rozwiązanie było wydajne, dobre i szybkie do zaimplementowania w początkowym okresie istnienia systemu. Bardzo dobrze, że na tym etapie nie było optymalizowane. Dopiero gdy nasze wielkie liczby niepozwoliły na jego wykonanie mogliśmy upewnić się, że cały system działa poprawnie dla mniejszych danych, mogliśmy zmierzyć wydajność jego działania przy użyciu <a href="https://en.wikipedia.org/wiki/Profiling_(computer_programming)">profilera</a> i wykazać wąskie gardła, a dopiero w kolejnych kroku zabrać się za optymalizację optymalizację. Problem ten został szczegółowo omówiony w artykule <a href="http://wiki.c2.com/?PrematureOptimization">Premature Optimization</a>.</p>
+
+<p>Drugim z wniosków jest ponownie popularny cytat:</p>
+
+<blockquote>
+  <p>Done is better than perfect.</p>
+</blockquote>
+
+<p>Branża IT cechuje się tym, że przy realizacji projektów istniejących wystarczająco długo perfekcjonizm można włożyć między bajki. W pełni czyste podejście do wytwarzania oprogramowania często okaże się być jednym z większym wrogów. Należy pamiętać, że pracą programistów nie jest pisanie wspaniałych klas, zyskiwania milisekund na rzadko wykonywanych operacjach, sprowadzanie wysokopoziomowych operacji do żonglowania wartościami między rejestrami przy użyciu assembly. Naszym zadaniem jest dostarczanie wartościowych dla klienta rozwiązań problemów, które będą dla niego jak najlepsze w danym czasie lub w spojrzeniu perspektywicznym. To jednak nie oznacza perfekcjonizmu. Jako uzupełnienie tego wniosku warto przytoczyć <a href="http://www.manifestoproject.it/bre-pettis-and-kio-stark/">The Cult of Done Manifesto</a> z którego moimi ulubionymi elementami są:</p>
+
+<blockquote>
+  <p>2.Accept that everything is a draft. It helps to get done.</p>
+
+  <p>5.Banish procrastination. If you wait more than a week to get an idea done, abandon it.</p>
+
+  <p>10.Failure counts as done. So do mistakes.</p>
+</blockquote>
+
+<h4 id="źródła-i-pojęcia">Źródła i pojęcia</h4>
+
+<ul>
+  <li>[1] <a href="https://www.youtube.com/watch?v=xR0hAJPp1vs">Gynvael’s Livestream #39: RPC, czyli zdalne API</a></li>
+  <li>[2] <a href="https://pl.wikipedia.org/wiki/Leet_speak">Leet speak, Wikipedia</a></li>
+  <li>[3] <a href="https://en.wikipedia.org/wiki/Profiling_(computer_programming)">Profiling, Wikipedia</a></li>
+  <li>[4] <a href="http://wiki.c2.com/?PrematureOptimization">Premature Optimization, Donald Knuth</a></li>
+  <li>[5] <a href="http://www.manifestoproject.it/bre-pettis-and-kio-stark/">The Cult of Done Manifesto</a></li>
+</ul>
+
+
+	<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'rmakara-github-io'; // required: replace example with your forum shortname
+        //var disqus_developer = 1; // Comment out when the site is live
+        var disqus_identifier = "/notes/Gynveals-Mission-003-Optymalizacja";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+<div class="page-navigation">
+	
+		<a class="home" href="/" title="Wróć na Stronę Główną">Wróć na Stronę Główną</a>
+  
+		<span> &middot; </span>
+    <a class="prev" href="/notes/Gynveals-Mission-001-Szyfrowanie-XORem" title="Poprzedni: Gynveal&#39;s Mission 001&#58; Szyfrowanie XORem">&gt;&gt;</a>
+  
+</div>
+
+		</main>
+
+		<div class="footer">
+  <p class="rss-subscribe"><a href="/feed.xml">Subskrybuj RSS</a></p>
+
+  <span class="block">Made with &hearts; using <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/heiswayi/the-plain" title="The Plain theme by Heiswayi Nrird">The Plain</a> &middot; &lt;/&gt; on <a href="https://github.com/rmakara" title="Hosted on GitHub">GitHub</a></span>
+  <span class="block">&copy; 2017 Rafał Makara</span>
+</div>
+
+	    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92815270-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+	</body>
+
+</html>

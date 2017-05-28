@@ -2,14 +2,184 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/coldwind/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-05-19T17:20:46+02:00</updated>
+        <updated>2017-05-28T12:03:26+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged COLDWIND - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                
+              
+        <entry>
+            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja</title>
+            <link href="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/" />
+            <published>2017-05-28T00:00:00+02:00</published>
+            <updated>2017-05-28T00:00:00+02:00</updated>
+            <id>https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/">&lt;h1 id=&quot;wystarczy-poczekać&quot;&gt;Wystarczy poczekać&lt;/h1&gt;
+
+&lt;p&gt;Powodem pominięcia Misji 002 jest fakt, że trudno było mi wpaść na pomysł jej rozwiązania. Uznałem, że na dzień dzisiejszy potrzebuję czegoś bardziej trywialnego, a taka wydała się być Misja 003. Z czasem jednak wrócę do wykonania również zadania drugiego.&lt;/p&gt;
+
+&lt;p&gt;Misja 003 zawiera gotowy do wykonania kod, który pokaże nam poszukiwane przez hasło.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Misja 003&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;DIFFICULTY: [2/10]&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Tym razem nie trzeba nic robić. Wystarczy uruchomić poniższy skrypt, chwilkę poczekać, a hasło zostanie wypisane. No, taką dłuższą chwilkę…&lt;/p&gt;
+  &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/python&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2867279575674690971609643216365&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;4161626212087501848651843132337&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;3373323997065608342&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1240905467219837578349182398365&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;3459812983123659128386518235966&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;4109783723654812937&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1337&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Na pierwszy rzut oka program wygląda bardzo prosto. Poziom zadania określony jako 2/10 popiera tezę mówiącą o tym, że program wystarczy uruchomić. W celu rozwiązania zadania ściągamy kod, zapisujemy w pliku &lt;code class=&quot;highlighter-rouge&quot;&gt;Gynveal_003.py&lt;/code&gt; i wykonujemy. Po dopiciu kawy tracimy nadzieję na otrzymanie wyniku jego działania i podejmujemy decyzję o przejściu do optymalizacji.&lt;/p&gt;
+
+&lt;h1 id=&quot;analiza&quot;&gt;Analiza&lt;/h1&gt;
+
+&lt;p&gt;W kodzie aplikacji mamy dwie zmienne &lt;code class=&quot;highlighter-rouge&quot;&gt;n1&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;n2&lt;/code&gt; przechowujące bardzo duże wartości całkowite, które następnie wykorzystywane są jako parametry metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(n1, n2)&lt;/code&gt;. Ta następnie jest wykorzystywana jako parametr metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic2(magic1(n1, n2), 1337)&lt;/code&gt;. Żartobliwie, ostatnim parametrem jest &lt;a href=&quot;https://pl.wikipedia.org/wiki/Leet_speak&quot;&gt;leet&lt;/a&gt; popularyzowany w społeczności IRCowej już kilkanaście lat temu.&lt;/p&gt;
+
+&lt;p&gt;Przeanalizujmy metodę &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Zauważamy, że zawiera one dwie pętle w których liczba przebiegów jest uwarunkowana od &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, czyli parametrów wpadających do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; są sobie równe. Po zakończeniu pętli &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest następnie zerowana w ramach przygotowania do wykonania kolejnej. Zmienna &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; natomiast zerowana nie jest, a w jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;W efekcie, pierwsza pętla ustawia wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; na równą parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, a druga pętla zwiększa wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; o wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt; realizuje operację dodawania. Możemy ją przekształcić do postaci:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Druga z magicznych metod &lt;code class=&quot;highlighter-rouge&quot;&gt;magic2(a, b)&lt;/code&gt; na pierwszy rzut oka wygląda dość ponownie:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Wewnętrz pętli zawarte jest jednak wywołanie metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;. Podobnie jak w poprzednim przypadku &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest inkrementowane, aż do uzyskania wartości równej parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Zaczynamy z wartością &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; ustawioną na 0. Wewnątrz pętli, do wartości &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; jest przypisywany wynik dodawania otrzymany z metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;, czyli suma aktualnej wartości parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; i naszej dużej zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, dzieje się to tyle razy ile wynosi wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda realizuję operację mnożenia. Optymalizujemy i przekształcamy do postaci:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Finalna forma naszego optymalizowanego programu wygląda następująco:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2867279575674690971609643216365&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;4161626212087501848651843132337&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;3373323997065608342&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1240905467219837578349182398365&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;3459812983123659128386518235966&quot;&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;4109783723654812937&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1337&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Jego wykonanie zwraca wynik:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;549264340234998467129494984689502898642039973222263002891494221114915022603203250023&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Ostatnia linia konwertuje wartość zapisaną w systemie dziesiętnym na system szesnastkowy. Wycina początkowe &lt;code class=&quot;highlighter-rouge&quot;&gt;0x&lt;/code&gt; z notacji i dekoduje wszystkie kolejne bajty, aż do ostatniego znaku, tym samym zwracając:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Haslo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;WolneOprogramowanie!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
+
+&lt;p&gt;Mi osobiście po realizacji tego zadania do głowy dwa wnioski. Pierwszy z nich to cytat:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Premature optimization is the root of all evil.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Donald Knuth&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Zakładając, że kod z zadania byłby kodem produkcyjnym można byłoby wyobrazić sobie, że przyjęte rozwiązanie było wydajne, dobre i szybkie do zaimplementowania w początkowym okresie istnienia systemu. Bardzo dobrze, że na tym etapie nie było optymalizowane. Dopiero gdy nasze wielkie liczby niepozwoliły na jego wykonanie mogliśmy upewnić się, że cały system działa poprawnie dla mniejszych danych, mogliśmy zmierzyć wydajność jego działania przy użyciu &lt;a href=&quot;https://en.wikipedia.org/wiki/Profiling_(computer_programming)&quot;&gt;profilera&lt;/a&gt; i wykazać wąskie gardła, a dopiero w kolejnych kroku zabrać się za optymalizację optymalizację. Problem ten został szczegółowo omówiony w artykule &lt;a href=&quot;http://wiki.c2.com/?PrematureOptimization&quot;&gt;Premature Optimization&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Drugim z wniosków jest ponownie popularny cytat:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Done is better than perfect.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Branża IT cechuje się tym, że przy realizacji projektów istniejących wystarczająco długo perfekcjonizm można włożyć między bajki. W pełni czyste podejście do wytwarzania oprogramowania często okaże się być jednym z większym wrogów. Należy pamiętać, że pracą programistów nie jest pisanie wspaniałych klas, zyskiwania milisekund na rzadko wykonywanych operacjach, sprowadzanie wysokopoziomowych operacji do żonglowania wartościami między rejestrami przy użyciu assembly. Naszym zadaniem jest dostarczanie wartościowych dla klienta rozwiązań problemów, które będą dla niego jak najlepsze w danym czasie lub w spojrzeniu perspektywicznym. To jednak nie oznacza perfekcjonizmu. Jako uzupełnienie tego wniosku warto przytoczyć &lt;a href=&quot;http://www.manifestoproject.it/bre-pettis-and-kio-stark/&quot;&gt;The Cult of Done Manifesto&lt;/a&gt; z którego moimi ulubionymi elementami są:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2.Accept that everything is a draft. It helps to get done.&lt;/p&gt;
+
+  &lt;p&gt;5.Banish procrastination. If you wait more than a week to get an idea done, abandon it.&lt;/p&gt;
+
+  &lt;p&gt;10.Failure counts as done. So do mistakes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://www.youtube.com/watch?v=xR0hAJPp1vs&quot;&gt;Gynvael’s Livestream #39: RPC, czyli zdalne API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Leet_speak&quot;&gt;Leet speak, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Profiling_(computer_programming)&quot;&gt;Profiling, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;http://wiki.c2.com/?PrematureOptimization&quot;&gt;Premature Optimization, Donald Knuth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;http://www.manifestoproject.it/bre-pettis-and-kio-stark/&quot;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+                    
         <entry>
             <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/" />
