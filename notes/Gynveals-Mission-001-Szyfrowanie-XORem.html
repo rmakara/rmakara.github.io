@@ -120,7 +120,7 @@
 
 <p>Przygotujmy sobie tablicę zawierającą zaszyfrowany tekst. Dla ułatwienia odczytywania poszczególnych liter zapiszę każdy z bajtów osobno:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[</span>
  <span class="p">[</span><span class="mh">0x1f</span><span class="p">,</span> <span class="mh">0x91</span><span class="p">,</span> <span class="mh">0x11</span><span class="p">],</span>
  <span class="p">[</span><span class="mh">0x17</span><span class="p">,</span> <span class="mh">0x99</span><span class="p">],</span>
  <span class="p">[</span><span class="mh">0x07</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x12</span><span class="p">,</span> <span class="mh">0x26</span><span class="p">,</span> <span class="mh">0xd8</span><span class="p">],</span>
@@ -133,8 +133,7 @@
  <span class="p">[</span><span class="mh">0x11</span><span class="p">,</span> <span class="mh">0x99</span><span class="p">],</span>
  <span class="p">[</span><span class="mh">0x12</span><span class="p">,</span> <span class="mh">0x96</span><span class="p">,</span> <span class="mh">0x13</span><span class="p">,</span> <span class="mh">0x50</span><span class="p">],</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>W powyższym tekście widać, że:</p>
 <ul>
@@ -196,7 +195,7 @@
 
 <p>Taką zależność można zobrazować poniższym kodem:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b111111</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b111111</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b101001</span>
 <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="n">b010101</span>
 
@@ -209,27 +208,24 @@
 <span class="k">print</span> <span class="s">'-'</span>
 <span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">k</span> <span class="o">^</span> <span class="n">b</span><span class="o">^</span><span class="n">k</span><span class="p">)</span>	<span class="c"># 0b10110</span>
 <span class="k">print</span> <span class="nb">bin</span><span class="p">(</span><span class="n">a</span><span class="o">^</span><span class="n">b</span><span class="p">)</span>		<span class="c"># 0b10110</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo <code class="highlighter-rouge">0x1f</code> przy założeniu, że jest to <code class="highlighter-rouge">a</code> lub <code class="highlighter-rouge">I</code>. Tworzymy funkcję:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">Xor</span><span class="p">(</span><span class="n">hex_letter</span><span class="p">,</span> <span class="n">key_index</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">Xor</span><span class="p">(</span><span class="n">hex_letter</span><span class="p">,</span> <span class="n">key_index</span><span class="p">):</span>
   <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="n">hex_letter</span> <span class="o">^</span> <span class="n">keys</span><span class="p">[</span><span class="n">key_index</span><span class="p">])</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR <code class="highlighter-rouge">0x1f</code> ze słowem <code class="highlighter-rouge">a</code>:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Teraz tworzymy pętlę, która wyświetli nam na ekranie wszystkie z zaszyfrowanych słów odszyfrowanych przy użyciu klucza przechowywanego w tablicy <code class="highlighter-rouge">keys</code>:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
   <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span>
     <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">+</span> <span class="s">' '</span><span class="p">)</span>
 
@@ -239,11 +235,10 @@
       <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">Xor</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">j</span><span class="p">))</span>
 
   <span class="k">print</span> <span class="s">""</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>Wynik:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0x1f 0x91 0x11 
 a
 0x17 0x99 
 i
@@ -265,22 +260,20 @@ g
 o
 0x12 0x96 0x13 0x50 
 l
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to <code class="highlighter-rouge">and</code>. Podstawiamy te znaki do tablicy z kluczem i testujemy:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">)</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Wynik:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -302,22 +295,20 @@ gar
 of
 0x12 0x96 0x13 0x50 
 lif
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko <code class="highlighter-rouge">the</code>. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że <code class="highlighter-rouge">lif?</code> może oznaczać <code class="highlighter-rouge">life</code>. Podstawiamy do tablicy z kluczem:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">)</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>Tym razem, wynik zawiera poprawnie odszyfrowane słówko <code class="highlighter-rouge">walk</code>:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -339,12 +330,11 @@ gard
 of
 0x12 0x96 0x13 0x50 
 life
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Skupiamy się na słowach sześcioznakowych i początku <code class="highlighter-rouge">you'</code>. Można zaryzykować, że chodzi o <code class="highlighter-rouge">you're</code>:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
@@ -352,12 +342,11 @@ life
   <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'r'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">5</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">)</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Wynik:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -379,12 +368,11 @@ garden
 of
 0x12 0x96 0x13 0x50 
 life
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Do początku słówka <code class="highlighter-rouge">throug</code> dodajemy literkę <code class="highlighter-rouge">t</code>:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">keys</span> <span class="o">=</span> <span class="p">[</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'n'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'d'</span><span class="p">),</span>
@@ -393,12 +381,11 @@ life
   <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">5</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'e'</span><span class="p">),</span>
   <span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="mi">6</span><span class="p">]</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'t'</span><span class="p">),</span>
 <span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>dzięki czemu otrzymujemy w pełni odszyfrowany tekst:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>0x1f 0x91 0x11 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -420,20 +407,18 @@ garden
 of
 0x12 0x96 0x13 0x50 
 life
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Możemy teraz odczytać pierwsze 7 bajtów klucza:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Key: '</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Key: '</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">:</span>
   <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s">' '</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h1 id="wynik-rozwiązania">Wynik rozwiązania</h1>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Encrypted text:
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Encrypted text:
 1f9111 1799 0790001226d8 0a9e1e5c3ada 1f 099e195e 0a97075a21dac1 0a9710 199e075131d3 1199 12961350
 
 Key: 
@@ -441,8 +426,7 @@ Key:
 
 Decrypted text: 
 and if you're taking a walk throught the garden of life
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h1 id="podsumowanie">Podsumowanie</h1>
 

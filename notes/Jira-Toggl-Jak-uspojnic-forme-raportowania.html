@@ -102,15 +102,14 @@
 
 <p>Wybierając język programowania na potrzeby konkursu Daj się poznać zdecydowałem się na prostotę Pythona (niestety nie było możliwe wyklikanie tego w <a href="https://zapier.com/">Zapierze</a>, w ramach darmowej licencji :)) , która została udowodniona w primaaprilisowym filmie <a href="https://www.youtube.com/watch?v=7VJaprmuHcw">Gynveala Coldwinda: Gynvael’s Python 101: Hello World!</a>. Początkowo przyjmie to formę prostego skryptu, a następnie przeistoczy się w bardziej sensowny soft bazujący na frameworku Django. Mimo prostoty języka, naukę zacząłem od prostego Hello Daj się poznać.</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello Daj się poznać."</span><span class="p">)</span>
-</code></pre>
-</div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello Daj się poznać."</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>Jako project manager uznałem, że najprościej będzie wykorzystać gotowe kawałki kodu do obsłużenia API Jira oraz Toggl. W celu połączenia z Jirą wykorzystam bibliotekę <a href="https://jira.readthedocs.io/en/master/">jira-python</a>, a do obsługi API Toggl użyję <a href="https://github.com/matthewdowney/TogglPy">TogglPy autorstwa matthewdowney</a>. Pierwsza biblioteka została zainstalowana przy użyciu <a href="https://en.wikipedia.org/wiki/Pip_(package_manager)">menadżera pakietów Pip</a>. Druga przez fork, czyli skopiowanie zawartości pliku <a href="https://github.com/matthewdowney/TogglPy/blob/master/TogglPy.py">TogglPy.py</a> do swojego projektu. Czas na wykorzystanie systemu zarządzania zależnościami jeszcze nadejdzie. :)</p>
 
 <p>Realizacja, w formie dość proceduralnego kodu:</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">get_issues_from_jira</span><span class="p">(</span><span class="n">maxResults</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">get_issues_from_jira</span><span class="p">(</span><span class="n">maxResults</span><span class="p">):</span>
     <span class="n">jira_password</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">()</span>
     <span class="n">jira_client</span> <span class="o">=</span> <span class="n">JIRA</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">jira</span><span class="p">[</span><span class="s">'domain'</span><span class="p">],</span> <span class="n">basic_auth</span><span class="o">=</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">jira</span><span class="p">[</span><span class="s">'username'</span><span class="p">],</span> <span class="n">jira_password</span><span class="p">))</span>
 
@@ -121,10 +120,9 @@
         <span class="n">jira_issues</span><span class="p">[</span><span class="n">issue</span><span class="o">.</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">issue</span><span class="o">.</span><span class="n">fields</span><span class="o">.</span><span class="n">summary</span>
 
     <span class="k">return</span> <span class="n">jira_issues</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">add_issues_to_toggl</span><span class="p">(</span><span class="n">jira_issues</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">add_issues_to_toggl</span><span class="p">(</span><span class="n">jira_issues</span><span class="p">):</span>
     <span class="n">toggl</span> <span class="o">=</span> <span class="n">TogglPy</span><span class="o">.</span><span class="n">Toggl</span><span class="p">()</span>
     <span class="n">toggl</span><span class="o">.</span><span class="n">setAPIKey</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">toggl</span><span class="p">[</span><span class="s">'token'</span><span class="p">])</span>
     <span class="n">toggl_issues_json</span> <span class="o">=</span> <span class="n">toggl</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s">'https://www.toggl.com/api/v8/projects/{0}/tasks'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">toggl</span><span class="p">[</span><span class="s">'project_id'</span><span class="p">]))</span>
@@ -164,8 +162,7 @@
 
     <span class="k">print</span> <span class="s">"Number of created Toggl tasks: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">created_count</span><span class="p">)</span>
     <span class="k">print</span> <span class="s">"Number of updated Toggl tasks: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">updated_count</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Ustawienia konfiguracyjne są ładowane z pliku <code class="highlighter-rouge">config.py</code>. Została dodana możliwość uruchamiania skryptu z argumentem <code class="highlighter-rouge">--maxResults</code> w celu uniknięcia pobierania kompletu zadań przy każdym wykonaniu kodu.</p>
 

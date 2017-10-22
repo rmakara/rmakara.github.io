@@ -78,7 +78,7 @@
 <strong>DIFFICULTY: [2/10]</strong></p>
 
   <p>Tym razem nie trzeba nic robić. Wystarczy uruchomić poniższy skrypt, chwilkę poczekać, a hasło zostanie wypisane. No, taką dłuższą chwilkę…</p>
-  <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c">#!/usr/bin/python</span>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/usr/bin/python</span>
 <span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
   <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
@@ -110,8 +110,7 @@
 
 <span class="n">n</span> <span class="o">=</span> <span class="n">magic2</span><span class="p">(</span><span class="n">magic1</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">),</span> <span class="mi">1337</span><span class="p">)</span>
 <span class="k">print</span> <span class="nb">hex</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p>Na pierwszy rzut oka program wygląda bardzo prosto. Poziom zadania określony jako 2/10 popiera tezę mówiącą o tym, że wystarczy uruchomić skrypt. W celu rozwiązania zadania ściągamy kod, zapisujemy w pliku <code class="highlighter-rouge">Gynveal_003.py</code> i wykonujemy. Po dopiciu kawy tracimy nadzieję na otrzymanie wyniku jego działania i podejmujemy decyzję o przejściu do optymalizacji.</p>
@@ -121,7 +120,7 @@
 <p>W kodzie aplikacji mamy dwie zmienne <code class="highlighter-rouge">n1</code> oraz <code class="highlighter-rouge">n2</code> przechowujące bardzo duże wartości całkowite, które następnie wykorzystywane są jako parametry metody <code class="highlighter-rouge">magic1(n1, n2)</code>. Ta następnie jest wykorzystywana jako parametr metody <code class="highlighter-rouge">magic2(magic1(n1, n2), 1337)</code>. Żartobliwie, ostatnim parametrem jest <a href="https://pl.wikipedia.org/wiki/Leet_speak">leet</a> popularyzowany w społeczności IRCowej już kilkanaście lat temu.</p>
 
 <p>Przeanalizujmy metodę <code class="highlighter-rouge">magic1(a, b)</code>:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
   <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="p">:</span>
@@ -133,36 +132,32 @@
     <span class="n">o</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
   <span class="k">return</span> <span class="n">o</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Zauważamy, że zawiera ona dwie pętle w których liczba przebiegów jest uwarunkowana od <code class="highlighter-rouge">a</code> oraz <code class="highlighter-rouge">b</code>, czyli parametrów przekazywanych do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych <code class="highlighter-rouge">o</code> oraz <code class="highlighter-rouge">i</code> są sobie równe. Po zakończeniu pętli <code class="highlighter-rouge">i</code> wartość zmiennej jest zerowana w ramach przygotowania do wykonania kolejnej. Zmienna <code class="highlighter-rouge">o</code> natomiast zerowana nie jest, a jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru <code class="highlighter-rouge">b</code>.</p>
 
 <p>W efekcie, pierwsza pętla ustawia wartość zmiennej <code class="highlighter-rouge">o</code> na równą parametrowi <code class="highlighter-rouge">a</code>, a druga pętla zwiększa wartość zmiennej <code class="highlighter-rouge">o</code> o wartość parametru <code class="highlighter-rouge">b</code>. Innymi słowy, metoda <code class="highlighter-rouge">magic1(a, b)</code> realizuje operację dodawania. Możemy ją przekształcić do postaci:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
   <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Druga z magicznych metod <code class="highlighter-rouge">magic2(a, b)</code> na pierwszy rzut oka wygląda dość podobnie:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
   <span class="n">o</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">:</span>
     <span class="n">o</span> <span class="o">=</span> <span class="n">magic1</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
   <span class="k">return</span> <span class="n">o</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Wewnętrz pętli zawarte jest jednak wywołanie metody <code class="highlighter-rouge">magic1(o, a)</code>. Podobnie jak w poprzednim przypadku <code class="highlighter-rouge">i</code> jest inkrementowane, aż do uzyskania wartości równej parametrowi <code class="highlighter-rouge">b</code>. Zaczynamy z wartością <code class="highlighter-rouge">o</code> ustawioną na 0. Wewnątrz pętli, do wartości <code class="highlighter-rouge">o</code> jest przypisywany wynik dodawania otrzymany z metody <code class="highlighter-rouge">magic1(o, a)</code>, czyli suma aktualnej wartości parametru <code class="highlighter-rouge">o</code> i naszej dużej zmiennej <code class="highlighter-rouge">a</code>, dzieje się to tyle razy ile wynosi wartość zmiennej <code class="highlighter-rouge">b</code>. Oznacza to, że metoda realizuję operację mnożenia. Optymalizujemy przekształcając do postaci:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
   <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Finalna wersja naszego zoptymalizowanego programu wygląda następująco:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">magic1</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
   <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
 
 <span class="k">def</span> <span class="nf">magic2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
@@ -179,17 +174,14 @@
 <span class="n">n</span> <span class="o">=</span> <span class="n">magic2</span><span class="p">(</span><span class="n">magic1</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">),</span> <span class="mi">1337</span><span class="p">)</span>
 <span class="k">print</span> <span class="n">n</span>
 <span class="k">print</span> <span class="nb">hex</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Jego wykonanie zwraca wynik:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">n</span> <span class="o">=</span> <span class="mi">549264340234998467129494984689502898642039973222263002891494221114915022603203250023</span>
-</code></pre>
-</div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n</span> <span class="o">=</span> <span class="mi">549264340234998467129494984689502898642039973222263002891494221114915022603203250023</span>
+</code></pre></div></div>
 <p>Ostatnia linia konwertuje wartość zapisaną w systemie dziesiętnym na system szesnastkowy. Wycina początkowe <code class="highlighter-rouge">0x</code> z notacji i dekoduje wszystkie kolejne bajty, aż do ostatniego znaku, tym samym zwracając:</p>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">Haslo</span><span class="p">:</span> <span class="s">"WolneOprogramowanie!"</span>
-</code></pre>
-</div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Haslo</span><span class="p">:</span> <span class="s">"WolneOprogramowanie!"</span>
+</code></pre></div></div>
 
 <h1 id="podsumowanie">Podsumowanie</h1>
 
