@@ -2,14 +2,14 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/zespol/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-07T21:04:04+01:00</updated>
+        <updated>2017-11-13T17:45:58+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged ZESPOL - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-          
+                    
         <entry>
             <title>Komunikacja i język w zespole</title>
             <link href="https://rmakara.github.io/notes/Komunikacja-i-jezyk-w-zespole/" />
@@ -60,7 +60,7 @@
 
 &lt;p&gt;Musimy pamiętać, że komuniakcja stanowi jeden z większych kosztów w każdym projekcie informatycznym. Nie tylko dotyczy to języka jakim się posługujemy w kontekście “polskiego”, “angielskiego”, “francuskiego”, a także słownictwa jakie wykorzystujemy. Częstym problemem okazuje się dialog programistów z klientem, gdzie to klient jest zmuszany do używania terminów technicznych, podczas gdy to my jako osoby mające za zadanie pomóc naszemu klientowi powinniśmy się dostosować i używać bardziej rozumianych przez biznes określeń. Niby każdy mówi w tym samym języku, ale nikt się nie rozumie.&lt;/p&gt;
 
-&lt;p&gt;To stanowi jednak bardzo szeroki problem, który omówię w przyszłości. Jako przedsmak, warto zapoznać się z pojęciem &lt;a href=&quot;https://martinfowler.com/bliki/UbiquitousLanguage.html&quot;&gt;UbiquitousLanguage&lt;/a&gt;, który został zaproponowany w książce Domain Driven Design, Tackling Complexity in the Heart of Software autorstwa Erica Evansa. Książka, którą naprawdę trzeba chcieć przeczytać, aby to zrobić. Warto, ale koniecznie w języku angielskim.&lt;/p&gt;
+&lt;p&gt;To stanowi jednak bardzo szeroki problem, który omówię w przyszłości. Jako przedsmak, warto zapoznać się z pojęciem &lt;a href=&quot;https://martinfowler.com/bliki/UbiquitousLanguage.html&quot;&gt;UbiquitousLanguage&lt;/a&gt;, który został zaproponowany w książce Domain Driven Design, Tackling Complexity in the Heart of Software autorstwa Erica Evansa. Książka, którą jest napisana w niezbyt przyjazny sposób i naprawdę trzeba chcieć ją przeczytać… ale warto, koniecznie w języku angielskim.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
