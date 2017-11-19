@@ -2,16 +2,16 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/gynveal/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-13T17:45:58+01:00</updated>
+        <updated>2017-11-19T20:52:37+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged GYNVEAL - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                                        
+                                              
         <entry>
-            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja.</title>
+            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/" />
             <published>2017-05-28T00:00:00+02:00</published>
             <updated>2017-05-28T00:00:00+02:00</updated>
@@ -173,7 +173,7 @@
         </entry>
                     
         <entry>
-            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem.</title>
+            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/" />
             <published>2017-05-19T00:00:00+02:00</published>
             <updated>2017-05-19T00:00:00+02:00</updated>
@@ -479,7 +479,7 @@ of
 life
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Do początku słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Do końcu słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
@@ -558,5 +558,5 @@ and if you're taking a walk throught the garden of life
 &lt;/ul&gt;
 </content>
         </entry>
-                                  
+                                          
     </feed>

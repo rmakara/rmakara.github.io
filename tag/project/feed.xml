@@ -2,14 +2,14 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/project/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-13T17:45:58+01:00</updated>
+        <updated>2017-11-19T20:52:37+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged PROJECT - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-              
+                    
         <entry>
             <title>Developer vs Project Manager 002&amp;#58; Zarobki</title>
             <link href="https://rmakara.github.io/notes/Dev-vs-PM-Zarobki/" />
@@ -144,5 +144,5 @@
 &lt;p&gt;Streszczając cały artykuł do jednego zdania można powiedzieć, że programiści dysponują wyspecjalizowaną, szczegółową wiedzą o projekcie czasami nie zauważając większego obrazu, a managerowie skupieni są na ogóle i długoterminowym spojrzeniu, czesto z pominięciem szczegółów. Dla osiągnięciu sukcesu projektu konieczne jest wzajemne uzupełnianie się oraz partnerstwo między przedstawicielami obydwu ról.&lt;/p&gt;
 </content>
         </entry>
-                                                      
+                                                              
     </feed>

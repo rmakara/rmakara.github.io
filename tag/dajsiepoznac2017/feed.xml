@@ -2,14 +2,14 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/dajsiepoznac2017/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-13T17:45:58+01:00</updated>
+        <updated>2017-11-19T20:52:37+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DAJSIEPOZNAC2017 - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                          
+                                
         <entry>
             <title>Developer vs Project Manager 001&amp;#58; Wiedza o projekcie</title>
             <link href="https://rmakara.github.io/notes/Dev-vs-PM-Wiedza-o-projekcie/" />
@@ -61,7 +61,7 @@
         </entry>
                     
         <entry>
-            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja.</title>
+            <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/" />
             <published>2017-05-28T00:00:00+02:00</published>
             <updated>2017-05-28T00:00:00+02:00</updated>
@@ -223,7 +223,7 @@
         </entry>
                   
         <entry>
-            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem.</title>
+            <title>Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem/" />
             <published>2017-05-19T00:00:00+02:00</published>
             <updated>2017-05-19T00:00:00+02:00</updated>
@@ -529,7 +529,7 @@ of
 life
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Do początku słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Do końcu słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
@@ -610,7 +610,7 @@ and if you're taking a walk throught the garden of life
         </entry>
                     
         <entry>
-            <title>OnEstimates. Część II&amp;#58; Techniki estymowania.</title>
+            <title>OnEstimates. Część II&amp;#58; Techniki estymowania</title>
             <link href="https://rmakara.github.io/notes/OnEstimates-Czesc-II-Techniki-estymowania/" />
             <published>2017-05-09T00:00:00+02:00</published>
             <updated>2017-05-09T00:00:00+02:00</updated>
@@ -711,9 +711,9 @@ and if you're taking a walk throught the garden of life
 &lt;/ul&gt;
 </content>
         </entry>
-            
+                
         <entry>
-            <title>OnEstimates. Część I&amp;#58; Too long, did not read.</title>
+            <title>OnEstimates. Część I&amp;#58; Too long, did not read</title>
             <link href="https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read/" />
             <published>2017-03-27T00:00:00+02:00</published>
             <updated>2017-03-27T00:00:00+02:00</updated>
@@ -725,10 +725,10 @@ and if you're taking a walk throught the garden of life
 &lt;p&gt;W serii czterech artykułów skupię się na wdrożeniu w temat estymacji, omówię wykorzystywane techniki, zagrożenia oraz odmienne perspektywy specjalistów oraz biznesu.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read&quot;&gt;OnEstimates. Część I: Too long, did not read.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;OnEstimates. Część II: Techniki estymowania.&lt;/li&gt;
-  &lt;li&gt;OnEstimates. Część III: Zagrożenia płynące z estymacji.&lt;/li&gt;
-  &lt;li&gt;OnEstimates. Część IV: Biznes/Manager vs Specjalista.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/notes/OnEstimates-Czesc-I-Too-long-did-not-read&quot;&gt;OnEstimates. Część I: Too long, did not read&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;ttps://rmakara.github.io/notes/OnEstimates-Czesc-II-Techniki-estymowania&quot;&gt;OnEstimates. Część II: Techniki estymowania&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;ttps://rmakara.github.io/notes/OnEstimates-Czesc-III-Zagrozenia-plynace-z-estymacji&quot;&gt;OnEstimates. Część III: Zagrożenia płynące z estymacji&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OnEstimates. Część IV: Biznes/Manager vs Specjalista&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;estymacja-jest-trudna&quot;&gt;Estymacja jest trudna&lt;/h1&gt;
@@ -796,7 +796,7 @@ and if you're taking a walk throught the garden of life
 &lt;/ul&gt;
 </content>
         </entry>
-              
+                  
         <entry>
             <title>Jira &amp; Toggl. Jak uspójnić formę raportowania?</title>
             <link href="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania/" />
@@ -948,7 +948,7 @@ and if you're taking a walk throught the garden of life
         </entry>
               
         <entry>
-            <title>Ohayō, czyli wstęp do pisania o granicy dwóch światów.</title>
+            <title>Ohayō, czyli wstęp do pisania o granicy dwóch światów</title>
             <link href="https://rmakara.github.io/notes/Ohayo-czyli-wst%C4%99p-do-pisania-o-granicy-dwoch-%C5%9Bwiatow/" />
             <published>2017-03-01T00:00:00+01:00</published>
             <updated>2017-03-01T00:00:00+01:00</updated>
