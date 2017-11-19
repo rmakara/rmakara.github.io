@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/onEstimates/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-19T20:57:12+01:00</updated>
+        <updated>2017-11-19T21:25:23+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged ONESTIMATES - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -20,11 +20,11 @@
 
 &lt;p&gt;Powiedzieliśmy już, że z estymacji płynie bardzo wiele korzyści i główną z nich jest edukacja. Z drugiej jednak strony, wdrażanie nowego elementu niesie za sobą konsekwencje tworzenia nowych ryzyk w innych obszarach systemu złożonego, a taki tworzony jest przez wszystko co ma związek z wytwarzaniem oprogramowania.&lt;/p&gt;
 
-&lt;p&gt;Patrząc na potencjalne problemy z różnych perspektyw (dev, QA, PM, SM, PO) można dostrzec zupełnie coś innego. Korzystając z tego, że miałem okazję pracować zarówno jako developer, jak i project manager postaram przytoczyć się elementy, które zazwyczaj były dla mnie niezrozumiałe gdy siedziałem tylko po jednej ze stron.&lt;/p&gt;
+&lt;p&gt;Patrząc na potencjalne problemy z różnych perspektyw (dev, QA, PM, SM, PO) można dostrzec zupełnie coś innego. Korzystając z tego, że miałem okazję pracować zarówno jako developer, jak i project manager przytoczę elementy, które były dla mnie niezrozumiałe gdy siedziałem tylko po jednej ze stron.&lt;/p&gt;
 
 &lt;h1 id=&quot;plany-biznesowe-i-akcje-marketingowe&quot;&gt;Plany biznesowe i akcje marketingowe&lt;/h1&gt;
 
-&lt;p&gt;Tworzenie softu jest częścią biznesu. Osoby biznesowe czegoś zazwyczaj traktują proces tworzenia oprogramowania jako element czegoś większego. To sprawia, że estymacje mogą prowadzić do określenia orientacyjnych (lub precyzyjnych) terminów wdrożenia nowych funkcjonalności z którymi mogą wiązać się plany biznesowe firmy. Wyobraźmy sobie np. wdrożenie nowej funkcjonalności obsługi e-faktur i proces zachęcania użytkowników do przejścia z wykorzystywania faktur papierowych na wersje elektroniczne. W celu przeprowadzenia takiego działania milion klientów otrzymujących faktury papierowe ma dostać wraz z kolejną fakturą ulotkę informującą o korzyściach płynących z przejścia na wersje elektroniczną. Takie działanie musi być poprawnie osadzone w czasie i nastąpić po wdrożeniu obsługi e-faktur do oprogramowania. W jaki sposób zsynchronizować jedno z drugim? Estymować, mierzyć i weryfikować. Jeżeli nasze estymacje będą niepoprawne, a wszelkie działania marketingowe oraz proces wytwarzania danego modułu trwa np. 3-4 miesiące to w sytuacji, gdy ulotki zostaną rozesłane do miliona klientów, a system nie będzie gotowy - mamy problem. Informacja o tego typu problemach w większości firm nawet nie trafia do programistów. Warto ich informować, aby generować poczucie odpowiedzialności i zobowiązania.&lt;/p&gt;
+&lt;p&gt;Tworzenie softu jest częścią biznesu. Osoby biznesowe traktują proces tworzenia oprogramowania jako element czegoś większego. To sprawia, że estymacje mogą prowadzić do określenia orientacyjnych (lub precyzyjnych) terminów wdrożenia nowych funkcjonalności z którymi mogą wiązać się plany biznesowe firmy. Wyobraźmy sobie np. wdrożenie nowej funkcjonalności obsługi e-faktur i proces zachęcania użytkowników do przejścia z wykorzystywania faktur papierowych na wersje elektroniczne. W celu przeprowadzenia takiego działania milion klientów otrzymujących faktury papierowe ma dostać wraz z kolejną fakturą ulotkę informującą o korzyściach płynących z przejścia na wersje elektroniczną. Takie działanie musi być poprawnie osadzone w czasie i nastąpić po wdrożeniu obsługi e-faktur do oprogramowania. W jaki sposób zsynchronizować jedno z drugim? Estymować, mierzyć i weryfikować. Jeżeli nasze estymacje będą niepoprawne, a wszelkie działania marketingowe oraz proces wytwarzania danego modułu trwa np. 3-4 miesiące to w sytuacji, gdy ulotki zostaną rozesłane do miliona klientów, a system nie będzie gotowy - mamy problem. Informacja o tego typu problemach w większości firm nawet nie trafia do programistów. Warto ich informować, aby generować poczucie odpowiedzialności i zobowiązania.&lt;/p&gt;
 
 &lt;h1 id=&quot;harmonogram&quot;&gt;Harmonogram&lt;/h1&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;h1 id=&quot;planowanie-budżetu&quot;&gt;Planowanie budżetu&lt;/h1&gt;
 
-&lt;p&gt;Ze względu na złożoność wytwarzanych aplikacji bardzo ciężko jest wyszacować koszt stworzenia dużego systemu już na początku jego realizacji. Między innymi przez to popularna jest forma rozliczania &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;time&amp;amp;materials&lt;/a&gt;, która opiera się na pobieraniu opłat w oparciu o stawki godzinowe. Zmiana formy rozliczania na taką nie oznacza, że nasz klient nagle przeobraża się w studnię bez dna i możemy od niego pobierać pieniądze w nieskończoność. Budżet jest ograniczony, zawsze. Estymowanie, mierzenie i weryfikowanie pozwala na kontrolę aktualnego stanu budżetu oraz planowanie jego wykorzystnaia w przyszłości. Co można zrobić źle? Estymować i mierzyć, ale nie weryfikować. Jeżeli taki scenariusz połączymy z wytwarzaniem dużego systemu w modelu “wdróżmy wszystko naraz, a nie iteracyjnie” to kończymy bez budżetu, ale z systemem wytworzonym w 80%, który nie jest gotowy do wykorzystania przez klientów.&lt;/p&gt;
+&lt;p&gt;Ze względu na złożoność wytwarzanych aplikacji bardzo ciężko jest wyszacować koszt stworzenia dużego systemu już na początku jego realizacji. Między innymi przez to popularna jest forma rozliczania &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;time &amp;amp; materials&lt;/a&gt;, która opiera się na pobieraniu opłat w oparciu o stawki godzinowe. Zmiana formy rozliczania na taką nie oznacza, że nasz klient nagle przeobraża się w studnię bez dna i możemy od niego pobierać pieniądze w nieskończoność. Budżet jest ograniczony, zawsze. Estymowanie, mierzenie i weryfikowanie pozwala na kontrolę aktualnego stanu budżetu oraz planowanie jego wykorzystnaia w przyszłości. Co można zrobić źle? Estymować i mierzyć, ale nie weryfikować. Jeżeli taki scenariusz połączymy z wytwarzaniem dużego systemu w modelu “wdróżmy wszystko naraz, a nie iteracyjnie” to kończymy bez budżetu, ale z systemem wytworzonym w 80%, który nie jest gotowy do wykorzystania przez klientów.&lt;/p&gt;
 
 &lt;h1 id=&quot;motywacja-zespołu&quot;&gt;Motywacja zespołu&lt;/h1&gt;
 
@@ -50,11 +50,11 @@
 
 &lt;h1 id=&quot;wysoka-niedokładność&quot;&gt;Wysoka niedokładność&lt;/h1&gt;
 
-&lt;p&gt;Nabywając każdą nową umiejętność na początku jesteśmy skazani na niepowodzenia. Estymowanie w początkowych fazach pracy z systemem którego nie znamy generuje stres wśród członków zepsołu i łatwo jest doprowadzić do sytuacji w której ludzie nie chce kontynuować szacowania, ponieważ w pierwszych sprintach wiele estymacji jest przekroczonych. Rolą osób spokojniejszych (lub &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master&quot;&gt;Scrum Mastera&lt;/a&gt;) jest wyjaśnienie po co to robimy i dlaczego warto, oraz doprowadzenie do sytuacji w której każdy członek zespołu rozumie powody stojące za estymowaniem, zamiast traktować spotkania groomingowe jako najbardziej stresujący moment tygodnia.&lt;/p&gt;
+&lt;p&gt;Nabywając każdą nową umiejętność na początku jesteśmy skazani na niepowodzenia. Estymowanie w początkowych fazach pracy z systemem którego nie znamy generuje stres wśród członków zepsołu i łatwo jest doprowadzić do sytuacji w której ludzie nie chcą kontynuować szacowania, ponieważ w pierwszych sprintach wiele estymacji jest przekroczonych. Rolą osób spokojniejszych (lub &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master&quot;&gt;Scrum Mastera&lt;/a&gt;) jest wyjaśnienie po co to robimy i dlaczego warto, oraz doprowadzenie do sytuacji w której każdy członek zespołu rozumie powody stojące za estymowaniem, zamiast traktować spotkania groomingowe jako najbardziej stresujący moment tygodnia.&lt;/p&gt;
 
 &lt;h1 id=&quot;mowa-nienawiści&quot;&gt;Mowa nienawiści&lt;/h1&gt;
 
-&lt;p&gt;Podobnie jak w przypadku komunikacji przy code review. Można stworzyć atmosferę w której przeglądanie kodu innych osób czy analizowanie estymacji i ich słuszności stanie się okazją do wyładowania emocjonalnego i powiedzenia innym jacy są źli. Ponownie, rolą Scrum Mastera lub współpracującego ze sobą zespołu jest doprowadzenia do sytuacji w której nikt nie traktuje tego procesu jako potencjalnego powodu do zaczepki, a jako element wspierający w stawaniu się lepszą grupą zmierzającą w tym samym kierunku.&lt;/p&gt;
+&lt;p&gt;Podobnie jak w przypadku komunikacji przy code review, można stworzyć atmosferę w której przeglądanie kodu innych osób czy analizowanie estymacji i ich słuszności stanie się okazją do wyładowania emocjonalnego, i powiedzenia innym jacy są źli. Ponownie, rolą Scrum Mastera lub współpracującego ze sobą zespołu jest doprowadzenia do sytuacji w której nikt nie traktuje tego procesu jako potencjalnego powodu do zaczepki, a jako element wspierający w stawaniu się lepszą grupą zmierzającą w tym samym kierunku.&lt;/p&gt;
 
 &lt;h1 id=&quot;błędy-i-zmiany&quot;&gt;Błędy i zmiany&lt;/h1&gt;
 
@@ -68,7 +68,7 @@
 
 &lt;h1 id=&quot;estymowanie-cudzej-pracy&quot;&gt;Estymowanie cudzej pracy&lt;/h1&gt;
 
-&lt;p&gt;To chyba jeden z popularniejszych antywzorców na które się napotykałem. Lider zespołu lub manager estymujący czas realizacji zadania bez udziału specjalistów, którzy będą dane zadanie realizować. Doprowadza to do stresowania zespołu, ale przede wszystkim do pozbawiania nas szansy na omówienie rozwiązywanego problemu w kilka osób. Gdy to tylko możliwe - estymujmy w grupach, koniecznie przy udziale tych osób, które będą brać udział w doprowadzaniu zadania do końca.&lt;/p&gt;
+&lt;p&gt;To chyba najpopularniejszy antywzorzec z którym się spotykałem. Lider zespołu lub manager estymujący czas realizacji zadania bez udziału specjalistów, którzy będą dane zadanie realizować. Doprowadza to do stresowania zespołu, ale przede wszystkim do pozbawiania nas szansy na omówienie rozwiązywanego problemu w kilka osób. Gdy to tylko możliwe - estymujmy w grupach, koniecznie przy udziale tych osób, które będą brać udział w doprowadzaniu zadania do końca.&lt;/p&gt;
 
 &lt;h1 id=&quot;agresywny-klient&quot;&gt;Agresywny klient&lt;/h1&gt;
 
@@ -76,7 +76,7 @@
 
 &lt;h1 id=&quot;zbyt-wczesne-szacowanie-i-brak-odpowiedniej-granulacji&quot;&gt;Zbyt wczesne szacowanie i brak odpowiedniej granulacji&lt;/h1&gt;
 
-&lt;p&gt;Warunkiem poprawnego okreslenia objętości zadania jest posiadanie wystarczającej ilości danych o nim. Estymując zadanie o olbrzymim zakresie, bez przeprowadzenia wstępnej analizy dość trudno jest precyzyjnie je oszacować. Warto zebrać podstawowe informacje, a przede wszystkim podzielić task na mniejsze, których szacowanie będzie zdecydowanie prostsze.&lt;/p&gt;
+&lt;p&gt;Warunkiem poprawnego okreslenia objętości zadania jest posiadanie wystarczającej ilości danych o nim. Estymując zadanie o olbrzymim zakresie, bez przeprowadzenia wstępnej analizy dość trudno jest precyzyjnie je oszacować. Warto zebrać podstawowe informacje, a przede wszystkim podzielić task na mniejsze, których szacowanie będzie zdecydowanie łatwiejsze.&lt;/p&gt;
 
 &lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
 
