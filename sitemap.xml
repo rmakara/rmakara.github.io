@@ -41,6 +41,10 @@
 <lastmod>2017-11-19T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django</loc>
+<lastmod>2017-11-25T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>https://rmakara.github.io/404</loc>
 </url>
 <url>
@@ -93,5 +97,14 @@
 </url>
 <url>
 <loc>https://rmakara.github.io/tag/komunikacja/</loc>
+</url>
+<url>
+<loc>https://rmakara.github.io/tag/tyche/</loc>
+</url>
+<url>
+<loc>https://rmakara.github.io/tag/docker/</loc>
+</url>
+<url>
+<loc>https://rmakara.github.io/tag/django/</loc>
 </url>
 </urlset>

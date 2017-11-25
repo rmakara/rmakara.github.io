@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+        <link href="https://rmakara.github.io/tag/docker/feed.xml" rel="self" type="application/atom+xml" />
+        <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
+        <updated>2017-11-25T18:30:14+01:00</updated>
+        <id>https://rmakara.github.io/</id>
+        <title>Feed tagged DOCKER - </title>
+        <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
+        <author>
+            <name>Rafał Makara - Blog</name>
+        </author>
+            
+        <entry>
+            <title>tyche 001&amp;#58; Początki z Dockerem i Django</title>
+            <link href="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django/" />
+            <published>2017-11-25T00:00:00+01:00</published>
+            <updated>2017-11-25T00:00:00+01:00</updated>
+            <id>https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django/">&lt;h1 id=&quot;programista-stażysta&quot;&gt;Programista stażysta&lt;/h1&gt;
+
+&lt;p&gt;Na początku pisania tego blogu wraz z udziałem w konkursie &lt;a href=&quot;https://devstyle.pl/daj-sie-poznac/&quot;&gt;Daj się poznać&lt;/a&gt; miałem na celu napisanie aplikacji automatyzującej pracę Project Managera. Aplikacji nie rozwijałem. Ograniczyłem się do napisania dwóch skryptów, które rozwiązały moje największe problemy pracy codziennej. Nie jestem z tego powodu dumny, ale podsumowanie całości było takie, że nie wróciłem do kodowania.&lt;/p&gt;
+
+&lt;p&gt;Robię podejście numer dwa. W trzyosobowym zespole rozpoczęliśmy prace nad aplikacją, którą roboczo nazwaliśmy &lt;a href=&quot;https://pl.wikipedia.org/wiki/Tyche&quot;&gt;tyche&lt;/a&gt;. Nazwa pochodzi od greckiej bogini przypadku i ślepego losu. Na bieżącym etapie nie będę opisywał przeznaczenia wytwarzanej aplikacji, ponieważ na to jeszcze przyjdzie czas. W każdym razie, celem jest przypomnienie sobie umiejętności pisania kodu.&lt;/p&gt;
+
+&lt;h1 id=&quot;pierwsze-kroki&quot;&gt;Pierwsze kroki&lt;/h1&gt;
+
+&lt;p&gt;Rozpoczeliśmy od stworzenia zespołowego kanału &lt;a href=&quot;http://slack.com&quot;&gt;Slacka&lt;/a&gt;, repozytorium kodu na &lt;a href=&quot;github.com&quot;&gt;GitHubie&lt;/a&gt; wraz z podpiętym narzędziem &lt;a href=&quot;https://www.zenhub.com/&quot;&gt;ZenHub&lt;/a&gt;. Poza samym stworzeniem aplikacji każdy z nas chce poznać nowe narzędzia i technologie z którymi wcześniej nie mieliśmy do czynienia. Jako bazę użyjemy Pythona 3 (polecam artykuł &lt;a href=&quot;https://wiki.python.org/moin/Python2orPython3&quot;&gt;Python2orPython3&lt;/a&gt;) i frameworku Django. Żaden z nas nie ma doświadczenia w kodowaniu w Django, więc zapowiada się dość zabawna przygoda. W celu usprawnienia stawiania pierwszych kroków w pierwszym commicie do repozytorium znalazł się Dockerfile.&lt;/p&gt;
+
+&lt;h1 id=&quot;docker---podstawowe-polecenia&quot;&gt;Docker - podstawowe polecenia&lt;/h1&gt;
+
+&lt;p&gt;W ramach tego artykułu nie będę opisywał procesu stawiania środowiska przy wykorzystaniu gotowego obrazu &lt;a href=&quot;https://www.docker.com/what-docker&quot;&gt;Dockerowego&lt;/a&gt; pobranego z &lt;a href=&quot;https://hub.docker.com/&quot;&gt;Docker Huba&lt;/a&gt;, ponieważ takich opisów są już tysiące. Skorzystałem z oficjalnego tutoriala &lt;a href=&quot;https://docs.docker.com/compose/django/&quot;&gt;Quickstart: Comopse and Django&lt;/a&gt;. Jako mały cheat sheet dla siebie z przyszłości wylistuję elementy, które w procesie stawiania środowiska okazały się przydatne.&lt;/p&gt;
+
+&lt;p&gt;Pracując na Ubuntu 16.04 LTS, wykonanie tutoriala znajdującego się na oficjalnej stronie Dockera przechodzi całkiem bezproblemowo. Podczas jego realizacji przydatnych było kilka poleceń:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker ps&lt;/code&gt; - Listuje kontenery.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;container_id&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt; - Wykonuje polecenie CLI wewnątrz wskazanego kontenera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker logs &amp;lt;container_id&amp;gt;&lt;/code&gt; - Wyświetla logi ze wskazanego kontenera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker rmi [rf] &amp;lt;image_id&amp;gt;&lt;/code&gt; - Usuwa wskazany obraz.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker build . --no-cache&lt;/code&gt; - Flaga &lt;code class=&quot;highlighter-rouge&quot;&gt;--no-cache&lt;/code&gt; wymusza zbudowanie kontenera od zera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose up&lt;/code&gt; - Buduje, tworzy, uruchamia  kontener, obrazy, wolumeny.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose down&lt;/code&gt; - Zatrzymuje i usuwa kontenery, obrazy, wolumeny stworzone podczas &lt;code class=&quot;highlighter-rouge&quot;&gt;up&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose build&lt;/code&gt; - Buduje kontener(y).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose exec web bash&lt;/code&gt; - Uruchamia interaktywny prompt wewnątrz kontenera.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Przy wykorzystywaniu powyższych poleceń pojawiło się kilka ciekawostek.&lt;/p&gt;
+
+&lt;h1 id=&quot;docker-vs-docker-compose&quot;&gt;docker vs docker-compose&lt;/h1&gt;
+
+&lt;p&gt;Czym jest &lt;code class=&quot;highlighter-rouge&quot;&gt;docker&lt;/code&gt;, a czym &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;? &lt;code class=&quot;highlighter-rouge&quot;&gt;docker&lt;/code&gt; jest interfejsem CLI służącym do zarządzania poszczególnymi kontenerami. &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; jest pewnym API/fasadą stojącą warstwę przed interfejsem Dockera. &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; pozwala wykonywać operacje na wielu kontenerach i dzięki temu skraca listę komend potrzebnych do osiągnięcia określonego celu, po to wykorzystuje plik &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;docker-exec--it&quot;&gt;docker exec -it&lt;/h1&gt;
+
+&lt;p&gt;Interesujący jest parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; występujący obok &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec&lt;/code&gt;. Tutaj szczerze mówiąc nie wiem czy jestem w stanie to dobrze wyjaśnić, ponieważ źródła które czytałem nie były dla mnie w pełni zrozumiałe, a wyjaśnienie znajdujące się w oficjalnej dokumentacji również jest niejasne. Całość ma związek z &lt;code class=&quot;highlighter-rouge&quot;&gt;stdin&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;stdout&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;tty&lt;/code&gt;. Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-t&lt;/code&gt; dotyczy &lt;code class=&quot;highlighter-rouge&quot;&gt;tty&lt;/code&gt;, które jest pojęciem mającym swoje korzenie w historii używania terminali w starych komputerach i jest rozwinięciem skrótu jest &lt;code class=&quot;highlighter-rouge&quot;&gt;TeleTYpewriter&lt;/code&gt;. W dzisiejszych czasach oznacza wirtualną tekstową konsolę do których (jest ich 6) w Ubuntu możemy wejść przez użycie jednego ze skrótów:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty1&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F1&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty2&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F2&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty3&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F3&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty4&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F4&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty5&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F5&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty6&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F6&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;Powrót do GUI - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F7&lt;/code&gt;,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; oznacza dodanie strumieniu wejściowego. W połączeniu &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; mówi Dockerowi, że w ramach polecenia &lt;code class=&quot;highlighter-rouge&quot;&gt;exec&lt;/code&gt; chcemy dodać silnik terminalu wraz z możliwością przekazania czegoś do wejścia, po czym wynik wykonania operacji otrzymujemy w strumieniu wyjściowym, w warstwie w której wykonujemy polecenie &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;volumes&quot;&gt;Volumes&lt;/h1&gt;
+
+&lt;p&gt;W pliku konfiguracyjnym definiujemy &lt;code class=&quot;highlighter-rouge&quot;&gt;volumes&lt;/code&gt;. Wykorzystywane są one w celu skopiowania naszego kodu źródłowego z lokalnego hosta (do którego mamy podpięte repozytorium) w głąb kontenera. Innymi słowy, przekazujemy aktualny kod źródłowy nad którym pracujemy do kontenera, aby mógł on zostać uruchomiony wewnątrz kontenera. Nie musimy go kopiować ręcznie.&lt;/p&gt;
+
+&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
+
+&lt;p&gt;Wykorzystywanie Dockera jest przydatne nie tylko w środowisku produkcyjnym do łatwego skalowania aplikacji, ale też jest wygodnym rozwiązaniem umożliwiającym prace w środowisku developerskim. Po przygotowaniu kilku plików możemy umieścić je w repozytorium, aby ułatwić życie naszym kolegom, których zadanie ograniczy się do pobrania kodu z repozytorium i uruchomienia kontenerów przez &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://devstyle.pl/daj-sie-poznac/&quot;&gt;Daj się poznać&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Tyche&quot;&gt;tyche, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;http://slack.com&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://www.zenhub.com/&quot;&gt;ZenHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://wiki.python.org/moin/Python2orPython3&quot;&gt;Python2orPython3, WikiPython&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;https://www.docker.com/what-docker&quot;&gt;What is Docker?, Docker.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[8] &lt;a href=&quot;https://hub.docker.com/&quot;&gt;Docker Huba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[9] &lt;a href=&quot;https://docs.docker.com/compose/django/&quot;&gt;Docker Quickstart: Comopse and Django&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+                                                                                                
+    </feed>
