@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/docker/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-11-25T18:30:14+01:00</updated>
+        <updated>2017-11-25T18:32:41+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged DOCKER - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -63,7 +63,7 @@
   &lt;li&gt;Powrót do GUI - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F7&lt;/code&gt;,&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; oznacza dodanie strumieniu wejściowego. W połączeniu &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; mówi Dockerowi, że w ramach polecenia &lt;code class=&quot;highlighter-rouge&quot;&gt;exec&lt;/code&gt; chcemy dodać silnik terminalu wraz z możliwością przekazania czegoś do wejścia, po czym wynik wykonania operacji otrzymujemy w strumieniu wyjściowym, w warstwie w której wykonujemy polecenie &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; oznacza dodanie strumieniu wejściowego. W połączeniu &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; mówi Dockerowi, że w ramach polecenia &lt;code class=&quot;highlighter-rouge&quot;&gt;exec&lt;/code&gt; chcemy dodać silnik terminalu wraz z możliwością przekazania czegoś do wejścia, po czym wynik wykonania operacji otrzymujemy w strumieniu wyjściowym, w warstwie, w której wykonujemy polecenie &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;volumes&quot;&gt;Volumes&lt;/h1&gt;
 
@@ -85,7 +85,7 @@
   &lt;li&gt;[5] &lt;a href=&quot;https://www.zenhub.com/&quot;&gt;ZenHub&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[6] &lt;a href=&quot;https://wiki.python.org/moin/Python2orPython3&quot;&gt;Python2orPython3, WikiPython&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[7] &lt;a href=&quot;https://www.docker.com/what-docker&quot;&gt;What is Docker?, Docker.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[8] &lt;a href=&quot;https://hub.docker.com/&quot;&gt;Docker Huba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[8] &lt;a href=&quot;https://hub.docker.com/&quot;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[9] &lt;a href=&quot;https://docs.docker.com/compose/django/&quot;&gt;Docker Quickstart: Comopse and Django&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
