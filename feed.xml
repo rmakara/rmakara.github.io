@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-11-25T18:32:41+01:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">tyche 001: Początki z Dockerem i Django</title><link href="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django" rel="alternate" type="text/html" title="tyche 001&amp;#58; Początki z Dockerem i Django" /><published>2017-11-25T00:00:00+01:00</published><updated>2017-11-25T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django</id><content type="html" xml:base="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django">&lt;h1 id=&quot;programista-stażysta&quot;&gt;Programista stażysta&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2017-12-23T15:20:49+01:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Książki, najlepszy prezent jaki sobie kupiłem w 2017</title><link href="https://rmakara.github.io/notes/Ksiazki-najlepszy-prezent-jaki-sobie-kupilem-w-2017" rel="alternate" type="text/html" title="Książki, najlepszy prezent jaki sobie kupiłem w 2017" /><published>2017-12-23T00:00:00+01:00</published><updated>2017-12-23T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Ksiazki-najlepszy-prezent-jaki-sobie-kupilem-w-2017</id><content type="html" xml:base="https://rmakara.github.io/notes/Ksiazki-najlepszy-prezent-jaki-sobie-kupilem-w-2017">&lt;h1 id=&quot;powrót-do-czytania&quot;&gt;Powrót do czytania&lt;/h1&gt;
+
+&lt;p&gt;Jestem osobą której nie zdarza mi się czytać wielu książek fabularnych przez co czasami trudno jest mi odnaleźć się w rozmowach książkowych ze znajomymi. Z drugiej jednak strony, zawsze poświęcałem sporo czasu na czytanie materiałów, które w moich wierzeniach pozwalają mi się czegoś nauczyć i traktowałem to jako skrót do zdobycia wiedzy, którą autorzy zdobywali latami.&lt;/p&gt;
+
+&lt;p&gt;W pierwszych dwóch kwartałach bieżącego roku to nie wyszło, ponieważ czytałem bardzo mało. Zmiana nastąpiła w czerwcu gdy uznałem, że wypada zrobić trochę dodatkowych kosztów celem redukcji VATu i podatku dochodowego - kupiłem Amazon Kindle Paperwhite 3.&lt;/p&gt;
+
+&lt;h1 id=&quot;kindle-paperwhite-3&quot;&gt;Kindle Paperwhite 3&lt;/h1&gt;
+
+&lt;p&gt;Zdecydowanie nie mam zamiaru pisać kolejnej recenzji Kindle, ponieważ takich są już tryliony w Internecie. Poza koniecznością obniżenia podatków kierowałem się:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Szerokością ekranu, która przyśpieszy moje tempo czytania.&lt;/li&gt;
+  &lt;li&gt;Mobilnością i rozmiarem pozwalającym na wsadzenie urządzenia nie tylko do torby, ale również do kieszeni.&lt;/li&gt;
+  &lt;li&gt;Podświetleniem.&lt;/li&gt;
+  &lt;li&gt;Ładnym i komfortowo leżącym w ręku etui.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tyle. Reszta założyłem, że będzie dobra. :) Urządzenie jak najbardziej polecam.&lt;/p&gt;
+
+&lt;h1 id=&quot;książki-przeczytane-w-2017&quot;&gt;Książki przeczytane w 2017&lt;/h1&gt;
+
+&lt;p&gt;Główną funkcją pisania bloga jest okazja do wspomnień i usystematyzowania swojej wiedzy. Paradoksalnie to właśnie to jest głównym argumentem do tworzenia własnych treści. Blog zrobił się dla mnie taką publiczną szufladą, której nikomu nie rozsyłam, a wykorzystuję do porządkowania własnych przemyśleń. Jednocześnie każdy może ją otworzyć.&lt;/p&gt;
+
+&lt;p&gt;Dzięki temu mogłem dzisiaj wrócić do książek, które udało mi się wchłonąć głównie dzięki obecności Kindla w moim życiu. Były to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://helion.pl/ksiazki/domain-driven-design-zapanuj-nad-zlozonym-systemem-informatycznym-eric-evans,domdri.htm#format/d&quot;&gt;Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym, Eric Evans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://finansowyninja.pl/&quot;&gt;Finansowy ninja, Michał Szafrański&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lubimyczytac.pl/ksiazka/17348/jak-przestac-sie-martwic-i-zaczac-zyc&quot;&gt;Jak przestać się martwić i zacząć żyć, Dale Carnegie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lubimyczytac.pl/ksiazka/58072/kto-zabral-moj-ser&quot;&gt;Kto zabrał mój ser?, Spencer Johnson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lubimyczytac.pl/ksiazka/221962/like-a-virgin-czego-nie-naucza-cie-w-szkole-biznesu&quot;&gt;Like a Virgin. Czego nie nauczą Cię w szkole biznesu, Richard Branson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lubimyczytac.pl/ksiazka/4378415/maly-ksiaze&quot;&gt;Mały Książe, Antoine de Saint-Exupéry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://helion.pl/ksiazki/mistrz-czystego-kodu-kodeks-postepowania-profesjonalnych-programistow-robert-c-martin,mckkod.htm#format/d&quot;&gt;Mistrz czystego kodu. Kodeks postępowania profesjonalnych programistów, Robert C. Martin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://helion.pl/ksiazki/software-craftsman-profesjonalizm-czysty-kod-i-techniczna-perfekcja-sandro-mancuso,prorze.htm&quot;&gt;Software Craftsman. Profesjonalizm, czysty kod i techniczna perfekcja, Sandro Mancuso&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lubimyczytac.pl/ksiazka/223586/tdd-sztuka-tworzenia-dobrego-kodu&quot;&gt;TDD. Sztuka Tworzenia Dobrego Kodu, Kent Beck&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://helion.pl/ksiazki/zarzadzanie-3-0-kierowanie-zespolami-z-wykorzystaniem-metodyk-agile-jurgen-appelo,zarz30.htm#format/d&quot;&gt;Zarządzanie 3.0. Kierowanie zespołami z wykorzystaniem metodyk Agile, Jurgen Appelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;przemyślenia&quot;&gt;Przemyślenia&lt;/h1&gt;
+
+&lt;p&gt;O ile podsumowując czytanie w roku 2016 mógłbym wskazać, że najciekawszą przeczytaną pozycją było &lt;a href=&quot;http://lubimyczytac.pl/ksiazka/4339656/the-hard-thing-about-hard-things-building-a-business-when-there-are-no-easy-answers&quot;&gt;The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers, Ben Horowitz&lt;/a&gt; to w tym roku już nie jest tak łatwo. Każdą z wyżej wymienionych książek oceniam jako co najmniej dobrą i wartościową.&lt;/p&gt;
+
+&lt;p&gt;Książka &lt;em&gt;DDD&lt;/em&gt; Erica Evansa do której zbierałem się od bardzo dawna ze względu na to w jak nudny sposób jest napisana przypomina, że tworzenie systemów to nie tylko klepanie kodu, ale przede wszystkim komunikacja. &lt;em&gt;Software Craftsman&lt;/em&gt; i &lt;em&gt;Mistrz czystego kodu&lt;/em&gt; mówią o podobnej tematyce, ale skupiają się na odpowiedzialności i dojrzałości. &lt;em&gt;TDD&lt;/em&gt; Kenta Becka okazało się być prostym (ale bardzo fajnym) tutorialem opisującym implementację aplikacji przez programowanie prowadzone testami - świetny przykład, który można uznać za code kata i zaimplementować w każdym języku.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finansowy ninja&lt;/em&gt; zmotywował mnie do powrotu do zapisywania swoich wydatków, odkładania większego procentu swoich zarobków oraz automatyzacji oszczędzenia, która sprawia że cały proces jest właściwie nieodczuwalny.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Like a Virgin&lt;/em&gt; Richarda Bransona przypomniało mi głównie o fragmentach autobiografii Bransona czytanej kilka lat temu. &lt;em&gt;Like a Virgin&lt;/em&gt; jest serią krótkich artykułów i w zestawieniu z autobiografią - polecam autobiografię.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Zarządzanie 3.0&lt;/em&gt; Jurgena Appello jest pierwszą przeczytaną przeze mnie książką, która nie mówi o tym że czerwony młotek jest najlepszym narzędziem do rozwiązania każdego problemu. Nie stawia zarządzania projektami na równi z organizacją pracy zespołowej od czego można dostać uczulenia na polskich konferencjach zarządzania projektami podobnie jak od mówienia, że każda firma na polskim rynku IT pracuje w Scrumie. Książka nie daje jednoznacznych odpowiedzi, a mówi wprost, że to nasze doświadczenie i współpraca z innymi ludźmi mogą pozwolić na maksymalizację efektywności w danym kontekście. “Parafrazując” słowa z pewnej prezentacji:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Model jest próbą przeniesienia (1,5 x 10^11) neuronów ludzkiego mózgu na jeden slajd.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Sławomir Sobótka&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;warto wspomnieć, że:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wszystkie modele są błędne, ale niektóre z nich mogą być przydatne.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Jurgen Appello&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Wreszczie ostatnia grupa przeczytanych przeze mnie książek w którą stronę pchnął mnie film &lt;a href=&quot;https://www.youtube.com/watch?v=qxvTM37M8Zc&quot;&gt;How to Stop Worrying &amp;amp; Stressing, Michała Sadowskiego z Brand24&lt;/a&gt; opublikowany na początku listopada. Książki genialne, bo książki o życiu. Zawsze aktualne. &lt;em&gt;Jak przestać się martwić i zacząć żyć&lt;/em&gt; ujawnia aktualną od milionów lat prawdę, że większość rzeczy, którymi się martwimy - nigdy się nie wydarzą. &lt;em&gt;Mały książe&lt;/em&gt; daje szansę na przypomnienie sobie, że najmądrzejszymi ludźmi na świecie są dzieci i to od nich powinniśmy się uczyć. &lt;em&gt;Kto zabrał mój ser&lt;/em&gt; to najpiękniejsze wyjaśnienie agile w kontekście życia. :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Zmieniaj się razem ze swoim Serem i ciesz się tym!&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Spencer Johnson&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;notowanie&quot;&gt;Notowanie&lt;/h1&gt;
+
+&lt;p&gt;Wraz z zakupem Kindla zmieniło się jeszcze jedno. Gdy w przeszłości czytałem dowolne materiały tekstowe to przelatywałem przez nie wzrokiem, aby po ich zakończeniu je odłożyć i pozwolić na powolne ulatywanie ze mnie nabytej wiedzy. W tym roku odkryłem niesamowity feature aplikacji &lt;a href=&quot;https://www.evernote.com/&quot;&gt;Evernote&lt;/a&gt;, który pozwala na stworzenie notatki na podstawie zdjęcia. Funkcja jest na tyle mądra, że automatycznie wycina z kadru ekran Kindle i tworzy notatkę zdjęciową jedynie na podstawie wykadrowanego ekranu urządzenia. Genialne rozwiązanie pozwalające zachować najlepsze fragmenty książek na dłużej.&lt;/p&gt;
+
+&lt;h1 id=&quot;plan-na-styczeń&quot;&gt;Plan na styczeń&lt;/h1&gt;
+
+&lt;p&gt;Pisanie tego artykułu sprawiło mi pewną satysfakcję, ponieważ mogłem odświeżyć to czego nauczyłem się przez ten rok. Zauważyłem, że nawet tak wysokopoziomowe opisanie każdej z książek przywołało pewne wspomnienia o tym co mi dała każda z nich.&lt;/p&gt;
+
+&lt;p&gt;Planem na styczeń będzie stworzenie strony na blogu będącej repozytorium wszystkich książek, które wniosły coś do mojego programistyczno-menadżersko-życiowego życia. Teraz wydaje się to być idealnym sposobem na odkopanie wiedzy zbieranej latami. :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://www.youtube.com/watch?v=qxvTM37M8Zc&quot;&gt;How to Stop Worrying &amp;amp; Stressing, Michał Sadowski&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://www.evernote.com/&quot;&gt;Evernote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="prezent" /><category term="ksiazki" /><category term="kindle" /><summary type="html">Powrót do czytania</summary></entry><entry><title type="html">tyche 001: Początki z Dockerem i Django</title><link href="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django" rel="alternate" type="text/html" title="tyche 001&amp;#58; Początki z Dockerem i Django" /><published>2017-11-25T00:00:00+01:00</published><updated>2017-11-25T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django</id><content type="html" xml:base="https://rmakara.github.io/notes/tyche-001-Poczatki-z-Dockerem-i-Django">&lt;h1 id=&quot;programista-stażysta&quot;&gt;Programista stażysta&lt;/h1&gt;
 
 &lt;p&gt;Na początku pisania tego blogu wraz z udziałem w konkursie &lt;a href=&quot;https://devstyle.pl/daj-sie-poznac/&quot;&gt;Daj się poznać&lt;/a&gt; miałem na celu napisanie aplikacji automatyzującej pracę Project Managera. Aplikacji nie rozwijałem. Ograniczyłem się do napisania dwóch skryptów, które rozwiązały moje największe problemy pracy codziennej. Nie jestem z tego powodu dumny, ale podsumowanie całości było takie, że nie wróciłem do kodowania.&lt;/p&gt;
 
@@ -1019,144 +1108,4 @@ and if you're taking a walk throught the garden of life
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;Prawo Hofstadtera, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Wisdom_of_the_crowd&quot;&gt;Mądrość tłumu, Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><category term="onEstimates" /><category term="estymacje" /><summary type="html">Przewidywanie przeszłości</summary></entry><entry><title type="html">Jira &amp;amp; Toggl. Jak uspójnić formę raportowania?</title><link href="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania" rel="alternate" type="text/html" title="Jira &amp; Toggl. Jak uspójnić formę raportowania?" /><published>2017-03-08T00:00:00+01:00</published><updated>2017-03-08T00:00:00+01:00</updated><id>https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania</id><content type="html" xml:base="https://rmakara.github.io/notes/Jira-Toggl-Jak-uspojnic-forme-raportowania">&lt;h1 id=&quot;projekt-i-początkowe-założenia&quot;&gt;Projekt i początkowe założenia&lt;/h1&gt;
-
-&lt;p&gt;Pomysł na realizowany kawałek oprogramowania wywodzi się z tego, że od ponad roku funkcjonuję jako miękka forma inteligencji (&lt;a href=&quot;https://www.youtube.com/watch?v=0XITfxBCYpc&amp;amp;t=7s&quot;&gt;Jak rozmawiać z obcymi formami inteligencji - poradnik dla craftsmanów, Slawomir Sobotka&lt;/a&gt;), a nie jako programista. W świecie zarządzania projektami (podobnie jak w programistycznym) często zachodzi zjawisko odkrywania koła na nowo lub wykorzystywania nieadekwatnych (lub zbyt wielu) narzędzi do osiągnięcia celów. Narzędzia tworzone w ramach projektu będą miały na celu automatyzację żmudnych czynności wykonywanych w pracy project managera.&lt;/p&gt;
-
-&lt;h1 id=&quot;teoria-o-zarabianiu&quot;&gt;Teoria o zarabianiu&lt;/h1&gt;
-
-&lt;p&gt;W ramach realizacji projektów IT funkcjonują dwie główne formy umów.&lt;/p&gt;
-
-&lt;p&gt;Pierwszą z nich są tzw. umowy fixed price, które można zdefiniować jako “oczekuję od Ciebie dostarczenia systemu rozwiązującego problemy A, B, C w cenie X na dzień Z”. Podczas wykonywania tego typu projektów konkretny wynik powinien zostać dostarczony w ramach ustalonego budżetu. Sprawa oczywiście nie jest aż tak bardzo zafiksowana, ze względu na istnienie pojęcia &lt;a href=&quot;http://4pm.pl/artykuly/trojkat-ograniczen&quot;&gt;macierzy kompromisów projektowych bazującej na zasadach trójkąta ograniczeń&lt;/a&gt;, które definiuje negocjowalne obszary danego porozumienia. Dla uproszczenia przyjmijmy jednak zasadę “stały budżet, wiadomy efekt”.&lt;/p&gt;
-
-&lt;p&gt;Drugą formą umowy dogadania się firmy z klientem jest Time &amp;amp; Materials, która (ponownie w uproszczeniu) zobowiązuje Klienta do ponoszenia kosztu pracy Wykonawcy według ustalonej stawki godzinowej. Przykładowo, wyznaczamy &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology_roadmap&quot;&gt;road mapę&lt;/a&gt; tworzonego produktu z zaznaczeniem kamieni milowych i na zasadach partnerstwa realizujemy prace wspólnie z Klientem. Taka forma współpracy idealnie sprawdza się w momencie kooperacji ze Startupami, które nie są w stanie zdefiniować pomysłu na wydanie miliona złotych na konkretny cel ze względu na wysoką częstotliwość zmian wymagań biznesowych, szlifowanie modelu biznesowego lub szansę &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;pivotowania&lt;/a&gt;. Bardzo pomocna do zrozumienia sensu tego typu rozliczania może być lektura książki &lt;a href=&quot;http://helion.pl/ksiazki/metoda-lean-startup-wykorzystaj-innowacyjne-narzedzia-i-stworz-firme-ktora-zdobedzie-rynek-eric-ries,melean.htm&quot;&gt;Metoda Lean Startup&lt;/a&gt;, jako alternatywa do założenia “w projektach IT nie da się nic przewidzieć”.&lt;/p&gt;
-
-&lt;p&gt;Z punktu widzenia firmy realizującej dane zlecenie nieodłączną częścią pracy jest raportowanie czasu pracy członków zespołu. Ma to na celu:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Mierzenie kosztów realizacji.&lt;/li&gt;
-  &lt;li&gt;Obliczanie rentowności naszych działań.&lt;/li&gt;
-  &lt;li&gt;Dbanie o budżet klienta.&lt;/li&gt;
-  &lt;li&gt;Umożliwienie wczesnego reagowania na ryzyka projektowe.&lt;/li&gt;
-  &lt;li&gt;Generowanie zobowiązania programistów/testerów/grafików/designerów/miękkich przez kontrolę estymowanego czasu realizacji vs czasu realnego.&lt;/li&gt;
-  &lt;li&gt;W przypadku rozliczeń T&amp;amp;M: fakturowania klienta za przepracowane godziny.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;problem-pierwszy&quot;&gt;Problem pierwszy&lt;/h1&gt;
-
-&lt;p&gt;Trafiając do firmy, należy najczęściej dostosować się do przyzwyczajeń oraz narzędzi w niej wykorzystywanych. Problemem wymienionym na początku tego artykułu jest wykorzystywanie więcej, niż jednego narzędzia w celu realizowania celu, który mógłby zostać zrealizowany przez jedno narzędzie. Idealnym przykładem może być wykorzystywanie issue trackera (&lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;Jira&lt;/a&gt;) oraz osobnego narzędzia do raportowania przepracowanego przez specjalistów czasu (&lt;a href=&quot;http://toggl.com/&quot;&gt;Toggl&lt;/a&gt;). W ramach tego artykułu skupimy się na uspójnieniu formy raportowania spalonego czasu z realizowanymi zadaniami zdefiniowanymi w osobnym narzędziu.&lt;/p&gt;
-
-&lt;h1 id=&quot;user-story&quot;&gt;User story&lt;/h1&gt;
-
-&lt;p&gt;Jako project manager chcę uspójnić dane w obydwu systemach, aby w kolejnych krokach możliwe było ich łatwe połączenie. Pierwszym krokiem do realizacji tego celu będzie stworzenie mechanizmu przepisującego wszystkie utworzone w systemie Jira zadania do systemu Toggl. Ma to na celu, umożliwienie wybrania specjalistom konkretnego zadania z listy rozwijalnej podczas uzupełniania raportu. Dzięki temu unikniemy generycznych raportów znanych również z gitowych commitów: “poprawki”, “fixes” i później będziemy mogli zautomatyzować przenoszenie tych raportów do systemu Jira, który udostępnia świetne funkcjonalności do przechowywania danych oraz generowania raportów. Kroki do rozwiązania tego problemu to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pobranie zadań konkretnego projektu z systemu Jira przez API.&lt;/li&gt;
-  &lt;li&gt;Dodanie zadania do systemu Toggl lub aktualizacja istniejącego zadania w przypadku zmiany Nazwy zadania w Jira z zachowaniem identyfikatora.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;pierwsze-linijki-kodu&quot;&gt;Pierwsze linijki kodu&lt;/h1&gt;
-
-&lt;p&gt;Wybierając język programowania na potrzeby konkursu Daj się poznać zdecydowałem się na prostotę Pythona (niestety nie było możliwe wyklikanie tego w &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapierze&lt;/a&gt;, w ramach darmowej licencji :)) , która została udowodniona w primaaprilisowym filmie &lt;a href=&quot;https://www.youtube.com/watch?v=7VJaprmuHcw&quot;&gt;Gynveala Coldwinda: Gynvael’s Python 101: Hello World!&lt;/a&gt;. Początkowo przyjmie to formę prostego skryptu, a następnie przeistoczy się w bardziej sensowny soft bazujący na frameworku Django. Mimo prostoty języka, naukę zacząłem od prostego Hello Daj się poznać.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello Daj się poznać.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Jako project manager uznałem, że najprościej będzie wykorzystać gotowe kawałki kodu do obsłużenia API Jira oraz Toggl. W celu połączenia z Jirą wykorzystam bibliotekę &lt;a href=&quot;https://jira.readthedocs.io/en/master/&quot;&gt;jira-python&lt;/a&gt;, a do obsługi API Toggl użyję &lt;a href=&quot;https://github.com/matthewdowney/TogglPy&quot;&gt;TogglPy autorstwa matthewdowney&lt;/a&gt;. Pierwsza biblioteka została zainstalowana przy użyciu &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;menadżera pakietów Pip&lt;/a&gt;. Druga przez fork, czyli skopiowanie zawartości pliku &lt;a href=&quot;https://github.com/matthewdowney/TogglPy/blob/master/TogglPy.py&quot;&gt;TogglPy.py&lt;/a&gt; do swojego projektu. Czas na wykorzystanie systemu zarządzania zależnościami jeszcze nadejdzie. :)&lt;/p&gt;
-
-&lt;p&gt;Realizacja, w formie dość proceduralnego kodu:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_issues_from_jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JIRA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'domain'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'username'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project='{0}' ORDER BY created DESC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_key'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_issues_to_toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TogglPy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setAPIKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'token'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/projects/{0}/tasks'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-        &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'pid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'wid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'workspace_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;        
-                &lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Updating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;putRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks/{0}'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Creating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of created Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of updated Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Ustawienia konfiguracyjne są ładowane z pliku &lt;code class=&quot;highlighter-rouge&quot;&gt;config.py&lt;/code&gt;. Została dodana możliwość uruchamiania skryptu z argumentem &lt;code class=&quot;highlighter-rouge&quot;&gt;--maxResults&lt;/code&gt; w celu uniknięcia pobierania kompletu zadań przy każdym wykonaniu kodu.&lt;/p&gt;
-
-&lt;p&gt;Ciekawostka, na którą się natknąłem to problem z przeprocesowaniem stringu, w którym występują pewne znaki ascii, pojawiający się w momencie wykorzystania interpolacji, który nie występował podczas łączenia stringów plusikiem. Kłopot został ominięty dzięki metodzie &lt;code class=&quot;highlighter-rouge&quot;&gt;decode('ascii', 'ignore')&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;wnioski-i-cele&quot;&gt;Wnioski i cele&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;W bieżącym tygodniu zapoznam się ze &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;style guidem Pythona&lt;/a&gt; w celu dostosowania się do standardów.&lt;/li&gt;
-  &lt;li&gt;Wymienię &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime&lt;/a&gt; na rzecz &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Szybciej, niż planowałem zacznę wykorzystywać Django.&lt;/li&gt;
-  &lt;li&gt;Poczytam o wykorzystywaniu menadżera zależności w Pythonie.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Czasem odłożenie pracy na później nie przynosi szkody. Lecz w wypadku baobabu jest to zawsze katastrofa.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;cite&gt;Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://www.youtube.com/watch?v=0XITfxBCYpc&amp;amp;t=7s&quot;&gt;Jak rozmawiać z obcymi formami inteligencji - poradnik dla craftsmanów, Slawomir Sobotka&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;http://4pm.pl/artykuly/trojkat-ograniczen&quot;&gt;Macierz kompromisów projektowych&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology_roadmap&quot;&gt;Roadmap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;Pivot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[5] &lt;a href=&quot;http://helion.pl/ksiazki/metoda-lean-startup-wykorzystaj-innowacyjne-narzedzia-i-stworz-firme-ktora-zdobedzie-rynek-eric-ries,melean.htm&quot;&gt;Eric Ries, Metoda Lean Startup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[6] &lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;https://www.atlassian.com/software/jira&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[7] &lt;a href=&quot;http://toggl.com/&quot;&gt;http://toggl.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[8] &lt;a href=&quot;https://zapier.com/&quot;&gt;https://zapier.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[9] &lt;a href=&quot;https://www.youtube.com/watch?v=7VJaprmuHcw&quot;&gt;Gynveal Coldwind: Gynvael’s Python 101: Hello World!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[10] &lt;a href=&quot;https://jira.readthedocs.io/en/master/&quot;&gt;jira-python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[11] &lt;a href=&quot;https://github.com/matthewdowney/TogglPy&quot;&gt;TogglPy, matthewdowney&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Pip_(package_manager)&quot;&gt;Pip, Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[13] &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[14] &lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;https://www.sublimetext.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[15] &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;https://www.jetbrains.com/pycharm/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[16] Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dsp17_kodzik" /><category term="dajsiepoznac2017" /><summary type="html">Projekt i początkowe założenia</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><category term="onEstimates" /><category term="estymacje" /><summary type="html">Przewidywanie przeszłości</summary></entry></feed>
