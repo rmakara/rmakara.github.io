@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/cache/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-01-29T23:29:36+01:00</updated>
+        <updated>2018-01-29T23:31:18+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged CACHE - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -68,7 +68,7 @@
 
 &lt;h1 id=&quot;health-check&quot;&gt;Health check&lt;/h1&gt;
 
-&lt;p&gt;W celu określenia wydajności działania backendu oraz podjęcia decyzji o wykorzystania grace time Varnish pozwala na wykonywanie health checków. Sposób ich działania jest samoopisujący się przez poniższy kod pochodzący z dokumentacji Varnisha.&lt;/p&gt;
+&lt;p&gt;W celu określenia wydajności działania backendu oraz podjęcia decyzji o wykorzystaniu grace time Varnish pozwala na wykonywanie health checków. Sposób ich działania jest samoopisujący się przez poniższy kod pochodzący z dokumentacji Varnisha.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;backend server1 {
   .host = &quot;server1.example.com&quot;;
