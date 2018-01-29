@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/varnish/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-01-30T00:02:58+01:00</updated>
+        <updated>2018-01-30T00:04:37+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged VARNISH - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -95,7 +95,7 @@
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;waiting&lt;/code&gt; - Akcja określająca, że żądanie użytkownika czeka na aktualizację wynikającą z innego żądania &lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Kompletna lista stanów i wyjaśnienie ich zadania warto przestudiować w rozdziałach &lt;a href=&quot;https://book.varnish-software.com/4.0/chapters/VCL_Basics.html&quot;&gt;VCL Basics&lt;/a&gt; oraz &lt;a href=&quot;https://varnish-cache.org/docs/trunk/users-guide/vcl-built-in-subs.html.&quot;&gt;Build in subroutines&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kompletną lista stanów i wyjaśnienie ich zadania warto przestudiować w rozdziałach &lt;a href=&quot;https://book.varnish-software.com/4.0/chapters/VCL_Basics.html&quot;&gt;VCL Basics&lt;/a&gt; oraz &lt;a href=&quot;https://varnish-cache.org/docs/trunk/users-guide/vcl-built-in-subs.html.&quot;&gt;Build in subroutines&lt;/a&gt; zawartych w oficjalnej dokumentacji.&lt;/p&gt;
 
 &lt;h1 id=&quot;inwalidacja-cache&quot;&gt;Inwalidacja cache&lt;/h1&gt;
 
