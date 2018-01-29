@@ -2,14 +2,14 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/gynveal/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2017-12-23T16:54:08+01:00</updated>
+        <updated>2018-01-29T23:27:04+01:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged GYNVEAL - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                                                              
+                                                                        
         <entry>
             <title>Gynveal&amp;#39;s Mission 003&amp;#58; Optymalizacja</title>
             <link href="https://rmakara.github.io/notes/Gynveals-Mission-003-Optymalizacja/" />

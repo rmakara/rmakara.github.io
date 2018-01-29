@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+        <link href="https://rmakara.github.io/tag/cache/feed.xml" rel="self" type="application/atom+xml" />
+        <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
+        <updated>2018-01-29T23:27:04+01:00</updated>
+        <id>https://rmakara.github.io/</id>
+        <title>Feed tagged CACHE - </title>
+        <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
+        <author>
+            <name>Rafał Makara - Blog</name>
+        </author>
+            
+        <entry>
+            <title>Varnish Cache dla miękkich form inteligencji</title>
+            <link href="https://rmakara.github.io/notes/Varnish-dla-miekkich-form-inteligencji/" />
+            <published>2018-01-15T00:00:00+01:00</published>
+            <updated>2018-01-15T00:00:00+01:00</updated>
+            <id>https://rmakara.github.io/notes/Varnish-dla-miekkich-form-inteligencji/</id>
+            <content type="html" xml:base="https://rmakara.github.io/notes/Varnish-dla-miekkich-form-inteligencji/">&lt;h1 id=&quot;wdrożenie-z-miękkiej-perspektywy&quot;&gt;Wdrożenie z miękkiej perspektywy&lt;/h1&gt;
+
+&lt;p&gt;Nigdy nie miałem okazji wdrażać Varnisha (ani innego web acceleratora czy reverse proxy) siedząc bezpośrednio przy kodzie. Jednak w ostatnim czasie przeszedłem przez cały proces implementacji rozwiązania z punktu widzenia project managera. Słownictwo wykorzystywane przez programistów podczas prac nad Varnishem zazwyczaj jest bardzo wysokopoziomowe, ponieważ zakłada, że menadżer i tak nie zrozumie szczegółów rozwiązania lub wręcz przeciwnie - jest bardzo techniczne i wtedy rzeczywiście PM nic z tego nie rozumie.&lt;/p&gt;
+
+&lt;p&gt;Poniższy artykuł ma na celu wyjaśnienie podstawowych pojęć związanych z Varnishem, aby osoby niebędące specialistami w tym zakresie były w stanie zrozumieć, o czym mówią programiści.&lt;/p&gt;
+
+&lt;h1 id=&quot;web-accelerator-czy-reverse-proxy&quot;&gt;Web accelerator czy Reverse proxy?&lt;/h1&gt;
+
+&lt;p&gt;Varnish jest zazwyczaj nazywany web acceleratorem lub reverse proxy. Skąd pochodzą te nazwy? Akceleracja sugeruje, że głównym zadaniem narzędzia jest przyśpieszanie działania strony. W najprostszym rozumieniu działania Varnisha można tak go określić. Varnish tworzy warstwę stojącą między użytkownikiem i serwerem aplikacyjnym (dla uproszczenia załóżmy, że mamy do czynienia z aplikacją monolityczną uruchomioną na jednym serwerze aplikacyjnym) i jego głównym zadaniem jest redukowanie obciążenia aplikacji przez cacheowanie powtarzalnych żądań, które następnie będzie można serwować użytkownikom bez odwoływania się do serwera aplikacyjnego.&lt;/p&gt;
+
+&lt;p&gt;Poza mechanizmem cacheowania dostarcza on szersze rozwiązania jak np. load balancing. Na potrzeby tego artykułu skupimy się jednak głównie na cache.&lt;/p&gt;
+
+&lt;p&gt;Aby zrozumieć pojęcie reverse proxy wyjaśnijmy w uproszczeniu, czym jest serwer proxy. Wyobraźmy sobie, że jesteśmy użytkownikiem Internetu, który chce włamać się na stronę banku internetowego. W celu ukrycia swojej tożsamości korzystamy z serwera proxy, który będzie pośredniczył w ruchu między nami i bankiem. Dzięki wykorzystaniu takiego pośrednika można powiedzieć, że “chowamy się” za nim i z punktu widzenia ofiary (banku) to serwer proxy włamuje się do banku, a nie my. Wysyłane przez nas żądanie trafia do serwera proxy, następnie do banku, odpowiedź zwracana jest do serwera proxy i na końcu do nas.&lt;/p&gt;
+
+&lt;p&gt;Reverse proxy to podobny mechanizm, ale stojący po drugiej stronie płotu. W tym wypadku to serwer (a nie użytkownik) “chowa się” za serwerem reverse proxy, który symuluje jego zachowanie. Z perspektywy użytkownika wysyłamy żądanie do naszej aplikacji, które tak naprawdę trafia do serwera reverse proxy. Ten serwer decyduje czy odpowie nam samodzielnie, czy przekaże nasze zapytanie do prawdziwego serwera aplikacyjnego.&lt;/p&gt;
+
+&lt;h1 id=&quot;podstawowa-zasada-działania-cache-w-varnishu&quot;&gt;Podstawowa zasada działania cache w Varnishu&lt;/h1&gt;
+
+&lt;p&gt;Proces wygląda następująco:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Użytkownik wchodzi na stronę internetową.&lt;/li&gt;
+  &lt;li&gt;Żądanie HTTP trafia do Varnisha:
+    &lt;ul&gt;
+      &lt;li&gt;Jeżeli Varnish posiada aktualny cache elementu, o który jest proszony to odsyła response użytkownikowi.&lt;/li&gt;
+      &lt;li&gt;Jeżeli Varnish nie posiada aktualnego cache elementu to przekazuje request do serwera aplikacyjnego i w dalszej kolejności zwraca odpowiedź użytkownikowi na podstawie danych otrzymanych od serwera aplikacyjnego.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;vcl-varnish-configuration-language&quot;&gt;VCL, Varnish Configuration Language&lt;/h1&gt;
+
+&lt;p&gt;Językiem, w którym tworzymy konfigurację Varnisha jest VCL. W rozmowach z programistami określenie VCL często jest skrótem myślowym do określenia pliku konfiguracyjnego Varnisha. VCL pozwala nam na dostosowanie narzędzia do naszych potrzeb.&lt;/p&gt;
+
+&lt;h1 id=&quot;czas-ważności-ttl-i-typ-cache&quot;&gt;Czas ważności (TTL) i typ cache&lt;/h1&gt;
+
+&lt;p&gt;Podstawowym podziałem cacheowanych w Varnishu elementów jest rozdzielenie contentu statycznego od dynamicznego. Przykładem contentu statycznego może być logo firmy, które zazwyczaj jest niezmienne. Przykładem contentu dynamicznego może być wielkie zdjęcie obrazujące stan magazynowy towaru w sklepie internetowym, które jest aktualizowane co 30 minut.&lt;/p&gt;
+
+&lt;p&gt;Dla dwóch powyższych typów zawartości strony możemy zdefiniować czasy TTL (time-to-live), które określą czas ważności cache liczony od momentu jego utworzenia. Przykładowo, określamy TTL na 60 minut. Jeżeli wejdziemy na stronę internetową to bazując na naszej wizycie jej cache zostanie stworzony w Varnishu i wszyscy kolejni użytkownicy wchodzący na tą samą stronę w ciągu najbliższych 60 minut otrzymają zawartość strony bardzo szybko, ponieważ odpowiedź zostanie przygotowana w warstwie reverse proxy, bez wykorzystania serwera aplikacyjnego. Umożliwia nam to bardzo szybkie pokazanie strony internetowej użytkownikowi, ale generuje ryzyko, że w ciągu tych 60 minut strona w serwerze aplikacyjnym zostanie zaktualizowana - wtedy użytkownicy będą otrzymywać nieaktualną wersję strony, aż do zakończenia czasu TTL.&lt;/p&gt;
+
+&lt;p&gt;Parametrem mówiącym o wieku danego elementu cache jest Age, który przedstawia nam wartość w postaci ilości sekund - od chwili utworzenia cache, do teraz. Gdy Age zrówna się z TTL - cache uznawany jest za nieaktualny.&lt;/p&gt;
+
+&lt;h1 id=&quot;grace-time&quot;&gt;Grace Time&lt;/h1&gt;
+
+&lt;p&gt;Czas “ważności” cache można w awaryjnych sytuacjach wydłużyć. Varnish od wersji 4 pozwala na zdefiniowanie tak zwanego czasu Grace Time. Określa on czas ponad TTL w ciągu którego możemy pogodzić się z odpowiedzią użytkownikowi nieaktualną zcacheowaną wersją strony, gdy napotkamy problem z uzyskaniem odpowiedzi od serwera aplikacyjnego.&lt;/p&gt;
+
+&lt;p&gt;Przykładem zastosowania grace time może być sytuacja, w której czas ważności cache konkretnej strony minął, użytkownik przesyła request o daną stronę, z poziomu Varnisha okazuje się że serwer aplikacyjny jest niedostępny lub bardzo obciążony, Varnish sprawdza grace time danego elementu i jeżeli konfiguracja pozwala nam na pogodzenie się z faktem nieaktualnej odpowiedzi to Varnish odpowiada użytkownikowi.&lt;/p&gt;
+
+&lt;p&gt;Równolegle do przeprowadzania tej operacji, Varnish jest w stanie zainicjować proces odświeżający pamięć podręczną danego elementu, aby została ona zaktualizowana w osobnym wątku na potrzeby przyszłych użytkowników.&lt;/p&gt;
+
+&lt;h1 id=&quot;health-check&quot;&gt;Health check&lt;/h1&gt;
+
+&lt;p&gt;W celu określenia wydajności działania backendu oraz podjęcia decyzji o wykorzystania grace time Varnish pozwala na wykonywanie health checków. Sposób ich działania jest samoopisujący się przez poniższy kod pochodzący z dokumentacji Varnisha.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;backend server1 {
+  .host = &quot;server1.example.com&quot;;
+  .probe = {
+         .url = &quot;/&quot;;
+         .interval = 5s;
+         .timeout = 1 s;
+         .window = 5;
+         .threshold = 3;
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;automat-skończony-finite-state-machine&quot;&gt;Automat skończony (finite state machine)&lt;/h1&gt;
+
+&lt;p&gt;W celu rozwiązania wcześniej przedstawionego problemu możliwej nieaktualności pamięci podręcznej musimy zrozumieć stany, jakie występują w Varnishu, który bywa nazywany skończoną maszyną stanów / automatem skończonym / finite state machine.&lt;/p&gt;
+
+&lt;p&gt;Stany można rozumieć jako sposób obsłużenia danego żądania HTTP, które trafia do Varnisha. Podstawowe z nich to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;miss&lt;/code&gt; - Żądanie od użytkownika przechodząc przez Varnish szukało i nie znalazło zcacheowanej wersji elementu, którego potrzebowało. W takiej sytuacji konieczne jest odwołanie się do z aplikacji.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pass&lt;/code&gt; - Żądanie nie szukało wersji zcacheowanej, a jedynie “przeszło” przez Varnisha prosto do aplikacji. W momencie zwracania odpowiedzi również nie jest ono cacheowane.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hit&lt;/code&gt; - Żądanie znalazło aktualny cache w Varnishu. Pobiera element z cache i zwraca odpowiedź użytkownikowi. Nie obciąża aplikacji.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; - Typ akcji, który mówi o tym, że Varnish to nie tylko warstwa cache, a także mądre oprogramowanie stanowiące firewall stojący przed aplikacją. &lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; to działanie, przy którym w cache nie znajduje się zcacheowany obiekt i inicjuje ono pobranie go z aplikacji. Oznacza jednak dane żądanie jako “w trakcie pobierania” i dzięki temu inni użytkownicy aplikacji, którzy zapytają o to samo nie generują kolejnych żądań odwołania do backendu, a czekają w warstwie reverse proxy, aż to jedno dojdzie z aplikacji do Varnisha. Dzięki temu, w przypadku 1000 użytkowników pytających o to samo przekazujemy 1 żądanie do aplikacji, 999 żądań czeka w Varnishu. Gdy odpowiedź wróci do Varnisha z backendu - otrzyma ją 1000 użytkowników.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;waiting&lt;/code&gt; - Akcja określająca, że żądanie użytkownika czeka na aktualizację wynikającą z innego żądania &lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kompletna lista stanów i wyjaśnienie ich zadania warto przestudiować w rozdziałach &lt;a href=&quot;https://book.varnish-software.com/4.0/chapters/VCL_Basics.html&quot;&gt;VCL Basics&lt;/a&gt; oraz &lt;a href=&quot;https://varnish-cache.org/docs/trunk/users-guide/vcl-built-in-subs.html.&quot;&gt;Build in subroutines&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;inwalidacja-cache&quot;&gt;Inwalidacja cache&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Phil Karlton (edited by: Leon Bambrick)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Większość systemów nie opiera się jedynie na samym odczytywaniu danych, a pozwala dodatkowo na ich modyfikację. Programista implementujący rozwiązanie jest w stanie wyznaczyć operacje, które powinny natychmiastowo wymuszać wyczyszczenie cache. Przykładem może być aktualizacja nazwy produktu w sklepie internetowym. Załóżmy, że nasza strona produktowa jest na tyle niezmienna, że cacheujemy ją w pełni. Pewnego dnia, administrator sklepu aktualizuje nazwę produktu. W związku z tym, użytkownicy wchodzący na omawianą stronę powinni zobaczyć jego nową nazwę. W tym celu programista po zapisaniu produktu w panelu administracyjnym może wyczyścić dane elementy cache omawianej strony produktowej i tym samym wymusić załadowanie nowej zawartości strony wprost z serwera aplikacyjnego.&lt;/p&gt;
+
+&lt;p&gt;Do przeprowadzania powyższych operacji korzystamy z dwóch typów żądań. Pierwsze z nich to &lt;code class=&quot;highlighter-rouge&quot;&gt;purge&lt;/code&gt;, który pozwala nam na wyczyszczenie pamięci podręcznej konkretnego adresu URL / elementu. Wywoływany jest on podobnie do typowych requestów HTTP GET. Drugim typem żądania jest &lt;code class=&quot;highlighter-rouge&quot;&gt;ban&lt;/code&gt;, który na podstawie wskazanego wyrażenia regularnego może nam pomóc z wyczyszczeniem cache wielu stron / elementów. Ban może również zostać wywołany podobnie do requestu HTTP, ale domyślnym momentem jego uruchamiania jest moment trafienia w cache (&lt;code class=&quot;highlighter-rouge&quot;&gt;hit&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h1 id=&quot;edge-side-includes&quot;&gt;Edge Side Includes&lt;/h1&gt;
+
+&lt;p&gt;W celu zoptymalizowania procesu inwalidacji cache możemy wykorzystać mechanizm ESI. Pozwala on na wyznaczenie w obrębie strony konkretnych elementów, które nie powinny być cacheowane. Przykładowo, decydujemy się trzymać w cache całą stronę karty produktu, ale zauważamy na niej dwa elementy, które często się zmieniają - cena oraz stan magazynowy. Te dwa elementy możemy otoczyć blokami ESI. Doprowadzi to do sytuacji, w której będziemy mieli zachowaną w pamięci podręcznej całą stronę, a o te dwa wskazane elementy każdorazowo będziemy odpytywać serwer aplikacyjny - dzięki temu one zawsze będa aktualne, a pozostała zawartość strony będzie ładować się bardzo szybko. W efekcie nie musimy inwalidować cache tej strony.&lt;/p&gt;
+
+&lt;h1 id=&quot;monitorowanie-efektów&quot;&gt;Monitorowanie efektów&lt;/h1&gt;
+
+&lt;p&gt;Po wdrożeniu Varnisha z pewnością chcielibyśmy zmierzyć efekty płynące z faktu jego zaimplementowania. Należy pamiętać, że popularne oprogramowania monitorujące lub profilujące (jak np. New Relic) są spięte zazwyczaj z serwerem aplikacyjnym. Przykładowo, w przypadku pracy z językiem PHP nasze oprogramowanie może analizować pracę PHP-FPM. Varnish znajduje na warstwie bliższej użytkownikowi, w związku z czym nie zaobserwujemy efektów jego pracy w New Relicu, a dostrzeżemy jedynie zmniejszony ruch na serwerze aplikacyjnym.&lt;/p&gt;
+
+&lt;p&gt;Efekty pracy Varnisha możemy zaobserwować np. przez cykliczne uruchamianie testów symulujących klikanie użytkownika  internetowej według wskazanych scenariuszy. Przez wyciągnięcie czasów średnich ładowania poszczególnych stron w okresie przed i po wdrożeniu Varnisha powinniśmy móc zauważyć różnicę.&lt;/p&gt;
+
+&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
+
+&lt;p&gt;Reverse proxy nie takie straszne jak je malują. Dzięki tego typu narzędziom możemy przyśpieszyć działanie strony internetowej i poprawić doświadczenia użytkowników. To wszystko przy dość niewielkim koszcie wdrożenia. W skrajnych przypadkach możemy wykorzystać tego typu rozwiązanie do zamaskowania niewydolności backendu spowodowanej naszymi własnymi błedami… wróć… błędami tych legendarnych, innych programistów (sic!).&lt;/p&gt;
+
+&lt;p&gt;Oryginalna dokumentacja Varnisha została napisana w bardzo przyjazny sposób i w pełni zachęcam do jej lektury.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://varnish-cache.org/docs/trunk/index.html&quot;&gt;Varnish Documentation, https:/varnish-cache.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://book.varnish-software.com/4.0/chapters/VCL_Basics.html&quot;&gt;VCL Basics, https://book.varnish-software.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://varnish-cache.org/docs/trunk/users-guide/vcl-built-in-subs.html&quot;&gt;Built in subroutines, https:/varnish-cache.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;http://varnish-cache.org/trac/wiki/VCLExampleGrace&quot;&gt;Grace, https:/varnish-cache.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://varnish-cache.org/docs/3.0/tutorial/purging.html&quot;&gt;Purging &amp;amp; banning, https:/varnish-cache.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+                                                                                                                  
+    </feed>
