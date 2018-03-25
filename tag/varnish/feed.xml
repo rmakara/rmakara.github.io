@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/varnish/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-01-30T00:28:29+01:00</updated>
+        <updated>2018-03-25T22:28:38+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged VARNISH - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -24,7 +24,7 @@
 
 &lt;h1 id=&quot;web-accelerator-czy-reverse-proxy&quot;&gt;Web accelerator czy Reverse proxy?&lt;/h1&gt;
 
-&lt;p&gt;Varnish jest zazwyczaj nazywany web acceleratorem lub reverse proxy. Skąd pochodzą te nazwy? Akceleracja sugeruje, że głównym zadaniem narzędzia jest przyśpieszanie działania strony. W najprostszym rozumieniu działania Varnisha można tak go określić. Varnish tworzy warstwę stojącą między użytkownikiem i serwerem aplikacyjnym (dla uproszczenia załóżmy, że mamy do czynienia z aplikacją monolityczną uruchomioną na jednym serwerze aplikacyjnym) i jego głównym zadaniem jest redukowanie obciążenia aplikacji przez cacheowanie powtarzalnych żądań, które następnie będzie można serwować użytkownikom bez odwoływania się do serwera aplikacyjnego.&lt;/p&gt;
+&lt;p&gt;Varnish jest zazwyczaj nazywany web acceleratorem lub reverse proxy. Skąd pochodzą te nazwy? Akceleracja sugeruje, że głównym zadaniem narzędzia jest przyśpieszanie działania strony. W najprostszym rozumieniu działania Varnisha można tak go określić. Varnish tworzy warstwę stojącą między użytkownikiem i serwerem aplikacyjnym (dla uproszczenia załóżmy, że mamy do czynienia z aplikacją monolityczną uruchomioną na jednym serwerze aplikacyjnym), i jego głównym zadaniem jest redukowanie obciążenia aplikacji przez cacheowanie powtarzalnych żądań, które następnie będzie można serwować użytkownikom bez odwoływania się do serwera aplikacyjnego.&lt;/p&gt;
 
 &lt;p&gt;Poza mechanizmem cacheowania dostarcza on szersze rozwiązania jak np. load balancing. Na potrzeby tego artykułu skupimy się jednak głównie na cache.&lt;/p&gt;
 

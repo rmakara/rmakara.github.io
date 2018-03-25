@@ -52,6 +52,13 @@
 	</a>
 	<span class="logo-prompt">Wróć na Stronę Główną</span>
 </aside>	
+<p class="menu">
+	<a href="/">Strona Główna</a> |
+	<a href="/about">O Autorze</a> |
+	<a href="/books">Książki</a> |
+	<a href="/newsletter">Newsletter</a> |
+	<a href="/feed.xml">RSS</a>
+</p>
 
 
 		<main>
@@ -82,7 +89,7 @@
 
 <h1 id="web-accelerator-czy-reverse-proxy">Web accelerator czy Reverse proxy?</h1>
 
-<p>Varnish jest zazwyczaj nazywany web acceleratorem lub reverse proxy. Skąd pochodzą te nazwy? Akceleracja sugeruje, że głównym zadaniem narzędzia jest przyśpieszanie działania strony. W najprostszym rozumieniu działania Varnisha można tak go określić. Varnish tworzy warstwę stojącą między użytkownikiem i serwerem aplikacyjnym (dla uproszczenia załóżmy, że mamy do czynienia z aplikacją monolityczną uruchomioną na jednym serwerze aplikacyjnym) i jego głównym zadaniem jest redukowanie obciążenia aplikacji przez cacheowanie powtarzalnych żądań, które następnie będzie można serwować użytkownikom bez odwoływania się do serwera aplikacyjnego.</p>
+<p>Varnish jest zazwyczaj nazywany web acceleratorem lub reverse proxy. Skąd pochodzą te nazwy? Akceleracja sugeruje, że głównym zadaniem narzędzia jest przyśpieszanie działania strony. W najprostszym rozumieniu działania Varnisha można tak go określić. Varnish tworzy warstwę stojącą między użytkownikiem i serwerem aplikacyjnym (dla uproszczenia załóżmy, że mamy do czynienia z aplikacją monolityczną uruchomioną na jednym serwerze aplikacyjnym), i jego głównym zadaniem jest redukowanie obciążenia aplikacji przez cacheowanie powtarzalnych żądań, które następnie będzie można serwować użytkownikom bez odwoływania się do serwera aplikacyjnego.</p>
 
 <p>Poza mechanizmem cacheowania dostarcza on szersze rozwiązania jak np. load balancing. Na potrzeby tego artykułu skupimy się jednak głównie na cache.</p>
 
