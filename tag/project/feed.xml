@@ -2,14 +2,14 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/project/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-04-11T10:51:45+02:00</updated>
+        <updated>2018-05-13T18:50:03+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged PROJECT - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
         <author>
             <name>Rafał Makara - Blog</name>
         </author>
-                                                        
+                                                                    
         <entry>
             <title>Developer vs Project Manager 002&amp;#58; Zarobki</title>
             <link href="https://rmakara.github.io/notes/Dev-vs-PM-Zarobki/" />

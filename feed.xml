@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2018-04-11T10:51:45+02:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Event Storming: Warsztaty Agile Wrocław</title><link href="https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw" rel="alternate" type="text/html" title="Event Storming&amp;#58; Warsztaty Agile Wrocław" /><published>2018-04-10T00:00:00+02:00</published><updated>2018-04-10T00:00:00+02:00</updated><id>https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw</id><content type="html" xml:base="https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw">&lt;h1 id=&quot;powrót-do-warsztatów&quot;&gt;Powrót do warsztatów&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://rmakara.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rmakara.github.io/" rel="alternate" type="text/html" /><updated>2018-05-13T18:50:03+02:00</updated><id>https://rmakara.github.io/</id><title type="html">Rafał Makara - Blog</title><subtitle>Blog o krawędzi między programowaniem i zarządzaniem projektami</subtitle><author><name>Rafał Makara</name></author><entry><title type="html">Journaling, narzędzie rozwoju i budowania zaufania</title><link href="https://rmakara.github.io/notes/Journaling-jako-narzedzie-rozwoju-i-budowania-zaufania" rel="alternate" type="text/html" title="Journaling, narzędzie rozwoju i budowania zaufania" /><published>2018-05-12T00:00:00+02:00</published><updated>2018-05-12T00:00:00+02:00</updated><id>https://rmakara.github.io/notes/Journaling-jako-narzedzie-rozwoju-i-budowania-zaufania</id><content type="html" xml:base="https://rmakara.github.io/notes/Journaling-jako-narzedzie-rozwoju-i-budowania-zaufania">&lt;h1 id=&quot;powtarzalne-problemy&quot;&gt;Powtarzalne problemy&lt;/h1&gt;
+
+&lt;p&gt;Każda z firm, które spotykałem na ścieżce mojej kariery nauczyła mnie niesamowicie dużo. Z drugiej jednak strony, każda z nich mierzyła się z różnymi problemami. Jedne z nich były unikatowe dla konkretnej firmy, a drugie powtarzalne i występujące w każdej z nich. Należącymi do tej drugiej grupy było między innymi dzielenie się wiedzą oraz budowanie zaufania w stosunku do pracy zdalnej. Moja perspektywa odnosi się do firm, które pracują w większościu w biurze oraz dopuszczają pracę osób w pełni zdalnych.&lt;/p&gt;
+
+&lt;h1 id=&quot;dzielenie-się-wiedzą&quot;&gt;Dzielenie się wiedzą&lt;/h1&gt;
+
+&lt;p&gt;Gdy pracowałem jak programista zawsze współpracowałem z innymi programistami. Dawało mi to możliwość otrzymywania natychmiastowego feedbacku odnośnie jakości mojej pracy przez rozmowy z kolegami i koleżankami o tej samej specjalizacji. Narzędzia takie jak code review, continious integration pozwalały uczyć się każdego dnia. Współna edukacja najczęściej zamykała się jednak wewnątrz zespołu, a wymiana wiedzy w skali firmy była zdecydowanie mniej efektywna. Z przekonaniem jestem w stanie stwierdzić, że osoby siedzące po dwóch stronach tego samego budynku, często odkrywały koło na nowo.&lt;/p&gt;
+
+&lt;p&gt;Gdy zacząłem pracować jako project manager sytuacja się odmieniła. Dlaczego? Zazwyczaj w projekcie jest tylko jeden project manager, który współpracuje ze specjalistami, ale nie z drugim managerem wewnątrz tego samego projektu (opisuję tu sytuację PM + Specjaliści, a nie (PM +) PO + SM + Specjaliści). Tworzy to sytuację w której jako managerowie jesteśmy w stanie się uczyć od specjalistów. Czy jednak nie ma tutaj dziury w całym? Skoro programiści tworzący jeden projekt są w stanie popełniać te same błędy i implementować te same rozwiązania to z kim powinien dzielić swoją wiedzę manager? Konieczne są techniki pozwalające na wymianę wiedzy z managerami prowadzącymi inne projekty. Niestety, bardzo często takich technik brakuje i managerowie nie mają codziennej okazji do uczenia się od innych osób wykonujących te same obowiązki, przez co ich krzywa uczenia jest wolniejsza, niż mogłaby być.&lt;/p&gt;
+
+&lt;h1 id=&quot;zaufanie-do-pracowników-zdalnych&quot;&gt;Zaufanie do pracowników zdalnych&lt;/h1&gt;
+
+&lt;p&gt;W firmach, które nie pracują w modelu #NoOffice, a skupiają się głównie na pracy z jednego budynku, ale dodatkowo umożliwiają pracę osób spoza biura czasami tworzy się podział na “normalnych” i “zdalnych”. Jest to jeden z antywzorców, który nie jest najprostszy do wyeliminowania, ale konieczny do przemyślenia, ponieważ zarówno pracownicy lokalni, jak i zdalni są bardzo wartościowi.&lt;/p&gt;
+
+&lt;p&gt;Osobę pracującą w biurze ocenia się po wspólnych rozmowach, aktywności na spotkaniach, podnoszeniu ręki, gadaniu o niczym przy kawie. Taka osoba jest zauważalna. Specjalista, który nie pracuje z biura w przypadku niewytworzonej kultury organizacyjnej w której “zdalnych, nie nazywa się zdalnymi” w większości przypadków oceniany jest jedynie po efektach swojej pracy. Co robi osoba, której nie widać?&lt;/p&gt;
+
+&lt;h1 id=&quot;remote-team-guide&quot;&gt;Remote Team Guide&lt;/h1&gt;
+
+&lt;p&gt;Dwa miesiące temu wyjechałem do rodzinnego Olsztyna, aby przez tydzień pracować zdalnie. Przeczytałem poradnik współpracy zdalnej stworzony przez firmę pracującą w modelu #NoOffice, czyli &lt;a href=&quot;https://x-team.com&quot;&gt;X-Team&lt;/a&gt; - &lt;a href=&quot;https://x-team.com/remote-team-guide/&quot;&gt;The Definitive Guide To Remote Teams&lt;/a&gt;. Genialny zbiór wiedzy mówiący o tym dlaczego warto włączać kamerkę podczas telekonferencji oraz dlaczego czasami warto spotkać się na żywo. W pełni polecam.&lt;/p&gt;
+
+&lt;p&gt;W powyżym poradniku znalazła się jedna technika, która podczas obecności w Olsztynie wzbudziła moje zainteresowanie i dzień później postanowiłem spróbować, ponieważ była możliwa do natychmiastowego wdrożenia, ponieważ zależała tylko ode mnie. Był to journaling (kronikowanie).&lt;/p&gt;
+
+&lt;h1 id=&quot;journaling&quot;&gt;Journaling&lt;/h1&gt;
+
+&lt;p&gt;W przypadku firmy X-Team została przytoczona forma journalingu polegająca na stworzeniu własnego kanału na Slacku (np. &lt;em&gt;rmakara-journal&lt;/em&gt;) i otwartemu komunikowaniu samemu sobie oraz wszystkim osobom chętnym to przeczytać: co się zrobiło dziś, co planuje się zrobić jutro, czego się dzisiaj nauczyło. Taka struktura może przypominać najbardziej oklepaną formę znaną z daily, ale w praktyce okazała się czymś innym, co omówię w kolejnych paragrafach.&lt;/p&gt;
+
+&lt;p&gt;Swoją próbę postanowiłem zrealizować na firmowym Confluence. Stworzyłem blog na którym umieszczałem każdego dnia post składający się z:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nagłówka.&lt;/li&gt;
+  &lt;li&gt;Obrazka.&lt;/li&gt;
+  &lt;li&gt;Bloku &lt;em&gt;Today&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Bloku &lt;em&gt;Tomorrow&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Bloku &lt;em&gt;Today I learnt&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Bloku &lt;em&gt;Summary&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;nagłówek&quot;&gt;Nagłówek&lt;/h1&gt;
+
+&lt;p&gt;Zdecydowałem się na wykorzystanie 3 danych. Daty pokazującej ciągłość wpisów, imienia i nazwiska. Dane osobowe zostały dodane na wypadek, gdyby komuś idea się spodobała i chciałby zacząć pisać swój dziennik w obrębie tej samej przestrzeni Confluence. To się nie zdarzyło, ale środowisko jest pod to przygotowane. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;obrazek&quot;&gt;Obrazek&lt;/h1&gt;
+
+&lt;p&gt;W ramach budowania kultury tak jak zostało to opisane w poradniku X-Team - obrazki, emotikony i nieformalne rzeczy mają olbrzymie znaczenia dla budowania kultury firmy. W każdym poście pojawił się obrazek nawiązujący do tematyki danego dnia. Wybranie go zajmowało mi około 15 sekund. Szukałem na Googlach pierwszego skojarzenia, które pojawiło mi się w związku z danym dniem. Czasami były to zdjęcia z najlepszego miasta na świecie (Olsztyna), a czasami człowiek robiący inhalację pod ręcznikiem. Głównym zadaniem tego było zachęcenie ludzi, rozbawienie, wprowadzenie mniej formalnej atmosfery.&lt;/p&gt;
+
+&lt;h1 id=&quot;today&quot;&gt;Today&lt;/h1&gt;
+
+&lt;p&gt;Często, praca managera jest nienamacalna. W zakres moich obowiązków wchodzi tzw. prowadzenie projektów, wspieranie klienta i zespołu we wzajemnej komunikacji, przeprowadzanie rozmów feedbackowych ze specjalistami i wspieranie ich rozwoju, komunikacja wewnątrzfirmowa, planowanie przydziałów specjalistów do projektów, konsultacje z prawnikami w zakresie przygotowywania umów czy windykacji, i wiele innych rzeczy. Takich aktywności często nie można dotknąć lub przytulić. O ile programista po zakończonym dniu pracy jest w stanie pokazać klocek, który danego dnia stworzył to managerowie od czasu do czasu wychodzą z pustymi rękami. Taki brak fizycznego obiektu, który można zobaczyć jest demotywujący dla nas samych. Zdarza się skończyć dzień z brakiem świadomości, że zrobiło się cokolwiek, ponieważ większością aktywności było - rozmawianie. Nie oznacza to jednak, że praca managerów nie jest wartościowa czy efektywna. Wręcz przeciwnie!&lt;/p&gt;
+
+&lt;p&gt;Podsumowanie minionego dnia i spisanie wykonanych rzeczy buduje motywację i pokazuje, że przeprowadzone działania, mimo braku pozostawienia fizycznego śladu wniosły dużą wartość do pracy firmy, ludzi, naszej, zespołu. Dla mnie miało to bardzo pozytywny wpływ, ponieważ nie miałem więcej dni po zakończeniu których wychodziłem ze swiadomością &lt;em&gt;“nic dzisiaj nie zrobiłem”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Z punktu widzenia kolegów i koleżanek czytających wpisy journalingowe blok ten pozwala na dostrzeżenie czym się zajmowałem, co czasami generuje pytania &lt;em&gt;“Jak to zrobiłeś? Pokażesz mi?”&lt;/em&gt;. Osiągamy dzięki temu wymianę wiedzy o niewielkim zasięgu, ale motywujemy siebie i innych przez możliwość wspólnego edukowania się.&lt;/p&gt;
+
+&lt;h1 id=&quot;tomorrow&quot;&gt;Tomorrow&lt;/h1&gt;
+
+&lt;p&gt;Wydaje mi się, że to najmniej istotny blok z całej struktury kronikowania. Wymusza jednak konieczność przemyślenia dnia kolejnego oraz wstępnego jego zaplanowania, a to zgodnie z wszechobecną wiedzą o planowaniu i produktywności wpływa pozytywnie na wydajność naszej pracy. Rozpoczynając następny dzień, mamy wstępny plan na to czym chcemy się zająć.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli ktoś czyta nasze wpisy na bieżąco to na podstawie tego jest w stanie zagadać &lt;em&gt;“Hej, widziałem że będziesz pracować nad rzeczą X, czy mogę dołączyć i zobaczyć jak to robisz?”&lt;/em&gt; lub &lt;em&gt;“Robiłem X już kilka razy, mogę Ci w tym pomóc!”&lt;/em&gt;. Jest to kolejny element, który wspiera dzielenie się wiedzą, wspólny rozwój oraz prowadzi do lepszych rezultatów naszych działań, które następie dostarczamy klientom.&lt;/p&gt;
+
+&lt;h1 id=&quot;today-i-learnt&quot;&gt;Today I learnt&lt;/h1&gt;
+
+&lt;p&gt;Jest to część, która wpływa zarówno na naszą własną motywację, a także na motywację innych. Często w pracy popadamy w pułapkę krytycznego myślenia o miejscu w którym pracujemy i wmawiamy sobie, że nie umożliwia nam ono rozwijania się. To jednak bardzo rzadko jest prawdą, ponieważ w prawie każdej sytuacji jesteśmy w stanie sami stworzyć środowisko w którym możemy się uczyć. Dotyczy to szczególnie branży IT, gdy struktura organizacyjna zazwyczaj zmierza w kierunku turkusowych lub zielonych organizacji, które zostały opisane w książce &lt;a href=&quot;http://www.reinventingorganizations.com/&quot;&gt;Reinventing Organizations&lt;/a&gt; (ciągle czekającej na przeczytanie). Również organizacje pomarańczowe przejawiają otwartość na inicjatywy bottom-up. Jeżeli wpadłeś/aś w takie błędne koło myślenia o swoim pracodawcy jako kimś kto Ciebie nie rozwija to zazwyczaj złotą radą jest - zmień siebie. Jeżeli jednak upewniłeś/aś się, że jesteś najlepszą osobą w firmie i nie masz się od kogo uczyć - zmień firmę.&lt;/p&gt;
+
+&lt;p&gt;Zawarcie bloku TIL (Today I Learnt) w dzienniku pozwoliło mi na skupienie się na utrwalaniu wiedzy. Przed rozpoczęciem kronikowania stale uczyłem się nowych elementów, ale nie miałem w pełni świadomego spojrzenia na to, że one istnieją - dlatego również trochę marudziłem. Dzięki ich spisywaniu mogę utrwalać zdobywane umiejętności i wiedzę, doceniać je, i cieszyć się tym, że się rozwijam.&lt;/p&gt;
+
+&lt;h1 id=&quot;moje-doświadczenie&quot;&gt;Moje doświadczenie&lt;/h1&gt;
+
+&lt;p&gt;Rozpocząłem przygodę z journalingiem 2018-03-12 i do dnia dzisiejszego stworzyłem 36 wpisów. Pomijając jeden z urlopów na którym chciałem się w pełni zresetować daje to blisko 100-procentowe pokrycie dni roboczych. Moje odczucia po tym czasie są zdecydowanie takie, że zamierzam kontynuować ten nawyk, ponieważ wpływa pozytywnie zarówno na mnie jak i na pojedyncze inne osoby, a wymiana wiedzy z innymi, oraz inspirowanie pojedynczych osób jest tym co sprawia mi w pracy największą satysfakcję. W obrębie journalingu możemy tworzyć dodatkowe wyzwania do których jesteśmy jeszcze bardziej motywowani dzięki złożeniu publicznej deklaracji ich wykonywania. Tym sposobem w ciągu najbliższego tygodnia planuję rozpocząć tworzenie jednego odręcznego rysunku dziennie, który zastąpi obrazki pochodzące z Internetu. Jest to nie lada wyzwanie, ponieważ nie jestem mistrzem, ani w pisaniu odręcznym, ani rysowaniu. Zobaczymy jakie będą efekty. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;co-robi-manager-co-robię-ja&quot;&gt;Co robi manager? Co robię ja?&lt;/h1&gt;
+
+&lt;p&gt;Chorobą organizacyjną na którą journaling okazał się być lekarstwem był absolutny brak wiedzy specjalistów o tym czym zajmuje się manager. Wielokrotnie od znajomych developerów pracujących w innych firmach słyszałem, że ich project manager robi absolutne nic. Taka sytuacja mnie nie dziwi, ponieważ sam mam problem ze zdobyciem wiedzy o tym co robią inni managerowanie. Nic więc dziwnego, że programiści, testerzy, analitycy, designerzy, graficy często mają takie postrzeganie swoich managerów w projektach, w których Ci nie schodzą do niskopoziomowej pracy nad projektem/produktem wspólnie z zespołem, a zajmują się organizacją niezwiązaną bezpośrednio z wytwarzaniem.&lt;/p&gt;
+
+&lt;p&gt;Problem braku świadomości nie dotyczy tylko linii specjalista-manager, ale również manager-manager i specjalista-specjalista. W szczególności relacji pozaprojektowych. Journaling pozwala jawnie wylistować rzeczy, które się wykonało i przy odrobinie zaangażowania inni mogą zostać tym zaciekawieni i dopytać jak rozwiązało się problem X lub wykonało rzecz Y. Bez świadomości tego CO robi ktoś, nie można dowiedzieć się JAK, ani DLACZEGO to robi.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Journaling wzbudza zaufanie, przez otwarte pokazywanie co robimy. Propaguje naszą wiedzę i doświadczenia. Motywuje nas i innych.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;co-nas-powstrzymuje&quot;&gt;Co nas powstrzymuje?&lt;/h1&gt;
+
+&lt;p&gt;Często spotykałem się z dwoma problemami rozpoczynania tego typu inicjatyw. Pierwszym z nich była obawa przed jawnym pokazaniem swoich aktywności innym osobom - &lt;em&gt;“Co jeżeli ktoś powie, że nic nie robię i firma płaci mi za nic?”&lt;/em&gt;. Zazwyczaj nie będzie to prawdą. Hejterzy pozostaną cicho, a osoby wspierające nas docenią proaktywność. Jeżeli jednak rzeczywiście nic nie robisz to journaling będzie świetnym motorem napędowym, aby to zmienić. Myslę jednak, że robisz więcej, niż Ci się wydaje. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2006/12/the-curse-of-knowledge&quot;&gt;The Curse of Knowledge&lt;/a&gt;, czyli Klątwa Wiedzy. Drugim potężnym problemem blokującym nas przed rozpoczęciem jest przekonanie mówiące o tym, że to co wiemy jest banalne. Trudno się z tym nie zgodzić. Zawsze możemy powiedzieć, że rzeczy w których jesteśmy kompetentni są (dla nas) oczywiste. Na podstawie własnych przekonań oceniamy przydatność naszej wiedzy i umiejętności w życiu innych, a zazwyczaj jesteśmy w tym zbyt krytyczni. Dziesięć lat temu trenowałem żonglerkę i teraz bez problemu mogę obudzić się o 3:00 w nocy i żonglować pięcioma piłkami, jest to dla mnie banalne. Czy jednak dla każdego? Gwarantuje, że czynności, które dla nas wydają się najprostsze na świecie - będą bardzo wartościowe do nauczenia dla innych. My z kolei, opisując je lub ucząc inne osoby wzmocnimy tą wiedzę lub umiejętność jeszcze bardziej, a dodatkowo zyskamy zdecydowanie więcej wartości dla samych siebie, która wypłynie na nas z otwarcia się na innych.&lt;/p&gt;
+
+&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
+
+&lt;p&gt;W ramach podsumowania planowałem umiescić jeden wpis journalingowy pokazujący jak to wygląda w praktyce. Zdecydowałem się tego nie robić, aby osoby czytające ten atykuł mogły zrobić to według własnej wizji, która z pewnością będzie dobra.&lt;/p&gt;
+
+&lt;p&gt;Journaling to jedna z tych rzeczy o której można słuchać i czytać, i nic z tego nie wyciągnąć. Ze względu na bardzo niski próg wejścia zachęcam do spróbowania. Uważajcie jednak, czy nie dzielicie się zbyt poufnymi informacjami, które są zabezpieczone przez podpisane przez Was dokumenty NDA i umowy.&lt;/p&gt;
+
+&lt;p&gt;Za alternatywne zakończenie niech posłużą dwa cytaty odpowiadające na przeplecione problemy dzielenia się wiedzą i budowania zaufania.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Once we know something, we find it hard to imagine what it was like not to know it.  Our knowledge has “cursed” us. And it becomes difficult for us to share our knowledge with others, because we can’t readily re-create our listener’s state of mind.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Someone&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Trust is not something that’s given because you win an election; it’s something you have to earn.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;cite&gt;Tom Perez&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://x-team.com&quot;&gt;X-Team&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://x-team.com/remote-team-guide/&quot;&gt;The Definitive Guide To Remote Teams&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;http://www.reinventingorganizations.com/&quot;&gt;Reinventing Organizations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://hbr.org/2006/12/the-curse-of-knowledge&quot;&gt;The Curse of Knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="journaling" /><category term="remote" /><category term="xteam" /><category term="trust" /><category term="motivation" /><summary type="html">Powtarzalne problemy</summary></entry><entry><title type="html">Event Storming: Warsztaty Agile Wrocław</title><link href="https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw" rel="alternate" type="text/html" title="Event Storming&amp;#58; Warsztaty Agile Wrocław" /><published>2018-04-10T00:00:00+02:00</published><updated>2018-04-10T00:00:00+02:00</updated><id>https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw</id><content type="html" xml:base="https://rmakara.github.io/notes/Event-Storming-Warsztaty-Agile-Wroclaw">&lt;h1 id=&quot;powrót-do-warsztatów&quot;&gt;Powrót do warsztatów&lt;/h1&gt;
 
 &lt;p&gt;Od czasu mojej przeprowadzki do Wrocławia przestałem brać udział w otwartych wydarzeniach organizowanych w formie warsztatowej. Alternatywą było regularne słuchanie wykładów na wszelkiego rodzaju meetup’ach. Pod koniec marca grupa &lt;a href=&quot;https://web.facebook.com/Product-Craftsmanship-Agile-Wroc%C5%82aw-1791532430917050/&quot;&gt;Product Craftsmanship - Agile Wrocław&lt;/a&gt; zorganizowała &lt;a href=&quot;https://www.meetup.com/pl-PL/Product-Craftsmanship-Agile-Wroc%C5%82aw/events/248656214/?eventId=248656214&quot;&gt;warsztaty&lt;/a&gt; poświęcone metodzie &lt;a href=&quot;https://en.wikipedia.org/wiki/Event_storming&quot;&gt;Event Storming&lt;/a&gt; prowadzone przez &lt;a href=&quot;https://twitter.com/mariuszgil&quot;&gt;Mariusza Gila&lt;/a&gt; i &lt;a href=&quot;https://twitter.com/kmenzyk&quot;&gt;Krzysztofa Menżyka&lt;/a&gt; w których wziąłem udział.&lt;/p&gt;
 
@@ -773,381 +886,4 @@
   &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Profiling_(computer_programming)&quot;&gt;Profiling, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[4] &lt;a href=&quot;http://wiki.c2.com/?PrematureOptimization&quot;&gt;Premature Optimization, Donald Knuth&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[5] &lt;a href=&quot;http://www.manifestoproject.it/bre-pettis-and-kio-stark/&quot;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><category term="gynveal" /><category term="coldwind" /><category term="code" /><summary type="html">Wystarczy poczekać</summary></entry><entry><title type="html">Gynveal's Mission 001: Szyfrowanie XORem</title><link href="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem" rel="alternate" type="text/html" title="Gynveal&amp;#39;s Mission 001&amp;#58; Szyfrowanie XORem" /><published>2017-05-19T00:00:00+02:00</published><updated>2017-05-19T00:00:00+02:00</updated><id>https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem</id><content type="html" xml:base="https://rmakara.github.io/notes/Gynveals-Mission-001-Szyfrowanie-XORem">&lt;h1 id=&quot;misje-gynvaela-coldwinda&quot;&gt;Misje Gynvaela Coldwinda&lt;/h1&gt;
-
-&lt;p&gt;Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Zrozumieć programowanie&lt;/a&gt; i &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Praktyczna Inżynieria Wsteczna&lt;/a&gt;. Prowadzi &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;anglojęzyczny kanał YouTube&lt;/a&gt; oraz &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;polskojęzyczny kanał YouTube&lt;/a&gt;. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal`s Mission omawiać będzie moje realizacje zadań, pochodzących ze streamów Gynveala.&lt;/p&gt;
-
-&lt;h1 id=&quot;jak-nie-szyfrować---xor&quot;&gt;Jak nie szyfrować - XOR&lt;/h1&gt;
-
-&lt;p&gt;W ramach odcinku &lt;a href=&quot;https://www.youtube.com/watch?v=fBEe8DGZL5o&quot;&gt;Gynvael’s Livestream #37: Jak nie szyfrować - XOR&lt;/a&gt; omówiony został problem dotyczący pokładania wiary w bezpieczeństwo ciągów danych zaszyfrowanych przez XOR’owanie każdego bitu z nieznanym kluczem. Live stream prezentuje wykorzystanie &lt;a href=&quot;https://pl.wikipedia.org/wiki/Atak_statystyczny&quot;&gt;ataku statystycznego&lt;/a&gt; celem odszyfrowanie tekstu. Z całego live streamu najbardziej spodobało mi się wykorzystanie hex editora z funkcjonalnością wizualizacji zapalonych i zgaszynych bitów do ustalenia długości wykorzystanego klucza. Polecam.&lt;/p&gt;
-
-&lt;p&gt;W każdym razie, odcinek kończy się następującym zadaniem:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Misja 001&lt;/strong&gt; &lt;br /&gt;
-&lt;strong&gt;DIFFICULTY: [4/10]&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;Nasi przyjaciele z sekcji dziewiątej założyli podsłuch w biurze podejrzanego. Należy dodać, że to podsłuch najnowszej generacji. Posiada on m.in. wbudowaną sieć neuronową, która od razu zapisuje wszystkie rozpoznane słowa w formie tekstu. Co więcej, każde słowo jest oddzielnie szyfrowane XOR’em przy użyciu tego samego 160-bitowego klucza.&lt;/p&gt;
-
-  &lt;p&gt;Ii… no… zgubiliśmy klucz. Trochę wstyd prosić sekcję dziewiątą znowu o pomoc, więc zadanie odzyskania danych i klucza powierzamy Tobie. Oto dane, które otrzymaliśmy:&lt;/p&gt;
-
-  &lt;p&gt;1f9111
-1799
-0790001226d8
-0a9e1e5c3ada
-1f
-099e195e
-0a97075a21dac1
-0a9710
-199e075131d3
-1199
-12961350&lt;/p&gt;
-
-  &lt;p&gt;Wiemy, że podejrzany posługuje się wyłącznie językiem angielskim.&lt;/p&gt;
-
-  &lt;p&gt;Rozszyfruj słowa i podaj odzyskany fragment klucza.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;czytanie-ze-zrozumieniem&quot;&gt;Czytanie ze zrozumieniem&lt;/h1&gt;
-
-&lt;p&gt;Na początek, wylistujmy istotne elementy z powyższej treści:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Zaszyfrowane dane są tekstem.&lt;/li&gt;
-  &lt;li&gt;Tekst jest zapisany w języku angielskim, więc wszystkie słowa pochodzą z języka angielskiego.&lt;/li&gt;
-  &lt;li&gt;Do zaszyfrowania tekstu XOR’em został użyty 160-bitowy klucz.&lt;/li&gt;
-  &lt;li&gt;Wszystkie słowa zostały zaszyfrowane osobno, przy użyciu dokładnie tego samego klucza.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Wiemy o języku angielskim, który występuje w wersji oryginalnej tekstu. Daje nam to możliwość przeprowadzenia ataku statystycznego, który został omówiony w firmie Gynveala. Tutaj jednak mamy dodatkową informację mówiącą o tym, że słowa zostały zaszyfrowane osobno. W związku z tym, że długość klucza (160 bitów) jest dłuższa od najdłuższego z zaszyfrowanych słów (56 bitów) można byłoby założyć, że mamy do czynienia z &lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_pad&quot;&gt;one-time pad&lt;/a&gt;. Jednak zaszyfrowanie każdego ze słów osobno sprawia, że tak nie jest i jednocześnie daje nam możliwość wykorzystania metody &lt;a href=&quot;https://en.wiktionary.org/wiki/educated_guess&quot;&gt;educated guessing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;rozwiązanie&quot;&gt;Rozwiązanie&lt;/h1&gt;
-
-&lt;p&gt;Przygotujmy sobie tablicę zawierającą zaszyfrowany tekst. Dla ułatwienia odczytywania poszczególnych liter zapiszę każdy z bajtów osobno:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x1f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x91&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x99&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x07&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x26&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xd8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x9e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x1e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x5c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x3a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xda&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x1f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x09&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x9e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x5e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x07&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x5a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x21&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xda&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xc1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x9e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x07&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x51&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x31&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xd3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x99&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x96&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;W powyższym tekście widać, że:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;1 słowo składa się z jednego bajtu,&lt;/li&gt;
-  &lt;li&gt;2 słowa składają się z 2 bajtów,&lt;/li&gt;
-  &lt;li&gt;2 słowa składają się z 3 bajtów,&lt;/li&gt;
-  &lt;li&gt;2 słowa składają się z 4 bajtów,&lt;/li&gt;
-  &lt;li&gt;3 słowa składają się z 6 bajtów,&lt;/li&gt;
-  &lt;li&gt;1 słowo składa się z 7 bajtów.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pamiętając o tym, że jest to tekst anglojęzyczny możemy wywnioskować, że jedyne jednoliterowe słowa występujące w języku angielskim to &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tablica prawdy XOR’a wygląda następująco:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;p&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;q&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;p ^ q&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Na jej podstawie można wywnioskować, że:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a^k ^ b^k&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;jest równoznaczne z:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a^b&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Taką zależność można zobrazować poniższym kodem:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b111111&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b101001&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b010101&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111111&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101001&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10101&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101010&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111100&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; przy założeniu, że jest to &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; lub &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt;. Tworzymy funkcję:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Xor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex_letter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;chr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex_letter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; ze słowem &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Teraz tworzymy pętlę, która wyświetli nam na ekranie wszystkie z zaszyfrowanych słów odszyfrowanych przy użyciu klucza przechowywanego w tablicy &lt;code class=&quot;highlighter-rouge&quot;&gt;keys&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;  
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Wynik:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
-a
-0x17 0x99 
-i
-0x7 0x90 0x0 0x12 0x26 0xd8 
-y
-0xa 0x9e 0x1e 0x5c 0x3a 0xda 
-t
-0x1f 
-a
-0x9 0x9e 0x19 0x5e 
-w
-0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
-t
-0xa 0x97 0x10 
-t
-0x19 0x9e 0x7 0x51 0x31 0xd3 
-g
-0x11 0x99 
-o
-0x12 0x96 0x13 0x50 
-l
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to &lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;. Podstawiamy te znaki do tablicy z kluczem i testujemy:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Wynik:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
-and
-0x17 0x99 
-if
-0x7 0x90 0x0 0x12 0x26 0xd8 
-you
-0xa 0x9e 0x1e 0x5c 0x3a 0xda 
-tak
-0x1f 
-a
-0x9 0x9e 0x19 0x5e 
-wal
-0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
-thr
-0xa 0x97 0x10 
-the
-0x19 0x9e 0x7 0x51 0x31 0xd3 
-gar
-0x11 0x99 
-of
-0x12 0x96 0x13 0x50 
-lif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko &lt;code class=&quot;highlighter-rouge&quot;&gt;the&lt;/code&gt;. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że &lt;code class=&quot;highlighter-rouge&quot;&gt;lif?&lt;/code&gt; może oznaczać &lt;code class=&quot;highlighter-rouge&quot;&gt;life&lt;/code&gt;. Podstawiamy do tablicy z kluczem:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Tym razem, wynik zawiera poprawnie odszyfrowane słówko &lt;code class=&quot;highlighter-rouge&quot;&gt;walk&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
-and
-0x17 0x99 
-if
-0x7 0x90 0x0 0x12 0x26 0xd8 
-you'
-0xa 0x9e 0x1e 0x5c 0x3a 0xda 
-taki
-0x1f 
-a
-0x9 0x9e 0x19 0x5e 
-walk
-0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
-thro
-0xa 0x97 0x10 
-the
-0x19 0x9e 0x7 0x51 0x31 0xd3 
-gard
-0x11 0x99 
-of
-0x12 0x96 0x13 0x50 
-life
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Skupiamy się na słowach sześcioznakowych i początku &lt;code class=&quot;highlighter-rouge&quot;&gt;you'&lt;/code&gt;. Można zaryzykować, że chodzi o &lt;code class=&quot;highlighter-rouge&quot;&gt;you're&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Wynik:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
-and
-0x17 0x99 
-if
-0x7 0x90 0x0 0x12 0x26 0xd8 
-you're
-0xa 0x9e 0x1e 0x5c 0x3a 0xda 
-taking
-0x1f 
-a
-0x9 0x9e 0x19 0x5e 
-walk
-0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
-throug
-0xa 0x97 0x10 
-the
-0x19 0x9e 0x7 0x51 0x31 0xd3 
-garden
-0x11 0x99 
-of
-0x12 0x96 0x13 0x50 
-life
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Do końcu słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;dzięki czemu otrzymujemy w pełni odszyfrowany tekst:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
-and
-0x17 0x99 
-if
-0x7 0x90 0x0 0x12 0x26 0xd8 
-you're
-0xa 0x9e 0x1e 0x5c 0x3a 0xda 
-taking
-0x1f 
-a
-0x9 0x9e 0x19 0x5e 
-walk
-0xa 0x97 0x7 0x5a 0x21 0xda 0xc1 
-througt
-0xa 0x97 0x10 
-the
-0x19 0x9e 0x7 0x51 0x31 0xd3 
-garden
-0x11 0x99 
-of
-0x12 0x96 0x13 0x50 
-life
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Możemy teraz odczytać pierwsze 7 bajtów klucza:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Key: '&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;wynik-rozwiązania&quot;&gt;Wynik rozwiązania&lt;/h1&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Encrypted text:
-1f9111 1799 0790001226d8 0a9e1e5c3ada 1f 099e195e 0a97075a21dac1 0a9710 199e075131d3 1199 12961350
-
-Key: 
-0x7e 0xff 0x75 0x35 0x54 0xbd 0xb5 
-
-Decrypted text: 
-and if you're taking a walk throught the garden of life
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
-
-&lt;p&gt;Głównym wnioskiem, który moglibyśmy pozostawić w tym miejscu jest to, że dane niemożliwe do odczytania przez człowieka w żadnym stopniu nie mówią o stopniu ich bezpieczeństwa. Wytwarzając oprogramowanie należy inwestować w często pomijane bezpieczeństwo. Podobnie jak umowy zawierane między firmami, czas poświęcony na security okazuje się być bezcenny, a jego prawdziwą wartość można docenić dopiero w czasie ‘wojny’.&lt;/p&gt;
-
-&lt;p&gt;Powyższy artykuł został napisany podczas jednego z najwięszych ataków Ransomware na swiecie - WannaCry.&lt;/p&gt;
-
-&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Gynveal Coldwind, Zrozumieć programowanie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Gynveal Coldwind, Praktyczna Inżynieria Wsteczna&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;Gynveal Coldwind, Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[4] &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;Gynveal Coldwind, YouTube ENG&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[5] &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;Gynveal Coldwind, YouTube PL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[6] &lt;a href=&quot;https://www.youtube.com/watch?v=fBEe8DGZL5o&quot;&gt;Gynvael’s Livestream #37: Jak nie szyfrować - XOR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[7] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Atak_statystyczny&quot;&gt;Atak statystyczny&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[8] &lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_pad&quot;&gt;One-time pad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[9] &lt;a href=&quot;https://en.wiktionary.org/wiki/educated_guess&quot;&gt;Educated guessing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><category term="security" /><category term="gynveal" /><category term="coldwind" /><category term="code" /><summary type="html">Misje Gynvaela Coldwinda</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rafał Makara</name></author><category term="dajsiepoznac2017" /><category term="gynveal" /><category term="coldwind" /><category term="code" /><summary type="html">Wystarczy poczekać</summary></entry></feed>
