@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/trust/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-05-13T19:30:31+02:00</updated>
+        <updated>2018-05-13T19:54:23+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged TRUST - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -26,7 +26,7 @@
 
 &lt;p&gt;Gdy pracowałem jak programista zawsze współpracowałem z innymi programistami. Dawało mi to możliwość otrzymywania natychmiastowego feedbacku odnośnie jakości mojej pracy przez rozmowy z kolegami i koleżankami o tej samej specjalizacji. Narzędzia takie jak code review, continious integration pozwalały uczyć się każdego dnia. Współna edukacja najczęściej zamykała się jednak wewnątrz zespołu, a wymiana wiedzy w skali firmy była zdecydowanie mniej efektywna. Z przekonaniem jestem w stanie stwierdzić, że osoby siedzące po dwóch stronach tego samego budynku, często odkrywały koło na nowo.&lt;/p&gt;
 
-&lt;p&gt;Gdy zacząłem pracować jako project manager sytuacja się odmieniła. Dlaczego? Zazwyczaj w projekcie jest tylko jeden project manager, który współpracuje ze specjalistami, ale nie z drugim managerem wewnątrz tego samego projektu (opisuję tu sytuację PM + Specjaliści, a nie (PM +) PO + SM + Specjaliści). Tworzy to sytuację w której jako managerowie jesteśmy w stanie się uczyć od specjalistów. Czy jednak nie ma tutaj dziury w całym? Skoro programiści tworzący jeden projekt są w stanie popełniać te same błędy i implementować te same rozwiązania to z kim powinien dzielić swoją wiedzę manager? Konieczne są techniki pozwalające na wymianę wiedzy z managerami prowadzącymi inne projekty. Niestety, bardzo często takich technik brakuje i managerowie nie mają codziennej okazji do uczenia się od innych osób wykonujących te same obowiązki, przez co ich krzywa uczenia jest wolniejsza, niż mogłaby być.&lt;/p&gt;
+&lt;p&gt;Gdy zacząłem pracować jako project manager sytuacja się odmieniła. Dlaczego? Zazwyczaj w projekcie jest tylko jeden project manager, który współpracuje ze specjalistami, ale nie z drugim managerem wewnątrz tego samego projektu (opisuję tu sytuację PM + Specjaliści, a nie (PM +) PO + SM + Specjaliści). Tworzy to sytuację w której jako managerowie jesteśmy w stanie się uczyć od specjalistów. Czy jednak czegoś tutaj nie brakuje? Skoro programiści tworzący jeden projekt są w stanie popełniać te same błędy i implementować te same rozwiązania to z kim powinien dzielić swoją wiedzę manager? Konieczne są techniki pozwalające na wymianę wiedzy z managerami prowadzącymi inne projekty. Niestety, bardzo często takich technik brakuje i managerowie nie mają codziennej okazji do uczenia się od innych osób wykonujących te same obowiązki, przez co ich krzywa uczenia jest wolniejsza, niż mogłaby być.&lt;/p&gt;
 
 &lt;h1 id=&quot;zaufanie-do-pracowników-zdalnych&quot;&gt;Zaufanie do pracowników zdalnych&lt;/h1&gt;
 
