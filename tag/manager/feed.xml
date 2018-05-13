@@ -2,7 +2,7 @@
     <feed xmlns="http://www.w3.org/2005/Atom">
         <link href="https://rmakara.github.io/tag/manager/feed.xml" rel="self" type="application/atom+xml" />
         <link href="https://rmakara.github.io/" rel="alternate" type="text/html" />
-        <updated>2018-05-13T19:20:33+02:00</updated>
+        <updated>2018-05-13T19:28:05+02:00</updated>
         <id>https://rmakara.github.io/</id>
         <title>Feed tagged MANAGER - </title>
         <subtitle> Blog o krawędzi między programowaniem i zarządzaniem projektami </subtitle>
@@ -56,7 +56,7 @@
 
 &lt;h1 id=&quot;gdzie-jest-hajs&quot;&gt;Gdzie jest hajs?&lt;/h1&gt;
 
-&lt;p&gt;W skrócie, chciałoby się powiedzieć - nie w software house’ach i nie w wytwarzaniu, a w biznesie.&lt;/p&gt;
+&lt;p&gt;Wymienione powyżej liczby nie mają znaczenia. Może są prawdziwe, może nie. To co jest ważne to - wielkie pieniądze nie znajdują się w software house’ach i nie w wytwarzaniu, a w biznesie.&lt;/p&gt;
 
 &lt;p&gt;Mimo iż wytwarzanie oprogramowania wymaga od nas (często) szalenie wysokiej wiedzy specjalistycznej, w dalszym ciągu jest wytwarzaniem. To osoby odpowiedzialne za odpowiedzi na pytanie Dlaczego? zlecają nam wytworzenie czegoś i kalkulują proces wytwórczy w taki sposób, aby był on jednym z kosztów, który pozwoli im zarobić większą sumę pieniędzy. Większość oprogramowania tworzona jest aby:&lt;/p&gt;
 &lt;ul&gt;
