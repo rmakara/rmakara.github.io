@@ -1,4 +1,4 @@
-sitemap: https://rmakara.github.io//sitemap.xml
+sitemap: https://rmakara.github.io/sitemap.xml
 
 user-agent: EmailCollector
 disallow: /
