@@ -7,6 +7,149 @@
     
       
         <item>
+          <title>Project Manager, więc kto? Sprzedaż, czyli RFI, RFP.</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Jest to drugi artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp.&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Disclaimer: Rola project managera może być skrajnie różna w zależności od firmy. Często stanowiska nazywane zwrotem “project manager” - nie są dla project managerów. Seria artykułów będzie zawierać pewne uproszczenia i ograniczony kontekst.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Disclaimer: Ten artykuł nie jest o sprzedaży.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;sprzedaż-czyli-najważniejsza-umiejętność-przyszłości&quot;&gt;Sprzedaż, czyli najważniejsza umiejętność przyszłości&lt;/h1&gt;
+
+&lt;p&gt;Ponad 5 lat temu, gdy pracowałem jako programista zaczynałem rozumieć, że realizowane projekty nie zostały przyniesione do nas przez Świętego Mikołąja, a poprzedził je jakiś proces sprzedażowy. Postrzegałem sprzedaż jako coś co polega na “wciśnięciu” klientowi naszych usług po możliwie najwyższej cenie. Wydawało mi się, że całość wymaga od nas nauki technik negocjacyjnych i manipulacyjnych.&lt;/p&gt;
+
+&lt;p&gt;W 2015 roku pojechałem na warszawską konferencję “Sprzedaż. Najważniejsza umiejętność przyszłości” w której udział brał Robert Cialdini, czyli autor książki &lt;a href=&quot;https://www.empik.com/wywieranie-wplywu-na-ludzi-teoria-i-praktyka-cialdini-robert-b,p1128788782,ksiazka-p?gclid=EAIaIQobChMIwonIusnF3gIVEOaaCh3kKQo3EAQYAyABEgJJQPD_BwE&amp;amp;gclsrc=aw.ds&quot;&gt;Wywieranie wpływu na ludzi. Teoria i praktyka&lt;/a&gt;. Było to idealnym uzupełnieniem moich dotychczasowych założeń i w dalszym ciągu myślałem, że w sprzedaży chodzi o kit.&lt;/p&gt;
+
+&lt;h1 id=&quot;negocjacje-a-sprzedaż&quot;&gt;Negocjacje, a sprzedaż?&lt;/h1&gt;
+
+&lt;p&gt;Dobrym punktem odniesienia do zrozumienia relacji występujących w sprzedaży jest przytoczenie definicji słówka “negocjacje”. Można byłoby podobnie tutaj założyć, że proces negocjacyjny to wojna polegająca na unicestwieniu przeciwnika i zgarnięciu wszystkiego dla siebie. Jeżeli jednak zapytamy dowolnego negocjatora lub chociażby zajrzymy do dowolnej na Wikipedii to zauważymy, że jest odrobinę inaczej.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dwustronny proces komunikowania się, którego celem jest osiągnięcie porozumienia, gdy przynajmniej jedna strona nie zgadza się z daną opinią lub z danym rozwiązaniem sytuacji. Negocjacje to sposób porozumienia się w celu rozwiązania konfliktu oraz dojścia do porozumienia obydwu stron, proces wzajemnego poszukiwania takiego rozwiązania, które satysfakcjonowałoby zaangażowane w konflikt strony.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Powyższa definicja mówi, że negocjacje są dążeniem do osiągnięcia porozumienia w punkcie, który jest najbardziej korzystny dla obydwu stron. Brzmi przyjemniej i mniej negatywnie? Podobny jest cel sprzedaży. Jeżeli jesteśmy firmą usługą to oferujemy pewną wartość naszym klientom. W procesie sprzedaży chcemy dogadać się z naszym potencjalnym klientem i zaoferować mu naszą pomoc (partnerstwo) w realizacji jego celu.&lt;/p&gt;
+
+&lt;p&gt;W rezultacie, klient powinien być usatysfakcjonowany, że dzięki naszej pracy wniesionej do jego biznesu jest w stanie wiele zyskać, a tym samym my jesteśmy wynagrodzeni za nasz czas pracy po satysfakcjonującej stawce. Podobnie jak w udanym procesie negocjacyjnym, celem sprzedaży powinno być osiągnięcie sytuacji w której obydwie strony zyskują, czyli win-win.&lt;/p&gt;
+
+&lt;h1 id=&quot;podział-odpowiedzialności-w-procesie&quot;&gt;Podział odpowiedzialności w procesie&lt;/h1&gt;
+
+&lt;p&gt;Podział odpowiedzialności w całym procesie będzie zupełnie inny w różnych firmach. Mamy software house dysponujące całym departamentem sprzedażowym, a mamy również takie w których nie ma żadnego sprzedawcy. To co jest jednak wspólne dla wszystkich software house to perspektywa w której im wyższe stanowisko zajmujecie, tym większe prawdopodobieństwo, że sprzedaż Was dotknie. Jeżeli zwrócimy uwagę na pozycje zajmowane przez naszych “szefów”, czyli CEO, CTO, COO, Manager, Head of … to zazwyczaj każda z tych ról stoi przynajmniej jedną nogą po kostki w procesie sprzedażowym.&lt;/p&gt;
+
+&lt;p&gt;Sad, but true… jesteś senior developerem, chcesz być CTO? Będziesz musiał przynajmniej zrozumieć sprzedaż.&lt;/p&gt;
+
+&lt;h1 id=&quot;pozyskiwanie-klientów&quot;&gt;Pozyskiwanie klientów&lt;/h1&gt;
+
+&lt;p&gt;Firmy szukają klientów we wszelakie sposoby. Jedni robią to przez &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold_email&quot;&gt;cold mailing&lt;/a&gt; i &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold_calling&quot;&gt;cold calling&lt;/a&gt;. Inni przez wysyłanie specjalistów na różne konferencje technologiczne. Inni przez reklamowanie się na konferencjach specjalistycznych innych branż (np. produkcyjnych, handlowych, nieruchomościowych, budowlanych, medycznych). Inni przez tworzenie materiałów marketingowych i udostępnianie ich za pozostawienie adresu mailowego na tzw. landing page. Inni zgłaszają się jako potencjalni wykonawcy opublikowanego przetargu. Jeszcze inni budują długoterminowe relacje chodząc na squasha z przyszłymi klientami. Sposobów jest wiele i każdy z nich charakteryzuje inny procent konwersji oraz koszt. O ile cold mailing jesteśmy w stanie zrealizować za setki złotych to możliwość wystawienia się na niektórych zagranicznych konferencjach może przekraczać koszt 150 000 zł.&lt;/p&gt;
+
+&lt;p&gt;O pozyskiwaniu klientów zostało napisanych wiele książek, a ja z pewnością nie jestem specjalistą od tego. Ograniczmy się do sytuacji w której “dział sprzedaży” ma już kogoś na celowniku i oczekuje od nas (project managera pracującego w software house) pewnego wsparcia. Sprzedawca otrzymuje dokumenty do uzupełnienia lub zapytania, które częściowo jest w stanie okiełznać samodzielnie, a inne z naszą pomocą.&lt;/p&gt;
+
+&lt;h1 id=&quot;request-for-information-rfi&quot;&gt;Request for information (RFI)&lt;/h1&gt;
+
+&lt;p&gt;RFI to zapytanie o informację. Jest to najbardziej ogólny z omawianych w tym artykule “dokumentów”, który jest uzupełniany przez potencjalnego wykonawce jeszcze przed zaznajomieniem się ze szczegółami projektu. Na tym etapie zazwyczaj posiadamy jedynie bardzo ogólną wiedzą na jego temat. Jeżeli z dokumentem RFI spotkałby się programista to prawdopodobnie powiedziałby że nic w nim nie ma i byłby zły, że marnujemy jego czas.&lt;/p&gt;
+
+&lt;p&gt;RFI zawiera ogólne pytania dotyczące naszej firmy. Ich celem jest zebranie zgłoszeń od większej ilości potencjalnych wykonawców oraz ogólne zapoznanie się z tymi firmami. Dokumenty te są zazwyczaj ustryktuzowane i zawierają listę pytań w tabelce. Takie ustandaryzowanie dokumentu pozwala na późniejsze porównanie zgłoszonych wykonawców oraz ocenę każdej odpowiedzi w pewnej skali (np. 0-10 punktów).&lt;/p&gt;
+
+&lt;p&gt;Załóżmy że klientem, który szuka wykonawcy jest firma z Londynu chcąca stworzyć system &lt;a href=&quot;https://en.wikipedia.org/wiki/Warehouse_management_system&quot;&gt;WMS (Warehouse Management System)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Przykładowe pytania jakie mogą się pojawić w RFI to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jak nazywa się Wasza firma?&lt;/li&gt;
+  &lt;li&gt;Pod jakim adresem mieści się Wasza siedziba główna?&lt;/li&gt;
+  &lt;li&gt;Czy macie wydział zlokalizowany w Londynie?&lt;/li&gt;
+  &lt;li&gt;Kto jest osobą kontaktową i jak można się z nim/nią skontaktować?&lt;/li&gt;
+  &lt;li&gt;Jakie są Wasze godziny pracy i w jakiej strefie czasowej pracujecie?&lt;/li&gt;
+  &lt;li&gt;Od którego roku istnieje Wasza firma?&lt;/li&gt;
+  &lt;li&gt;Ilu pracowników zatrudnia Wasza firma?&lt;/li&gt;
+  &lt;li&gt;Ilu backend developerów zatrudnia Wasza firma?&lt;/li&gt;
+  &lt;li&gt;Ilu frontend developerów zatrudnia Wasza firma?&lt;/li&gt;
+  &lt;li&gt;Ilu z Waszych specjalistów posiada certyfikat AWS Certified Solutions Architect?&lt;/li&gt;
+  &lt;li&gt;Ilu z Waszych scrum masterów posiada certyfikat PSM I?&lt;/li&gt;
+  &lt;li&gt;Ilu z Waszych project managerów posiada certyfikat Prince 2 Foundation?&lt;/li&gt;
+  &lt;li&gt;Ile zrealizowaliście projektów dotyczących gospodarki magazynowej?&lt;/li&gt;
+  &lt;li&gt;Jakie posiadacie doświadczenie w budowie oprogramowania do zarządzania gospodarką magazynową?&lt;/li&gt;
+  &lt;li&gt;Ile zrealizowaliście projektów o budżecie przekraczającym 300 000,00 zł?&lt;/li&gt;
+  &lt;li&gt;Jaki jest Wasz średni czas współpracy z klientem?&lt;/li&gt;
+  &lt;li&gt;Jaki jest średni czas trwania realizowanego przez Was projektu?&lt;/li&gt;
+  &lt;li&gt;W jakich technologiach pracujecie?&lt;/li&gt;
+  &lt;li&gt;Jakie technologie rekomendujecie do naszego projektu i dlaczego?&lt;/li&gt;
+  &lt;li&gt;W jaki sposób dbacie o wysoką jakość tworzonych produktów?&lt;/li&gt;
+  &lt;li&gt;Jakiego zaangażowania z naszej strony będziecie potrzebować podczas realizacji projektu?&lt;/li&gt;
+  &lt;li&gt;Jak będzie wyglądał cykl raportowania postępu prac?&lt;/li&gt;
+  &lt;li&gt;Jakie usługi powdrożeniowe świadczycie i rekomendujecie?&lt;/li&gt;
+  &lt;li&gt;Kto będzie odpowiedzialny za sukces projektu po Waszej stronie?&lt;/li&gt;
+  &lt;li&gt;W jaki sposób zarządzacie konfliktami?&lt;/li&gt;
+  &lt;li&gt;Jakie są Wasze stawki godzinowe?&lt;/li&gt;
+  &lt;li&gt;Co jeszcze powinniśmy wiedzieć o Waszej formie?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rolą project managera może być wsparcie sprzedawcy w sformułowaniu odpowiedzi na bardziej techniczne / procesowe / produktowe pytania. Najlepiej ocenieni wykonawcy trafiają do kolejnego etapu, czyli RFP.&lt;/p&gt;
+
+&lt;h1 id=&quot;request-for-proposal-rfp&quot;&gt;Request for proposal (RFP)&lt;/h1&gt;
+
+&lt;p&gt;RFP to zapytanie ofertowe. W ramach tego elementu procesu, klient udostępnia nam materiały potrzebne do zaproponowania rozwiązania, wraz z jego wyceną. Zazwyczaj jest to lista funkcjonalności potrzebnych wytworzenia, lista wymagań, czasami dostarczane są designy aplikacji, a w przypadku ich braku - podobne (może konkurencyjne) strony internetowe na których możemy się wzorować przy tworzeniu oferty / wyceny.&lt;/p&gt;
+
+&lt;p&gt;W zależności od doświadczenia naszego sprzedawcy możemy być poproszeni o wsparcie w przygotowaniu odpowiedzi na zapytanie ofertowe. Jest to dobrą praktyką, ponieważ antywzorcem jest sytuacja w której sprzedawca przygotowuje wycenę projektu bez porozumienia z programistami / architektami / osobami technicznymi. Brak obecności specjalisty przy proponowaniu rozwiązania i jego estymowaniu prowadzi do niesamowitych problemów po podpisaniu umowy, gdzie programiści dowiadują się, że muszą zrealizować projekt w 20% potrzebnego na jego realizację czasu. W celu uniknięcia takiej sytuacji sprzedawca prosi o pomoc project managera. PM na bazie swojej wiedzy pomaga sprzedawcy w przygotowaniu odpowiedzi, a jeżeli jego wiedza nie jest wystarczająca - koordynuje alokację czasu specjalistów (którzy prawdopodobnie pracują nad projektami i zarabiają dla firmy pieniądze), aby w jak najbardziej efektywny sposób pomogli nam w przygotowaniu naszej oferty.&lt;/p&gt;
+
+&lt;p&gt;Efektem tego etapu jest propozycja rozwiązania wraz z wyceną.&lt;/p&gt;
+
+&lt;h1 id=&quot;wycena&quot;&gt;Wycena&lt;/h1&gt;
+
+&lt;p&gt;Ale jak możemy wycenić projekt, który zajmie 1,5 roku skoro nie potrafimy nawet poprawnie wyestymować pojedynczego zadania w najbliższym sprincie? To trudne pytanie. Czasami programiści wyceniający tak długie projektu posiłkują się stwierdzeniem “wstępnych estymacji”. W efekcie, klient otrzymuje “wstępną wycenę”, która jest o 500% niższa od spalonego do realizacji projektu budżetu, zmierzonego na dzień zakończenia projektu.&lt;/p&gt;
+
+&lt;p&gt;Wykazując się odrobiną empatii można się domyślić, że takie sytuacje są niedopuszczalne i zdarza się, że kończą się procesami sądowymi. Składając ofertę klientowi, wyceniając projekt, musimy wykazać się naszymi najlepszymi umiejętnościami i doświadczeniem, aby zrobić to jak najbardziej precyzyjnie. Nawet gdy pracujemy w &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;time&amp;amp;materials&lt;/a&gt; i przysługuje nam prawo do pobrania opłaty za wymienione powyżej 300% początkowej wyceny to naszym obowiązkiem jest minimalizowanie ryzyka przekroczenia budżetu o chociażby 1 zł.&lt;/p&gt;
+
+&lt;h1 id=&quot;budowanie-zaufania&quot;&gt;Budowanie zaufania&lt;/h1&gt;
+
+&lt;p&gt;Powyższe przekłada się na zaufanie. Jako programiści chcemy korzystać z najnowszych technologii, robić refactoring, uczyć się każdego dnia, estymować w czymkolwiek innym niż osobogodziny i aplikować &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes’a&lt;/a&gt; oraz &lt;a href=&quot;https://martinfowler.com/eaaDev/EventSourcing.html&quot;&gt;event sourcing&lt;/a&gt; do prostego projektu. Klienci nam na to wszystko pozwolą, gdy będzie to miało uzasadnienie, a naszym profesjonalizmem i budowaniem relacji już od początku procesu sprzedażowego zaczniemy budować zaufanie. To rola project managera oraz każdego członka zespołu. Nie ma tu miejsca na wciskanie kitu.&lt;/p&gt;
+
+&lt;h1 id=&quot;ale-jak&quot;&gt;Ale jak?&lt;/h1&gt;
+
+&lt;p&gt;Nie padła jeszcze odpowiedź na to jak wyestymować projekt na 1,5 roku do przodu. No i nie padnie. Potrzebne jest doświadczenie i różne punkty widzenia. W ramach minimalizacji ryzyka możemy zaproponować klientowi przeprowadzenie tzw. &lt;a href=&quot;https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/&quot;&gt;discovery workshop&lt;/a&gt; przed przygotowaniem wyceny lub np. bardzo wysoka granulacja wycenianych wymagań. Nie zawsze mamy jednak ku temu okazję, szczególnie przy odpowiedziach na przetargi publiczne.&lt;/p&gt;
+
+&lt;p&gt;Jest to trudne, ale gdyby wytwarzanie oprogramowanie było proste to robiłby to każdy. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;do-posłuchania&quot;&gt;Do posłuchania&lt;/h1&gt;
+
+&lt;p&gt;Podcasty to świetna rozrywka podczas chodzenia po mieście, jazdy autobusem czy pociągiem. Zachęcam do przesłuchania:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.spreaker.com/user/piotrbucki/014-sprzedaz-b2b-docieranie-do-klientow-&quot;&gt;Podcast 014 Sprzedaż b2b, docieranie do klientów i osób decyzyjnych. Piotr Bucki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devstyle.pl/2016/10/17/devtalk42-o-sprzedazy-w-it-z-michalem-wojcikiem/&quot;&gt;Podcast DevTalk #42 – O sprzedaży w IT z Michałem Wójcikiem. Maciej Aniserowicz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://www.empik.com/wywieranie-wplywu-na-ludzi-teoria-i-praktyka-cialdini-robert-b,p1128788782,ksiazka-p?gclid=EAIaIQobChMIwonIusnF3gIVEOaaCh3kKQo3EAQYAyABEgJJQPD_BwE&amp;amp;gclsrc=aw.ds&quot;&gt;Wywieranie wpływu na ludzi. Teoria i praktyka, Empik&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Negocjacje&quot;&gt;Negocjacje, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold_email&quot;&gt;Cold mailing, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold_calling&quot;&gt;Cold calling, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://en.wikipedia.org/wiki/Request_for_information&quot;&gt;Request for information, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://en.wikipedia.org/wiki/Request_for_proposal&quot;&gt;Request for proposal, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;https://en.wikipedia.org/wiki/Warehouse_management_system&quot;&gt;WMS (Warehouse Management System)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[8] &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[9] &lt;a href=&quot;https://martinfowler.com/eaaDev/EventSourcing.html&quot;&gt;Event Sourcing, Martin Fowler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[10] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time &amp;amp; materials, Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2018-11-08T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Project Manager, więc kto? Wstęp.</title>
           <description>&lt;h1 id=&quot;warto-robić-backupy&quot;&gt;Warto robić backupy&lt;/h1&gt;
 
@@ -14,7 +157,7 @@
 
 &lt;h1 id=&quot;byłem-project-managerem&quot;&gt;Byłem project managerem&lt;/h1&gt;
 
-&lt;p&gt;Przez ponad ostatnie dwa lata pracowałem jako project manager w firmie wytwarzającej oprogramowanie na zamówienie. W międzyczasie miałem też kontakt z wieloma project managerami z innych firm branży IT. Poza godzinami, czasami wspierałem układanie planów projektów pełniąc rolę konsultanta.&lt;/p&gt;
+&lt;p&gt;Przez ponad ostatnie dwa lata pracowałem jako project manager w firmie wytwarzającej oprogramowanie na zamówienie. W międzyczasie miałem też kontakt z wieloma project managerami z innych firm branży IT. Poza godzinami, czasami wspierałem układanie planów projektów IT pełniąc rolę konsultanta.&lt;/p&gt;
 
 &lt;p&gt;Gdy zaczynałem swoją przygodę z tym stanowiskiem miałem pewne wyobrażenie zakresu obowiązków jakie pełni się w tej roli. Świat oczywiście przyniósł garść niespodzianek i rzeczywistość okazała się być zdecydowanie inna. Często żartobliwie powtarzałem “będziesz zarządzał… mówili…”.&lt;/p&gt;
 
@@ -27,8 +170,8 @@
 &lt;p&gt;Seria artykułów będzie podzielona na konkretne zakresy aktywności project managera, będą to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Zarządzanie projektami, czyli “Prince2”.&lt;/li&gt;
@@ -42,6 +185,34 @@
 &lt;p&gt;W związku z tym, że ostatnie miesiące były bardzo leniwe - artykuły będą pojawiać się co tydzień, w czwartki.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned! :)&lt;/p&gt;
+
+&lt;h1 id=&quot;aktualizacja-2018-11-08&quot;&gt;Aktualizacja 2018-11-08&lt;/h1&gt;
+
+&lt;p&gt;Przez ostatni rok odzywali się do mnie znajomi chcący rozpocząć pracę jako project manager z pytaniami &lt;em&gt;“jak zacząć?”&lt;/em&gt;. To trudne do określenia, ponieważ rola project managera może być totalnie odmienna w różnych firmach. Jednemu z moich znajomych na szybko ułożyłem poniższą listę pytań, które miały nam pomóc w doborze materiałów dla niego. Dlaczego by się nią nie podzielić? :)&lt;/p&gt;
+
+&lt;p&gt;Jeżeli również chcesz zostać PMem - zachęcam do zapisania sobie odpowiedzi na te pytania przeczytaniem kolejnych artykułów z tej serii.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Jaki cel chcesz osiagnąć w ramach zdobywania tej wiedzy i do kiedy?&lt;/li&gt;
+  &lt;li&gt;Co rozumiesz przez PMowanie?&lt;/li&gt;
+  &lt;li&gt;Czy chcesz zarządzać projektami? Dlaczego?&lt;/li&gt;
+  &lt;li&gt;Czy chcesz byc managerem? Dlaczego?&lt;/li&gt;
+  &lt;li&gt;Czy pracować nad długoterminowym rozwojem jakiegoś produktu? Dlaczego?&lt;/li&gt;
+  &lt;li&gt;Czy chcesz współpracować z zespołami programistycznymi, czy nie? Dlaczego?&lt;/li&gt;
+  &lt;li&gt;Czy interesuje Ciebie sprzedaż? Dlaczego?&lt;/li&gt;
+  &lt;li&gt;Jak się czujesz z motywowaniem innych?&lt;/li&gt;
+  &lt;li&gt;Jak odnajdujesz się w braniu winy na siebie i jednoczesnym przekazywaniu zasług innym?&lt;/li&gt;
+  &lt;li&gt;Czy dobrze się czujesz w rozmowach że coś robicie źle, wolno, za drogo? Czy chcesz to kontrować argumentami oraz pomysłami na poprawę, czy fochem?&lt;/li&gt;
+  &lt;li&gt;Czy interesujesz się albo byłbyś w stanie zainteresować się użytecznością, UX Designem?&lt;/li&gt;
+  &lt;li&gt;Czy poza samym zarządzaniem chciałbyś przeprowadzać analizy i rozkminiać jak później programiści powinni coś zrealizować?&lt;/li&gt;
+  &lt;li&gt;Co wg Ciebie oznacza proces testowania?&lt;/li&gt;
+  &lt;li&gt;Jakie wg Ciebie są zadania w pracy programisty?&lt;/li&gt;
+  &lt;li&gt;Czy widzisz siebie w zarządzaniu budżetem tzn. masz milion do wykorzystania i masz go przeobrazić w gotowy produkt?&lt;/li&gt;
+  &lt;li&gt;Jak się widzisz na spotkaniach z komitetem sterującym, czyli raportowaniem na żywo przed prezesami firm?&lt;/li&gt;
+  &lt;li&gt;Jak oceniasz swoje umiejętności prowadzenia spotkań i umiejętności prezentacyjne?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania drugiego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2018-10-26T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Wstep</link>
