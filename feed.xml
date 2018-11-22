@@ -22,7 +22,7 @@
 
 &lt;h1 id=&quot;czym-jest-projekt&quot;&gt;Czym jest projekt?&lt;/h1&gt;
 
-&lt;p&gt;Słowo projekt jest jednym z najbardziej nadużywanych określeń XXI wieku. Projekty robi każdy, w każdy możliwy sposób. Co to właściwie jest? Kilka lat temu usłyszałem definicję mówiącą o tym, że jest to zakres działań przeprowadzających nas od pewnego stan zastanego do stanu docelowego. Wszystko to dzieję się w zdefiniowanych ramach czasowych (deadline), osobowych oraz kosztowych. Anglojęzyczna wikipedia przytacza następującą definicję:&lt;/p&gt;
+&lt;p&gt;Słowo projekt jest jednym z najbardziej nadużywanych określeń XXI wieku. Projekty robi każdy, w każdy możliwy sposób. Co to właściwie jest? Kilka lat temu usłyszałem definicję mówiącą o tym, że jest to zakres działań przeprowadzających nas od pewnego stanu zastanego do stanu docelowego. Wszystko to dzieję się w zdefiniowanych ramach czasowych (deadline), osobowych oraz kosztowych. Anglojęzyczna wikipedia przytacza następującą definicję:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Contemporary business and science treat as a project (or program) any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned (usually by a project team) to achieve a particular aim.&lt;/p&gt;
@@ -32,9 +32,9 @@
 
 &lt;p&gt;Pomińmy większość elementów projektu wspomnianych w poprzednim akapicie i skupmy się na dwóch: stan zastany oraz stan docelowy. Czym w ramach tego jest zakres projektu? Jest to jak najdokładniejsze określenie wymagań, które muszą być spełnione, aby osiągnąć cel projektu. Co ważne, nie jest to lista konkretnych zadań prowadzących do osiągnięcia danego wyniku. Jest to informacja mówiąca o tym co powinno być zrobione, ale nie jak.&lt;/p&gt;
 
-&lt;p&gt;Zakres wyznacza ramy “co?”, które służą nam w początkowym szacowaniu kosztu oraz czasu realizacji, a także w późniejszym kontrolowaniu tych dwóch parametrów względem zakresu. Te trzy zmienne tworzą tak zwany “magiczny trójkąt” (ang. project management triangle).&lt;/p&gt;
+&lt;p&gt;Zakres wyznacza ramy, które służą nam w początkowym szacowaniu kosztu oraz czasu realizacji, a także w późniejszym kontrolowaniu tych dwóch parametrów względem zakresu. Te trzy zmienne tworzą tak zwany “magiczny trójkąt” (ang. project management triangle).&lt;/p&gt;
 
-&lt;p&gt;Zakres jest parametrem zmiennym i podczas realizacji projektu możę być modyfikowany przez tzw. change requesty (z punktu widzenia zarządzania projektami) lub dostosowywanie kierunku w którym zmierzamy (z punktu widzenia zwinnych metodyk wytwarzania).&lt;/p&gt;
+&lt;p&gt;Zakres jest parametrem zmiennym i podczas realizacji projektu może być modyfikowany przez tzw. change requesty (z punktu widzenia zarządzania projektami) lub dostosowywanie kierunku w którym zmierzamy (z punktu widzenia zwinnych metodyk wytwarzania).&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Uwaga: Świadomie pominęliśmy tu rozbicie zakresu na projektowy i produktowy.&lt;/p&gt;
@@ -60,7 +60,7 @@
 
 &lt;h1 id=&quot;sposoby-definiowania-zakresu&quot;&gt;Sposoby definiowania zakresu&lt;/h1&gt;
 
-&lt;p&gt;Jeżeli musimy znać zakres to jak go zdefiniować? Tak jak wspomnieliśmy w akapicie o rolach wspierających jego definiowanie - może to zostać osiągnięte na wiele różnych sposobów. Przedstawiając dwie skrajności: możemy wykonać głęboką analizę, której wynikiem będzie szczegółowa dokumentacja lub możemy skorzystać z lekkich metod znanych w świecie agile. Ten artykuł jest zdecydowanie za krótki, aby omówić jedną czy drugą. Przytoczę jednak dwa źródła z którymi warto się poznać, aby poznać dwa podejścia.&lt;/p&gt;
+&lt;p&gt;Jeżeli musimy znać zakres to jak go zdefiniować? Tak jak wspomnieliśmy w akapicie o rolach wspierających jego definiowanie - może to zostać osiągnięte na wiele różnych sposobów. Przedstawiając dwie skrajności: możemy wykonać głęboką analizę, której wynikiem będzie szczegółowa dokumentacja lub możemy skorzystać z lekkich metod znanych w świecie agile. Ten artykuł jest zdecydowanie za krótki, aby omówić jedną czy drugą. Przytoczę jednak dwa źródła z którymi warto się zapoznać.&lt;/p&gt;
 
 &lt;p&gt;Pierwszym z nich jest analiza biznesowa i systemowa, której dobrym przykładem jest działalność Jarosława Żelińskiego. Ze szczegółami można zapoznać się na stronie &lt;a href=&quot;https://it-consulting.pl/&quot;&gt;https://it-consulting.pl/&lt;/a&gt; oraz znajdującym się na niej blogu (po wejściu na stronę trzeba kliknąć w logo :)). Pan Jarosław jest również autorem książki &lt;a href=&quot;https://helion.pl/ksiazki/analiza-biznesowa-praktyczne-modelowanie-organizacji-jaroslaw-zelinski,sfomod.htm#format/d&quot;&gt;Analiza biznesowa. Praktyczne modelowanie organizacji&lt;/a&gt;, którą polecam.&lt;/p&gt;
 
