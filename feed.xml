@@ -7,6 +7,97 @@
     
       
         <item>
+          <title>Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Jest to trzeci artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rola project managera może być skrajnie różna w zależności od firmy. Często stanowiska nazywane zwrotem “project manager” - nie są dla project managerów. Seria artykułów będzie zawierać pewne uproszczenia i ograniczony kontekst.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ten artykuł nie jest o analityce.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;czym-jest-projekt&quot;&gt;Czym jest projekt?&lt;/h1&gt;
+
+&lt;p&gt;Słowo projekt jest jednym z najbardziej nadużywanych określeń XXI wieku. Projekty robi każdy, w każdy możliwy sposób. Co to właściwie jest? Kilka lat temu usłyszałem definicję mówiącą o tym, że jest to zakres działań przeprowadzających nas od pewnego stan zastanego do stanu docelowego. Wszystko to dzieję się w zdefiniowanych ramach czasowych (deadline), osobowych oraz kosztowych. Anglojęzyczna wikipedia przytacza następującą definicję:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Contemporary business and science treat as a project (or program) any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned (usually by a project team) to achieve a particular aim.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;czym-jest-zakres-projektu-ang-scope&quot;&gt;Czym jest zakres projektu (ang. scope)?&lt;/h1&gt;
+
+&lt;p&gt;Pomińmy większość elementów projektu wspomnianych w poprzednim akapicie i skupmy się na dwóch: stan zastany oraz stan docelowy. Czym w ramach tego jest zakres projektu? Jest to jak najdokładniejsze określenie wymagań, które muszą być spełnione, aby osiągnąć cel projektu. Co ważne, nie jest to lista konkretnych zadań prowadzących do osiągnięcia danego wyniku. Jest to informacja mówiąca o tym co powinno być zrobione, ale nie jak.&lt;/p&gt;
+
+&lt;p&gt;Zakres wyznacza ramy “co?”, które służą nam w początkowym szacowaniu kosztu oraz czasu realizacji, a także w późniejszym kontrolowaniu tych dwóch parametrów względem zakresu. Te trzy zmienne tworzą tak zwany “magiczny trójkąt” (ang. project management triangle).&lt;/p&gt;
+
+&lt;p&gt;Zakres jest parametrem zmiennym i podczas realizacji projektu możę być modyfikowany przez tzw. change requesty (z punktu widzenia zarządzania projektami) lub dostosowywanie kierunku w którym zmierzamy (z punktu widzenia zwinnych metodyk wytwarzania).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Uwaga: Świadomie pominęliśmy tu rozbicie zakresu na projektowy i produktowy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;role-wspierające-project-managera-w-definiowaniu-zakresu&quot;&gt;Role wspierające project managera w definiowaniu zakresu&lt;/h1&gt;
+
+&lt;p&gt;Przed rozpoczęciem projektu definiujemy jego zakres. Zazwyczaj na tym etapie mamy małą ilość danych o tym co i jak będzie wytwarzane. My, jako project managerowanie mamy również ograniczoną wiedzę i umiejętności, i być może nie jesteśmy kompetentni do samodzielnego zdefiniowania całego zakresu, który doprowadzi nas do osiągnięcia celu projektu.&lt;/p&gt;
+
+&lt;p&gt;W takich sytuacjach, w zależności od firmy w której pracujemy możemy posiłkować się wsparciem innych osób. Czasami jest to zespół sprzedażowy, który dostarczył do nas projekt. Czasami jest to architekt / programista. Czasami projektant użyteczności. Czasami analityk. Musimy pamiętać, że w tym procesie nie jesteśmy sami i możemy korzystać ze wsparcia kolegów i koleżanek, prezentujących odmienny punkt widzenia. Wracając do definicji zakresu mówiącej &lt;em&gt;“jak najdokładniejsze określenie”&lt;/em&gt; korzystajmy z tego, że jak najdokładniejsze zdefiniowanie zakresu możemy osiągnąć jedynie przez patrzenie na ten sam problem z różnych perspektyw, korzystając z pomocy ludzi o innych specjalizacjach i innym doświadczeniu. Róbmy to pamiętając, że później zespół lub zespoły projektowe będą musiały go wspólnie z nami zrealizować.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli naszym celem byłoby wdrożenie systemu magazynowego o którym wspominaliśmy w poprzednim artykule z serii, to naszym stanem początkowym byłaby firma bez systemu WMS, stanem końcowym wdrożony system WMS, a zakresem wszystko to co musi być spełnione, aby zmienić stan z jednego na drugi.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-worst-thing-you-can-do&quot;&gt;The worst thing you can do&lt;/h1&gt;
+
+&lt;p&gt;W roli project managera tak naprawdę nie musimy brać udziału w definiowaniu zakresu projektu. Mamy uprawnienia do delegowania, bo na tym polega nasza rola. Możemy otrzymać zakres projektu od sprzedawców i go po prostu zacząć robić. Możemy poprosić analityka, aby przeanalizował sytuację i przygotował zakres, a my go po prostu zaczniemy realizować. Jest to idealna droga do poniesienia porażki w ramach zarządzania takim projektem… droga, którą kiedyś zdarzyło mi podążać.&lt;/p&gt;
+
+&lt;p&gt;Jak można kontrolować projekt w ramach którego znamy tylko cel, ale nie wiemy jak go osiągnąć? W przeszłości współpracowałem z project managerami po stronie klientów, których zarządzanie opierało się na przeczytaniu listy kamieni milowych oraz terminów ich osiągnięcia, ustawienia przypomnień w kalendarzu i wysyłania maili z zapytaniem “czy milestone został osiągnięty?” w dzień pokazania popupu przypominającego o terminie. Niezależnie od stanu faktycznego wystarczyło napisać “jest ok”, aby manager został zaspokojony.&lt;/p&gt;
+
+&lt;h1 id=&quot;stop-crying-be-a-woman&quot;&gt;Stop crying, be a (wo)man&lt;/h1&gt;
+
+&lt;p&gt;Jeżeli jesteśmy project managerami w wielkiej firmie realizującej projekt za 50 milionów to prawdopodobnie jesteśmy oddaleni od setek osób go wytwarzających. Jeżeli jesteśmy product ownerami w małej firmie to prawdopodobnie jesteśmy bardzo blisko osób realizujących dany projekt. Niezależnie od sytuacji w której się znajdujemy - musimy znać zakres projektu. Bez tego prosimy się o porażkę, stres oraz wychodzenie na niekompetentnych w kontaktach z interesariuszami, i zespołami.&lt;/p&gt;
+
+&lt;h1 id=&quot;sposoby-definiowania-zakresu&quot;&gt;Sposoby definiowania zakresu&lt;/h1&gt;
+
+&lt;p&gt;Jeżeli musimy znać zakres to jak go zdefiniować? Tak jak wspomnieliśmy w akapicie o rolach wspierających jego definiowanie - może to zostać osiągnięte na wiele różnych sposobów. Przedstawiając dwie skrajności: możemy wykonać głęboką analizę, której wynikiem będzie szczegółowa dokumentacja lub możemy skorzystać z lekkich metod znanych w świecie agile. Ten artykuł jest zdecydowanie za krótki, aby omówić jedną czy drugą. Przytoczę jednak dwa źródła z którymi warto się poznać, aby poznać dwa podejścia.&lt;/p&gt;
+
+&lt;p&gt;Pierwszym z nich jest analiza biznesowa i systemowa, której dobrym przykładem jest działalność Jarosława Żelińskiego. Ze szczegółami można zapoznać się na stronie &lt;a href=&quot;https://it-consulting.pl/&quot;&gt;https://it-consulting.pl/&lt;/a&gt; oraz znajdującym się na niej blogu (po wejściu na stronę trzeba kliknąć w logo :)). Pan Jarosław jest również autorem książki &lt;a href=&quot;https://helion.pl/ksiazki/analiza-biznesowa-praktyczne-modelowanie-organizacji-jaroslaw-zelinski,sfomod.htm#format/d&quot;&gt;Analiza biznesowa. Praktyczne modelowanie organizacji&lt;/a&gt;, którą polecam.&lt;/p&gt;
+
+&lt;p&gt;Drugą skrajnością jest np. user story mapping. Jest to metoda pozwalająca nam przy wykorzystaniu ściany oraz kolorowych karteczek zdefiniować tzw. ścieżkę użytkownika oraz elementy prowadzące do osiągnięcia każdego z jej kroków. Dodatkowo, technika ta pozwala nam na bardzo elastyczne i zwinne definiowanie priorytetów oraz kolejnych działań przybliżających nas do realizacji projektu. Wszystko o user story mappingu możecie przeczytać na stronie &lt;a href=&quot;http://www.jpattonassociates.com/user-story-mapping/&quot;&gt;User Story Mapping - Jeff Patton &amp;amp; Associates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;kontrola-zakresu&quot;&gt;Kontrola zakresu&lt;/h1&gt;
+
+&lt;p&gt;Rolą project managera jest kontrola zakresu projektu przez cały czas jego trwania. Dlaczego? Zespół projektowy prawdopodobnie będzie szukał uproszczeń w realizacji celów, a nasz klient będzie dążył do realizacji swoich oczekiwań, które często będą wychodzić poza zdefiniowany zakres (ta strefa działań project managera okreslana jest również jako &lt;em&gt;expectation management&lt;/em&gt;). Wyjście poza zakres prowadzi do potencjalnego zwiększenia kosztów projektu i wydłużenia czasu jego realizacji. Naszą odpowiedzialnością jest zarządzanie zakresem, aby osiągnąć wyznaczony cel w ramach zakresu, kosztu, czasu … oraz jakości. Jeżeli te parametry ulegną zmianie, a my odpowiednio tego nie zakomunikujemy i nie skorygujemy to mamy porażkę lub proces sądowy.&lt;/p&gt;
+
+&lt;h1 id=&quot;do-posłuchania-i-poczytania&quot;&gt;Do posłuchania i poczytania&lt;/h1&gt;
+
+&lt;p&gt;Szczerze mówiąc, nie znam żadnych podcastów traktujących stricte o analityce. Zachęcam jednak do zapoznania się z poniższymi podcastami oraz z książkami mówiącymi o tematyce Lean Startup oraz .&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://analizait.pl/category/podcast/&quot;&gt;Podcast: Analiza IT. Hania Tomaszewska.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devstyle.pl/2018/07/02/devtalk-83-idea-validation-with-pat-flynn/&quot;&gt;Podcast: DevTalk #83 – Idea Validation with Pat Flynn  0. Maciej Aniserowicz.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;[https://helion.pl/ksiazki/metoda-lean-startup-wykorzystaj-innowacyjne-narzedzia-i-stworz-firme-ktora-zdobedzie-rynek-eric-ries,meleav.htm]&quot;&gt;Metoda Lean Startup. Wykorzystaj innowacyjne narzędzia i stwórz firmę, która zdobędzie rynek. Eric Ries.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_viable_product&quot;&gt;Minimum viable product. Wikipedia.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Scope_(project_management)&quot;&gt;Scope, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Project&quot;&gt;Project, Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2018-11-22T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Project Manager, więc kto? Sprzedaż, czyli RFI, RFP</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;Jest to drugi artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
@@ -147,6 +238,8 @@
   &lt;li&gt;[9] &lt;a href=&quot;https://martinfowler.com/eaaDev/EventSourcing.html&quot;&gt;Event Sourcing, Martin Fowler&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[10] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time &amp;amp; materials, Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania trzeciego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu&quot;&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2018-11-08T00:00:00+01:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp</link>
@@ -178,7 +271,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu&quot;&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Zarządzanie projektami, czyli “Prince2”.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Liderowanie i szefowanie, czyli decyzje i feedback.&lt;/li&gt;
