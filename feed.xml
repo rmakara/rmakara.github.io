@@ -50,7 +50,7 @@
 
 &lt;h1 id=&quot;the-worst-thing-you-can-do&quot;&gt;The worst thing you can do&lt;/h1&gt;
 
-&lt;p&gt;W roli project managera tak naprawdę nie musimy brać udziału w definiowaniu zakresu projektu. Mamy uprawnienia do delegowania, bo na tym polega nasza rola. Możemy otrzymać zakres projektu od sprzedawców i go po prostu zacząć robić. Możemy poprosić analityka, aby przeanalizował sytuację i przygotował zakres, a my go po prostu zaczniemy realizować. Jest to idealna droga do poniesienia porażki w ramach zarządzania takim projektem… droga, którą kiedyś zdarzyło mi podążać.&lt;/p&gt;
+&lt;p&gt;W roli project managera tak naprawdę nie musimy brać udziału w definiowaniu zakresu projektu. Mamy uprawnienia do delegowania, bo na tym polega nasza rola. Możemy otrzymać zakres projektu od sprzedawców i go po prostu zacząć robić. Możemy poprosić analityka, aby przeanalizował sytuację i przygotował zakres, a my go po prostu zaczniemy realizować. Jest to idealna droga do poniesienia porażki w ramach zarządzania takim projektem… droga, którą kiedyś zdarzyło mi się podążać.&lt;/p&gt;
 
 &lt;p&gt;Jak można kontrolować projekt w ramach którego znamy tylko cel, ale nie wiemy jak go osiągnąć? W przeszłości współpracowałem z project managerami po stronie klientów, których zarządzanie opierało się na przeczytaniu listy kamieni milowych oraz terminów ich osiągnięcia, ustawienia przypomnień w kalendarzu i wysyłania maili z zapytaniem “czy milestone został osiągnięty?” w dzień pokazania popupu przypominającego o terminie. Niezależnie od stanu faktycznego, wystarczyło napisać “jest ok”, aby manager został zaspokojony.&lt;/p&gt;
 
@@ -78,7 +78,7 @@
 
 &lt;p&gt;Co możemy powiedzieć o tzw. skrajnej niepewności? Kiedyś byłem na kilku konferencjach dotyczących wytwarzania oprogramowania. Pojawiały się na nich prelekcje porównujące Scruma z Prince2. W mojej ocenie, mówiły o czymś, co było jak porównywanie jabłek z czerwonym młotkiem i zdecydowanie się z nimi nie zgadzałem. Jednak pojawiał się na nich jeden w miarę sensowny wykres ukazujący zasadność wykorzystania metodyk waterfallowych lub agilowych. Prezentował on czas na osi poziomej oraz stopień niepewności na osi pionowej. W sytuacji gdy na realizację “projektu” mamy dużo czasu, ale nasza wiedza jest bardzo mała, a co za tym idzie stopień niepewności jest olbrzymi - jest to miejsce dla metodyk zwinnych. W takiej sytuacji trudno jest zdefiniować zakres. Musimy się liczyć nawet z tym, że po kilku miesiącach pracy warunki biznesowe mogą nas zmusić do wykonania tzw. &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;pivotu&lt;/a&gt;. W takich sytuacjach, zazwyczaj mamy jednak świadomość celu, a także dostęp do metryk z których możemy korzystać podobnie jak z technik kontrolowania zakresu, aby w rezultacie - spełnić oczekiwania naszego klienta.&lt;/p&gt;
 
-&lt;p&gt;Dla pogłębienia wiedzy o powyższym problemie warto zapoznać się z modelem Cynefin. To o czym chciałbym, abyśmy pamiętali to - unikajmy mówienia “nie da się” - niezależnie od sytuacji w której się znajdujemy w kontekście kontrolowania zakresu. Gdy przychodzą nam takie słowa do głowy, starajmy się wykorzystać dostępną wiedzę i narzędzia do weryfikacji stawianych przez nas kroków, względem celu do którego zmierzamy. Pomóc nam w tym może książka Lean Analytics, którą przytaczam poniżej.&lt;/p&gt;
+&lt;p&gt;Dla pogłębienia wiedzy o powyższym problemie warto zapoznać się z &lt;a href=&quot;https://en.wikipedia.org/wiki/Cynefin_framework&quot;&gt;frameworkiem Cynefin&lt;/a&gt;. To o czym chciałbym, abyśmy pamiętali to - unikajmy mówienia “nie da się” - niezależnie od sytuacji w której się znajdujemy w kontekście kontrolowania zakresu. Gdy przychodzą nam takie słowa do głowy, starajmy się wykorzystać dostępną wiedzę i narzędzia do weryfikacji stawianych przez nas kroków, względem celu do którego zmierzamy. Pomóc nam w tym może książka Lean Analytics, którą przytaczam poniżej.&lt;/p&gt;
 
 &lt;h1 id=&quot;do-posłuchania-i-poczytania&quot;&gt;Do posłuchania i poczytania&lt;/h1&gt;
 
@@ -100,6 +100,7 @@
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Scope_(project_management)&quot;&gt;Scope, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Project&quot;&gt;Project, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;Pivot, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Cynefin_framework&quot;&gt;Cynefin framework, Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
           <pubDate>2018-11-22T00:00:00+01:00</pubDate>
