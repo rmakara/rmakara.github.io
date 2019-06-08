@@ -8,7 +8,19 @@
       
         <item>
           <title>Project Manager, więc kto? Praca zespołu, czyli &quot;Scrum&quot;</title>
-          <description>&lt;h1 id=&quot;pseudo-agile&quot;&gt;Pseudo-Agile&lt;/h1&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Jest to drugi artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rola project managera może być skrajnie różna w zależności od firmy. Często stanowiska nazywane zwrotem “project manager” - nie są dla project managerów. Seria artykułów będzie zawierać pewne uproszczenia i ograniczony kontekst.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ten artykuł nie jest o Scrumie.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;pseudo-agile&quot;&gt;Pseudo-Agile&lt;/h1&gt;
 
 &lt;p&gt;Podchodząc do omówienia tematu udziału project managera w świecie przeplatającym się z Agile (&lt;a href=&quot;https://www.scrum.org/resources/blog/scrumand-stance-requires-thought-and-discipline-0&quot;&gt;ScrumAnd&lt;/a&gt;) lub Pseudo-Agile (&lt;a href=&quot;https://www.scrum.org/resources/what-scrumbut&quot;&gt;ScrumBut&lt;/a&gt;), dość trudno jest trafić we wszelkie gusta oraz dotychczasowe doświadczenia osób, które taki materiał będą czytać. Do tego dochodzi fakt, że w ramach tej serii postów chcemy skupić sie na rzeczywistości do jakiej może trafiać osoba zatrudniająca się jako project manager w software house. Nie chcemy opisywać z sukcesem wdrożonego podejścia zwinnego, bo wtedy, post ten mógłby być przepisanym na krótszą formę Scrum Guide, opisującą tylko zakres obowiązków ról miękkich, albo właściwie postu w ogóle by nie było, bo przecież w Scrum Guide nie ma project managera.&lt;/p&gt;
 
