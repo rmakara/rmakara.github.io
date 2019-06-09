@@ -44,7 +44,7 @@
 
 &lt;h1 id=&quot;kontekst-naszej-historii&quot;&gt;Kontekst naszej historii&lt;/h1&gt;
 
-&lt;p&gt;Jesteś project managerem, który zostaje zatrudniony w software house. Zostajesz zesłany do pracy w czterech “projektach”, które są realizowane przez zespoły składające się z programistów/ki, testerów/ki, desginerów/ki, analityków/czki. Jeden z projektów jest typowym utrzymaniem stabilnie działającego softu legacy. Drugi to 2-osobowy zespół consultingowy dla klienta zewnętrznego. Trzeci to napisanie modułu, którego realizacja potrwa 2 miesiące, po czym zostanie opublikowany w marketplace. Czwarty to green-fieldowy projekt dotyczący zaawansowanego systemu wspierający handel B2B, tworzony dla firmy produkującej i sprzedającej półprodukty przeznaczone do produkcji elektroniki przemysłowej. W każdym będziesz musiał w mniejszym lub większym stopniu wspierać pracę zespołu.&lt;/p&gt;
+&lt;p&gt;Jesteś project managerem, który/a zostaje zatrudniony/a w software house. Zostajesz zesłany/a do pracy w czterech “projektach”, które są realizowane przez zespoły składające się z programistów/ki, testerów/ki, desginerów/ki, analityków/czki. Jeden z projektów jest typowym utrzymaniem stabilnie działającego softu legacy. Drugi to 2-osobowy zespół consultingowy dla klienta zewnętrznego. Trzeci to napisanie modułu, którego realizacja potrwa 2 miesiące, po czym zostanie opublikowany w marketplace. Czwarty to green-fieldowy projekt dotyczący zaawansowanego systemu wspierający handel B2B, tworzony dla firmy produkującej i sprzedającej półprodukty przeznaczone do produkcji elektroniki przemysłowej. W każdym będziesz musiał w mniejszym lub większym stopniu wspierać pracę zespołu.&lt;/p&gt;
 
 &lt;p&gt;Skupmy się na czwartym. Do projektu przydzielone zostają osoby, które nie trafiają do niego na podstawie Twojej analizy zapotrzebowania na konkretne kompetencji, ani Twoich decyzji. Zostajesz postawiony/a przed faktem dokonanym, który wynikł z wypadkowej potrzeb na realizację celu projektu zdefiniowanych przez inne osoby oraz aktualnie wolnych specjalistów w Twojej firmie, którzy akurat pokończyli inne projekty. Ta grupa osób w najbliższym czasie będzie musiała stać się zespołem, który przez kolejne 12 miesięcy będzie miał wytworzyć wspomniany system oraz uruchomić go produkcyjnie. W skład zespołu wchodzą:&lt;/p&gt;
 &lt;ul&gt;
@@ -92,7 +92,7 @@
   &lt;p&gt;“All models are wrong, but some are useful.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Każdy model jest próbą przeniesienia całej rzeczywistości i miliardów neuronów tworzących ludzkie mózgi na jeden slajd, czyli jest bardzo mocnym uproszczeniem. Jest to jednak przydatne, aby ułatwić rozważanie nad złożoną rzeczywistością. Do naszych dalszych przemyśleć i umożliwienia znalezienia odpowiedzi na pytanie “to zależy, od…” skorzystamy z modelu przytoczonego przez Jurgena Apello w książce Management 3.0. Pojawia się tam model 7 poziomów delegacji / dojrzałości zespołu, są to:&lt;/p&gt;
+&lt;p&gt;Każdy model jest próbą przeniesienia całej rzeczywistości i miliardów neuronów tworzących ludzkie mózgi na jeden slajd, czyli jest bardzo mocnym uproszczeniem. Jest to jednak przydatne, aby ułatwić rozważanie nad złożoną rzeczywistością. Do naszych dalszych przemyśleń i umożliwienia znalezienia odpowiedzi na pytanie “to zależy, od…” skorzystamy z modelu przytoczonego przez Jurgena Apello w książce Management 3.0. Pojawia się tam model 7 poziomów delegacji / dojrzałości zespołu, są to:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Mów&lt;/strong&gt;, w którym możesz wspomnieć o swojej motywacji do realizowania czegoś, ale przede wszystkim mówisz innym co mają robić i podejmujesz za nich decyzje.&lt;/li&gt;
@@ -134,7 +134,7 @@
 
 &lt;p&gt;Ten element jest rozwinięciem poprzedniego. Poza wykonywaniem czynności kalendarzowych i biurowych na rzecz zespołu pomagasz im ściśle optymalizować proces developmentu oraz współpracy z klientem. Usprawniasz komunikację, podczas ceremonii scrumowych możesz odgrywać rolę facylitatora. Zbierasz metryki pozwalające na wyciągnięcie wniosków i usprawnienie procesu wytwarzania, mogą to być ilość błędów, czas poświęcany na wykonywanie niektórych czynności przez brak automatyzacji, velocity, lead time, cycle team, częstotliwość releasów. Wizualizujesz te dane.&lt;/p&gt;
 
-&lt;p&gt;W ramach tego elementu jesteś już nie tylko managerem, ale osobą mającą pomóc zespołowi w efektywniejszej pracy. Ważne jest, że w roli scrum mastera to nie Ty wykonujesz najcieższą robotę, a jesteś coachem pomagającym rozwijać się zespołowi.&lt;/p&gt;
+&lt;p&gt;W ramach tego elementu jesteś już nie tylko managerem, ale osobą mającą pomóc zespołowi w efektywniejszej pracy. Ważne jest, że w roli scrum mastera to nie Ty wykonujesz najcieższą robotę, a jesteś coachem pomagającym rozwijać się zespołowi lub mentorem pokazującym konkretny sposób na rozpoczęcie przygody z niektórymi technikami. Dbasz o te rzeczy w skali zespołu lub spotkań one-on-one z każdym z jego członków.&lt;/p&gt;
 
 &lt;h1 id=&quot;project-manager-jako-proxy-product-owner&quot;&gt;Project manager, jako proxy product owner&lt;/h1&gt;
 
@@ -146,7 +146,7 @@
 
 &lt;h1 id=&quot;project-manager-jako-element-ścieżki-eskalacyjnej&quot;&gt;Project manager, jako element ścieżki eskalacyjnej&lt;/h1&gt;
 
-&lt;p&gt;W sytuacji gdy coś będzie szło źle, zespół popełni błąd mający skutki finansowe dla firmy klienta lub klient po prostu będzie niezadowolony z jakości Waszej pracy to prawdopodobnie staniesz się również osobą, która w pierwszej linii będzie odbierać jego “ataki”. Przekłada się to na wykazywanie zrozumienia sytuacji z perspektywy klienta jako partnera biznesowego, a także zrozumienie zespołu, który powinieneś bronić.&lt;/p&gt;
+&lt;p&gt;W sytuacji gdy coś będzie szło źle, zespół popełni błąd mający skutki finansowe dla firmy klienta lub klient po prostu będzie niezadowolony z jakości Waszej pracy to prawdopodobnie staniesz się również osobą, która w pierwszej linii będzie odbierać jego “ataki”. Przekłada się to na wykazywanie zrozumienia sytuacji z perspektywy klienta jako partnera biznesowego, a także zrozumienie zespołu, który wypadałoby bronić.&lt;/p&gt;
 
 &lt;p&gt;W rzeczywistości, będąc rozdartym pomiędzy tymi dwoma stronami prawdopodobnie nie będziesz po stronie klienta, ani po stronie zespołu… a po stronie projektu. Co czasami będzie oznaczało pójście bardziej w jedną lub drugą stronę.&lt;/p&gt;
 
@@ -171,7 +171,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;Mimo, iż sam preferuję prace w pełnym zespole scrumowym to nie odrzucam scenariusza z udziałem PMa, bez ról PO oraz SM. Scrum raczej nie zadziała idealnie jeżeli nasz zespół będzie składał się z osób, które są aktualnie na pierwszych poziomach modelu Dreyfus w zakresie wytwarzania oprogramowania, czyli potrzebują gotowych rozwiązań, procedur, przepisów na sukces.&lt;/p&gt;
 
-&lt;p&gt;Zespół nie stanie się samoorganizujący tylko dlatego, że powie się o tym jego członkom. Istnieje szansa, że ten zespół nawet nie będzie zespołem. Czy zespół scrumowy odnajdzie się w Scrumie zanim się uformuje? Czy w ogóle będzie potrafił? Być może przez cały czas trfania projektu “Scrum” zatrzyma jego rozwój na pierwszym kroku procesu budowania zespołów jakim jest znane &lt;a href=&quot;https://www.mindtools.com/pages/article/newLDR_86.htm&quot;&gt;storming-norming-forming-performing&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Zespół nie stanie się samoorganizujący tylko dlatego, że powie się o tym jego członkom. Istnieje szansa, że ten zespół nawet nie będzie zespołem. Czy zespół scrumowy odnajdzie się w Scrumie zanim się uformuje? Czy w ogóle będzie potrafił? Być może przez cały czas trwania projektu “Scrum” zatrzyma jego rozwój na pierwszym kroku procesu budowania zespołów jakim jest znane &lt;a href=&quot;https://www.mindtools.com/pages/article/newLDR_86.htm&quot;&gt;storming-norming-forming-performing&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;Scrum niekoniecznie będzie idealny, jeżeli z dwoma developerami będziemy mieli do stworzenia konkretny, dobrze opisany, o działaniu już zweryfikowanym przez rynek moduł przeznaczony na marketplace, we współpracy z płacącym nam dużo pieniędzy, ale maksymalnie niemiłym i niechętnym do kooperacji klientem. Zakres modułu będzie znany, więc nie będziemy mogli powiedzieć, że pracujemy w startupowych warunkach skrajnej niepewności, gdzie potrzebujemy wielu iteracji do minimalizacji ryzyka developowania rzeczy nieważnych. Nie będziemy też potrzebować ścisłej współpracy z interesariuszami, ponieważ Ci chcą jedynie zobaczyć gotowy produkt za 60 dni.&lt;/p&gt;
 
