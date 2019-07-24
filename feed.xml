@@ -7,7 +7,158 @@
     
       
         <item>
-          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;</title>
+          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;, część II</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Jest to czwarty artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rola project managera może być skrajnie różna w zależności od firmy. Często stanowiska nazywane zwrotem “project manager” - nie są dla project managerów. Seria artykułów będzie zawierać pewne uproszczenia i ograniczony kontekst.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ten artykuł nie jest o Scrumie.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;droga-ku-zwinności&quot;&gt;Droga ku zwinności&lt;/h1&gt;
+
+&lt;p&gt;Jesteśmy kilka lat po zakończeniu projektu opisywanego w poprzednim artykule z tej serii, który zrealizowaliśmy w zespole składającym się z development teamu oraz nas jako project managera. Wszystko poszło po naszej myśli i zostało zakończone w obrębie planowanego czasu i budżetu. Jakość była wystarczająco dobra dla naszego klienta. Zespół projektowy został rozwiązany, a osoby, które wchodziły w jego skład rozeszły się do innych projektów. Przez ostatnie lata zrealizowaliśmy jeszcze wiele innych projektów w ten sposób. Stawały się one coraz większe, ponieważ nasza firma rosła i w efekcie tego zyskaliśmy duże zaufanie naszych klientów.&lt;/p&gt;
+
+&lt;p&gt;My staliśmy się już dość doświadczonym project managerem. Nasza firma zdecydowała, że eksperymentalnie kolejny rok będzie realizowany zgodnie z agile’owym mindsetem. Wcześniej pracowaliśmy już w Scrumie, ale teraz chcemy zrobić to z pełnym zaangażowaniem. Powstaną w pełni scrumowe zespoły składające się z product ownerów, scrum masterów oraz zespołów developerskich. My zostajemy jednak na stanowisku managera, co zostało określone pewnego rodzaju awansem. Tym razem nasz tytuł w stopce mailowej został zmieniony na “agile project manager”, “service delivery manager”, “head of delivery”, “release train engineer”. Możemy sobie wybrać. Nazwa nie ma na tym etapie większego znaczenia, ponieważ i tak nikt w naszej organizacji jej nie rozumie i będzie się klaryfikowała jeszcze przez kolejny rok naszej agile’owej przygody.&lt;/p&gt;
+
+&lt;p&gt;Już dziś jednak zmierzamy drogą samoorganizacji zespołów oraz dodaliśmy scrum mastera do każdego z nich. Product ownerami w naszych projektach są osoby z firm naszych klientów.&lt;/p&gt;
+
+&lt;h1 id=&quot;nowa-definicja-sukcesu-projektu&quot;&gt;Nowa definicja “sukcesu projektu”&lt;/h1&gt;
+
+&lt;p&gt;W obrębie poprzednich artykułów zdefiniowaliśmy projekt jako coś co ma swój początek i koniec, oraz powinno być zrealizowane w obrębie konkretnego &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_management_triangle&quot;&gt;budżetu, czasu i zakresu&lt;/a&gt;. Te trzy wymiary definiowały to czy dany projekt w dniu jego zakończenia osiągnął sukces, czy też nie. Zaczęliśmy jednak pracować bardziej partnersko z naszymi klientami. Wspólnie doszliśmy do wniosku, że na aktualnym poziomie zaufania oraz zmienności wymagań biznesowych nie chcemy definiować dalekosiężnych planów realizacji dla zespołów, a każdego dnia będziemy pracować wspólnie nad osiągnięciem sukcesu. Czym jednak teraz będzie “sukces” jeżeli nie budżetem, czasem i zakresem?&lt;/p&gt;
+
+&lt;p&gt;Scrum z założenia jest sposobem organizacji pracy zespołu, który wytwarza jakiś produkt. W obrębie tego artykułu naszym produktem będzie oprogramowanie dostarczane w modelu &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_as_a_service&quot;&gt;Software as a Service&lt;/a&gt; służące do analizy rozproszonych systemów informatycznych w których jednostkami wdrożeniowymi są &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;mikroserwisy&lt;/a&gt;. Wykorzystujemy do tego sztuczną inteligencję, która pokazuje nam wskaźnik informujący o tym jak bardzo jesteśmy w bagnie ze względu na duży &lt;a href=&quot;https://www.martinfowler.com/ieeeSoftware/coupling.pdf&quot;&gt;coupling&lt;/a&gt; między serwisami oraz generuje listę zadań prowadzących do uporządkowania naszej architektury.&lt;/p&gt;
+
+&lt;p&gt;Czyli co będzie mówić o sukcesie? Budowanie produktu przecież wcale nie musi mieć końca o czym mówiła nasza dotychczasowa definicja projektu. W ramach takiego nowoczesnego sposobu pracy istnieje wiele aktywności wykonywanych w obrębie jednego produktu, które według definicji początku-końca oraz celu biznesowego moglibyśmy nazywać projektami.&lt;/p&gt;
+
+&lt;p&gt;Wchodząc w świat agile chcemy skupiać się na dostarczaniu wartości biznesowej, a nie konkretnych umówionych wcześniej funkcjonalności. Nasz zespół coraz bardziej rozumie biznes klienta i bardzo dobrze współpracuje z product ownerem. Dzięki temu bazujemy na wysokopoziomowej road mapie na kolejne miesiące / lata, która została nam przekazana przez product ownera. Wraz z kolejnymi sprintami stajemy się coraz lepsi, osiągamy cele sprintów, a budowany przez nas produkt testuje kolejne koncepcje, które mają zmaksymalizować zadowolenie naszych klientów oraz dać nam jak najszybszą informację zwrotną czy ta dana koncepcja działa, czy nie. Zabierając się za nowe, duże tematy nie przeprowadzamy kilkutygodniowych analiz, a realizujemy krótkie warsztaty product discovery mniej lub bardziej zgodne z koncepcją &lt;a href=&quot;https://productvision.pl/2019/pv07-design-sprint-20-maciej-saganowski/&quot;&gt;Design Sprint 2.0&lt;/a&gt;. Do oceny “sukcesu”, nasz product owner (lub product manager stojący nad nim) korzysta z takich wskaźników SaaS’owych wskaźników jak &lt;a href=&quot;https://saasmetrics.co/churn/&quot;&gt;churn&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/monthly-recurring-revenue/&quot;&gt;monthly recurring revenue&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/customer-lifetime-value/&quot;&gt;customer lifetime value&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/customer-acquisition-cost/&quot;&gt;acquisition cost&lt;/a&gt;. PO nie myśli budżetami w skali projektu, a ma przydzielony budżet w skali roku, aby spożytkować go na konkretne &lt;a href=&quot;https://www.scaledagileframework.com/value-streams/&quot;&gt;value stream’y&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nie budżet-harmonogram-zakres, a wartość biznesowa w określonym czasie, spełnianie bieżących potrzeb użytkowników końcowych i ścisła współpraca między zespołem oraz klientem będą stanowić o sukcesie naszych działań.&lt;/p&gt;
+
+&lt;h1 id=&quot;product-owner&quot;&gt;Product Owner&lt;/h1&gt;
+
+&lt;p&gt;W zespole mamy product ownera. Sprawia to, że jako managerzy nie musimy być głęboko zaangażowani w definiowanie zakresu oraz tego co będzie robił zespół. Zajmuje się tym product owner, który skupia się na maksymalizacji wartości wynikającej z prac zespołu oraz przekazuje wizję produktu. Jest też osobą, która ma pełną autonomię oraz autorytet w zakresie podejmowanych decyzji, czyli z perspektywy zespołu jest głównym decision makerem. Tworzy też mur obronny między zespołem i udziałowcami, czyli zajmując się prioretyzacją backlogu zarządza wymaganiami interesariuszy, a także analizuje rynek, aby dzisiaj koncentrować na takich rzeczach, których rynek będzie potrzebował już zaraz.&lt;/p&gt;
+
+&lt;p&gt;Nasi product ownerzy robią to dobrze, więc jako managerzy nie wchodzimy im w drogę i nie przeszkadzamy.&lt;/p&gt;
+
+&lt;h1 id=&quot;scrum-master&quot;&gt;Scrum Master&lt;/h1&gt;
+
+&lt;p&gt;Mamy też scrum mastera, który jest liderem służebnym naszego zespołu. Scrum master na aktualnym etapie rozwoju naszej firmy skupia się przede wszystkim na procesie wewnątrz zespołu agilowego. Scrum master pracuje wspólnie z zespołem oraz product ownerem. Na podstawie swojej wiedzy, umiejętności i doświadczenia w zakresie Agile oraz Scrum - zawsze jest jeden kroczek przed resztą zespołu i wspiera ich w osiąganiu mistrzostwa w zakresie zwinności.&lt;/p&gt;
+
+&lt;p&gt;Na kilku konferencjach usłyszeliśmy, że popularna stała się rola agile coacha, który działa bardziej na poziomie organizacji. Takiego kogoś też mamy.&lt;/p&gt;
+
+&lt;p&gt;Nasi scrum masterzy i agile coach robią to dobrze, więc jako managerzy nie wchodzimy im w drogę i nie przeszkadzamy.&lt;/p&gt;
+
+&lt;h1 id=&quot;miejsce-dla-managera&quot;&gt;Miejsce dla managera&lt;/h1&gt;
+
+&lt;p&gt;Mamy pokryty pełen zakres obowiązków opisanych w Scrum Guide. Oznacza to, że nawet product owner ma większą moc decyzyjną w definiowaniu “zakresu / priorytetów”, niż my. Co, my jako managerowie właściwie będziemy robić jeżeli nie możemy rządzić zgodnie z ideą “command and control”, a także nie musimy być już hybrydą managera, scrum mastera i product ownera?&lt;/p&gt;
+
+&lt;p&gt;Rzeczywiście oderwiemy się trochę od codziennego procesu wytwarzania i już nie będziemy tak blisko tworzenia rozwiązań na rzecz klientów. Będziemy pracować głównie na poziomie organizacji lub “portfolio projektów / produktów / klientów / zespołów”. Tą przestrzeń opiszemy jednak w kolejnym artykule dotyczącym wspierania organizacji przez project managera.&lt;/p&gt;
+
+&lt;p&gt;W obrębie tego artykułu skupiamy się na bezpośredniej współpracy z pojedynczymi zespołami. Zastanówmy się w takim razie jakie aktywności przypadną nam w zakresie naszej odpowiedzialności, gdy mamy product ownerów, scrum masterów, agile coachów - a w dalszym ciągu chcemy wykazać się we współpracy z zespołem.&lt;/p&gt;
+
+&lt;h1 id=&quot;dostarczanie-narzędzi-dla-zespołów&quot;&gt;Dostarczanie narzędzi dla zespołów&lt;/h1&gt;
+
+&lt;p&gt;Niezależnie od branży (również w branży nie-IT) w jakiej pojawiają się “kierownicy” ich bardzo ważnym zadaniem jest dostarczanie pracownikom narzędzi do jak najlepszego wykonywania swojej pracy. Podobnie sprawa wygląda tutaj. Jako manager w świecie agile powinniśmy dbać o to, aby ludzie w zespołach scrumowych mieli dostęp do wszelkich zasobów jakich potrzebują. Robimy to w granicach rozsądku możliwej inwestycji względem potencjalnego zysku.&lt;/p&gt;
+
+&lt;p&gt;W każdym razie, jeżeli sami wpadniemy na to że jesteśmy dostarczyć zespołowi jakieś konkretne narzędzie lub zespół zgłasza potrzebę pozyskania czegoś do naszej firmy to jako managerowie powinniśmy to zrobić. Scrum master, który prawdopodobnie będzie mostem pośredniczącym do zgłaszania zapotrzebowania na konkretne narzędzia być może w ramach organizacji nie będzie miał mocy decyzyjnej w kwestii wydawania firmowych pieniędzy. W takiej sytuacji to my dbamy o zakupy.&lt;/p&gt;
+
+&lt;h1 id=&quot;usuwanie-impedimentów-przeszkód-na-poziomie-organizacyjnym&quot;&gt;Usuwanie impedimentów (przeszkód) na poziomie organizacyjnym&lt;/h1&gt;
+
+&lt;p&gt;Niezależnie od tego czy chodzi o kwestie finansowe, czy niefinansowe - zespół scrumowy może natrafić na blokery i/lub problemy na poziomie organizacyjnym. Większość działań wykonywanych przez członków zespołu zostanie w jego wnętrzu. Prawdopodobnie będą oni też komunikować się na korytarzach naszej firmy lub na publicznych kanałach komunikatorów zespołowych z innymi zespołami, ale ta dynamika będzie bardzo ograniczona. W takiej sytuacji to scrum master oraz my jako managerowie będziemy posiadać wiedzę o big picture tego co dzieje się w naszej firmie.&lt;/p&gt;
+
+&lt;p&gt;Przykładami takich problemów może być zapotrzebowanie na pieniądze potrzebne do zakupu jakiegoś narzędzia wspomniane w poprzednim akapicie. Może to być również konieczność pozyskania wiedzy spoza organizacji co wiąże się ponownie z wydaniem konkretnej sumy pieniędzy na zorganizowania warsztatów lub szkolenia dla zespołu. Może to być niepoprawna struktura organizacyjna firmy wpływająca na długość ścieżki decyzyjnej utrudniająca pracę zespołów.&lt;/p&gt;
+
+&lt;h1 id=&quot;szerzenie-wiedzy-na-poziomie-organizacji&quot;&gt;Szerzenie wiedzy na poziomie organizacji&lt;/h1&gt;
+
+&lt;p&gt;Kontynuując wątek dotyczący big picture z poprzedniego akapitu - będą pojawiać się sytuacje w których zespół napotykając na jakiś problem projektowy / programistyczny do rozwiązania po prostu nie ma świadomości, że dokładnie to samo jest rozwiązywane po drugiej stronie firmy, kilka pomieszczeń dalej. Jeżeli jesteśmy managerem patrzącym z góry na kilka różnych zespołów naszą wartością którą do takiego zespołu możemy wnieść będą sugestie, że hej… zespół B już to robił. Zapytajcie ich o poradę.&lt;/p&gt;
+
+&lt;h1 id=&quot;bycie-szefem&quot;&gt;Bycie szefem&lt;/h1&gt;
+
+&lt;p&gt;W takiej organizacji zespoły mogą postrzegać Nas (managerów) jako “szefów”, osoby które w strukturze organizacyjnej firmy stoją jeden lub dwa schodki wyżej. Stanie to się ze względu na samą etykietkę w stopce mailowej. Warto w takim momencie wykorzystać to jako narzędzie wspierające motywację i zaangażowanie ludzi. Możemy komunikować im strategię firmy, cele realizowanych projektów, wyjaśniać podejmowane decyzję w skali portfolio prac realizowanych przez naszą firmę oraz opisywać jak ich praca przekłada się na cele strategiczne. Jeżeli np. cel naszej aplikacji SaaS’owej dotyczacy spadku kosztu akwizycji pojedynczego klienta lub przekroczenia progu 10 000 płacących klientów przed zakończeniem 2019 roku padnie z naszych managerskich ust - będzie to miało niesamowitą moc i pomoże zaangażować zespół. W kolejnych krokach, product owner będzie podtrzymywał ten kierunek i komunikując swoje wizję będzie mógł wesprzeć się celem, który jest bardzo ważny nie tylko w kontekście zespołu, ale też w kontekście całej firmy.&lt;/p&gt;
+
+&lt;h1 id=&quot;docenianie-i-nagradzanie-z-poziomu-top-managementu&quot;&gt;Docenianie i nagradzanie z poziomu top-managementu&lt;/h1&gt;
+
+&lt;p&gt;Gdy jesteśmy traktowani jako “szefowie” to zyskujemy dodatkowy atrybut w postaci dobrych słów, które mogą trafiać od nas do zespołów. Zespoły scrumowe budowane są w oparciu o transparencję, szczerość i feedback, dlatego ich członkowie prawdopodobnie często doceniają pracę kolegów i koleżanek. Jest to wykorzystywane np. jako narzędzie podczas daily scrumów - jeżeli jako członek zespołu developerskiego deklarujemy realizację czegoś przed kolegami i koleżankami to chcemy tego dotrzymać. Po tym wystarczy proste “super, że to zrobiłeś” od kolegi/koleżanki, aby być jak prawdziwi agilowcy. Dużo trudniej jest powiedzieć “znowu czegoś nie zrobiłem” swojemu zespołowi, niż szefowi.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli zespół powyższą komunikację zacznie traktować jako “codzienność” wtedy cali na biało wchodzimy my. Manager, który przychodzi do zespołu i mówi o pozytywnych efektach ich pracy i swoim zadowoleniu. Generuje to poczucie bycia częścią firmy zmierzającej w jednym kierunku, przynależności do większej grupy i wspólnego sukcesu, a dzięki temu ludzie czują się zauważeni.&lt;/p&gt;
+
+&lt;h1 id=&quot;rozwiązywanie-współpracy&quot;&gt;Rozwiązywanie współpracy&lt;/h1&gt;
+
+&lt;p&gt;Wszystko ma swoje blaski i cienie. Jeżeli mamy moc doceniania to mamy również moc pozwalającą na odsunięcie kogoś z konkretnego zespołu lub firmy. W przypadku bardzo dojrzałych zespołów to w roli zespołu scrumowego będzie poinformowanie nas o niszczeniu efektów pracy zespołu, przez jedną osobę. W takich sytuacjach powinniśmy przeanalizować sytuację, zrozumieć perspektywę każdej ze stron i podjąć odpowiednie kroki. Czasami wystarczy zmiana zespołu, czasami jednak trzeba rozwiązać z kimś współpracę.&lt;/p&gt;
+
+&lt;p&gt;Temat zwolnień w branży IT jest raczej rzadki ze względu na trudności z rekrutacją specjalistów, a gdy już się pojawia to jest tematem zamiatanym pod dywan. To rzecz trudna dla każdej ze stron i wielu managerów ma tendencję do przeciągania tego etapu broniąc się takimi nadziejami jak:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Z pewnością się poprawi.”,&lt;/li&gt;
+  &lt;li&gt;“Lepsza taka osoba, niż żadna.”,&lt;/li&gt;
+  &lt;li&gt;“Zmiana zespołu wystarczy.”,&lt;/li&gt;
+  &lt;li&gt;“To wpłynie negatywnie na morale całego zespołu.”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Często jednak uwolnienie kogoś daje szanse naszej firmie/zespołowi na rozwinięcie skrzydeł, a osoba z którą się rozstajemy być może trafi do miejsca, które w perspektywie kolejnych lat wpłynie pozytywnie na jej życie i karierę.&lt;/p&gt;
+
+&lt;p&gt;Niezależnie od tego jak bardzo trudne na poziomie moralnym jest to dla Ciebie jako managera to tak jak przytacza to książka &lt;a href=&quot;https://www.radicalcandor.com/&quot;&gt;Radical Candor: How to be a kick-ass boss without losing your humanity&lt;/a&gt;,  - “Now it’s your job to say it!”.&lt;/p&gt;
+
+&lt;h1 id=&quot;polityka&quot;&gt;Polityka&lt;/h1&gt;
+
+&lt;p&gt;Zespołowy developerskie lubią pracować nad produktami. Designerzy lubią projektować, programiści programować, product ownerzy budować produkty, scrum masterzy podnosić efektywność zespołów. Za tym stoi jednak realny biznes, gdzie bardzo wiele rzeczy dzieje się na podstawie budowania relacji czy budżetów.&lt;/p&gt;
+
+&lt;p&gt;Może być tak, że product owner po stronie klienta kieruje produkt w jakimś bezsensownym kierunku, którego zespół w ogóle nie rozumie. Być może ma w tym swój prywatny interes? Być może został obiecany mu awans za osiągnięcie jakiegoś ślepego &lt;a href=&quot;https://en.wikipedia.org/wiki/Performance_indicator&quot;&gt;KPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Być może konieczność wdrożenia bazy IBM DB2 na prośbę product ownera wynika z tego, że klient podpisał umowę z IBM, mówiącą o tym, że dzięki korzystaniu z ich produktów dostaną 3-letni pakiet szkoleń dla swoich pracowników o potężnej wartości?&lt;/p&gt;
+
+&lt;p&gt;Być może jesteśmy proszeni o pracę przez najbliższe 3 tygodnie w zawyżonej ilości godzin. Powód? Dyrektor zarządzający po stronie firmy klienta nie chce otwierać innych tematów, bo jest na ostatniej prostej przed zmianą swojego stanowiska na zarządzanie nowo powstałą spółką-córką?&lt;/p&gt;
+
+&lt;p&gt;Wszystkie tego typu aspekty bardzo rzadko trafiają do świata zespołu agile, który jest skupiony na swojej pracy. W świecie scrumowym, product ownerzy i scrum masterzy również nie zawsze chcieliby się angażować w tego typu aspekty polityczne. Tutaj pojawia się rola managera lub naszych C-leveli, aby komunikować się z top managemenetem po stronie klienta i móc zrozumieć polityczne przyczyny wyborów dokonywanych w ramach jakiegoś produktu. Wtedy po pewnej translacji dostarczamy takie smutne wieści do zespołu w formie, która będzie dla nich zjadliwa i ręce im nie opadną od ilości skomplikowanej polityki.&lt;/p&gt;
+
+&lt;h1 id=&quot;eskalacje&quot;&gt;Eskalacje&lt;/h1&gt;
+
+&lt;p&gt;Wspomnieliśmy o aspekcie politycznym oraz kontakcie z top managementem firmy klienta. W rzeczywistości &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-driven_design&quot;&gt;Domain Driven Design&lt;/a&gt; staramy się doprowadzać do tego, aby zespoły developerskie rozmawiały z biznesem. Rozmawiają jednak na tematy dotyczące budowania produktu.&lt;/p&gt;
+
+&lt;p&gt;Zdarzają się sytuacje w których to np. product owner po stronie klienta jest winny niepowodzeniom zespołu. W takich sytuacjach najczęściej stosuje się zasadę, że programiści rozmawiają z programistami, middle management z middle managementem, C-level z C-levelem. Niestety istnieje duża szansa, że jeżeli w butach programisty staniemy przed prezesem firmy klientami to nie będzie zainteresowany słuchaniem nas. Czasami (raczej w mniejszych firmach) zdarzają się oczywiście sytuacje w których taki kontakt jest możliwy. Najczęściej jednak nie. Jest to dość smutne, ale prawdziwe.&lt;/p&gt;
+
+&lt;p&gt;Wtedy zespół developerski musi mieć możliwość uruchomienia ścieżki eskalacyjnej. Może skontaktować się ze scrum masterem, który porozmawia z nami jako agile managerem. My wtedy albo skontaktujemy się z osobami po stronie klienta, albo przekażemy pałeczkę dalej do naszych przełożonych, aby przekazać komunikat z najwyższego dla nas możliwego poziomu.&lt;/p&gt;
+
+&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
+
+&lt;p&gt;Agile sprawił, że managerom będącym na poziomie middle-managementu zostały ucięte dolne macki sięgające do samoorganizujących się zespołów developerskich. Prawdopodobnie dla większości managerów jest to trudna zmiana, gdy muszą porzucić swoją pracę polegającą na bezpośrednim rozwiązywaniu problemów, sprawdzaniu i kontrolowaniu… a większość z tego zostaje zastąpiona hasłem &lt;em&gt;“take it to the team”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nie oznacza to jednak, że nie mogą mieć olbrzymiego wpływu na wspieranie tego co jest celem agile, czyli osiąganiu jak najwyższej efektywności pracy zespołów. Swoim autorytetem, postawą i doświadczeniem muszą wspierać zespoły developerskie w ich drodze do zwinności, co wypełni cele oraz wartości wyznawane przez członków zespołów, a to przełoży się na poziom całych zespołów oraz całej firmy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_management_triangle&quot;&gt;Trójkąt projektowy, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_as_a_service&quot;&gt;Software as a Service, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;Microservices, Martin Fowler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://www.martinfowler.com/ieeeSoftware/coupling.pdf&quot;&gt;Coupling, Martin Fowler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://productvision.pl/2019/pv07-design-sprint-20-maciej-saganowski/&quot;&gt;Design Sprint 2.0, Product Vision Podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://saasmetrics.co/churn/&quot;&gt;Churn, SaaS Metrics&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;https://saasmetrics.co/monthly-recurring-revenue/&quot;&gt;Monthly recurring revenue, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[8] &lt;a href=&quot;https://saasmetrics.co/customer-lifetime-value/&quot;&gt;Customer lifetime value, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[9] &lt;a href=&quot;https://saasmetrics.co/customer-acquisition-cost/&quot;&gt;Acquisition cost, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[10] &lt;a href=&quot;https://www.scaledagileframework.com/value-streams/&quot;&gt;Value stream, Scaled Agile Framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[11] &lt;a href=&quot;https://www.radicalcandor.com/&quot;&gt;Radical Candor: How to be a kick-ass boss without losing your humanity, Kim Scott&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Performance_indicator&quot;&gt;KPI, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[13] &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-driven_design&quot;&gt;Domain Driven Design, Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2019-07-24T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;, Część I</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;Jest to czwarty artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
