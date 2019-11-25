@@ -7,166 +7,207 @@
     
       
         <item>
-          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;, część II</title>
-          <description>&lt;blockquote&gt;
-  &lt;p&gt;Jest to piąty artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+          <title>Is your feedback about money? Wyniki ankiety, część I</title>
+          <description>&lt;h1 id=&quot;historia&quot;&gt;Historia&lt;/h1&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Rola project managera może być skrajnie różna w zależności od firmy. Często stanowiska nazywane zwrotem “project manager” - nie są dla project managerów. Seria artykułów będzie zawierać pewne uproszczenia i ograniczony kontekst.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Kilka miesięcy temu zobaczyłem &lt;a href=&quot;https://twitter.com/mariuszgil/status/1147188223015305217&quot;&gt;ćwierk Mariusza Gila i Jarka Pałki&lt;/a&gt;. Na podstawie spontanicznej decyzji, pełen słomianego zapału - zgłosiłem się.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Ten artykuł nie jest o Scrumie.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Doprowadziło to do przygotowania mojej debiutanckiej prezentacji &lt;em&gt;Is your feedback about money?&lt;/em&gt;, która pojawiła się na &lt;a href=&quot;https://segfault.events/&quot;&gt;SegFault UnConference Kraków&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;droga-ku-zwinności&quot;&gt;Droga ku zwinności&lt;/h1&gt;
+&lt;p&gt;W związku z chęcia poznania perspektywy większej ilości osób, a nie tylko mojej własnej… przeprowadziłem ankietę na temat tego jak specjaliści w branży wytwarzania oprogramowania podchodzą do spotkań feedbackowych.&lt;/p&gt;
 
-&lt;p&gt;Jesteśmy kilka lat po zakończeniu projektu opisywanego w poprzednim artykule z tej serii, który zrealizowaliśmy w zespole składającym się z development teamu oraz nas jako project managera. Wszystko poszło po naszej myśli i zostało zakończone w obrębie planowanego czasu i budżetu. Jakość była wystarczająco dobra dla naszego klienta. Zespół projektowy został rozwiązany, a osoby, które wchodziły w jego skład rozeszły się do innych projektów. Przez ostatnie lata zrealizowaliśmy jeszcze wiele innych projektów w ten sposób. Stawały się one coraz większe, ponieważ nasza firma rosła i w efekcie tego zyskaliśmy duże zaufanie naszych klientów.&lt;/p&gt;
+&lt;h1 id=&quot;założenia&quot;&gt;Założenia&lt;/h1&gt;
 
-&lt;p&gt;My staliśmy się już dość doświadczonym project managerem. Nasza firma zdecydowała, że eksperymentalnie kolejny rok będzie realizowany zgodnie z agile’owym mindsetem. Wcześniej pracowaliśmy już w Scrumie, ale teraz chcemy zrobić to z pełnym zaangażowaniem. Powstaną w pełni scrumowe zespoły składające się z product ownerów, scrum masterów oraz zespołów developerskich. My zostajemy jednak na stanowisku managera, co zostało określone pewnego rodzaju awansem. Tym razem nasz tytuł w stopce mailowej został zmieniony na “agile project manager”, “service delivery manager”, “head of delivery”, “release train engineer”. Możemy sobie wybrać. Nazwa nie ma na tym etapie większego znaczenia, ponieważ i tak nikt w naszej organizacji jej nie rozumie i będzie się klaryfikowała jeszcze przez kolejny rok naszej agile’owej przygody.&lt;/p&gt;
+&lt;p&gt;Ważna dla mnie była obiektywność wyników, które dostarczy ankieta. Zaraz po przygotowaniu kwestionariusza uznałem, że jeżeli opublikuję ankietę w social mediach to zostanie ona uzupełniona przede wszystkim przez ludzi, którzy mnie chociażby trochę lubią… a to oznaczałoby zdecydowaną większość głosów pochodzących z firm w których dotychczas pracowałem.&lt;/p&gt;
 
-&lt;p&gt;Już dziś jednak zmierzamy drogą samoorganizacji zespołów oraz dodaliśmy scrum mastera do każdego z nich. Product ownerami w naszych projektach są osoby z firm naszych klientów.&lt;/p&gt;
+&lt;p&gt;Respondenci byli wybierani przez mnie indywidualnie i link do ankiety przesyłałem im na linii prywatnej. Dzięki temu wyniki ankiety są zróżnicowane, ponieważ 50 respondentów oznacza ponad 30 różnych firm w których aktualnie pracowali.&lt;/p&gt;
 
-&lt;h1 id=&quot;nowa-definicja-sukcesu-projektu&quot;&gt;Nowa definicja “sukcesu projektu”&lt;/h1&gt;
+&lt;h1 id=&quot;wyniki&quot;&gt;Wyniki&lt;/h1&gt;
 
-&lt;p&gt;W obrębie poprzednich artykułów zdefiniowaliśmy projekt jako coś co ma swój początek i koniec, oraz powinno być zrealizowane w obrębie konkretnego &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_management_triangle&quot;&gt;budżetu, czasu i zakresu&lt;/a&gt;. Te trzy wymiary definiowały to czy dany projekt w dniu jego zakończenia osiągnął sukces, czy też nie. Zaczęliśmy jednak pracować bardziej partnersko z naszymi klientami. Wspólnie doszliśmy do wniosku, że na aktualnym poziomie zaufania oraz zmienności wymagań biznesowych nie chcemy definiować dalekosiężnych planów realizacji dla zespołów, a każdego dnia będziemy pracować wspólnie nad osiągnięciem sukcesu. Czym jednak teraz będzie “sukces” jeżeli nie budżetem, czasem i zakresem?&lt;/p&gt;
+&lt;p&gt;Wyniki do Twojej własnej interpretacji są dostępne po adresem:&lt;/p&gt;
 
-&lt;p&gt;Scrum z założenia jest sposobem organizacji pracy zespołu, który wytwarza jakiś produkt. W obrębie tego artykułu naszym produktem będzie oprogramowanie dostarczane w modelu &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_as_a_service&quot;&gt;Software as a Service&lt;/a&gt; służące do analizy rozproszonych systemów informatycznych w których jednostkami wdrożeniowymi są &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;mikroserwisy&lt;/a&gt;. Wykorzystujemy do tego sztuczną inteligencję, która pokazuje nam wskaźnik informujący o tym jak bardzo jesteśmy w bagnie ze względu na duży &lt;a href=&quot;https://www.martinfowler.com/ieeeSoftware/coupling.pdf&quot;&gt;coupling&lt;/a&gt; między serwisami oraz generuje listę zadań prowadzących do uporządkowania naszej architektury.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Przepraszam, ale przed afterem nie zdążyłem :( pojawią się w tym miejscu jutro, podczas UnConference&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Czyli co będzie mówić o sukcesie? Budowanie produktu przecież wcale nie musi mieć końca o czym mówiła nasza dotychczasowa definicja projektu. W ramach takiego nowoczesnego sposobu pracy istnieje wiele aktywności wykonywanych w obrębie jednego produktu, które według definicji początku-końca oraz celu biznesowego moglibyśmy nazywać projektami.&lt;/p&gt;
+&lt;p&gt;Jeżeli zdecydowałeś/aś się na poświęcenie czasu na wejście tutaj to mam nadzieję, że wyniki będą dla Ciebie ciekawe i przyczynią się do poszerzenia Twojego poglądu na ten temat oraz wyciągnięcia ciekawych wniosków. :)&lt;/p&gt;
 
-&lt;p&gt;Wchodząc w świat agile chcemy skupiać się na dostarczaniu wartości biznesowej, a nie konkretnych umówionych wcześniej funkcjonalności. Nasz zespół coraz bardziej rozumie biznes klienta i bardzo dobrze współpracuje z product ownerem. Dzięki temu bazujemy na wysokopoziomowej road mapie na kolejne miesiące / lata, która została nam przekazana przez product ownera. Wraz z kolejnymi sprintami stajemy się coraz lepsi, osiągamy cele sprintów, a budowany przez nas produkt testuje kolejne koncepcje, które mają zmaksymalizować zadowolenie naszych klientów oraz dać nam jak najszybszą informację zwrotną czy ta dana koncepcja działa, czy nie.&lt;/p&gt;
-
-&lt;p&gt;Zabierając się za nowe, duże tematy nie przeprowadzamy kilkutygodniowych analiz, a realizujemy krótkie warsztaty product discovery mniej lub bardziej zgodne z koncepcją &lt;a href=&quot;https://productvision.pl/2019/pv07-design-sprint-20-maciej-saganowski/&quot;&gt;Design Sprint 2.0&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Do oceny “sukcesu”, nasz product owner (lub product manager stojący nad nim) korzysta z takich wskaźników SaaS’owych wskaźników jak &lt;a href=&quot;https://saasmetrics.co/churn/&quot;&gt;churn&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/monthly-recurring-revenue/&quot;&gt;monthly recurring revenue&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/customer-lifetime-value/&quot;&gt;customer lifetime value&lt;/a&gt;, &lt;a href=&quot;https://saasmetrics.co/customer-acquisition-cost/&quot;&gt;acquisition cost&lt;/a&gt;. PO nie myśli budżetami w skali projektu, a ma przydzielony budżet w skali roku, aby spożytkować go na konkretne &lt;a href=&quot;https://www.scaledagileframework.com/value-streams/&quot;&gt;value stream’y&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Nie budżet-harmonogram-zakres, a wartość biznesowa w określonym czasie, spełnianie bieżących potrzeb użytkowników końcowych i ścisła współpraca między zespołem oraz klientem będą stanowić o sukcesie naszych działań.&lt;/p&gt;
-
-&lt;h1 id=&quot;product-owner&quot;&gt;Product Owner&lt;/h1&gt;
-
-&lt;p&gt;W zespole mamy product ownera. Sprawia to, że jako managerzy nie musimy być głęboko zaangażowani w definiowanie zakresu oraz tego co będzie robił zespół. Zajmuje się tym product owner, który skupia się na maksymalizacji wartości wynikającej z prac zespołu oraz przekazuje wizję produktu. Jest też osobą, która ma pełną autonomię oraz autorytet w zakresie podejmowanych decyzji, czyli z perspektywy zespołu jest głównym decision makerem. Tworzy też mur obronny między zespołem i udziałowcami, czyli zajmując się prioretyzacją backlogu zarządza wymaganiami interesariuszy, a także analizuje rynek, aby dzisiaj koncentrować na takich rzeczach, których rynek będzie potrzebował już zaraz.&lt;/p&gt;
-
-&lt;p&gt;Nasi product ownerzy robią to dobrze, więc jako managerzy nie wchodzimy im w drogę i nie przeszkadzamy.&lt;/p&gt;
-
-&lt;h1 id=&quot;scrum-master&quot;&gt;Scrum Master&lt;/h1&gt;
-
-&lt;p&gt;Mamy też scrum mastera, który jest liderem służebnym naszego zespołu. Scrum master na aktualnym etapie rozwoju naszej firmy skupia się przede wszystkim na procesie wewnątrz zespołu agilowego. Scrum master pracuje wspólnie z zespołem oraz product ownerem. Na podstawie swojej wiedzy, umiejętności i doświadczenia w zakresie Agile oraz Scrum - zawsze jest jeden kroczek przed resztą zespołu i wspiera ich w osiąganiu mistrzostwa w zakresie zwinności.&lt;/p&gt;
-
-&lt;p&gt;Na kilku konferencjach usłyszeliśmy, że popularna stała się rola agile coacha, który działa bardziej na poziomie organizacji. Takiego kogoś też mamy.&lt;/p&gt;
-
-&lt;p&gt;Nasi scrum masterzy i agile coach robią to dobrze, więc jako managerzy nie wchodzimy im w drogę i nie przeszkadzamy.&lt;/p&gt;
-
-&lt;h1 id=&quot;miejsce-dla-managera&quot;&gt;Miejsce dla managera&lt;/h1&gt;
-
-&lt;p&gt;Mamy pokryty pełen zakres obowiązków opisanych w Scrum Guide. Oznacza to, że nawet product owner ma większą moc decyzyjną w definiowaniu “zakresu / priorytetów”, niż my. Co, my jako managerowie właściwie będziemy robić jeżeli nie możemy rządzić zgodnie z ideą “command and control”, a także nie musimy być już hybrydą managera, scrum mastera i product ownera?&lt;/p&gt;
-
-&lt;p&gt;Rzeczywiście oderwiemy się trochę od codziennego procesu wytwarzania i już nie będziemy tak blisko tworzenia rozwiązań na rzecz klientów. Będziemy pracować głównie na poziomie organizacji lub “portfolio projektów / produktów / klientów / zespołów”. Tą przestrzeń opiszemy jednak w kolejnym artykule dotyczącym wspierania organizacji przez project managera.&lt;/p&gt;
-
-&lt;p&gt;W obrębie tego artykułu skupiamy się na bezpośredniej współpracy z pojedynczymi zespołami. Zastanówmy się w takim razie jakie aktywności przypadną nam w zakresie naszej odpowiedzialności, gdy mamy product ownerów, scrum masterów, agile coachów - a w dalszym ciągu chcemy wykazać się we współpracy z zespołem.&lt;/p&gt;
-
-&lt;h1 id=&quot;dostarczanie-narzędzi-dla-zespołów&quot;&gt;Dostarczanie narzędzi dla zespołów&lt;/h1&gt;
-
-&lt;p&gt;Niezależnie od branży (również w branży nie-IT) w jakiej pojawiają się “kierownicy” ich bardzo ważnym zadaniem jest dostarczanie pracownikom narzędzi do jak najlepszego wykonywania swojej pracy. Podobnie sprawa wygląda tutaj. Jako manager w świecie agile powinniśmy dbać o to, aby ludzie w zespołach scrumowych mieli dostęp do wszelkich zasobów jakich potrzebują. Robimy to w granicach rozsądku możliwej inwestycji względem potencjalnego zysku.&lt;/p&gt;
-
-&lt;p&gt;W każdym razie, jeżeli sami wpadniemy na to że jesteśmy dostarczyć zespołowi jakieś konkretne narzędzie lub zespół zgłasza potrzebę pozyskania czegoś do naszej firmy to jako managerowie powinniśmy to zrobić. Scrum master, który prawdopodobnie będzie mostem pośredniczącym do zgłaszania zapotrzebowania na konkretne narzędzia być może w ramach organizacji nie będzie miał mocy decyzyjnej w kwestii wydawania firmowych pieniędzy. W takiej sytuacji to my dbamy o zakupy.&lt;/p&gt;
-
-&lt;h1 id=&quot;usuwanie-impedimentów-przeszkód-na-poziomie-organizacyjnym&quot;&gt;Usuwanie impedimentów (przeszkód) na poziomie organizacyjnym&lt;/h1&gt;
-
-&lt;p&gt;Niezależnie od tego czy chodzi o kwestie finansowe, czy niefinansowe - zespół scrumowy może natrafić na blokery i/lub problemy na poziomie organizacyjnym. Większość działań wykonywanych przez członków zespołu zostanie w jego wnętrzu. Prawdopodobnie będą oni też komunikować się na korytarzach naszej firmy lub na publicznych kanałach komunikatorów zespołowych z innymi zespołami, ale ta dynamika będzie bardzo ograniczona. W takiej sytuacji to scrum master oraz my jako managerowie będziemy posiadać wiedzę o big picture tego co dzieje się w naszej firmie.&lt;/p&gt;
-
-&lt;p&gt;Przykładami takich problemów może być zapotrzebowanie na pieniądze potrzebne do zakupu jakiegoś narzędzia wspomniane w poprzednim akapicie. Może to być również konieczność pozyskania wiedzy spoza organizacji co wiąże się ponownie z wydaniem konkretnej sumy pieniędzy na zorganizowania warsztatów lub szkolenia dla zespołu. Może to być niepoprawna struktura organizacyjna firmy wpływająca na długość ścieżki decyzyjnej utrudniająca pracę zespołów.&lt;/p&gt;
-
-&lt;h1 id=&quot;szerzenie-wiedzy-na-poziomie-organizacji&quot;&gt;Szerzenie wiedzy na poziomie organizacji&lt;/h1&gt;
-
-&lt;p&gt;Kontynuując wątek dotyczący big picture - będą pojawiać się sytuacje w których zespół napotykając na jakiś problem projektowy / programistyczny do rozwiązania po prostu nie ma świadomości, że dokładnie to samo jest rozwiązywane po drugiej stronie firmy, kilka pomieszczeń dalej. Jeżeli jesteśmy managerem patrzącym z góry na kilka różnych zespołów naszą wartością którą do takiego zespołu możemy wnieść będą sugestie, że hej… zespół B już to robił. Zapytajcie ich o poradę.&lt;/p&gt;
-
-&lt;h1 id=&quot;bycie-szefem&quot;&gt;Bycie szefem&lt;/h1&gt;
-
-&lt;p&gt;W takiej organizacji zespoły mogą postrzegać Nas (managerów) jako “szefów”, osoby które w strukturze organizacyjnej firmy stoją jeden lub dwa schodki wyżej. Stanie się to ze względu na samą etykietkę w naszej stopce mailowej. Warto w takim momencie wykorzystać to jako narzędzie wspierające motywację i zaangażowanie ludzi. Możemy komunikować im strategię firmy, cele realizowanych projektów, wyjaśniać podejmowane decyzję w skali portfolio prac realizowanych przez naszą firmę oraz opisywać jak ich praca przekłada się na cele strategiczne.&lt;/p&gt;
-
-&lt;p&gt;Jeżeli np. cel naszej aplikacji SaaS’owej dotyczacy spadku kosztu akwizycji pojedynczego klienta lub przekroczenia progu 10 000 płacących klientów przed zakończeniem 2019 roku padnie z naszych managerskich ust - będzie to miało niesamowitą moc i pomoże zaangażować zespół.&lt;/p&gt;
-
-&lt;p&gt;W kolejnych krokach, product owner będzie podtrzymywał ten kierunek i komunikując swoje wizję będzie mógł wesprzeć się celem, który jest bardzo ważny nie tylko w kontekście zespołu, ale też w kontekście całej firmy.&lt;/p&gt;
-
-&lt;h1 id=&quot;docenianie-i-nagradzanie-z-poziomu-top-managementu&quot;&gt;Docenianie i nagradzanie z poziomu top-managementu&lt;/h1&gt;
-
-&lt;p&gt;Gdy jesteśmy traktowani jako “szefowie” to zyskujemy dodatkowy atrybut w postaci dobrych słów, które mogą trafiać od nas do zespołów. Zespoły scrumowe budowane są w oparciu o transparencję, szczerość i feedback, dlatego ich członkowie prawdopodobnie często doceniają pracę kolegów i koleżanek. Jest to wykorzystywane np. jako narzędzie podczas daily scrumów - jeżeli jako członek zespołu developerskiego deklarujemy realizację czegoś przed kolegami i koleżankami to chcemy tego dotrzymać. Po tym wystarczy proste “super, że to zrobiłeś” od kolegi/koleżanki, aby być jak prawdziwi agilowcy. Dużo trudniej jest powiedzieć “znowu czegoś nie zrobiłem” swojemu zespołowi, niż szefowi.&lt;/p&gt;
-
-&lt;p&gt;Jeżeli zespół powyższą komunikację zacznie traktować jako “codzienność” wtedy cali na biało wchodzimy my. Manager, który przychodzi do zespołu i mówi o pozytywnych efektach ich pracy i swoim zadowoleniu. Generuje to poczucie bycia częścią firmy zmierzającej w jednym kierunku, przynależności do większej grupy i wspólnego sukcesu, a dzięki temu ludzie czują się zauważeni.&lt;/p&gt;
-
-&lt;h1 id=&quot;rozwiązywanie-współpracy&quot;&gt;Rozwiązywanie współpracy&lt;/h1&gt;
-
-&lt;p&gt;Wszystko ma swoje blaski i cienie. Jeżeli mamy moc doceniania to mamy również moc pozwalającą na odsunięcie kogoś z konkretnego zespołu lub firmy. W przypadku bardzo dojrzałych zespołów to w roli zespołu scrumowego będzie poinformowanie nas o niszczeniu efektów pracy zespołu, przez jedną osobę. W takich sytuacjach powinniśmy przeanalizować sytuację, zrozumieć perspektywę każdej ze stron i podjąć odpowiednie kroki. Czasami wystarczy zmiana zespołu, czasami jednak trzeba rozwiązać z kimś współpracę.&lt;/p&gt;
-
-&lt;p&gt;Temat zwolnień w branży IT jest raczej rzadki ze względu na trudności z rekrutacją specjalistów, a gdy już się pojawia to jest tematem zamiatanym pod dywan. To rzecz trudna dla każdej ze stron i wielu managerów ma tendencję do przeciągania tego etapu broniąc się takimi nadziejami jak:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;“Z pewnością się poprawi.”,&lt;/li&gt;
-  &lt;li&gt;“Lepsza taka osoba, niż żadna.”,&lt;/li&gt;
-  &lt;li&gt;“Zmiana zespołu wystarczy.”,&lt;/li&gt;
-  &lt;li&gt;“To wpłynie negatywnie na morale całego zespołu.”.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Często jednak uwolnienie kogoś daje szanse naszej firmie/zespołowi na rozwinięcie skrzydeł, a osoba z którą się rozstajemy być może trafi do miejsca, które w perspektywie kolejnych lat wpłynie pozytywnie na jej życie i karierę.&lt;/p&gt;
-
-&lt;p&gt;Niezależnie od tego jak bardzo trudne na poziomie moralnym jest to dla Ciebie jako managera to tak jak przytacza to książka &lt;a href=&quot;https://www.radicalcandor.com/&quot;&gt;Radical Candor: How to be a kick-ass boss without losing your humanity&lt;/a&gt;,  - “Now it’s your job to say it!”.&lt;/p&gt;
-
-&lt;h1 id=&quot;polityka&quot;&gt;Polityka&lt;/h1&gt;
-
-&lt;p&gt;Zespołowy developerskie lubią pracować nad produktami. Designerzy lubią projektować, programiści programować, product ownerzy budować produkty, scrum masterzy podnosić efektywność zespołów. Za tym stoi jednak realny biznes, gdzie bardzo wiele rzeczy dzieje się na podstawie budowania relacji czy budżetów.&lt;/p&gt;
-
-&lt;p&gt;Może być tak, że product owner po stronie klienta kieruje produkt w jakimś bezsensownym kierunku, którego zespół w ogóle nie rozumie. Być może ma w tym swój prywatny interes? Być może został obiecany mu awans za osiągnięcie jakiegoś ślepego &lt;a href=&quot;https://en.wikipedia.org/wiki/Performance_indicator&quot;&gt;KPI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Być może konieczność wdrożenia bazy IBM DB2 na prośbę product ownera wynika z tego, że klient podpisał umowę z IBM, mówiącą o tym, że dzięki korzystaniu z ich produktów dostaną 3-letni pakiet szkoleń dla swoich pracowników o potężnej wartości?&lt;/p&gt;
-
-&lt;p&gt;Być może jesteśmy proszeni o pracę przez najbliższe 3 tygodnie w zawyżonej ilości godzin. Powód? Dyrektor zarządzający po stronie firmy klienta nie chce otwierać innych tematów, bo jest na ostatniej prostej przed zmianą swojego stanowiska na zarządzanie nowo powstałą spółką-córką?&lt;/p&gt;
-
-&lt;p&gt;Wszystkie tego typu aspekty bardzo rzadko trafiają do świata zespołu agile, który jest skupiony na swojej pracy. W świecie scrumowym, product ownerzy i scrum masterzy również nie zawsze chcieliby się angażować w tego typu aspekty polityczne. Tutaj pojawia się rola managera lub naszych C-leveli, aby komunikować się z top managemenetem po stronie klienta i móc zrozumieć polityczne przyczyny wyborów dokonywanych w ramach jakiegoś produktu. Wtedy po pewnej translacji dostarczamy takie smutne wieści do zespołu w formie, która będzie dla nich zjadliwa i ręce im nie opadną od ilości skomplikowanej polityki.&lt;/p&gt;
-
-&lt;h1 id=&quot;eskalacje&quot;&gt;Eskalacje&lt;/h1&gt;
-
-&lt;p&gt;Wspomnieliśmy o aspekcie politycznym oraz kontakcie z top managementem firmy klienta. W rzeczywistości &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-driven_design&quot;&gt;Domain Driven Design&lt;/a&gt; staramy się doprowadzać do tego, aby zespoły developerskie rozmawiały z biznesem. Rozmawiają jednak na tematy dotyczące budowania produktu.&lt;/p&gt;
-
-&lt;p&gt;Zdarzają się sytuacje w których to np. product owner po stronie klienta jest winny niepowodzeniom zespołu. W takich sytuacjach najczęściej stosuje się zasadę, że programiści rozmawiają z programistami, middle management z middle managementem, C-level z C-levelem. Niestety, istnieje duża szansa, że jeżeli w butach programisty staniemy przed prezesem firmy klientami to nie będzie zainteresowany słuchaniem nas. Czasami (raczej w mniejszych firmach) zdarzają się oczywiście sytuacje w których taki kontakt jest możliwy. Najczęściej jednak nie. Jest to dość smutne, ale prawdziwe.&lt;/p&gt;
-
-&lt;p&gt;Wtedy zespół developerski musi mieć możliwość uruchomienia ścieżki eskalacyjnej. Może skontaktować się ze scrum masterem, który porozmawia z nami jako agile managerem. My wtedy albo skontaktujemy się z osobami po stronie klienta, albo przekażemy pałeczkę dalej do naszych przełożonych, aby przekazać komunikat z najwyższego dla nas możliwego poziomu.&lt;/p&gt;
-
-&lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
-
-&lt;p&gt;Agile sprawił, że managerom będącym na poziomie middle-managementu zostały ucięte dolne macki sięgające do samoorganizujących się zespołów developerskich. Prawdopodobnie dla większości managerów jest to trudna zmiana, gdy muszą porzucić swoją pracę polegającą na bezpośrednim rozwiązywaniu problemów, sprawdzaniu i kontrolowaniu… a większość z tego zostaje zastąpiona hasłem &lt;em&gt;“take it to the team”&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Nie oznacza to jednak, że nie mogą mieć olbrzymiego wpływu na wspieranie tego co jest celem agile, czyli osiąganiu jak najwyższej efektywności pracy zespołów. Swoim autorytetem, postawą i doświadczeniem muszą wspierać zespoły developerskie w ich drodze do zwinności, co wypełni cele oraz wartości wyznawane przez członków zespołów, a to przełoży się na poziom całych zespołów oraz całej firmy.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h1 id=&quot;materiały--artykuły-wspomniane-podczas-prezentacji&quot;&gt;Materiały / artykuły wspomniane podczas prezentacji&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_management_triangle&quot;&gt;Trójkąt projektowy, Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_as_a_service&quot;&gt;Software as a Service, Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;Microservices, Martin Fowler&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[4] &lt;a href=&quot;https://www.martinfowler.com/ieeeSoftware/coupling.pdf&quot;&gt;Coupling, Martin Fowler&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[5] &lt;a href=&quot;https://productvision.pl/2019/pv07-design-sprint-20-maciej-saganowski/&quot;&gt;Design Sprint 2.0, Product Vision Podcast&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[6] &lt;a href=&quot;https://saasmetrics.co/churn/&quot;&gt;Churn, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[7] &lt;a href=&quot;https://saasmetrics.co/monthly-recurring-revenue/&quot;&gt;Monthly recurring revenue, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[8] &lt;a href=&quot;https://saasmetrics.co/customer-lifetime-value/&quot;&gt;Customer lifetime value, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[9] &lt;a href=&quot;https://saasmetrics.co/customer-acquisition-cost/&quot;&gt;Acquisition cost, SaaS Metrics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[10] &lt;a href=&quot;https://www.scaledagileframework.com/value-streams/&quot;&gt;Value stream, Scaled Agile Framework&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[11] &lt;a href=&quot;https://www.radicalcandor.com/&quot;&gt;Radical Candor: How to be a kick-ass boss without losing your humanity, Kim Scott&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[12] &lt;a href=&quot;https://en.wikipedia.org/wiki/Performance_indicator&quot;&gt;KPI, Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[13] &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-driven_design&quot;&gt;Domain Driven Design, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Radical-Candor-Kim-Scott/dp/B01KTIEFEE&quot;&gt;Radical Candor, How to be a kickass boss without losing your humanity?, Kim Scott, Amazon&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471&quot;&gt;Management 3.0, Jurgen Apello, Amazon&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205&quot;&gt;The Hard Thing About Hard Things, Ben Horowitz, Amazon&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nonviolent_Communication&quot;&gt;Nonviolent Communication, Wikipedia&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mindtools.com/pages/article/situation-behavior-impact-feedback.htm&quot;&gt;Situation - Behavior - Impact Feedback Tool, Mind Tools&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pl.wikipedia.org/wiki/Superwizja_(psychoterapia)&quot;&gt;Superwizja w psychoterapii, Wikipedia&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley/dp/0321637704&quot;&gt;Coaching Agile Teams, Lyssa Adkins, Amazon&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pmi.org/learning/library/coaching-agile-project-teams-navigate-conflict-6760&quot;&gt;Artykuł o nawigowaniu konfliktów, PMI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&quot;pytania-które-pojawiły-siępo-prezentacji&quot;&gt;Pytania które pojawiły się po prezentacji&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-jakie-masz-doświadczenia-z-feedbackowaniem-przełożonych&quot;&gt;1. Jakie masz doświadczenia z feedbackowaniem przełożonych?&lt;/h2&gt;
+
+&lt;p&gt;Wydaje mi się, że kiedyś było zdecydowanie trudniej, ponieważ firmy w których pracowaliśmy były oparte o struktury drabinkowe i często przełożeni traktowali swoich podwładnych dość autorytarnie. Teraz, gdy firmy IT dążą do współpracy i spłaszania struktur mamy taką wygodę, że często pracujemy bardzo bezpośrednio ze swoimi przełożonymi.&lt;/p&gt;
+
+&lt;p&gt;Feedbackowanie przełożonego jest mocno zależne od jego nastawienia.&lt;/p&gt;
+
+&lt;p&gt;Czy jest osobą, która boi się utracenia swojej pozycji? Jeżeli tak to feedback będzie trudny.&lt;/p&gt;
+
+&lt;p&gt;Może jednak jest osobą, która stoi twardo nogami na ziemii i najważniejsze dla niej jest osiągnięcie sukcesu przez zespół? Postrzega też wszelkie nasze uwagi jako coś za co nam płaci, ponieważ najbardziej wartościowymi pracownikami nie są Ci, którzy przytakują na wszystko - a Ci, którzy przyczyniają się do wzrostu innych ludzi oraz firmy. Wtedy możemy sobie pozwolić na wysoką bezpośredność.&lt;/p&gt;
+
+&lt;p&gt;Bardzo ważnym elementem feedbackowania przełożonych jest jednak to, że W DALSZYM CIĄGU SĄ NASZYMI PRZEŁOŻONYMI. Warto uważać żeby nie zagalopować się w stronę podważania ich stanowiska w sposób pozbawiony szacunku.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-jak-zacząć-tworzyć-kulturę-feedbacku-gdy-przełożeni-nie-widzą-takiej-potrzeby&quot;&gt;2. Jak zacząć tworzyć kulturę feedbacku, gdy przełożeni nie widzą takiej potrzeby?&lt;/h2&gt;
+
+&lt;p&gt;Jedna z osób po prezentacji zapytała co zrobić w sytuacji, gdy mamy nad sobą szefów z 15-letnim stażem w firmie. Nie widzą oni żadnej potrzeby spotkań feedbackowych, ani tworzenia kultury organiacyjnej w oparciu o wymienianie się informacją zwrotną. Bo tak było zawsze i będzie dalej.&lt;/p&gt;
+
+&lt;p&gt;Powiedziałbym, że rzeczywiście będzie trudno. No ale teraz mamy dwie możliwości.&lt;/p&gt;
+
+&lt;p&gt;Możemy próbować ich przekonać i marudzić na to, że się nie zgadzają.&lt;/p&gt;
+
+&lt;p&gt;Możemy jednak zacząć od samych siebie i swoich kolegów, i koleżanek, którzy być może są równie zmotywowani jak my sami. Zacznijmy od nich. Stwórzmy taką kulturę między sobą. Może zorganizujmy cykliczne rozmowy 1 na 1. Może organizujmy zespołowe retro. Może stwórzmy ankiety, które pozwalają nam się cyklicznie “oceniać” w stylu &lt;a href=&quot;https://www.mysurveylab.com/pl/blog/badania-180-360-stopni/&quot;&gt;badania 180 / 270 / 360&lt;/a&gt;. Jeżeli to się rzeczywiście sprawdzi w taki sposób, że my oraz firma będzie wyciągać z tego profity to być może nasi przełożeni to zauważą i staną się bardziej przychylni tej idei.&lt;/p&gt;
+
+&lt;p&gt;Inicjatywy bottom-up bardzo często działają.&lt;/p&gt;
+
+&lt;h1 id=&quot;podziękowania&quot;&gt;Podziękowania&lt;/h1&gt;
+
+&lt;p&gt;Prezentacja nie miała by miejsca, gdyby nie:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ania K. - dzięki za wymuszenie na mnie rozpoczęcia przygody z prowadzeniem spotkań feedbackowych, :)&lt;/li&gt;
+  &lt;li&gt;Mariusz G. - dzięki za inspirację i share tweeta Jarka, :)&lt;/li&gt;
+  &lt;li&gt;Jarek P. - dzięki za wiarę, szansę i coaching z betonów, :)&lt;/li&gt;
+  &lt;li&gt;Ewelina Z. - dzięki za pomoc w ubraniu slajdów. :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;następne-kroki&quot;&gt;Następne kroki&lt;/h1&gt;
+
+&lt;p&gt;Zebrałem 50 odpowiedzi i na dzień dzisiejszy trudno mi to w pełni uznać za maksymalnie satysfakcjonujący rezultat. Dlatego też w drugiej iteracji postaram się dojść do 100 respondentów i opublikować aktualizację wyników przed końcem grudnia 2019.&lt;/p&gt;
 </description>
-          <pubDate>2019-07-24T00:00:00+02:00</pubDate>
-          <link>https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II</link>
-          <guid isPermaLink="true">https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II</guid>
+          <pubDate>2019-11-25T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//is-your-feedback-about-money-wyniki-ankiety-czesc-I</link>
+          <guid isPermaLink="true">https://rmakara.github.io//is-your-feedback-about-money-wyniki-ankiety-czesc-I</guid>
         </item>
       
     
       
         <item>
-          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;, Część I</title>
+          <title>9 Ciekawostek Technologicznych o Chinach</title>
+          <description>&lt;h1 id=&quot;delegacja&quot;&gt;Delegacja&lt;/h1&gt;
+
+&lt;p&gt;W ostatnim czasie ze względów pracowych miałem okazję spędzić tydzień w Chinach. Dość krótko, ale wystarczyło, aby zadziwić się technologicznym rozwojem Chin i dostrzec ciekawostki, na które trudno byłoby natrafić w Polsce, czy nawet w Europie. Poniżej znajdziecie 9 intrygujących elementów, którymi podzielili się ze mną Chińczycy, za którymi dostrzegłem jakiś technologiczny background.&lt;/p&gt;
+
+&lt;h1 id=&quot;1-miliardy-fotografii&quot;&gt;1. Miliardy fotografii&lt;/h1&gt;
+
+&lt;p&gt;W Chinach obywatele są obserwowani na bardzo wysokim poziomie. Pierwszym z elementów przy którym rzuca się to w oczy jest liczba kamer na mieście. Obecność kamer sama w sobie nie stanowiłaby tutaj niczego wyjątkowego, ponieważ nawet w olsztyńskim systemie inteligentnego sterowania ruchem jest ich cała masa. Natomiast to co budzi ciekawość to to, że na każdym skrzyżowaniu na którym byłem co chwile uruchamiane były lampy błyskowe, które rozświetlały całe skrzyżowania w celu zrobienia zdjęcia. Prawdopodobnie w ciągu tygodnia moja twarz znalazła się na tysiącach z nich, ponieważ takie błyski następowały co około 3-4 sekundy. Na początku wyglądało to jak burza nad miastem, ale po 3 dniach moja głowa przestała zwracać na to uwagę.&lt;/p&gt;
+
+&lt;p&gt;Co za tym stoi? Mówi się, że technologia rozpoznawania twarzy jest na niesamowicie wysokim poziomie w Chinach. Jeżeli połączymy to z &lt;a href=&quot;https://en.wikipedia.org/wiki/Social_Credit_System&quot;&gt;Chińskim Systemem Oceny Obywateli&lt;/a&gt;, który jest wdrożony w tym państwie (Tak! Takie rzeczy nie tylko w Black Mirror!) to dostrzeżemy nie tylko niesamowitą wiedzę, którą posiada władza o swoich obywatelach, ale również niesamowitą moc obliczeniową oraz algorytmy optymalizacyjne jakie muszą za tym stać. W 2018 roku internetowe źródła podawały liczbę 200 milionów kamer umieszczonych w ramach systemu Chińskiego Wielkiego Brata. Jak potężna ilość danych to generuje?&lt;/p&gt;
+
+&lt;p&gt;Szczerze wątpię, że Chiny dysponują technologią, która pozwala na wnikliwą analizę 100% z tych informacji. Prawdopodobnie jednak wykorzystują olbrzymią ich część.&lt;/p&gt;
+
+&lt;p&gt;Obywatele miejscami próbują z tym walczyć co pokazuje artykuł &lt;a href=&quot;https://www.independent.co.uk/news/world/asia/hong-kong-protests-lasers-facial-recognition-ai-china-police-a9033046.html&quot;&gt;Hong Kong protesters use lasers to block facial recognition tech&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-wechat-wydajność-i-skalowalność&quot;&gt;2. WeChat, wydajność i skalowalność&lt;/h1&gt;
+
+&lt;p&gt;Z perspektywy zjadaczy chleba w Europie, WeChat to taki chiński WhatsApp. Czy aby na pewno?&lt;/p&gt;
+
+&lt;p&gt;WeChat jest znany jako komunikator i rzeczywiście nim jest. Jednak nie jest tylko komunikatorem, ponieważ przy jego pomocy zamawia się taksówki, umawia na randki w ciemno, opłaca rachunki, płaci w sklepach spożywczych, tłumaczy teksty z chińskiego na angielski, sharuje “instragramowe” stories, rezerwuje stoliki w lokalach oraz dzwoni do znajomych.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli spojrzymy na to pod kątem technologicznym to musimy wspomnieć o tym, że aplikacja ma ponad &lt;a href=&quot;https://www.zdnet.com/article/daily-active-user-of-messaging-app-wechat-exceeds-1-billion/&quot;&gt;miliard użytkowników aktywnych każdego dnia&lt;/a&gt;, którzy wysyłają 45 miliardów wiadomości i dzwonią 410 milionów razy - codziennie! Teraz połączymy to z faktem, że aplikacja działa bardzo szybko i bezawaryjnie. No i mamy olbrzymi ukłon w stronę developerów oraz architektów pracujących nad WeChat. Czy zastanawialiście się kiedyś w czym kodują i jak projektują Chińczycy? Czy czytali Uncle Boba?&lt;/p&gt;
+
+&lt;h1 id=&quot;3-płatności&quot;&gt;3. Płatności&lt;/h1&gt;
+
+&lt;p&gt;Kupując ziemniaki na targu płaci się ich sprzedawcom również przy pomocy WeChata. Niezależnie od tego czy jest to 20-letni młody handlarz, czy 60-letnia sprzedawczyni z doświadczeniem.&lt;/p&gt;
+
+&lt;p&gt;Warto na tym etapie wspomnieć, że w Chinach istnieje BAT. Trzy największe firmy, które posiadają największą ilość danych o obywatelach. Są to Baidu, Alibaba, Tencent. Ta trzecia jest odpowiedzialna za rozwój WeChata. Biorąc pod uwagę, że są to jedynie 3 firmy, a w Chinach rząd ma prawnie zapewniony bezproblemowy dostęp do danych o swoich obywatelach to ścieżka do uzyskania informacji jest dość krótka.&lt;/p&gt;
+
+&lt;p&gt;Sprawia to, że ruch dotyczący przepływów pieniężnych również może być kontrolowany i analizowany. Nie ma tutaj miejsca na “bez grosika” czy “bez paragonu”.&lt;/p&gt;
+
+&lt;h1 id=&quot;5-produkcja-i-logistyka&quot;&gt;5. Produkcja i logistyka&lt;/h1&gt;
+
+&lt;p&gt;Chiny kojarzą nam się głównie z tym, że zasilają świat w olbrzymie ilości dóbr. Wiąże się to z olbrzymią skalą produkcji oraz logistyki.&lt;/p&gt;
+
+&lt;p&gt;Będąc w Chinach usłyszałem od lokalnych mieszkańców historię o polityce związanej z kopiowaniem. Jeżeli istnieje olbrzymia fabryka zatrudniająca 500 000 osób to w przypadku chęci odtworzenia jakiegoś gotowego produktu, przydzielane są olbrzymie zespoły do “sklonowania” każdego z jego elementów składowych. No i w taki sposób przydzielając setki lub tysiące osób (czyli 1% pracowników) do odtworzenia np. nowoczesnego komputera - dość szybko uzyskujemy jego bardziej lub mniej dokładną kopię.&lt;/p&gt;
+
+&lt;p&gt;Tworzy to niesamowicie duże wyzwania w ramach zarządzania, koordynacji oraz komunikacji tak wielkiej grupy ludzi. Nie mam pojęcia jak to robią, aby zachować przy tym wysoką efektywność i dobry przepływ informacji, ale wygląda to na interesującą tematykę dla kierowników projektów.&lt;/p&gt;
+
+&lt;p&gt;Logistyka również jest czymś czego moglibyśmy się od chińczyków nauczyć. Gdy spojrzymy na pracę azjatyckich portów, które odprawiają olbrzymie ilości kontenerowców to ponownie otworzy nam się szczęka ze zdumienia. Nie wchodząc zbyt głęboko w temat, zachęcam do obejrzenia 30 dniowego time lapse z klasycznej trasy kontenerowca - &lt;a href=&quot;https://www.youtube.com/watch?v=AHrCI9eSJGQ&quot;&gt;30 Days Timelapse at Sea, Through Thunderstorms, Torrential Rain &amp;amp; Busy Traffic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jak to poukładać? Kiedy rozładowywać? W jakiej kolejności? Pamiętacie, że w szkołach średnich na informatyce rozwiązywaliście problem plecakowy? Tutaj mamy skalę największego plecaka świata.&lt;/p&gt;
+
+&lt;h1 id=&quot;6-transport&quot;&gt;6. Transport&lt;/h1&gt;
+
+&lt;p&gt;Zacznijmy od tego, że europejskie prawa jazdy nie działają w Chinach. Z resztą sam nie zdecydowałbym się na jazdę tam nawet gdyby działały. Kultura jazdy jest iście azjatycka, czyli na ulicach bardzo często słyszymy dźwięk klaksonu oraz wszędzie dookoła jesteśmy otoczeni elektrycznymi skuterami, których w ogóle nie słychać.&lt;/p&gt;
+
+&lt;p&gt;Byłem w Chinach bardzo krótko, a widziałem 3 wywrócone po wypadkach skutery z czego jedna z tych wywrotek była prawdopodobnie bardzo nieszczęśliwa.&lt;/p&gt;
+
+&lt;p&gt;Co ciekawe, klaksony nie są używane w ramach typowo polskiego zwrotu “Ty debilu!”, a są używane w ramach ostrzegania innych kierowców o tym, że inny podjazd nadjeżdża. Nie jest problemem wyjechanie komuś przed maskę, wyjazd na wstecznym na główną ulicę bez patrzenia w lusterka. W każdej takiej sytuacji… ktoś zatrąbi i Cię ominie.&lt;/p&gt;
+
+&lt;p&gt;Poza tym, mamy oczywiście pociągi jeżdżące 350 km/h, które są moim odwiecznym marzeniem, aby trasę między Wrocławiem i Olsztynem móc pokonywać w 2 godziny.&lt;/p&gt;
+
+&lt;h1 id=&quot;7-aliexpress&quot;&gt;7. AliExpress&lt;/h1&gt;
+
+&lt;p&gt;Wszyscy znamy AliExpress. No właśnie… czy wszyscy? Było to moje największe odkrycie podczas obecności w Chinach. Zapytałem dziewięcioro Chińczyków o to czy często korzystają z AliExpress i nikt z nich nie odpowiedział &lt;em&gt;“bardzo rzadko”&lt;/em&gt;. Każdy z nich odpowiedział, że w ogóle nie zna tego serwisu! Było to wyjątkowo ciekawe, ponieważ wewnątrz Chin istnieją alternatywy AliExpress, które służą do wewnętrznego handlu online. Gdy chcieliśmy zamówić coś na AliExpress podając chiński adres to w interfejsie użytkownika nie byliśmy w stanie wybrać chińskiego adresu. Czyli… AliExpress tylko na export? Gdy chodziłem po sklepach to ceny nie wydawały mi się niskie. Nie wiem ile jest w tym prawdy, ale wyczuwam tutaj duży potencjał na olbrzymie zróżnicowanie cen lokalnych i eksportowych.&lt;/p&gt;
+
+&lt;p&gt;Zapytałem też o osobę stojącą nad AliExpress, czyli Jack’a Ma. Jack jest nazywany “Father” w Chinach, ponieważ jest znany z tego, że dzieli się z ludźmi swoimi pieniędzmi. Istnieje (lub istniała) akcja polegająca na zarejestrowaniu swoich 5 kart (niestety nie pamiętam co to były za karty) u “Ojca”, a w efekcie otrzymywało się niewielką część pieniędzy Jack’a. Jedna z tych kart była podobno bardzo trudna do zdobycia i nazywała się “Hard working card”. Inna była możliwa do zdobycia tylko w 1 dzień roku.&lt;/p&gt;
+
+&lt;h1 id=&quot;8-great-firewall-of-china&quot;&gt;8. Great Firewall of China&lt;/h1&gt;
+
+&lt;p&gt;Wybierając się na wycieczkę w tamte rejony warto przed wyjazdem zakupić, ściągnąć i zainstalować dobry VPN. Tak! Warto go zainstalować już przed wyjazdem do Chin! Sam korzystałem z NordVPN, który działał przez około 75% czasu. Dlaczego VPN jest użyteczny? Chińscy dostawcy internetu blokują ruch do wielu znanych serwisów, których wykorzystywanie w Polsce jest standardem. Będąc w Chinach nie wejdziemy na Google, GMail, Facebook, Instagram. Korzystając z WhatsApp ma się wrażenie, że wiadomości są przepychane raz na kilka godzin, gdy chiński bramkarz otworzy akurat tunel, aby przesłać pewną pulę wiadomości.&lt;/p&gt;
+
+&lt;p&gt;Jest to olbrzymi mechanizm działający w skali całego państwa. Wikipedia przytacza definicję &lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Firewall&quot;&gt;Great Firewall&lt;/a&gt; w których wymienia takie techniki kontrolowania ruchu sieciowego jak:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;IP range ban using black holes,&lt;/li&gt;
+  &lt;li&gt;DNS spoofing, filtering &amp;amp; redirection,&lt;/li&gt;
+  &lt;li&gt;URL filtering using transparent proxies,&lt;/li&gt;
+  &lt;li&gt;Packet forging,&lt;/li&gt;
+  &lt;li&gt;Man-in-the-middle attacks with TLS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dlaczego tak się dzieje? Według prawa chińskiego Internet jest częścią Chin, a w związku z tym usługodawcy są zobowiązani do spełniania wymagań państwa. Mechanizmy te mają na celu nie tylko inwigilowanie obywateli, ale również wspieranie gospodarki państwa przez ograniczanie szans na handel ze światem zewnętrznym.&lt;/p&gt;
+
+&lt;h1 id=&quot;9-jak-dojadę-czyli-mapy-w-chinach&quot;&gt;9. Jak dojadę, czyli mapy w Chinach&lt;/h1&gt;
+
+&lt;p&gt;Gdy już odblokujemy Google Maps dzięki dobremu VPNowi to chcemy udać się do naszego ulubionego lokalu z jedzeniem. Wsiadamy na rower, ustawiamy nawigację, uruchamiamy i jedziemy. Nagle okazuje się, że w miejscu do którego dojechaliśmy wcale nie ma restauracji, a jest tam rzeka.&lt;/p&gt;
+
+&lt;p&gt;Chińskie prawo wprowadza regulacje, które bardzo ograniczają możliwości przechowywania danych geolokalizacyjnych. W skrócie, sporządzanie map w Chinach bez pozwolenia rządu nie jest legalne. Dlatego też gdy uruchomicie Google Mapsy i udacie się na wirtualną podróż do Hangzhou to przełączając się między widokami mapy i satelity zauważycie, że nic tam się nie pokrywa. Algorytm jest na tyle cwany, że nie narzuca stałego offsetu, a dzieli mapę na bloki, które są przesunięte i zniekształcone w nieregularny sposób.&lt;/p&gt;
+
+&lt;p&gt;Więcej o tym ciekawym mechaniźmie można usłyszeć w filmie &lt;a href=&quot;https://www.youtube.com/watch?v=L9Di-UVC-_4&quot;&gt;Why Every Map of China is Just Slightly Wrong&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-w-naszym-korpo-największą-wartością-są-ludzie&quot;&gt;“A w naszym korpo największą wartością są ludzie”&lt;/h1&gt;
+
+&lt;p&gt;Podczas kontaktu z ludźmi na ulicy, pubach oraz pracy dostrzegłem w Chińczykach zachowania, które zburzyły moje absolutnie wszystkie stereotypy. Obywatele Chin okazali się mega miłymi, pracowitymi i inteligentnymi ludźmi, którzy poza pracą mają też wiele hobby i pasji. Zdarza się im pić alkohol, tańczyć, grać na instrumentach muzycznych. Stereotypy dotyczące szalenie niskich cen oraz bezmyślnie pracujących osób na bardzo długich liniach produkcyjnych to rzeczy, których na miejscu nie znalazłem. Będąc wcześniej w kilku innych państwach Europy również spotykałem wielu miłych ludzi. Chińczycy jednak mieli w sobie coś, co sprawiało, że czułem się tam jak w domu. Mimo odmienności w naszym wyglądzie, języku i używanej czcionce okazuje się, że wszyscy jesteśmy tacy sami, mamy podobne potrzeby, uczucia i ciekawość poznawania świata.&lt;/p&gt;
+
+&lt;h1 id=&quot;czy-warto-zrobić-technologiczny-startup-w-chinach&quot;&gt;Czy warto zrobić technologiczny startup w Chinach?&lt;/h1&gt;
+
+&lt;p&gt;To pytanie które pozostawię bez odpowiedzi. Ja osobiście nie miałbym pojęcia od czego zacząć i czego się spodziewać. W branży IT jest jednak masa inteligentnych i odważnych ludzi. Być może właśnie Ty będziesz kolejnym człowiekiem tworzącym genialną technologię dedykowaną właśnie dla obywateli Chin? Czy byś się odnalazł w tym tajemniczym świecie? :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Social_Credit_System&quot;&gt;Social Credit System, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://www.independent.co.uk/news/world/asia/hong-kong-protests-lasers-facial-recognition-ai-china-police-a9033046.html&quot;&gt;Hong King protesters use lasers to block facial recognition tech, Independent&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://www.youtube.com/watch?v=AHrCI9eSJGQ&quot;&gt;30 Days Timelapse at Sea, Through Thunderstorms, Torrential Rain &amp;amp; Busy Traffic, YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Firewall&quot;&gt;Great Firewall, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://www.zdnet.com/article/daily-active-user-of-messaging-app-wechat-exceeds-1-billion/&quot;&gt;Daily active users for WeChat exceeds 1 billion, ZDNet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://www.youtube.com/watch?v=L9Di-UVC-_4&quot;&gt;Why Every Map of China is Just Slightly Wrong, YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;P.S.&lt;/p&gt;
+
+&lt;p&gt;Tak, numer 4 jest pechowy w Chinach, ponieważ fonetyczna wymowa 4, czyli “shi” jest homofonem słowa “śmierć”. :) Dlatego w chińskich budynkach często nie ma czwartego piętra. :)&lt;/p&gt;
+</description>
+          <pubDate>2019-09-04T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//9-ciekawostek-technologicznych-o-Chinach</link>
+          <guid isPermaLink="true">https://rmakara.github.io//9-ciekawostek-technologicznych-o-Chinach</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Project Manager, więc kto? Praca zespołu, czyli &amp;#34;Scrum&amp;#34;</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;Jest to czwarty artykuł z cyklu &lt;em&gt;Project Manager, więc kto.&lt;/em&gt;, jeżeli nie czytałeś/aś od początku to zachęcam do przejścia na stronę &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -309,7 +350,7 @@
 
 &lt;p&gt;W rzeczywistości, będąc rozdartym pomiędzy tymi dwoma stronami prawdopodobnie nie będziesz po stronie klienta, ani po stronie zespołu… a po stronie projektu. Co czasami będzie oznaczało pójście bardziej w jedną lub drugą stronę.&lt;/p&gt;
 
-&lt;h1 id=&quot;Żart-o-żabie&quot;&gt;Żart o żabie&lt;/h1&gt;
+&lt;h1 id=&quot;żart-o-żabie&quot;&gt;Żart o żabie&lt;/h1&gt;
 
 &lt;p&gt;Powyższe pokazuje, że w kontekście pracy zespołowej pełnisz kilka ról w jednej osobie. To często może rodzić wewnętrzne konflikty interesów, ponieważ odgrywając rolę PO będziesz musiał głęboko wchodzić w rozumienie i omawianie zadań, a wchodząc w buty SM powinieneś stać w lekkim dystansie od tego, aby móc jak najbardziej obiektywnie oceniać sytuację w zespole i ją usprawniać. Z trzeciej strony, wracając do roli PM powinieneć dbać o budżet i harmonogram.&lt;/p&gt;
 
@@ -346,7 +387,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://www.scrum.org/resources/blog/scrumand-stance-requires-thought-and-discipline-0&quot;&gt;The “ScrumAnd” Stance (requires thought and discipline), Gunter Verheyen&lt;/a&gt;&lt;/li&gt;
@@ -362,8 +403,6 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;li&gt;[11] &lt;a href=&quot;https://en.wikipedia.org/wiki/Systems_development_life_cycle&quot;&gt;Systems development life cycle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[12] &lt;a href=&quot;https://martinfowler.com/articles/feature-toggles.html&quot;&gt;Feature Toggles (aka Feature Flags), Martin Fowler&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania kolejnego artykułu &lt;a href=&quot;https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II&quot;&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”, Część II&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2019-06-08T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum</link>
@@ -516,7 +555,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
+&lt;h1 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Scope_(project_management)&quot;&gt;Scope, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -524,8 +563,6 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;li&gt;[3] &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup#Pivot&quot;&gt;Pivot, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Cynefin_framework&quot;&gt;Cynefin framework, Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania kolejnego artykułu &lt;a href=&quot;https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum&quot;&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”, Część I&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2018-11-22T00:00:00+01:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu</link>
@@ -661,7 +698,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
+&lt;h1 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://www.empik.com/wywieranie-wplywu-na-ludzi-teoria-i-praktyka-cialdini-robert-b,p1128788782,ksiazka-p?gclid=EAIaIQobChMIwonIusnF3gIVEOaaCh3kKQo3EAQYAyABEgJJQPD_BwE&amp;amp;gclsrc=aw.ds&quot;&gt;Wywieranie wpływu na ludzi. Teoria i praktyka. Robert Cialdini. Empik&lt;/a&gt;&lt;/li&gt;
@@ -676,7 +713,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;li&gt;[10] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time &amp;amp; materials, Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania kolejnego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu&quot;&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania trzeciego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu&quot;&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2018-11-08T00:00:00+01:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp</link>
@@ -709,8 +746,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Wstep&quot;&gt;Project Manager, więc kto? Wstęp.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Analityka-czyli-definiowanie-zakresu-projektu&quot;&gt;Project Manager, więc kto? Analityka, czyli definiowanie zakresu projektu.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum&quot;&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”, Część I&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum-II&quot;&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”, Część II&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io//Project-Manager-wiec-kto-Praca-zespolu-czyli-Scrum&quot;&gt;Project Manager, więc kto? Praca zespołu, czyli “Scrum”&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Zarządzanie projektami, czyli “Prince2”.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Liderowanie i szefowanie, czyli decyzje i feedback.&lt;/li&gt;
   &lt;li&gt;Project Manager, więc kto? Wspieranie firmy (organizacji), czyli spotkania.&lt;/li&gt;
@@ -751,7 +787,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;Jeżeli na któreś z powyższych pytań nie byłeś/aś w stanie odpowiedzieć, nie oznacza to, że nie nadajesz się na PMa. Mają one jedynie na celu pomoc w zdecydowaniu jakim PMem chcesz być.&lt;/p&gt;
 
-&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania kolejnego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dalej chcesz zostać PMem? Jeżeli tak, to zachęcam do przeczytania drugiego artykułu &lt;a href=&quot;https://rmakara.github.io/Project-Manager-wiec-kto-Sprzedaz-czyli-rfi-rfp&quot;&gt;Project Manager, więc kto? Sprzedaż, czyli RFI, RFP&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2018-10-26T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Project-Manager-wiec-kto-Wstep</link>
@@ -875,7 +911,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://x-team.com&quot;&gt;X-Team&lt;/a&gt;&lt;/li&gt;
@@ -963,7 +999,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://web.facebook.com/Product-Craftsmanship-Agile-Wroc%C5%82aw-1791532430917050/&quot;&gt;Product Craftsmanship - Agile Wrocław, Facebook&lt;/a&gt;&lt;/li&gt;
@@ -1107,7 +1143,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://varnish-cache.org/docs/trunk/index.html&quot;&gt;Varnish Documentation, https:/varnish-cache.com&lt;/a&gt;&lt;/li&gt;
@@ -1210,7 +1246,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/All_models_are_wrong&quot;&gt;All models are wrong, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -1287,7 +1323,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://devstyle.pl/daj-sie-poznac/&quot;&gt;Daj się poznać&lt;/a&gt;&lt;/li&gt;
@@ -1386,7 +1422,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time &amp;amp; materials, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -1475,7 +1511,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://pl.wikipedia.org/wiki/CRUD&quot;&gt;CRUD&lt;/a&gt;&lt;/li&gt;
@@ -1544,7 +1580,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://martinfowler.com/bliki/UbiquitousLanguage.html&quot;&gt;UbiquitousLanguage&lt;/a&gt;&lt;/li&gt;
@@ -1610,7 +1646,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
     
       
         <item>
-          <title>Gynveal's Mission 003&amp;#58; Optymalizacja</title>
+          <title>Gynveal&#39;s Mission 003&amp;#58; Optymalizacja</title>
           <description>&lt;h1 id=&quot;wystarczy-poczekać&quot;&gt;Wystarczy poczekać&lt;/h1&gt;
 
 &lt;p&gt;Powodem pominięcia Misji 002 jest fakt, że trudno było mi wpaść na pomysł jej rozwiązania. Uznałem, że na dzień dzisiejszy potrzebuję czegoś bardziej trywialnego, a taka wydała się być Misja 003. Z czasem jednak wrócę do wykonania również zadania drugiego.&lt;/p&gt;
@@ -1772,7 +1808,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;p&gt;10.Failure counts as done. So do mistakes.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://www.youtube.com/watch?v=xR0hAJPp1vs&quot;&gt;Gynvael’s Livestream #39: RPC, czyli zdalne API&lt;/a&gt;&lt;/li&gt;
@@ -1790,7 +1826,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
     
       
         <item>
-          <title>Gynveal's Mission 001&amp;#58; Szyfrowanie XORem</title>
+          <title>Gynveal&#39;s Mission 001&amp;#58; Szyfrowanie XORem</title>
           <description>&lt;h1 id=&quot;misje-gynvaela-coldwinda&quot;&gt;Misje Gynvaela Coldwinda&lt;/h1&gt;
 
 &lt;p&gt;Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Zrozumieć programowanie&lt;/a&gt; i &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Praktyczna Inżynieria Wsteczna&lt;/a&gt;. Prowadzi &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;anglojęzyczny kanał YouTube&lt;/a&gt; oraz &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;polskojęzyczny kanał YouTube&lt;/a&gt;. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal’s Mission omawiać będzie moje realizacje zadań, pochodzących ze streamów Gynveala.&lt;/p&gt;
@@ -1917,10 +1953,10 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111111&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101001&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10101&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;-&#39;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101010&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111100&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;-&#39;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
 
@@ -1936,7 +1972,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 &lt;p&gt;oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; ze słowem &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1945,7 +1981,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
   &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;  
@@ -1986,9 +2022,9 @@ l
 &lt;p&gt;Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to &lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;. Podstawiamy te znaki do tablicy z kluczem i testujemy:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;n&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2023,10 +2059,10 @@ lif
 &lt;p&gt;Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko &lt;code class=&quot;highlighter-rouge&quot;&gt;the&lt;/code&gt;. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że &lt;code class=&quot;highlighter-rouge&quot;&gt;lif?&lt;/code&gt; może oznaczać &lt;code class=&quot;highlighter-rouge&quot;&gt;life&lt;/code&gt;. Podstawiamy do tablicy z kluczem:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;n&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2058,15 +2094,15 @@ life
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Skupiamy się na słowach sześcioznakowych i początku &lt;code class=&quot;highlighter-rouge&quot;&gt;you'&lt;/code&gt;. Można zaryzykować, że chodzi o &lt;code class=&quot;highlighter-rouge&quot;&gt;you're&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Skupiamy się na słowach sześcioznakowych i początku &lt;code class=&quot;highlighter-rouge&quot;&gt;you&#39;&lt;/code&gt;. Można zaryzykować, że chodzi o &lt;code class=&quot;highlighter-rouge&quot;&gt;you&#39;re&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;n&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;r&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2101,13 +2137,13 @@ life
 &lt;p&gt;Do końcu słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;n&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;r&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;t&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2141,9 +2177,9 @@ life
 
 &lt;p&gt;Możemy teraz odczytać pierwsze 7 bajtów klucza:&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Key: '&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Key: &#39;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2166,7 +2202,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;p&gt;Powyższy artykuł został napisany podczas jednego z najwięszych ataków Ransomware na swiecie - WannaCry.&lt;/p&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Gynveal Coldwind, Zrozumieć programowanie&lt;/a&gt;&lt;/li&gt;
@@ -2276,7 +2312,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://pl.wikipedia.org/wiki/Uwierzytelnianie_wielopoziomowe&quot;&gt;Uwierzytelnianie wielopoziomowe, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -2365,7 +2401,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://en.wikipedia.org/wiki/Parkinson%27s_law&quot;&gt;Prawo Parkinsona, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -2431,9 +2467,9 @@ and if you`re taking a walk throught the garden of life
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_issues_from_jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JIRA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'domain'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'username'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JIRA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;domain&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;username&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     
-        &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project='{0}' ORDER BY created DESC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_key'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project=&#39;{0}&#39; ORDER BY created DESC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;project_key&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -2444,8 +2480,8 @@ and if you`re taking a walk throught the garden of life
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_issues_to_toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TogglPy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setAPIKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'token'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/projects/{0}/tasks'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setAPIKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;token&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://www.toggl.com/api/v8/projects/{0}/tasks&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;project_id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
     
         &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
@@ -2453,32 +2489,32 @@ and if you`re taking a walk throught the garden of life
         &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;name&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;name&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;name&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     
         &lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
             &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
             &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;&#39;task&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
             &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'pid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'wid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'workspace_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;task&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;name&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;task&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;pid&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;project_id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;task&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;wid&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;workspace_id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     
             &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
                 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;        
                     &lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Updating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;putRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks/{0}'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Updating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;ascii&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;ignore&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;putRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://www.toggl.com/api/v8/tasks/{0}&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
             &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
                 &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Creating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Creating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;ascii&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;ignore&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;https://www.toggl.com/api/v8/tasks&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of created Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of updated Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2486,7 +2522,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;p&gt;Ustawienia konfiguracyjne są ładowane z pliku &lt;code class=&quot;highlighter-rouge&quot;&gt;config.py&lt;/code&gt;. Została dodana możliwość uruchamiania skryptu z argumentem &lt;code class=&quot;highlighter-rouge&quot;&gt;--maxResults&lt;/code&gt; w celu uniknięcia pobierania kompletu zadań przy każdym wykonaniu kodu.&lt;/p&gt;
 
-&lt;p&gt;Ciekawostka, na którą się natknąłem to problem z przeprocesowaniem stringu, w którym występują pewne znaki ascii, pojawiający się w momencie wykorzystania interpolacji, który nie występował podczas łączenia stringów plusikiem. Kłopot został ominięty dzięki metodzie &lt;code class=&quot;highlighter-rouge&quot;&gt;decode('ascii', 'ignore')&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Ciekawostka, na którą się natknąłem to problem z przeprocesowaniem stringu, w którym występują pewne znaki ascii, pojawiający się w momencie wykorzystania interpolacji, który nie występował podczas łączenia stringów plusikiem. Kłopot został ominięty dzięki metodzie &lt;code class=&quot;highlighter-rouge&quot;&gt;decode(&#39;ascii&#39;, &#39;ignore&#39;)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;wnioski-i-cele&quot;&gt;Wnioski i cele&lt;/h1&gt;
 
@@ -2505,7 +2541,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://www.youtube.com/watch?v=0XITfxBCYpc&amp;amp;t=7s&quot;&gt;Jak rozmawiać z obcymi formami inteligencji - poradnik dla craftsmanów, Slawomir Sobotka&lt;/a&gt;&lt;/li&gt;
@@ -2597,7 +2633,7 @@ and if you`re taking a walk throught the garden of life
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;Źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
+&lt;h4 id=&quot;źródła-i-pojęcia&quot;&gt;Źródła i pojęcia&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[1] Antoine de Saint-Exupéry, Katya Longhi. Mały Książe.&lt;/li&gt;
