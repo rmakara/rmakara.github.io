@@ -7,6 +7,72 @@
     
       
         <item>
+          <title>Czym jest SPIKE? Wyjaśnienie dla Project Managera</title>
+          <description>&lt;h1 id=&quot;wina-analityków&quot;&gt;Wina analityków&lt;/h1&gt;
+
+&lt;p&gt;W firmach często pracujemy w systemie projektowym. W związku z tym zdarza się nam realizować spore analizy upfront. Jest to jak najbardziej ok i zwiększa naszą wiedzę w sposób pozwalający na wycenę projektu oraz późniejszą jego realizację. Często jednak programiści narzekają, że &lt;em&gt;“analiza była słaba”&lt;/em&gt;. Nie jest to oczywiście wina analityków. Jest to kwestia tego, że zawsze narzeka się na osoby “przed nami” w nieperfekcyjnym procesie w którym brakuje poprawnych przepływów feedbacku, więc… być może to wina programistów, że nie rozmawiają z analitykami? Who knows. :) A być może późniejsza analiza to coś normalnego?&lt;/p&gt;
+
+&lt;h1 id=&quot;co-na-to-pani-agile&quot;&gt;Co na to Pan(i) Agile?&lt;/h1&gt;
+
+&lt;p&gt;W podejściu zwinnym, effort “uczenia się” lub effort analityczny jest częścią Sprintu. Oznacza to, że każdy członek Development Teamu za taką analizę odpowiada. Jeżeli braki w wiedzy do zrealizowania danej historyjki są dość małe to można taką analizę wykonać w obrębie tego samego issue co samą implementację.&lt;/p&gt;
+
+&lt;p&gt;Co jednak, gdy mamy duże braki w wiedzy i nie pozwalają nam one na oszacowanie czasu potrzebnego do realizacji zadania, rozpisanie sub-tasków, ani nawet podjęcie decyzji czy jego implementacja powinna się w ogóle odbyć? Innymi słowy, nie mamy wiedzy, aby rozpocząć realizację zadania. PM pyta &lt;em&gt;“ile godzin?”&lt;/em&gt;, a odpowiedzi nie da się udzielić.&lt;/p&gt;
+
+&lt;p&gt;Na pomoc przychodzi typ zadania znany w środowisku programowania ekstremalnego jako - SPIKE.&lt;/p&gt;
+
+&lt;h1 id=&quot;czym-jest-spike&quot;&gt;Czym jest spike?&lt;/h1&gt;
+
+&lt;p&gt;SPIKE to wysiłek / effort, który może być wydzielony z historyjek implementacji konkretnych funkcjonalności na rzecz zdobycia wiedzy, która pozwoli nam rozpocząć faktyczną pracę nad zadaniem (lub podjąć decyzję o jego odrzuceniu). Spajki mogą być funkcjonalne, techniczne, architektoniczne […].&lt;/p&gt;
+
+&lt;p&gt;Ich wynikiem jest zwiększenie wiedzy o danym problemie co pozwolą na podjęcie lepszej decyzji.&lt;/p&gt;
+
+&lt;h1 id=&quot;przykład&quot;&gt;Przykład&lt;/h1&gt;
+
+&lt;p&gt;Mamy user story: &lt;em&gt;“Jako Content Manager chcę w Prismicu zbudować stronę statyczną z odnośnikami do polecanych artykułów, aby następnie została ona wyświetlona na stronie statycznej w naszym storefroncie”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Załóżmy, że nasz zespół nigdy nie integrował się z &lt;a href=&quot;https://prismic.io/&quot;&gt;Prismiciem&lt;/a&gt; i trochę nie wie od czego zacząć. Oszacowanie punktowe / czasowe realizacji tej historyjki będzie strzałem bazującym na domysłach. Nie są znane też ryzyka, które mogą zaistnieć podczas implementacji. No i teraz możemy wydzielić przykładowe spike. Opiszmy je w formie storiesów (kilka różnych wersji):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[SPIKE] Jako Dev Team chcemy zdobyć wiedzę o tym jak pobierać dane z Prismica oraz w jakiej formie przekazywane są strony z Prismica na storefront, aby precyzyjnie zdefiniować zadania z zakresu integracji z Prismic i je wyestymować&lt;/li&gt;
+  &lt;li&gt;[SPIKE] Jako Dev Team chcemy zweryfikować czy pokazywanie linków na stronach statycznych z Prismica niesie za sobą jakieś potencjalne problemy, aby precyzyjnie podczas refinementu uwzględnić ryzyka do przemyślenia podczas implementacji historyjki&lt;/li&gt;
+  &lt;li&gt;[SPIKE] Jako Dev Team chcemy zebrać wnioski z integracji z systemami CMS w innych naszych projektach, aby przyjąć jak najlepszą koncepcję architektoniczną dla integracji z Prismiciem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;przykłady-spikeów-z-innej-beczki&quot;&gt;Przykłady spike’ów z innej beczki&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[SPIKE] Chcemy wykonać analizę SWOT, aby ustalić czy powinniśmy zaimplementować system rekomendacji produktowych w naszym eCommerce wykorzystując PHP, Pythona, czy może powinniśmy kupić gotowe rozwiązanie?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DivanteLtd/shopware-pwa/issues/98&quot;&gt;https://github.com/DivanteLtd/shopware-pwa/issues/98&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DivanteLtd/shopware-pwa/issues/100&quot;&gt;https://github.com/DivanteLtd/shopware-pwa/issues/100&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SAP/cloud-commerce-spartacus-storefront/issues/1218&quot;&gt;https://github.com/SAP/cloud-commerce-spartacus-storefront/issues/1218&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;dobre-praktyki-spajkowania&quot;&gt;Dobre praktyki spajkowania&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dla każdego spike warto ustalić &lt;strong&gt;konkretny timebox&lt;/strong&gt;. Np. na realizację naszego spike o Prismica chcemy poświęcić &lt;strong&gt;maksymalnie 3 godziny&lt;/strong&gt;. W tym czasie zdobywamy jak najwięcej wiedzy + spisujemy wnioski. To musi nam wystarczyć do podjęcia kolejnych decyzji.&lt;/li&gt;
+  &lt;li&gt;Warto zaznaczyć w kryteriach akceptacyjnych danego spike co powinno być wynikiem jego realizacji. Analiza SWOT, rekomendacja, lista ryzyk, lista sub-tasków, pseudo-kod?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;jak-ci-to-pomoże-jako-pmowi&quot;&gt;Jak Ci to pomoże jako PMowi?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Estymaty historyjek do implementacji będą bardziej precyzyjne.&lt;/li&gt;
+  &lt;li&gt;Ludzie mają tendencję do implementacji pierwszego rozwiązania jakie wpadnie im do głowy. Spajkowanie pomaga na weryfikację czy pierwszy pomysł na pewno jest najlepszy.&lt;/li&gt;
+  &lt;li&gt;Spajki skrócą czas implementacji oraz późniejszego ping-pongu na etapie testowania.&lt;/li&gt;
+  &lt;li&gt;Założenia techniczne prawdopodobnie będą lepsze i czas potrzebny na późniejszy refactoring będzie mniejszy.&lt;/li&gt;
+  &lt;li&gt;Zwiększenie wiedzy pozwoli na stworzenie sub-tasków, które uczynią proces implementacji bardziej transparentnym. Unikniemy sytuacji “koduję, będzie gotowe jak skończę”.&lt;/li&gt;
+  &lt;li&gt;Odseparowanie “uczenia się” od implementacji zwiększy transparentność tego co aktualnie się dzieje z danym zadaniem. Unikniemy tego, że przez 2 tygodnie będziemy czekać na realizację czegoś, co w praktyce nawet się nie zaczęło, bo ktoś samodzielnie wchodzi w bardzo głębokie rozkminy na poziomie &lt;em&gt;“czy można płakać pod wodą?”&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2020-01-16T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Czym-jest-spike-wyjasnienie-dla-project-managera</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Czym-jest-spike-wyjasnienie-dla-project-managera</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Is your feedback meeting about money? Wyniki ankiety, część I</title>
           <description>&lt;h1 id=&quot;historia&quot;&gt;Historia&lt;/h1&gt;
 
