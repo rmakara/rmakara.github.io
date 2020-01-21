@@ -7,6 +7,100 @@
     
       
         <item>
+          <title>Przez brak continous deployment tracisz do 20% budżetu. Wyjaśnienie dla Project Managera</title>
+          <description>&lt;h1 id=&quot;jak-być-najszybszym&quot;&gt;Jak być najszybszym?&lt;/h1&gt;
+
+&lt;p&gt;Jest taka książka jak &lt;a href=&quot;https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339&quot;&gt;Accelerate: The Science of Lean Software and DevOps&lt;/a&gt;, która omawia kilkuletnie badanie nad kulturą DevOps w którym przeanalizowano 23 000 ankiet z ponad 2000 organizacji. Klastruje ono organizacje jako tzw. low perfermerów, mid performerów oraz high performerów.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli jesteś dużą firmą, która jest wspierana przez technologię to jeżeli nie stosujesz technik wyłonionych przez te badanie to - &lt;strong&gt;poniesiesz porażkę&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 2017, the DORA research team found that high performers executed 46 times more code deployments, and had a lead time, from commit to deploy, that was 440 times faster; a mean time to recover from downtime that was 170 times faster; and a change failure rate that was 5 times lower.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous deployment&lt;/strong&gt; to scenariusz w którym wszystko co pojawi się branchu master od razu jest deployowane na produkcję. Na potrzeby tego artykułu możemy przyjąć, że wszystko z brancha master/develop idzie na środowisko testowe. Technika ta ma olbrzymie znaczenie dla tematów nietechnicznych, w tym prowadzenia projektu.&lt;/p&gt;
+
+&lt;p&gt;Badanie mówi m.in. o tym, że:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software delivery ma kluczowy wpływ na kulturę organizacyjną firm nie-IT (naszych klientów!).&lt;/li&gt;
+  &lt;li&gt;Bez Lean, Agile, DevOps - jesteśmy w polu.&lt;/li&gt;
+  &lt;li&gt;CD zwiększa motywację zespołów developerskich (np. częstsza gratyfikacja z sukcesów).&lt;/li&gt;
+  &lt;li&gt;Zwiększa współpracę członków zespołu (np. konieczność utrzymywania brancha master/develop w “deployowalnej” jakości).&lt;/li&gt;
+  &lt;li&gt;Obniża ryzyko przyszłych deploymentów, czyli tzw. &lt;em&gt;“deployment pain”&lt;/em&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=LdOe18KhtT4&quot;&gt;prezentacja o DevOps w 2009 roku mówiła “róbmy 10 deploymentów dziennie”&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;z-czym-musisz-się-pogodzić-bez-cd-na-środowisko-testowe&quot;&gt;Z czym musisz się pogodzić bez CD na środowisko testowe?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motywacja zespołu oraz poczucie odpowiedzialności specjalistów za projekt będą zdecydowanie niższe.&lt;/li&gt;
+  &lt;li&gt;Stworzycie ryzyko tego, że przez pół roku będziecie developować roczny projekt bez działającego czegokolwiek.&lt;/li&gt;
+  &lt;li&gt;Negatywnie zwiększycie potrzebny budżet projektu do dowiezienia tego samego zakresu. Moja estymacja to +20% przy długich projektach.&lt;/li&gt;
+  &lt;li&gt;Będziesz zmuszony ufać na słowo developerom mówiącym, że “kodzik jest ok”.&lt;/li&gt;
+  &lt;li&gt;Co najgorsze, developerzy będą ufać swojemu liderowi, że “kodzik jest ok”.&lt;/li&gt;
+  &lt;li&gt;Go Live będzie wyzwaniem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;insights-z-książki-accelerate-w-wersji-dla-pma&quot;&gt;Insights z książki Accelerate w wersji dla PMa&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jeżeli czas Twojego zespołu poświęcany na deploymenty jest większy niż 1h tygodniowo to jest to zły wynik.&lt;/li&gt;
+  &lt;li&gt;Jeżeli robisz deploymenty rzadziej, niż raz na tydzień to jest to bardzo zły wynik.&lt;/li&gt;
+  &lt;li&gt;Jeżeli nie znasz technik poruszanych w Accelerate - to nie umiesz robić oprogramowania w 2020 roku. Wylistuję je w kolejnym artykule.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;co-tobie-dacontinuous-deploymentna-test-env-jako-pmowi&quot;&gt;Co Tobie da continuous deployment na test env jako PMowi?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;W każdej chwili będziesz mógł wejść na test env i zobaczyć w jakim stanie jest Wasz projekt.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Zmniejszysz potrzebny budżet na development, testowanie, deployment.&lt;/li&gt;
+  &lt;li&gt;Zwiększysz motywację i odpowiedzialność Development Teamu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;skąd-te-20-budżetu&quot;&gt;Skąd te +20% budżetu?&lt;/h1&gt;
+
+&lt;p&gt;Lean wykazuje &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_manufacturing#Types_of_waste&quot;&gt;8 marnostrawstw&lt;/a&gt;. W świecie software developmentu marnostrawstwem może być np. ręczne przenoszenie nowych wersji aplikacji na produkcję lub środowisko testowe. Jeżeli nie będziemy mieli continious delivery/deployment to specjaliści będą zmuszeni do robienia tego za każdym razem ręcznie. Doprowadzi to do tego, że:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Testerzy będą czekać dłużej na udostepnienie wersji do testowania.&lt;/li&gt;
+  &lt;li&gt;Programiści będą zmuszeni porozumiewać się w zakresie czasu / dnia / godziny / osób potrzebnych do deploymentu. Pojawią się pytania “czy / kiedy ta zmiana będzie wypuszczona?”.&lt;/li&gt;
+  &lt;li&gt;Niezautomatyzowany proces deploymentu aplikacji, czyli prace wykonywane ręcznie będą generować błędy.&lt;/li&gt;
+  &lt;li&gt;Prawdopodobnie rzadziej będziemy decydować się na deployment aplikacji, więc cycle time będzie dłuższy, a feedback od klientów będzie otrzymywany wolniej. Później dowiemy się o problemach i błędach.&lt;/li&gt;
+  &lt;li&gt;Zaistnieje większe prawdopodobieństwo, że nasza gałąź główna w repozytorium kodu nie będzie utrzymywana w stanie “deployowalnym” i konieczne będzie cykliczne usuwanie nagromadzonych naleciałości.&lt;/li&gt;
+  &lt;li&gt;Osoby odpowiedzialne za deployment prawdopodobnie staną się silosami wiedzy w zakresie tego jak taki deployment wykonać (bus factor=1?).&lt;/li&gt;
+  &lt;li&gt;Kolumna WAITING FOR DELOYMENT_ obecna na tablicy kanbanowej stanie się wąskim gardłem w którym prawdopodobnie nie zdecydujemy się wprowadzić limitu work-in-progress.&lt;/li&gt;
+  &lt;li&gt;Ilość zadań &lt;em&gt;IN PROGRESS&lt;/em&gt; wzrośnie ze względu na oczekiwanie na deploymentu, co będzie powodwać konieczność do powracania do nich w celu wykonania deploymentu, więc wzrośnie koszt przełączania się między kontekstami różnych zadań.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I tak w każdym tygodniu pracy… być może koszt będzie większy niż +20%. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;podsumowując&quot;&gt;Podsumowując&lt;/h1&gt;
+
+&lt;p&gt;W wersji minimalnej postaraj się o:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continuous deployment na środowisko testowe.&lt;/li&gt;
+  &lt;li&gt;Continuous delivery na środowisko stagingowe.&lt;/li&gt;
+  &lt;li&gt;Continuous delivery na środowisko produkcyjne.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;więcej-informacji&quot;&gt;Więcej informacji&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inthecloud.withgoogle.com/state-of-devops-18/dl-cd-typ.html&quot;&gt;2018 State of DevOps Report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://puppet.com/resources/report/state-of-devops-report/&quot;&gt;2019 State of DevOps Report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339&quot;&gt;Accelerate: The Science of Lean Software and DevOps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LdOe18KhtT4&quot;&gt;Velocity 09: John Allspaw and Paul Hammond, “10+ Deploys Per Day”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2020-01-21T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//przez-brak-continuous-deployment-tracisz-do-20-budzetu</link>
+          <guid isPermaLink="true">https://rmakara.github.io//przez-brak-continuous-deployment-tracisz-do-20-budzetu</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Czym jest SPIKE? Wyjaśnienie dla Project Managera</title>
           <description>&lt;h1 id=&quot;wina-analityków&quot;&gt;Wina analityków&lt;/h1&gt;
 
