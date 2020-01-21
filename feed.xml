@@ -59,7 +59,7 @@
 
 &lt;h1 id=&quot;skąd-te-20-budżetu&quot;&gt;Skąd te +20% budżetu?&lt;/h1&gt;
 
-&lt;p&gt;Lean wykazuje &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_manufacturing#Types_of_waste&quot;&gt;8 marnostrawstw&lt;/a&gt;. W świecie software developmentu marnostrawstwem może być np. ręczne przenoszenie nowych wersji aplikacji na produkcję lub środowisko testowe. Jeżeli nie będziemy mieli continuous delivery/deployment to specjaliści będą zmuszeni do robienia tego za każdym razem ręcznie. Doprowadzi to do tego, że:&lt;/p&gt;
+&lt;p&gt;Lean wykazuje &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_manufacturing#Types_of_waste&quot;&gt;8 marnotrawstw&lt;/a&gt;. W świecie software developmentu marnotrawstwem może być np. ręczne przenoszenie nowych wersji aplikacji na produkcję lub środowisko testowe. Jeżeli nie będziemy mieli continuous delivery/deployment to specjaliści będą zmuszeni do robienia tego za każdym razem ręcznie. Doprowadzi to do tego, że:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Testerzy będą czekać dłużej na udostepnienie wersji do testowania.&lt;/li&gt;
