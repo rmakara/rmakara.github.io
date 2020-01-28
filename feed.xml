@@ -7,6 +7,99 @@
     
       
         <item>
+          <title>24 praktyki &quot;high performerów&quot; z książki Accelerate</title>
+          <description>&lt;h1 id=&quot;accelerate&quot;&gt;Accelerate&lt;/h1&gt;
+
+&lt;p&gt;Research opisany w książce &lt;a href=&quot;https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339&quot;&gt;Accelerate: The Science of Lean Software and DevOps&lt;/a&gt; wyłonił 24 praktyki, które powinny być tabliczką mnożenia dla każdej osoby tworzącej oprogramowanie w 2020 roku. Dbanie o nie, maksymalizuje naszą szansę na stanie się tzw. “high performerem”.&lt;/p&gt;
+
+&lt;p&gt;Nie chodzi tu o szybkość pisania kodu, a wysoką wydajność działania całych organizacji. Tej “w obrębie której” oraz tej “na rzecz której” dane oprogramowanie jest wytwarzane.&lt;/p&gt;
+
+&lt;p&gt;Poniższa lista pochodzi ze wspomnianej książki. Treść w oryginalnej angielskiej wersji językowej dla ułatwienia Googlowania. Warto też zapoznać się z załącznikiem z bloku &lt;em&gt;Więcej informacji&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;moje-pięćgroszy&quot;&gt;Moje pięć groszy&lt;/h1&gt;
+
+&lt;p&gt;Ta lista jest naprawdę bardzo, bardzo, bardzo dobra. Jeżeli po przeczytaniu bullet pointów uznasz, że znasz wszystkie z wymienionych tematów, a nie czytałeś książki - mimo wszystko zachęcam. Zachodzi ona poniższe aspekty z dość niecodziennej, nietechnicznej strony.&lt;/p&gt;
+
+&lt;p&gt;Książka składa się z dwóch części: mięsa oraz opisu metod researchu.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli nie jarasz się statystyką, a wieczorami nie piszesz w R - polecam ominąć opisy metodyki badań. Dzięki temu z 288 stron zrobi się mniej więcej połowa, a Ty zdobędziesz świetną wiedzę oraz zaoszczędzisz kilka godzin.&lt;/p&gt;
+
+&lt;h1 id=&quot;continuous-delivery-capabilities&quot;&gt;Continuous delivery capabilities&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use version control for all production artifacts.&lt;/li&gt;
+  &lt;li&gt;Automate your deployment process.&lt;/li&gt;
+  &lt;li&gt;Implement continuous integration.&lt;/li&gt;
+  &lt;li&gt;Use trunk-based development methods.&lt;/li&gt;
+  &lt;li&gt;Implement test automation.&lt;/li&gt;
+  &lt;li&gt;Support test data management.&lt;/li&gt;
+  &lt;li&gt;Shift left on security.&lt;/li&gt;
+  &lt;li&gt;Implement continuous delivery (CD).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;architecture-capabilities&quot;&gt;Architecture capabilities&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a loosely coupled architecture.&lt;/li&gt;
+  &lt;li&gt;Architect for empowered teams.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;product-and-process-capabilities&quot;&gt;Product and process capabilities&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gather and implement customer feedback.&lt;/li&gt;
+  &lt;li&gt;Make the flow of work visible through the value stream.&lt;/li&gt;
+  &lt;li&gt;Work in small batches.&lt;/li&gt;
+  &lt;li&gt;Foster and enable team experimentation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;lean-management-and-monitoring-capabilities&quot;&gt;Lean management and monitoring capabilities&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have a lightweight change approval processes.&lt;/li&gt;
+  &lt;li&gt;Monitor across application and infrastructure to inform business decisions.&lt;/li&gt;
+  &lt;li&gt;Check system health proactively.&lt;/li&gt;
+  &lt;li&gt;Improve processes and manage work with work-in-progress (WIP) limits.&lt;/li&gt;
+  &lt;li&gt;Visualize work to monitor quality and communicate throughout the team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cultural-capabilities&quot;&gt;Cultural capabilities&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support a generative culture (as outlined by Westrum).&lt;/li&gt;
+  &lt;li&gt;Encourage and support learning.&lt;/li&gt;
+  &lt;li&gt;Support and facilitate collaboration among teams.&lt;/li&gt;
+  &lt;li&gt;Provide resources and tools that make work meaningful.&lt;/li&gt;
+  &lt;li&gt;Support or embody transformational leadership.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;więcej-informacji&quot;&gt;Więcej informacji&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itrevolution.com/ACC-transformation-practices&quot;&gt;Overall Research Program, Accelerate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture&quot;&gt;DevOps culture: Westrum organizational culture, Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;ps-1&quot;&gt;P.S. #1&lt;/h1&gt;
+
+&lt;p&gt;Jezeli masz wrażenie, że w tym artykule nie ma zbyt wiele mojego contentu. Masz rację! Słowa uznania należą się: Nicole Forsgren, Gene Kim i Jez Humble.&lt;/p&gt;
+
+&lt;h1 id=&quot;ps-2&quot;&gt;P.S. #2&lt;/h1&gt;
+
+&lt;p&gt;A jeżeli dotrwałeś do końca i zainteresowało Ciebie pojawiające się w połowie hasło &lt;em&gt;Loosely coupled architecture&lt;/em&gt; to polecam:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ten film: &lt;a href=&quot;https://www.youtube.com/watch?v=4jv_E5G9Z04&quot;&gt;Loosely coupled architecture - jak pozbyć się efektu domina - R. Maziarka, Programistok 2019&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;oraz ten blog: &lt;a href=&quot;https://radekmaziarka.pl&quot;&gt;https://radekmaziarka.pl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2020-01-28T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//24-praktyki-high-performerw-z-ksiazki-accelerate</link>
+          <guid isPermaLink="true">https://rmakara.github.io//24-praktyki-high-performerw-z-ksiazki-accelerate</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Przez brak continuous deployment tracisz do 20% budżetu. Wyjaśnienie dla Project Managera</title>
           <description>&lt;h1 id=&quot;jak-być-najszybszym&quot;&gt;Jak być najszybszym?&lt;/h1&gt;
 
@@ -46,7 +139,7 @@
 &lt;ul&gt;
   &lt;li&gt;Jeżeli czas Twojego zespołu poświęcany na deploymenty jest większy niż 1h tygodniowo to jest to zły wynik.&lt;/li&gt;
   &lt;li&gt;Jeżeli robisz deploymenty rzadziej, niż raz na tydzień to jest to bardzo zły wynik.&lt;/li&gt;
-  &lt;li&gt;Jeżeli nie znasz technik poruszanych w Accelerate - to nie umiesz robić oprogramowania w 2020 roku. Wylistuję je w kolejnym artykule.&lt;/li&gt;
+  &lt;li&gt;Jeżeli nie znasz technik poruszanych w Accelerate - to nie umiesz robić oprogramowania w 2020 roku. Wylistuję je w kolejnym artykule - &lt;a href=&quot;https://rmakara.github.io/24-praktyki-high-performerw-z-ksiazki-accelerate&quot;&gt;LINK&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;co-tobie-continuous-deploymentna-test-env-da-jako-pmowi&quot;&gt;Co Tobie continuous deployment na test env da jako PMowi?&lt;/h1&gt;
