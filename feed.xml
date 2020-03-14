@@ -7,6 +7,89 @@
     
       
         <item>
+          <title>First of five voting - sposób na szybkie poznanie zdania innych</title>
+          <description>&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
+
+&lt;p&gt;Na spotkaniach projektowych zdarza się, że chcemy poznać opinię całej grupy na jakiś temat.&lt;/p&gt;
+
+&lt;p&gt;Możemy wtedy zadać pytanie na głos i poprosić o komentarze. Osoby bardziej śmiałe będa miały większą siłę od tych małomównych. Być może nie poznamy opinii introwertyków. Może nie dowiemy się, że ktoś się nie zgadza z naszym pomysłem. Być może wystartujemy inicjatywę, która w (słusznej) opinii osób nieśmiałych jest bezsensowna.&lt;/p&gt;
+
+&lt;p&gt;Można to facylitować np. prosząc każdego o wypowiedzenie się po kolei. Przy czymś takim jednak każdy komentarz jest powodem do otwarcia długiej dyskusji, a także wpływa on również na wszystkie kolejne głosy.&lt;/p&gt;
+
+&lt;h1 id=&quot;przykład&quot;&gt;Przykład&lt;/h1&gt;
+
+&lt;p&gt;Załóżmy, że w zespole 8-osobowym chcielibyśmy poznać odpowiedzi na poniższe pytania:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jak zrozumiały jest dla Was zakres tego epicu?&lt;/li&gt;
+  &lt;li&gt;Czy uważacie, że to nowe zadanie jest na tyle ważne, że powinniśmy dorzucić je do Sprint Backlogu już dziś (w połowie Sprintu)?&lt;/li&gt;
+  &lt;li&gt;Czy chcecie zaangażować się we wdrażanie tego pomysłu?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Przy otwartym zadawaniu tych pytań pozostawiam Wam wyobrażenie sobie jak będą wyglądały kolejne minuty po zadaniu tych pytań.&lt;/p&gt;
+
+&lt;p&gt;Możemy jednak zrobić to w mniej standardowy sposób przy użyciu techniki znanej jako Fist of five voting na którą natknąłem się w książce &lt;a href=&quot;https://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley/dp/0321637704&quot;&gt;Coaching Agile Teams, Lyssa Adkins&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;fist-of-five-voting&quot;&gt;Fist of five voting&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wyjaśniamy działanie techniki.&lt;/li&gt;
+  &lt;li&gt;Zadajemy pytanie / Przedstawiamy pomysł.&lt;/li&gt;
+  &lt;li&gt;Odliczamy 3, 2, 1, bang (podobnie jak w kamień-papier-nożyce).&lt;/li&gt;
+  &lt;li&gt;Każda z osób głosuje przez liczbę wyciągniętych palców dłoni. Wyniki możemy interpretować w zależności od zadanego pytania, np. w taki sposób:
+    &lt;ul&gt;
+      &lt;li&gt;pięść - Zdecydowanie nie!&lt;/li&gt;
+      &lt;li&gt;1 palec - Nie, widzę duże problemy, które musimy przegadać.&lt;/li&gt;
+      &lt;li&gt;2 palce - Raczej nie, widzę pewne problemy, które musimy przegadać.&lt;/li&gt;
+      &lt;li&gt;3 palce - Niech będzie.&lt;/li&gt;
+      &lt;li&gt;4 palce - Ok, zróbmy to!&lt;/li&gt;
+      &lt;li&gt;5 palców - Zdecydowanie tak! Mogę poprowadzić ten temat.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Albo podejmujemy decyzję, albo omawiamy i ponownie głosujemy, albo przekładamy podjęcie decyzji na inny termin.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;kiedy-to-nie-zadziała&quot;&gt;Kiedy to nie zadziała?&lt;/h1&gt;
+
+&lt;p&gt;Na przykład wtedy kiedy mamy wiele opcji do wyboru. W takiej sytuacji lepiej skorzystać z metody znanej jako dot-voting.&lt;/p&gt;
+
+&lt;h1 id=&quot;wielowymiarowość-głosowania&quot;&gt;Wielowymiarowość głosowania&lt;/h1&gt;
+
+&lt;p&gt;Na ostatnim spotkaniu &lt;a href=&quot;https://www.meetup.com/AgileWroclaw/events/269002028/&quot;&gt;Agile Wrocław&lt;/a&gt; Paweł, który prowadził warsztat przytoczył jedno przemyślenie dotyczące &lt;a href=&quot;https://en.wikipedia.org/wiki/Dot-voting&quot;&gt;dot-vottingu&lt;/a&gt; zasłyszane od Radka, autora podcastu &lt;a href=&quot;https://kanbanprzykawie.pl/&quot;&gt;Kanban przy kawie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jeżeli używamy dot-vottingu, warto rozważyć głosowanie na więcej, niż 1 wymiar w kontekście danego problemu. Np. jeżeli naszym pytaniem byłoby &lt;em&gt;Co chcemy porobić w sobotę w grupie naszych znajomych?&lt;/em&gt;, a dostępnymi odpowiedziami wyłonionymi we wcześniejszej dyskusji byłyby:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pójść na Musical Metro do Hali Stulecia o 19:00,&lt;/li&gt;
+  &lt;li&gt;Obejrzeć serial Pandemia na Netfliksie w domu u Edwarda o 20:00,&lt;/li&gt;
+  &lt;li&gt;Pójść do kina na film Dzentelmeni o 17:30.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A wymiarami do głosowania:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Na co mamy największą ochotę?&lt;/li&gt;
+  &lt;li&gt;Wszystkie godziny są dla nas w miarę ok, ale która odpowiada nam najbardziej?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To oczywiście może zrodzić dodatkowy konflikt i być może nie pozwoli na szybkie podjęcie decyzji, ale wyobrażam sobie wiele sytuacji w których warto zastosować takie podejście.&lt;/p&gt;
+
+&lt;p&gt;Być może można przenieść to w jakiś sposób na fist of five voting?&lt;/p&gt;
+
+&lt;h1 id=&quot;więcej-informacji&quot;&gt;Więcej informacji&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://www.google.com/search?q=fist+of+five+voting&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiE-8DCpZroAhVMw4sKHdZzBpcQ_AUoAXoECA4QAw&quot;&gt;Fist of five @ Google Images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2020-03-13T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Fist-of-five-voting</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Fist-of-five-voting</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>24 praktyki &quot;high performerów&quot; z książki Accelerate</title>
           <description>&lt;h1 id=&quot;accelerate&quot;&gt;Accelerate&lt;/h1&gt;
 
