@@ -46,7 +46,7 @@
 
 &lt;p&gt;In nowadays work, I see many UX Designers, who work like UI Designers. All the design software/tools are not very hard to use and we experienced the hype for that. The same happened with software development some time ago when we got much more high-level programming languages and frameworks, that may generate working solutions for us in a couple of minutes. There was a legendary video about scaffolding a blog in Ruby on Rails in just 7 minutes. That was a great shift in software development industry.&lt;/p&gt;
 
-&lt;p&gt;Assuming the decade of the design. Will the designers achieve that on their own? I think they cannot and if they try to do that, they are most likely to fail. The answers are in Figma’s subtitle which is &lt;a href=&quot;https://www.figma.com/&quot;&gt;&lt;em&gt;Where teams design together&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Assuming the decade of the design. Will the designers achieve that on their own? I think they cannot and if they try to do that, they are most likely to fail. The answers are in Figma’s subtitle which is &lt;a href=&quot;https://www.figma.com/&quot;&gt;&lt;em&gt;“Where teams design together”&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Getting back to my story about UX Designer, who hated me about improperly teaching software engineers UX techniques. Hey… it does not matter if you teach someone your expert skills by the book or not. The thing that matters is if you can encourage the people to find it useful and lightweight enough for them to use these techniques in daily work. If I would ask software engineers, who love to live in a basement to start the customer journey mapping with feeling users’ emotions by running the empathy map session I would probably get kicked out through the window.&lt;/p&gt;
 
@@ -111,7 +111,7 @@
   &lt;li&gt;senior developers are usually getting a greenfield project.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This kind of seniors focus on the wrong thing. The highest software engineering seniority that you can achieve is getting the right skill set to bring the brownfield project, that already earns lots of money and make a brilliant out of it. If your company selects you to start the new important project and after a year you blame the others, business and deadlines for its poorly delivered business value, high coupling, low quality or whatever - you are on the 1st peak of the Dunning Kruger effect.&lt;/p&gt;
+&lt;p&gt;This kind of seniors focus on the wrong thing. The highest software engineering seniority that you can achieve is getting the right skill set to bring the brownfield project up, and make a brilliant out of it. If your company selects you to start the new important project and after a year you blame the others, business and deadlines for its poorly delivered business value, high coupling, low quality or whatever - you are on the 1st peak of the Dunning Kruger effect.&lt;/p&gt;
 
 &lt;p&gt;If you are learning the next framework. Think of how you can use the new knowledge to maximise the frequency of the deployments to production and reduce the failure rate. All of it by delivering “potentially releasable product” most of the time instead of accepting broken CI pipelines.&lt;/p&gt;
 
@@ -131,19 +131,19 @@
 
 &lt;h1 id=&quot;calling-to-scrum-masters&quot;&gt;Calling to Scrum Masters&lt;/h1&gt;
 
-&lt;p&gt;And here we are… sprints. For some reason, I dislike most of the Scrum Masters. Not because I find Scrum as an ineffective way of working. I think, the opposite. Scrum and Extreme Programming have done more to Agile than any other methodologies. However, over time it becomes a buzzword for a bunch of invaluable certificates.&lt;/p&gt;
+&lt;p&gt;And here we are… sprints. For some reason, many Scrum Masters are being very aggresive in evangelisation. I do not find Scrum as an ineffective way of working. I think, the opposite. Scrum and Extreme Programming have done more to Agile than any other methodologies. However, over time it becomes a buzzword for a bunch of invaluable certificates.&lt;/p&gt;
 
 &lt;p&gt;When I was finishing my software development career a few years ago and I was converting into a project management role - recruiters were calling me back just to ask if I applied for a correct job position. To overcome it, I decided to pass the Professional Scrum Master 1 exam. I have never worked in the Scrum Team before. I opened the Internet. Spent 9 days reading about Scrum and then I passed the exam for 93%. Does it make me a Scrum Master? Nope, but it quickly moved me to the first peak of Dunning Kruger effect. I started realising the basics what the Scrum is all about like 3 years later.&lt;/p&gt;
 
 &lt;p&gt;As a Scrum Master, you focus on assuring if the Scrum is understood and respected within the team and the organisation. The worst thing you can do is to force everyone around you to work with the Scrum by-the-book by the first day.&lt;/p&gt;
 
-&lt;p&gt;I do not mean that the Scrum is a methodology, which requires adjustments. It does not. In fact, it is the most common problem why many people hate Scrum - they have never tried Scrum as it is described in a Scrum Guide, just because: &lt;em&gt;sorry, needed to adjust, we are specific organization, one of its kind&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I do not mean that the Scrum is a methodology, which requires adjustments. It does not. In fact, it is the most common problem why many people hate Scrum - they have never tried Scrum as it is described in a Scrum Guide, just because: &lt;em&gt;“sorry, needed to adjust, we are specific organization, one of its kind”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;However, Scrum Masters focus on their own skillset - Scrum-evangelisation-skills. They ask teams to go 100% for that instead of helping the team to go through the long process of discovering and understanding Scrum and Agile by its values.&lt;/p&gt;
+&lt;p&gt;However, extreme Scrum Masters focus on their own skillset - Scrum-evangelisation-skills. They ask teams to go 100% for that instead of helping the team to go through the long process of discovering and understanding Scrum and Agile by its values.&lt;/p&gt;
 
 &lt;p&gt;The result of that is using the half-Scrum as a set mechanics/framework for team collaboration. But… it is not that bad, far better than no mechanics/framework at all.&lt;/p&gt;
 
-&lt;p&gt;Being a blind man, who enforces the team to use Scrum just because you are the Scrum Master, brings you and everything around you down. You convert your role from impediment remover into something strange because the process becomes an impediment itself, and you become an impediment.&lt;/p&gt;
+&lt;p&gt;Being a blind person, who enforces the team to use Scrum just because you are the Scrum Master, brings you and everything around you down. You convert your role from impediment remover into something strange because the process becomes an impediment itself, and you become an impediment.&lt;/p&gt;
 
 &lt;p&gt;I think the biggest change in my case was reading the book &lt;a href=&quot;https://www.lyssaadkins.com/coaching-agile-teams-book&quot;&gt;Coaching Agile Teams by Lyssa Adkins&lt;/a&gt;. I made all of the mistakes described in this book. There is a popular saying about learning from other people’s mistakes. In reality, we mostly learn on our own ones.&lt;/p&gt;
 
@@ -179,7 +179,7 @@
 
 &lt;h1 id=&quot;your-seniority-is-a-lie&quot;&gt;Your seniority is a lie&lt;/h1&gt;
 
-&lt;p&gt;All of the modern software development trends go towards &lt;em&gt;tech is a business&lt;/em&gt; and &lt;em&gt;bring engineers and business together&lt;/em&gt;. UX Designers achieve that by applying &lt;a href=&quot;https://www.thesprintbook.com/&quot;&gt;Design Sprints&lt;/a&gt;. Software Developers use &lt;a href=&quot;https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215&quot;&gt;Domain-Driven Design&lt;/a&gt; and &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;Event Storming&lt;/a&gt;. Product Managers think about &lt;a href=&quot;https://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425&quot;&gt;Lean&lt;/a&gt;, A/B Testing. The development phase is built around the Scrum framework.&lt;/p&gt;
+&lt;p&gt;All of the modern software development trends go towards &lt;em&gt;“tech is a business”&lt;/em&gt; and &lt;em&gt;“bring engineers and business together”&lt;/em&gt;. UX Designers achieve that by applying &lt;a href=&quot;https://www.thesprintbook.com/&quot;&gt;Design Sprints&lt;/a&gt;. Software Developers use &lt;a href=&quot;https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215&quot;&gt;Domain-Driven Design&lt;/a&gt; and &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;Event Storming&lt;/a&gt;. Product Managers think about &lt;a href=&quot;https://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425&quot;&gt;Lean&lt;/a&gt;, A/B Testing. The development phase is built around the Scrum framework.&lt;/p&gt;
 
 &lt;p&gt;All of these things bring us to the state when we all work in an agile way but we forget to work as a team. That creates a cycle of agile phases in a waterfall process. Everyone wants to do their best and everyone provides tones of information to the next phase.&lt;/p&gt;
 
