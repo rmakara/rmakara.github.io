@@ -7,10 +7,97 @@
     
       
         <item>
+          <title>Being non-billable</title>
+          <description>&lt;h1 id=&quot;how-software-houses-make-money&quot;&gt;How software houses make money?&lt;/h1&gt;
+
+&lt;p&gt;If we would have to split all of the software companies in the world, then we might use two groups: product and services. As technology became a business just as the &lt;a href=&quot;https://martinfowler.com/bliki/DevOpsCulture.html&quot;&gt;DevOps Culture&lt;/a&gt; explains, there are more models of IT companies, but let’s flatten it for now.&lt;/p&gt;
+
+&lt;p&gt;In the case of software houses, customers come to us and ask to develop a specific project to be later run in the production environment. By doing so, we provide the &lt;strong&gt;services&lt;/strong&gt; of software development.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I use the word &lt;em&gt;development&lt;/em&gt; in the meaning of developing something. Not just coding, but also designing, testing, analyzing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;time--materials&quot;&gt;Time &amp;amp; Materials&lt;/h1&gt;
+
+&lt;p&gt;When providing the services, we use &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time&amp;amp;Materials&lt;/a&gt; agreement in most of the cases (at least in 2020). Customers pay us for every single hour that we spend working on the project and for materials used within’ that cooperation. By materials, we usually mean business trips, accommodation, fuel, licenses, etc.&lt;/p&gt;
+
+&lt;p&gt;It is backed up by some time tracking systems such as Toggl, Avaza, Harvest, or Jira. A project manager is verifying every minute the software developer fills in the time tracking system, and then the invoice is being issued.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-goal-of-developers&quot;&gt;The goal of developers&lt;/h1&gt;
+
+&lt;p&gt;The following scenario creates a specific mindset in software developers and splits them into two groups - people who work on billable projects and those who do not. Comparing that to the fact how most of the projects are being delivered, we might think that we all want to become &lt;a href=&quot;https://idioms.thefreedictionary.com/cog+in+a+machine&quot;&gt;cogs in the machine&lt;/a&gt; to produce the working solution. In most cases, we want to get the office (or a desk, which is 2 meters from our bed), start the computer, do a daily, deliver Jira tickets, leave the office.&lt;/p&gt;
+
+&lt;p&gt;The ability to work in a billable project provides a &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;psychical safety&lt;/a&gt; for the people who need stable working conditions.&lt;/p&gt;
+
+&lt;p&gt;In Poland, some say that our parents 30 years ago wanted to feel safe at work, so they were spending like 20-40 years in the same job. Now, we change jobs every 1-5 years. However, we can do that because this way, we are getting the same psychological comfort, which our parents were getting back then. We change the job because it is quite easy. And then we start pushing Jira tickets again and again.&lt;/p&gt;
+
+&lt;p&gt;The goal of software developers is - psychological safety. It is also a foundation for building high performing teams. However, it is something dedicated not only to high performance but for every human who wants to live a good life.&lt;/p&gt;
+
+&lt;h1 id=&quot;being-billable-makes-you-a-better-human&quot;&gt;Being billable makes you a better human&lt;/h1&gt;
+
+&lt;p&gt;By splitting all the people within’ the software house into two groups, we are all guilty of creating that invisible line between them. The ones who achieved the “goal” feel better than the ones who did not.&lt;/p&gt;
+
+&lt;p&gt;Some people call the second group non-billables, internals, internal project members, etc. In some cases, especially in COVID-19 times, some of these people may feel stressed due to potential layoffs.&lt;/p&gt;
+
+&lt;h1 id=&quot;power-of-engineers&quot;&gt;Power of engineers&lt;/h1&gt;
+
+&lt;p&gt;In my previous article, &lt;a href=&quot;https://rmakara.github.io/Your-seniority-is-a-lie&quot;&gt;Your seniority is a lie&lt;/a&gt;; I mentioned the following quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re just using your engineers to code, you’re only getting about half their value.&lt;/p&gt;
+
+  &lt;p&gt;– Marty Cagan&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The biggest tech companies in the world are being driven by continuous innovation. And as usual, most of the potentially innovative projects fail, just like most startups fail. Working in such internal initiatives is like running a startup but in safe psychological conditions.&lt;/p&gt;
+
+&lt;p&gt;When we, developers, work on a project to deliver a specific set of features, then we are like machines. Quite often, we do not care about raising the value, testing faster, being more innovative. We deliver the next tasks. How could that change if we would start thinking about solving the problems - just like we like to speak about us: &lt;em&gt;problem solvers&lt;/em&gt; - instead of rising velocity? It is especially hard in software houses/service companies, where we are expected to deliver feature by feature to get our clients satisfied.&lt;/p&gt;
+
+&lt;p&gt;In the manufacturing industry, we might raise the assembly line’s speed to produce more goods. At some point, the quality will go down. Some bottlenecks will arise. Some areas in the factory will be more productive when the other ones are not. At some point, we will start applying Toyota principles. Use Kanban and cycle times for assembly lines synchronization. And so on. If something crashes, we will use &lt;a href=&quot;https://en.wikipedia.org/wiki/Andon_(manufacturing)&quot;&gt;Andon&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomation&quot;&gt;Jidoka&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Poka-yoke&quot;&gt;Poka-yoke&lt;/a&gt; practices, which lead to stopping the production line when the big problem occurs. Then take a deep breath, fix the root cause and improve our productivity and quality in the long term.&lt;/p&gt;
+
+&lt;p&gt;In software development, scrum masters are supposed to be our out-of-the-battle observators, which are being able to raise an Andon style alert and let the whole team know what is going on.&lt;/p&gt;
+
+&lt;p&gt;When to take a breath in a software house?&lt;/p&gt;
+
+&lt;h1 id=&quot;non-billability-as-a-rocket-fuel-of-creativity&quot;&gt;Non-billability as a rocket fuel of creativity&lt;/h1&gt;
+
+&lt;p&gt;The moment for innovation in software houses is - being non-billable. This moment is the best opportunity for creating new solutions within’ the company, that will lead to the higher goods of all employees. You may create a new product, a new tool, try a new language, do some proof of concept and share it with the others. Do not be afraid to throw your work to the trash and discover more. Just learn to verify your ideas and then iterate quickly.&lt;/p&gt;
+
+&lt;p&gt;Once you get one of the ideas right, your colleagues might spot it and help to grow it into a multi-million business.&lt;/p&gt;
+
+&lt;p&gt;It is how one of the products of my current employer was born. I was not involved in the process of its creation, but my colleague &lt;a href=&quot;https://www.linkedin.com/in/filip-rakowski-a43671129&quot;&gt;Filip&lt;/a&gt; and my boss &lt;a href=&quot;https://www.linkedin.com/in/piotrkarwatka/&quot;&gt;Piotr&lt;/a&gt; were. Hats off, guys. It has all started by two people who were non-billable in the software house. Now it is a 56 people big team.&lt;/p&gt;
+
+&lt;p&gt;Consider thinking about your non-billability as an opportunity, not a penalty.&lt;/p&gt;
+
+&lt;p&gt;Just to warn you - this process is way harder than just being billable.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://martinfowler.com/bliki/DevOpsCulture.html&quot;&gt;DevOps Culture, Martin Fowler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time&amp;amp;Materials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;Psychical safety, re:Work with Google&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Andon_(manufacturing)&quot;&gt;Andon, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[5] &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomation&quot;&gt;Jidoka, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[6] &lt;a href=&quot;https://en.wikipedia.org/wiki/Poka-yoke&quot;&gt;Poka-yoke, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[7] &lt;a href=&quot;https://idioms.thefreedictionary.com/cog+in+a+machine&quot;&gt;Cog in the machine, The Free Dictionary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2020-05-19T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Being-non-billable</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Being-non-billable</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Your seniority is a lie</title>
           <description>&lt;h1 id=&quot;seniority-formula&quot;&gt;Seniority formula&lt;/h1&gt;
 
-&lt;p&gt;There has always been a rush towards getting top edge seniority levels such as senior, principal, architect or so. For some reason, it seems to be strongly being driven by &lt;a href=&quot;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&quot;&gt;Dunning-Kruger effect&lt;/a&gt;, which is getting so much confidence about our skills way too early. People tend to go for beautiful email footer titles backed up by over-confidence, which slows their progress down. Unless they meet a good mentor, who guides them through that process.&lt;/p&gt;
+&lt;p&gt;There has always been a rush towards getting top edge seniority levels such as senior, principal, architect, or so. For some reason, it seems to be strongly being driven by &lt;a href=&quot;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&quot;&gt;Dunning-Kruger effect&lt;/a&gt;, which is getting so much confidence about our skills way too early. People tend to go for beautiful email footer titles backed up by over-confidence, which slows their progress down unless they meet a good mentor, who guides them through that process.&lt;/p&gt;
 
 &lt;p&gt;A few years ago, I came up with my understanding of the seniority formula, which is contextual only for a company that you work for.&lt;/p&gt;
 
@@ -18,9 +105,9 @@
   &lt;p&gt;Seniority = Problems solved / Problems created&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Not so complex, however, I got tired by too early promotions of the people, who are the ones being hurt the most.&lt;/p&gt;
+&lt;p&gt;Not so complex. However, I got tired by too early promotions of the people. In fact, they are the ones who are being hurt the most.&lt;/p&gt;
 
-&lt;p&gt;That is so cool to support ambitious junior specialists’, who want to get better. Even after-hours, not getting paid for it. The worst thing you can face in daily work in cooperation with senior specialists’ affected by early promotion. Pretty often, for these people changing the company means downgrading from senior to junior level of seniority.&lt;/p&gt;
+&lt;p&gt;That is so cool to support ambitious junior specialists’, who want to get better. Even after-hours, not getting paid for it. The worst thing you can face in daily work is cooperation with senior specialists’ affected by early promotion. Pretty often, for these people changing the company means downgrading from senior to junior level of seniority.&lt;/p&gt;
 
 &lt;h1 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h1&gt;
 
@@ -28,39 +115,39 @@
 
 &lt;h1 id=&quot;focus-on-the-right-thing&quot;&gt;Focus on the right thing&lt;/h1&gt;
 
-&lt;p&gt;If being the top labelled person in a room does not help to achieve the goals then what does? Start with the question of what the goal is.&lt;/p&gt;
+&lt;p&gt;If being the top labeled person in a room does not help to achieve the goals, then what does? Start with the question of what the goal is.&lt;/p&gt;
 
-&lt;p&gt;In the software development industry, we eat fresh fruits, drink delicious coffee, play PS4 and enjoy daily work. That gives us the environment where we may focus on making fun out of our work every day and being selfish about our duties. If we get some not interesting project then we complain to our managers. If we work on a brownfield project then we complain because we want to start something new on a greenfield, even when we are the ones who made the grass that dirty.&lt;/p&gt;
+&lt;p&gt;In the software development industry, we eat fresh fruits, drink delicious coffee, play PS4, and enjoy daily work. That gives us an environment where we may focus on making fun out of our work every day and being selfish about our duties. If we get some not exciting project, then we complain to our managers. If we work on a brownfield project, then we complain because we want to start something new on a greenfield, even when we are the ones who made the grass that dirty.&lt;/p&gt;
 
-&lt;p&gt;But hey, we are getting paid for the work. Maybe we should focus on the thing that we are getting paid for? As the software development is a team sport, in most of the cases our goal is to become a part of the team, so maybe we should aim for achieving the team’s goals instead of ticking the next requirements set by competency matrix to the seniority level in our job title? Personal growth will follow.&lt;/p&gt;
+&lt;p&gt;But hey… we are getting paid for the work. Maybe we should focus on the thing that we are getting paid for? As software development is a team sport, in most cases, our goal is to become a part of the team. Maybe we should aim for achieving the team’s goals instead of ticking the next requirements set by competency matrix to the seniority level in our job title? Personal growth will follow.&lt;/p&gt;
 
 &lt;h1 id=&quot;prioritising-self-expertise&quot;&gt;Prioritising self-expertise&lt;/h1&gt;
 
-&lt;p&gt;Some time ago I was trying to convince the group of software engineers/developers to use more “UX” techniques. We spoke about stuff like user story mapping and customer journey mapping. They kind of like that.&lt;/p&gt;
+&lt;p&gt;Some time ago, I was trying to convince the group of software engineers/developers to use more “UX” techniques. We spoke about stuff like user story mapping and customer journey mapping. They kind of like that.&lt;/p&gt;
 
-&lt;p&gt;After some time, I asked one UX Designer for his thoughts on the topic, that I was sharing with the development team. The reaction I got was pretty offensive cause I was not teaching developers these methods in by-the-book style. That was true. However, that was never my idea to teach developers how to be a good UX Designer. If they would like to get the perfect knowledge in using UX techniques with customers then they would probably become UX Designers.&lt;/p&gt;
+&lt;p&gt;After some time, I asked one UX Designer for his thoughts on the topic, that I was sharing with the development team. The reaction I got was pretty offensive cause I was not teaching developers these methods in by-the-book style. That was true. However, that was never my idea to teach developers how to be a good UX Designer. If they would like to get the perfect knowledge in using UX techniques with customers, then they would probably become UX Designers.&lt;/p&gt;
 
-&lt;p&gt;A few days ago, a16z wrote an article about &lt;a href=&quot;https://a16z.com/2020/04/30/figma/&quot;&gt;Investing in Figma: The Decade of Design&lt;/a&gt;. The so-called decade of design is just around the corner. However, how may our community achieve that? Does it mean, that designers will become the most important role in creating solutions for the world? I am not so sure. I strongly believe, Figma was spotted by Andreessen Horowitz not because it is a UX Design tool, but because it is a collaboration tool.&lt;/p&gt;
+&lt;p&gt;A few days ago, a16z wrote an article about &lt;a href=&quot;https://a16z.com/2020/04/30/figma/&quot;&gt;Investing in Figma: The Decade of Design&lt;/a&gt;. The so-called decade of design is just around the corner. However, how may our community achieve that? Does it mean that designers will become the most crucial role in creating solutions for the world? I am not so sure. I firmly believe, Figma was spotted by Andreessen Horowitz not because it is a UX Design tool, but because it is a collaboration tool.&lt;/p&gt;
 
-&lt;p&gt;In the beginning of the current decade (2011), they wrote a viral article &lt;a href=&quot;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&quot;&gt;Why software is eating the world&lt;/a&gt;. As we are about to open the new decade, they point to the design. I agree. However, who will be a driver of that?&lt;/p&gt;
+&lt;p&gt;At the beginning of the current decade (2011), they wrote a viral article &lt;a href=&quot;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&quot;&gt;Why software is eating the world&lt;/a&gt;. As we are about to open the new decade, they point to the design. I agree. However, who will be a driver of that?&lt;/p&gt;
 
-&lt;p&gt;In nowadays work, I see many UX Designers, who work like UI Designers. All the design software/tools are not very hard to use and we experienced the hype for that. The same happened with software development some time ago when we got much more high-level programming languages and frameworks, that may generate working solutions for us in a couple of minutes. There was a legendary video about scaffolding a blog in Ruby on Rails in just 7 minutes. That was a great shift in software development industry.&lt;/p&gt;
+&lt;p&gt;In nowadays work, I see many UX Designers, who work like UI Designers. All the design software/tools are not very hard to use, and we experienced the hype for that. The same happened with software development some time ago when we got much more high-level programming languages and frameworks that may generate working solutions for us in a couple of minutes. There was a legendary video about scaffolding a blog in Ruby on Rails in just 7 minutes. That was a significant shift in the software development industry.&lt;/p&gt;
 
-&lt;p&gt;Assuming the decade of the design. Will the designers achieve that on their own? I think they cannot and if they try to do that, they are most likely to fail. The answers are in Figma’s subtitle which is &lt;a href=&quot;https://www.figma.com/&quot;&gt;&lt;em&gt;“Where teams design together”&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Assuming the decade of the design. Will the designers achieve that on their own? I think they cannot, and if they try to do that, they are most likely to fail. The answers are in Figma’s subtitle, which is &lt;a href=&quot;https://www.figma.com/&quot;&gt;&lt;em&gt;“Where teams design together “&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Getting back to my story about UX Designer, who hated me about improperly teaching software engineers UX techniques. Hey… it does not matter if you teach someone your expert skills by the book or not. The thing that matters is if you can encourage the people to find it useful and lightweight enough for them to use these techniques in daily work. If I would ask software engineers, who love to live in a basement to start the customer journey mapping with feeling users’ emotions by running the empathy map session I would probably get kicked out through the window.&lt;/p&gt;
+&lt;p&gt;Let’s get back to my story about UX Designer, who hated me about improperly teaching software engineers UX techniques. Hey… it does not matter if you teach someone your expert skills by the book or not. The thing that matters is if you can encourage people to find it useful and lightweight enough for them to use these techniques in daily work. If I would ask software engineers who love to live in a basement to start the customer journey mapping with feeling users’ emotions by running the empathy map session, I would probably get kicked out through the window.&lt;/p&gt;
 
-&lt;p&gt;In &lt;a href=&quot;https://management30.com/books/management30/&quot;&gt;Management 3.0 book by Jurgen Appelo&lt;/a&gt;, there is a model called &lt;a href=&quot;https://management30.com/empower-teams/delegation-empowerment/&quot;&gt;The 7 Levels of Delegation&lt;/a&gt;. I am passionate about understanding the world through this model. It also applies to understand the learning curve of the people. Just like in cooking. Basic chefs require recipes. Advanced chefs are not able to cook anything delicious when following the recipe. You may understand the same thing through the &lt;a href=&quot;https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition&quot;&gt;Dreyfus model of skill acquisition&lt;/a&gt;, which suits even better in described situation.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;https://management30.com/books/management30/&quot;&gt;Management 3.0 book by Jurgen Appelo&lt;/a&gt;, there is a model called &lt;a href=&quot;https://management30.com/empower-teams/delegation-empowerment/&quot;&gt;The 7 Levels of Delegation&lt;/a&gt;. I am passionate about understanding the world through this model. It also applies to understand the learning curve of the people, just like in cooking. Junior cooking chefs require recipes. Advanced chefs are not able to cook anything delicious when following the recipe. You may understand the same thing through the &lt;a href=&quot;https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition&quot;&gt;Dreyfus model of skill acquisition&lt;/a&gt;, which suits even better in the described situation.&lt;/p&gt;
 
-&lt;p&gt;If you want someone to teach something. Do not tell to do everything perfectly. Give them step-by-step instructions on how they can start using that today. Described software development team just after the workshop started using visual boards with sticky notes not because they wanted to do customer journey mapping or user story mapping. They simply found out that the presentation of sequential events on 2-dimensional surface helps them to quickly discuss the ideas and business complexity. Technique by its name does not matter. The time for that will come. And after it comes … techniques will stop matter again because at some level of expertise all the techniques narrow your possibilities as an expert.&lt;/p&gt;
+&lt;p&gt;If you want someone to teach something, do not tell to do everything perfectly. Provide step-by-step instructions on how they can start using that today. The described software development team just after the workshop began using visual boards with sticky notes not because they wanted to do customer journey mapping or user story mapping. They simply found out that the presentation of sequential events on a 2-dimensional surface helps them to quickly discuss the ideas and business complexity. Technique by its name does not matter. The time for that will come. And after it comes… techniques will stop matter again because, at some level of expertise, all the techniques narrow your possibilities as an expert.&lt;/p&gt;
 
 &lt;h1 id=&quot;calling-to-ux-designers&quot;&gt;Calling to UX Designers&lt;/h1&gt;
 
 &lt;p&gt;Assuming that you are the UX Designer and you want your team to achieve more. What can you do?&lt;/p&gt;
 
-&lt;p&gt;Focus less on user interface design and put more effort into information architecture, interaction design, rapid verification of the ideas and visual collaboration methods. Try to sit together with software engineers and work with them, daily. Show them more visual ways of thinking about software engineering. Guide them through the process of getting rid of the IFs, WHILEs, lambdas and bring them closer to the whiteboards, walls and the users.&lt;/p&gt;
+&lt;p&gt;Focus less on user interface design and put more effort into information architecture, interaction design, rapid verification of the ideas, and visual collaboration methods. Try to sit together with software engineers and work with them daily. Show them more visual ways of thinking about software engineering. Guide them through the process of getting rid of the IFs, WHILEs, lambdas, and bring them closer to the whiteboards, walls, and users.&lt;/p&gt;
 
-&lt;p&gt;Stop thinking about your job as providing the “layouts” and user interfaces. Start being a part of the team on designing the solution by providing the understanding of the user’s perspective. Maybe even let’s take part of the responsibility of the project manager’s because you will probably be better in many areas than he/she as a proxy.&lt;/p&gt;
+&lt;p&gt;Stop thinking about your job as providing the “layouts” and user interfaces. Start being a part of the team on designing the solution by providing an understanding of the user’s perspective. Maybe even let’s take part of the responsibility of the project manager’s because you will probably be better in many areas than he/she as a proxy.&lt;/p&gt;
 
 &lt;p&gt;Raise your level of accountability. Do not just paint.&lt;/p&gt;
 
@@ -68,31 +155,31 @@
 
 &lt;p&gt;The issue about testers is located in this job title’s name. Tester is meant to test something, which already exists. That’s a waste of money.&lt;/p&gt;
 
-&lt;p&gt;In a security engineering areas, there is a popular saying nowadays &lt;a href=&quot;https://www.securityroundtable.org/to-improve-devops-and-security-the-time-has-come-to-shift-left/&quot;&gt;shift left on security&lt;/a&gt;, which means to bring security engineering into the development process. Some people call it DevSecOps.&lt;/p&gt;
+&lt;p&gt;In security engineering areas, there is a famous saying nowadays &lt;a href=&quot;https://www.securityroundtable.org/to-improve-devops-and-security-the-time-has-come-to-shift-left/&quot;&gt;shift left on security&lt;/a&gt;, which means to bring security engineering into the development process. Some people call it DevSecOps.&lt;/p&gt;
 
-&lt;p&gt;What if we could stop calling testers - testers, and start calling them QA Engineers? It is already very common. However, even this title has already got negatively affected by the term “tester”.&lt;/p&gt;
+&lt;p&gt;What if we could stop calling testers - testers, and start calling them QA Engineers? It is already widespread. However, even this title has already got negatively affected by the term “tester”.&lt;/p&gt;
 
-&lt;p&gt;I am a big fan of engaging the QA Engineers at the beginning of the process of delivering each story. This way QA Engineers may focus not on testing the existing solutions but on the education of the whole development team how to assure functional and non-functional quality in the system. The goal for QA role is to help the team to reduce the number of bugs, that would appear in the columns located on the right side of a Jira board.&lt;/p&gt;
+&lt;p&gt;I am a big fan of engaging the QA Engineers at the beginning of the process of delivering each story. This way QA Engineers may focus not on testing the existing solutions but on the education of the whole development team on how to assure functional and non-functional quality in the system. The goal for QA role is to help the team to reduce the number of bugs that would appear in the columns located on the right side of a Jira board.&lt;/p&gt;
 
 &lt;p&gt;That may be achieved by pair-programming-testing between QAs and Software Developers. That may be achieved by listing down the acceptance criteria during the refinement process. That may be achieved by proactively improving the Definitions of Ready and Done. And as we think more about connecting the development teams with the business world - maybe it is an opportunity for QA Engineers to become domain business experts and internal advocates of our end-users?&lt;/p&gt;
 
 &lt;p&gt;What’s the worst thing you may do? Think about your career path as going from being manual tester to automated tester. There is much more value in you.&lt;/p&gt;
 
-&lt;p&gt;What you can do this week? Ask a developer, who you like to do a pair-programming session. Programming? Tester? Yes!&lt;/p&gt;
+&lt;p&gt;What can you do this week? Ask a developer who you like to do a pair-programming session. Programming? Tester? Yes!&lt;/p&gt;
 
 &lt;p&gt;Raise your level of accountability. Do not just test.&lt;/p&gt;
 
 &lt;h1 id=&quot;calling-to-software-developers&quot;&gt;Calling to Software Developers&lt;/h1&gt;
 
-&lt;p&gt;Like 4 years ago my boss Piotr, during one of the project management training said,&lt;/p&gt;
+&lt;p&gt;Like four years ago my boss Piotr, during one of the project management training said,&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Developers will code as long as possible, they chose that job because they love to code, and as they love it, they will keep doing that.&lt;/p&gt;
+  &lt;p&gt;Developers will code as long as possible; they chose that job because they love to code, and as they love it, they will keep doing that.&lt;/p&gt;
 
   &lt;p&gt;– Piotr, Rafal’s Boss&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Writing code by developers is the worst thing that they can do. That’s a must at the beginning of the career to get to know the language and programming process itself. However, I wish every developer could meet on their career path the person, who tell them what’s truly important. The same effect may be achieved by getting very close to the end-users, which unfortunately does not happen very often.&lt;/p&gt;
+&lt;p&gt;Writing code by developers is the worst thing that they can do. That’s a must at the beginning of the career to get to know the language and programming process itself. However, I wish every developer could meet on their career path the person who tells them what’s truly important. The same effect may be achieved by getting very close to the end-users, which, unfortunately, does not happen very often.&lt;/p&gt;
 
 &lt;p&gt;Marty Cagan once said,&lt;/p&gt;
 
@@ -111,13 +198,13 @@
   &lt;li&gt;senior developers are usually getting a greenfield project.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This kind of seniors focus on the wrong thing. The highest software engineering seniority that you can achieve is getting the right skill set to bring the brownfield project up, and make a brilliant out of it. If your company selects you to start the new important project and after a year you blame the others, business and deadlines for its poorly delivered business value, high coupling, low quality or whatever - you are on the 1st peak of the Dunning Kruger effect.&lt;/p&gt;
+&lt;p&gt;This kind of seniors focuses on the wrong thing. The highest software engineering seniority that you can achieve is getting the right skill set to bring the brownfield project up, and make a brilliant out of it. If your company selects you to start the new important project and after a year, you blame the others, business, and deadlines for its poorly delivered business value, high coupling, low quality, or whatever - you are on the 1st peak of the Dunning Kruger effect.&lt;/p&gt;
 
-&lt;p&gt;If you are learning the next framework. Think of how you can use the new knowledge to maximise the frequency of the deployments to production and reduce the failure rate. All of it by delivering “potentially releasable product” most of the time instead of accepting broken CI pipelines.&lt;/p&gt;
+&lt;p&gt;If you are learning the next framework, think of how you can use the new knowledge to maximize the frequency of the deployments to production and reduce the failure rate. All of it by delivering “potentially releasable product” most of the time instead of accepting broken CI pipelines.&lt;/p&gt;
 
-&lt;p&gt;What you can do this week? Learn proper tasks granulation. Try to deliver value faster. Do not over-engineer things. Ask your stakeholders about project goals and try to encourage your team to work together on delivering its goals instead of maximising the throughput of tasks done in the sprint.&lt;/p&gt;
+&lt;p&gt;What can you do this week? Learn proper tasks granulation. Try to deliver value faster. Do not over-engineer things. Ask your stakeholders about project goals and try to encourage your team to work together on delivering its goals instead of maximizing the throughput of tasks done in the sprint.&lt;/p&gt;
 
-&lt;p&gt;Try to achieve the most by writing a few lines of code as possible or in the other words by quoting the famous person…&lt;/p&gt;
+&lt;p&gt;Try to achieve the most by writing a few lines of code as possible or, in other words, by quoting the famous person…&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Your job is to minimize output, and maximize outcome and impact.&lt;/p&gt;
@@ -131,57 +218,57 @@
 
 &lt;h1 id=&quot;calling-to-scrum-masters&quot;&gt;Calling to Scrum Masters&lt;/h1&gt;
 
-&lt;p&gt;And here we are… sprints. For some reason, many Scrum Masters are being very aggresive in evangelisation. I do not find Scrum as an ineffective way of working. I think, the opposite. Scrum and Extreme Programming have done more to Agile than any other methodologies. However, over time it becomes a buzzword for a bunch of invaluable certificates.&lt;/p&gt;
+&lt;p&gt;And here we are… sprints. For some reason, many Scrum Masters are very aggressive in evangelization. I do not find Scrum as an ineffective way of working. I think the opposite. Scrum and Extreme Programming have done more to Agile than any other methodologies. However, over time it becomes a buzzword for a bunch of invaluable certificates.&lt;/p&gt;
 
-&lt;p&gt;When I was finishing my software development career a few years ago and I was converting into a project management role - recruiters were calling me back just to ask if I applied for a correct job position. To overcome it, I decided to pass the Professional Scrum Master 1 exam. I have never worked in the Scrum Team before. I opened the Internet. Spent 9 days reading about Scrum and then I passed the exam for 93%. Does it make me a Scrum Master? Nope, but it quickly moved me to the first peak of Dunning Kruger effect. I started realising the basics what the Scrum is all about like 3 years later.&lt;/p&gt;
+&lt;p&gt;When I was finishing my software development career a few years ago, and I was converting into a project management role - recruiters were calling me back just to ask if I applied for a correct job position. To overcome it, I decided to pass the Professional Scrum Master 1 exam. I have never worked in the Scrum Team before. I opened the Internet. I spent 9 days reading about Scrum, and then I passed the exam for 93%. Does it make me a Scrum Master? Nope, but it quickly moved me to the first peak of the Dunning Kruger effect. I started realizing the basics of what the Scrum is all about, like three years later.&lt;/p&gt;
 
-&lt;p&gt;As a Scrum Master, you focus on assuring if the Scrum is understood and respected within the team and the organisation. The worst thing you can do is to force everyone around you to work with the Scrum by-the-book by the first day.&lt;/p&gt;
+&lt;p&gt;As a Scrum Master, you focus on assuring if the Scrum is understood and respected within the team and the organization. The worst thing you can do is to force everyone around you to work with the Scrum by-the-book by the first day.&lt;/p&gt;
 
-&lt;p&gt;I do not mean that the Scrum is a methodology, which requires adjustments. It does not. In fact, it is the most common problem why many people hate Scrum - they have never tried Scrum as it is described in a Scrum Guide, just because: &lt;em&gt;“sorry, needed to adjust, we are specific organization, one of its kind”&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I do not mean that the Scrum is a methodology, which requires adjustments. It does not. It is the most common problem why many people hate Scrum - they have never tried Scrum as it is described in a Scrum Guide, just because: &lt;em&gt;” sorry, needed to adjust, we are the specific organization, one of its kind”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;However, extreme Scrum Masters focus on their own skillset - Scrum-evangelisation-skills. They ask teams to go 100% for that instead of helping the team to go through the long process of discovering and understanding Scrum and Agile by its values.&lt;/p&gt;
+&lt;p&gt;However, extreme Scrum Masters focus on their skillset - Scrum-evangelisation-skills. They ask teams to go 100% for that instead of helping the team to go through the long process of discovering and understanding Scrum and Agile by its values.&lt;/p&gt;
 
 &lt;p&gt;The result of that is using the half-Scrum as a set mechanics/framework for team collaboration. But… it is not that bad, far better than no mechanics/framework at all.&lt;/p&gt;
 
-&lt;p&gt;Being a blind person, who enforces the team to use Scrum just because you are the Scrum Master, brings you and everything around you down. You convert your role from impediment remover into something strange because the process becomes an impediment itself, and you become an impediment.&lt;/p&gt;
+&lt;p&gt;Being a blind person, who forces the team to use Scrum just because you are the Scrum Master, brings you and everything around you down. You convert your role from impediment remover into something strange because the process becomes an impediment itself, and you become an impediment.&lt;/p&gt;
 
-&lt;p&gt;I think the biggest change in my case was reading the book &lt;a href=&quot;https://www.lyssaadkins.com/coaching-agile-teams-book&quot;&gt;Coaching Agile Teams by Lyssa Adkins&lt;/a&gt;. I made all of the mistakes described in this book. There is a popular saying about learning from other people’s mistakes. In reality, we mostly learn on our own ones.&lt;/p&gt;
+&lt;p&gt;I think the most significant change in my case was reading the book &lt;a href=&quot;https://www.lyssaadkins.com/coaching-agile-teams-book&quot;&gt;Coaching Agile Teams by Lyssa Adkins&lt;/a&gt;. I made all of the mistakes described in this book. There is a famous saying about learning from other people’s mistakes. In reality, we mostly learn on our own ones.&lt;/p&gt;
 
-&lt;p&gt;What you can do this week? Try to find Agile/Scrum group in your city. Go out and talk to other people. Try to learn from their experiences. Listen more, speak less.&lt;/p&gt;
+&lt;p&gt;What can you do this week? Try to find Agile/Scrum group in your city. Go out and talk to other people. Try to learn from their experiences. Listen more, speak less.&lt;/p&gt;
 
-&lt;p&gt;Raise your level of accountability. Do not just evangelise.&lt;/p&gt;
+&lt;p&gt;Raise your level of accountability. Do not just evangelize.&lt;/p&gt;
 
 &lt;h1 id=&quot;calling-to-business-analysts&quot;&gt;Calling to Business Analysts&lt;/h1&gt;
 
-&lt;p&gt;No good news. If you are not in a big project. Start thinking about widening your role. Most BAs are likely to produce analytical artefacts, that will be re-analysed by the development teams, which is a waste of time.&lt;/p&gt;
+&lt;p&gt;No good news. If you are not a part of a big project, then start thinking about widening your role. Most BAs are likely to produce analytical artifacts that will be re-analyzed by the development teams, which is a waste of time.&lt;/p&gt;
 
 &lt;p&gt;Learn the basics of UX Design and programming. Think about being a Product Owner.&lt;/p&gt;
 
-&lt;p&gt;If you are on a big project. You can help a lot by managing the knowledge of surrounding &lt;a href=&quot;http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf&quot;&gt;essential complexity&lt;/a&gt;, which might be very useful for the team. The best thing you can do is to make sure there is a 2-directional communication channel between you and your colleagues. Ask them what you can improve in the artefacts, which you deliver.&lt;/p&gt;
+&lt;p&gt;If you are on a big project, you can help a lot by managing the knowledge of surrounding &lt;a href=&quot;http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf&quot;&gt;essential complexity&lt;/a&gt;, which might be very useful for the team. The best thing you can do is to make sure there is a 2-directional communication channel between you and your colleagues. Ask them what you can improve in the artifacts which you deliver.&lt;/p&gt;
 
 &lt;p&gt;Raise your level of accountability. Do not just generate documentation and knowledge.&lt;/p&gt;
 
 &lt;h1 id=&quot;calling-to-project-managers&quot;&gt;Calling to Project Managers&lt;/h1&gt;
 
-&lt;p&gt;Pretty often, I am one of these. My understanding of project managers role in most of the projects is kind of a … negative. It is like a self-hate of my person. I strongly accept the fact that project management skills are very needed. Mostly in big projects. In reality, most of the development teams, who say they work on a big project, work on small or medium size project in my understanding.&lt;/p&gt;
+&lt;p&gt;Pretty often, I am one of these. My understanding of project managers’ role in most of the projects is kind of a… negative. It is like a self-hate of my person. I firmly accept the fact that project management skills are very needed. Mostly in big projects. In reality, most of the development teams, who say they work on a big project, work on small or medium size project in my understanding.&lt;/p&gt;
 
-&lt;p&gt;When we work on small or medium size project, which I mean is built around 3-25 people, project managers are (in my opinion) usually reducing the potential of the other roles. Project managers tend to take the “accountability” for the project’s delivery but pretty often they become a communication proxy between team members. They create the illusion of &lt;em&gt;always contact that 1 person because he/she takes accountability and he/she must be informed, and he/she must decide&lt;/em&gt;. With that attitude, people start seeing the project manager in that way and by doing so they reduce the level of accountability in themselves.&lt;/p&gt;
+&lt;p&gt;When we work on small or medium size project, which I mean is built around 3-25 people, project managers are (in my opinion) usually reducing the potential of the other roles. Project managers tend to take the “accountability” for the project’s delivery, but pretty often, they become a communication proxy between team members. They create the illusion of &lt;em&gt;always contact that one person because he/she takes accountability, and he/she must be informed, and he/she must decide&lt;/em&gt;. With that attitude, people start seeing the project manager in that way, and by doing so, they reduce the level of accountability in themselves.&lt;/p&gt;
 
 &lt;p&gt;It leads to creating the factory of so-called senior developers, who have never experienced real business accountability. They simply deliver Jira tickets.&lt;/p&gt;
 
-&lt;p&gt;One of the common responsibilities of a project manager is providing the team with a sense of urgency. In many cases, when the project manager doesn’t understand the business, not the technology - he/she creates an invalid perspective on that.&lt;/p&gt;
+&lt;p&gt;One of the typical responsibilities of a project manager is providing the team with a sense of urgency. In many cases, when the project manager doesn’t understand the business, not the technology - he/she creates an invalid perspective on that.&lt;/p&gt;
 
-&lt;p&gt;What you can do this week? If you spend 80-160 manhours on a project try to think how you can reduce this time by 33% by setting the objectives for the team members and by asking them to take the ownership and accountability on that. If you communicate your expectations, you will be surprised about that results, they achieve and the progress they make in their careers.&lt;/p&gt;
+&lt;p&gt;What can you do this week? If you spend 80-160 manhours on a project, try to think how you can reduce this time by 33% by setting the objectives for the team members and by asking them to take ownership and accountability on that. If you communicate your expectations, you will be surprised by the results they achieve and the progress they make in their careers.&lt;/p&gt;
 
 &lt;p&gt;Stop being a parent. Start being a partner.&lt;/p&gt;
 
-&lt;p&gt;In the meantime, take basic programming course (e.g. &lt;a href=&quot;https://tutorial.djangogirls.org/en/&quot;&gt;Django Girls&lt;/a&gt; or &lt;a href=&quot;https://guides.railsgirls.com/app&quot;&gt;Rails Girls&lt;/a&gt;), learn basics of UX, data analytics, marketing and techniques for splitting down the user stories. Do not do that to micromanage, but to your understanding.&lt;/p&gt;
+&lt;p&gt;In the meantime, take basic programming courses (e.g. &lt;a href=&quot;https://tutorial.djangogirls.org/en/&quot;&gt;Django Girls&lt;/a&gt; or &lt;a href=&quot;https://guides.railsgirls.com/app&quot;&gt;Rails Girls&lt;/a&gt;), learn basics of UX, data analytics, marketing and techniques for splitting down the user stories. Do not do that to micromanage, but to raise your understanding.&lt;/p&gt;
 
 &lt;h1 id=&quot;your-seniority-is-a-lie&quot;&gt;Your seniority is a lie&lt;/h1&gt;
 
 &lt;p&gt;All of the modern software development trends go towards &lt;em&gt;“tech is a business”&lt;/em&gt; and &lt;em&gt;“bring engineers and business together”&lt;/em&gt;. UX Designers achieve that by applying &lt;a href=&quot;https://www.thesprintbook.com/&quot;&gt;Design Sprints&lt;/a&gt;. Software Developers use &lt;a href=&quot;https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215&quot;&gt;Domain-Driven Design&lt;/a&gt; and &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;Event Storming&lt;/a&gt;. Product Managers think about &lt;a href=&quot;https://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425&quot;&gt;Lean&lt;/a&gt;, A/B Testing. The development phase is built around the Scrum framework.&lt;/p&gt;
 
-&lt;p&gt;All of these things bring us to the state when we all work in an agile way but we forget to work as a team. That creates a cycle of agile phases in a waterfall process. Everyone wants to do their best and everyone provides tones of information to the next phase.&lt;/p&gt;
+&lt;p&gt;All of these things bring us to the state when we all work in an agile way but we forget to work as a team. That creates a cycle of agile phases in a waterfall process. Everyone wants to do their best, and everyone provides tones of information to the next stage.&lt;/p&gt;
 
 &lt;p&gt;Who cares what you deliver and how good it is, if it is not being used by your colleagues to achieve a common or a shared goal?&lt;/p&gt;
 
@@ -189,21 +276,21 @@
 
 &lt;p&gt;Your team cares. And they need you.&lt;/p&gt;
 
-&lt;p&gt;The purpose of this article is to encourage you to widen your perspective from just specialisation expertise to getting at least a basic understanding of the skills, that your team members specialise in. Just to get more respect to them. We tend to improve others without prior understanding of why and how they operate.&lt;/p&gt;
+&lt;p&gt;The purpose of this article is to encourage you to widen your perspective from just specialization expertise to getting at least a basic understanding of the skills that your team members specialize in. Just to get more respect to them. We tend to improve others without prior knowledge of why and how they operate.&lt;/p&gt;
 
-&lt;p&gt;Software development becomes more and more complicated. Not only because of technologies and market requirements. Mostly because we focus too much on using the new tools and our skillsets than on delivering the best solutions to existing problems, which pretty often seem to be the simplest ones.&lt;/p&gt;
+&lt;p&gt;Software development becomes more and more complicated. Not only because of technologies and market requirements. We focus too much on using the new tools and our skillsets than on delivering the best solutions to existing problems, which pretty often seem to be the simplest ones.&lt;/p&gt;
 
 &lt;p&gt;Do not create lots of &lt;a href=&quot;http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf&quot;&gt;accidental complexity&lt;/a&gt; just to get a better job title.&lt;/p&gt;
 
 &lt;h1 id=&quot;stop-being-senior-start-being-junior&quot;&gt;Stop being senior, start being junior&lt;/h1&gt;
 
-&lt;p&gt;Becoming a senior specialist with 2 years of total experience is a commodity. However, there is a great interpretation of a few different phases in seniority. Let’s take software developers as an example.&lt;/p&gt;
+&lt;p&gt;Becoming a senior specialist with two years of total experience is a commodity. However, there is an excellent interpretation of a few different phases in seniority. Let’s take software developers as an example.&lt;/p&gt;
 
-&lt;p&gt;First, we focus on understanding the programming languages, tools, techniques, design patterns, message brokers. We learn Scrum. We get the designs from the designers and we can use Zeplin or Figma. We become senior software developers.&lt;/p&gt;
+&lt;p&gt;First, we focus on understanding the programming languages, tools, techniques, design patterns, message brokers. We learn Scrum. We get the designs from the designers, and we can use Zeplin or Figma. We become senior software developers.&lt;/p&gt;
 
-&lt;p&gt;Then, we realise that quality matters a lot and we become junior software engineers. We start getting more into software craftsmanship. We value documentation, security, handoff process, bug fixing, migration plans, shortening cycle times, fastening delivery to production, reducing the failure rate or optimising time to restore. Learning from &lt;a href=&quot;https://www.youtube.com/watch?v=LdOe18KhtT4&quot;&gt;Flickr&lt;/a&gt;, we try to maximise deployment frequency. We value our business stakeholders. We do event storming. We become senior software engineers.&lt;/p&gt;
+&lt;p&gt;Then, we realize that quality matters a lot, and we become junior software engineers. We start getting more into software craftsmanship. We value documentation, security, handoff process, bug fixing, migration plans, shortening cycle times, fastening delivery to production, reducing the failure rate, or optimizing time to restore. Learning from &lt;a href=&quot;https://www.youtube.com/watch?v=LdOe18KhtT4&quot;&gt;Flickr&lt;/a&gt;, we try to maximize deployment frequency. We value our business stakeholders. We do event storming. We become senior software engineers.&lt;/p&gt;
 
-&lt;p&gt;Then, we realise that the blind delivery of the code is not the thing that matters and the best code in the world is the one that’s never been written. We become junior product engineers. We realise that the code developed within’ the specific projects is just a cost for the company, which some people call investment. After building the whole business concept around that we create the product. We try to optimise everything that we do to deliver value for the clients as soon as possible. We stop calling ourselves “we and them”, we become a product team, built of the product engineers, where the seniority does not matter.&lt;/p&gt;
+&lt;p&gt;Then, we realize that the blind delivery of the code is not the thing that matters, and the best code in the world is the one that’s never been written. We become junior product engineers. We realize that the code developed within’ the specific projects is just a cost for the company, which some people call investment. After building the whole business concept around that, we create the product. We try to optimize everything that we do to deliver value for the clients as soon as possible. We stop calling ourselves “we and them”, we become a product team, built of the product engineers, where the seniority does not matter.&lt;/p&gt;
 
 &lt;p&gt;Stop being a senior developer. Start being a junior product engineer.&lt;/p&gt;
 
