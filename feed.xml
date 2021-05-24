@@ -7,6 +7,319 @@
     
       
         <item>
+          <title>Essay on benefits of CV-Driven-Development</title>
+          <description>&lt;p&gt;In 2016, Marek Kirejczyk, who was a VP of Engineering at Draftcode, wrote an article about &lt;a href=&quot;https://blog.daftcode.pl/hype-driven-development-3469fc2e9b22&quot;&gt;Hype Driven Development&lt;/a&gt;. It became super popular in Poland at that time. For me, that was too early to realize why this topic was important because my experience was located around mature (ancient, actually) technologies, not the hyped ones.&lt;/p&gt;
+
+&lt;p&gt;In 2021, a huge part of our industry is still being driven by fashion/hype. So am I. We want to use the most modern techniques and tools. Even when there is some mature solution, which is ready out-of-the-box, many people (mostly developers) want to keep playing with new toys.&lt;/p&gt;
+
+&lt;p&gt;In parallel to this situation, many people think - the best way to learn something new is to get this opportunity from our employer - to use a new technology in client projects, which means - getting paid for the education. The popular analogy for this scenario is about a dentist learning on the fly when you’re sitting on a dentist chair.&lt;/p&gt;
+
+&lt;p&gt;And… there is nothing wrong with it. In the next paragraphs, I will try to share my thoughts on the benefits of this approach.&lt;/p&gt;
+
+&lt;h1 id=&quot;hyped-inception&quot;&gt;Hyped-inception&lt;/h1&gt;
+
+&lt;p&gt;I wouldn’t like to discuss what the CV/Hype-Driven Development is about. For this, I strongly encourage you to read an article published by Marek Kirejczyk 5 years ago. It is still valid.&lt;/p&gt;
+
+&lt;p&gt;What I realized in many conferences is that people started blaming so-called CV-Driven-Development and it became a famous joke being told from the stage during the conference speeches. This is a good way to get some chemistry with an audience, which is full of engineers. Speaker and audience may laugh for a while because they both understand the joke.&lt;/p&gt;
+
+&lt;p&gt;Most of us attended many talks, listened to many podcasts and read many blog posts before. In most of the projects, we are not using DDD, Kafka or fitness functions daily. We also do not work on the Internet or Behaviours, nor we do not consider Total Experience as a critical aspect of our daily work. Of course, these are perfect tools/approaches/strategies to solve particular problems. However, for the majority of software projects, these are not applicable. Still, the joke remains funny for us as some kind of &lt;em&gt;“we are not using it in our project and the other ones are using it because they are CV-Driven”&lt;/em&gt;. In reality, many of these hyped projects really need these tools.&lt;/p&gt;
+
+&lt;h1 id=&quot;where-is-the-inception&quot;&gt;Where is the inception?&lt;/h1&gt;
+
+&lt;p&gt;Laughing at CV-Driven-Development became hype itself. “Laughing” seems to be a hype. Pretty often this is just an easy sentence to be told to say &lt;em&gt;“I am more conscious than the other people, who are developing the software by making CV-first decisions”&lt;/em&gt;. We like to continue with the “problem space -&amp;gt; solution space” kind of discussion. It gives us the ability to speak about approaching the specific problem of our client and designing a well-suited solution. Of course, we do that by applying the simplest methods and technologies ever, just to fulfil and slightly overcome the expectations of our client to help him/her realize that there is a great opportunity to grow after achieving the current goal.&lt;/p&gt;
+
+&lt;p&gt;Let me give you a few examples, that I was using in the past to feel smarter when I was not.&lt;/p&gt;
+
+&lt;h1 id=&quot;example-1-microservices-and-actor-model&quot;&gt;Example 1: Microservices and Actor Model&lt;/h1&gt;
+
+&lt;p&gt;I spoke about microservices as the evolution of SOA and I was referring from it to Erlang’s actor model. I had some understanding behind that but today in 2021 I still do not have any commercial experience in using Erlang, Akka or Elixir. I also haven’t got PhD from mathematical models of concurrent computation. My thinking about it was very thin and not covered with real-life problem solving, which means - experience.&lt;/p&gt;
+
+&lt;p&gt;In this example, I wanted just to feel smarter.&lt;/p&gt;
+
+&lt;h1 id=&quot;example-2-domain-driven-design&quot;&gt;Example 2: Domain-Driven Design&lt;/h1&gt;
+
+&lt;p&gt;I was referring to Domain-Driven Design in many discussions. I read Eric Evans’ book and I started using Event Storming in 2017. Today, I use the Miro board for thousands of activities in my daily work and I consider visualization methods as one of the most awesome things in the world.&lt;/p&gt;
+
+&lt;p&gt;Thanks to DDD, I was able to quickly understand the concepts of API design, separation of concerns, invariants and relations between applications/teams. That let me quickly realize how to design the APIs in a design-first approach where you start by understanding consumer behaviours and leaving the data structures at the last moment. It became super easy and natural, thanks to theoretical knowledge of DDD.&lt;/p&gt;
+
+&lt;p&gt;I even had an opportunity to work with a man, who was encouraging me to structurize the code in a “domain way”. It was in 2015. I didn’t even know if such a thing like DDD exists.&lt;/p&gt;
+
+&lt;p&gt;Today, I understand and use its concepts pretty often. However, as I haven’t been coding commercially since 2015, I do not know if I should consider my knowledge as theoretical or practical. For sure, I am not a DDD expert, especially not on a tactical level. However, I am ok to speak with engineers about it and to use DDD as some kind of prism when I think about understanding the software in general.&lt;/p&gt;
+
+&lt;p&gt;In this example, I just wanted to sound smarter but after some time it became useful in my daily work.&lt;/p&gt;
+
+&lt;h1 id=&quot;example-3-micro-frontends&quot;&gt;Example 3: Micro frontends&lt;/h1&gt;
+
+&lt;p&gt;A few years ago, I had an opportunity to work on a project with more than 60 micro frontend applications (separate repositories), which were being used to build 1 final application from the user perspective. That was nice because we were given this opportunity just after ThoughtWorks set it as the “Trial” in Technology Radar. We were even asked to cover all the acceptance criteria of functional user stories in 100% by automated tests. Dreamland for quality assurance engineers and frontend engineers. In reality, frankly speaking, that was not easy to work with it.&lt;/p&gt;
+
+&lt;p&gt;Today, micro frontends are in the “Adopt” section of ThoughtWorks’ Radar. After some time, in 2020, I was running discovery workshops. A few of our partners decided to go with micro frontends in their system. I was able to talk with them about many anti-patterns, which I and my colleagues faced a couple of years ago when it was at the beginning of its hype. Today, I do not have experience in &lt;em&gt;“how to make micro frontends super useful”&lt;/em&gt; but I have a &lt;em&gt;“how not to do micro frontends”&lt;/em&gt; kind of understanding. For sure, I still do now know how to organize functional tests (Selenium / Cypress) in micro frontends application.&lt;/p&gt;
+
+&lt;p&gt;In this example, I wanted to express my background, which was not super successful but over time it gave me a valuable point of view for the new initiatives, that I participate in. All the hypes, that you take part in give you a lot of value. I used to complain about it. I was able to appreciate it years later.&lt;/p&gt;
+
+&lt;p&gt;This example also shows that - we tend to be always complaining. When we work with a legacy-project then there is a reason for that. When we work with a hyped-project then there is another reason for that. I need to learn how to appreciate what I have.&lt;/p&gt;
+
+&lt;h1 id=&quot;is-cv-driven-development-bad&quot;&gt;Is CV-Driven-Development bad?&lt;/h1&gt;
+
+&lt;p&gt;As in many cases - it is good and bad at the same time.&lt;/p&gt;
+
+&lt;p&gt;When we work on a client-financed project, we should aim for using technologies that we are experienced in. We cannot lie to our customers that we are experts at something and then use their budget for our education. Of course, if a client is aware, that we will be learning this new hyped technology, but it still seems to be a great opportunity to make some breakthrough then it is good to go. Honesty is the key here.&lt;/p&gt;
+
+&lt;p&gt;Why we shouldn’t use mature technologies all the time? These technologies work and we can actually solve most of the problems by using them. There is a great article published by Lucjan Suski about it - &lt;a href=&quot;https://lucjan.medium.com/choose-exciting-technology-e735bba08acc&quot;&gt;Choose Exciting Technology&lt;/a&gt; (btw, &lt;a href=&quot;https://www.linkedin.com/in/lucjan-suski-15366197&quot;&gt;Lucjan is hiring&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Besides what Lucjan wrote. I found a great analogy in climate change. Let me give you a definition of the difference between “weather” and “climate”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Weather refers to short term atmospheric conditions while climate is the weather of a specific region averaged over a long period. Climate change refers to long-term changes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How can we use this as the analogy for CV-Driven-Development? I understand it as… it is usually not worth using hyped technologies. Especially it is not worth for our clients. However, if we want to change the world then we need to keep doing it. Using hyped technologies in many projects will raise the level of the technological median of the projects in the world. After a couple of years, maybe the single project will not gain from it - but the whole software development industry (probably) will.&lt;/p&gt;
+
+&lt;p&gt;It needs to happen with huge respect to our clients, investors, sponsors. Honesty, trust, spikes, quick idea verification and engineering experience are the first steps for enabling us to play around with the new tools to help our CVs become rich.&lt;/p&gt;
+
+&lt;h1 id=&quot;ps&quot;&gt;P.S.&lt;/h1&gt;
+
+&lt;p&gt;Do you remember that I wrote, &lt;em&gt;“the best way to learn something new is to get this opportunity from our employer - to use this new technology in client projects, which means getting paid for education.”&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;If you are an engineer and you want to learn something new then I encourage you to learn the first 10% on your own. Many people will be happy to pay you for the remaining 90%. From my understanding, the hope about having someone who will pay for 100% of the education is the thing that differentiates engineers, who are being trusted from the ones, who are still waiting for the opportunity to learn something new.&lt;/p&gt;
+</description>
+          <pubDate>2021-04-08T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Essay-on-benefits-of-CV-driven-development</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Essay-on-benefits-of-CV-driven-development</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Essay on greenfield software projects</title>
+          <description>&lt;h1 id=&quot;starting-from-scratch&quot;&gt;Starting from scratch&lt;/h1&gt;
+
+&lt;p&gt;A couple of weeks ago, we’ve left our previous project. We managed to leave it just after a successful go-live. Thanks to our commitment we delivered it on time. Our company wants to award us for this accomplishment and decided to give us the opportunity to start the new project/product from scratch. We got into a totally new team. Our new team is made of young and dynamic people with an experienced product owner, who understands all the aspects of the agile manifesto. Sounds familiar?&lt;/p&gt;
+
+&lt;h1 id=&quot;time-luxury&quot;&gt;Time luxury&lt;/h1&gt;
+
+&lt;p&gt;We are super excited about the new idea. We are coming up with the name for the initiative, creating a code repository, writing down the coding standards and the definition of done. We’re setting 2 week-long sprints and we create a long backlog of user stories.&lt;/p&gt;
+
+&lt;p&gt;In the next weeks, we’re coming up with the abstraction layers to overcome all the issues, that we faced in the previous application when it came to cooperation with the decision-changing customer. We are super proud of 99% of unit tests coverage and continuous deployment applied. Every time we merge something to the master branch, it is getting automatically deployed to the environment! Works like magic.&lt;/p&gt;
+
+&lt;p&gt;Every two weeks, we’re doing a sprint review for the product owner and we’re showing all the exciting mechanisms, which will allow us to keep the highest quality of the software. Our UK-based product owner is proud of us and after the sprint review she says &lt;em&gt;“excellent job team”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;common-pitfalls&quot;&gt;Common pitfalls&lt;/h1&gt;
+
+&lt;p&gt;After 3 months, we discover that we managed to keep committing the code to the repository but we’re still far from delivering the critical user journey. We were very satisfied with all the tools, that we used and the engineering practices we applied. The codebase got bigger and our test environment was automatically getting the next releases but the sanity testing of the whole system today takes about 2 minutes because the end-user cannot complete the journey to get any value from the solution. The set of the business features is pretty much - limited.&lt;/p&gt;
+
+&lt;p&gt;Based on the UI designs that we’ve got, we implemented all of the features for 3 pages. We even managed to apply a feature flags engine, which will allow our future customer to turn on and off specific features on these pages. The critical user journey still doesn’t work.&lt;/p&gt;
+
+&lt;p&gt;We found a good excuse as to why we were showing just the codebase on a screen-sharing session during the sprint reviews. We were not given important implementation from 3rd party software, which was blocking us from getting the data to fulfil our database with something meaningful, so we couldn’t populate the frontend with any data. The application was not possible to be displayed, nor used.&lt;/p&gt;
+
+&lt;p&gt;The abstraction layers, that we created required one week of refactoring sprint but finally… we ended up with the possibility for limitless extensions when PO will ask for these.&lt;/p&gt;
+
+&lt;p&gt;We cannot understand why the boss of our PO asks about going live the next month. It seems impossible.&lt;/p&gt;
+
+&lt;h1 id=&quot;customers-priorities&quot;&gt;Customer’s priorities&lt;/h1&gt;
+
+&lt;p&gt;People, who drive the business (e.g. sales, operations, c-levels, account managers) tend to value the elements, which directly correspond to one of the following outcomes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rising user satisfaction.&lt;/li&gt;
+  &lt;li&gt;Rising customer satisfaction.&lt;/li&gt;
+  &lt;li&gt;Rising employee satisfaction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These usually lead to rising revenue in a long term. This is where the brownfield projects with good documentation, stable deployment and release strategies, customer support, bug fixing, proper design and user training usually step in.&lt;/p&gt;
+
+&lt;p&gt;Usually, people from outside of the scrum team in the customer’s organisation tend to value more boring stuff much higher than doing all the greenfield activities. Reality shows, that the goals and values of the most newly created scrum/development teams are strongly different from the business ones.&lt;/p&gt;
+
+&lt;p&gt;For the business people, even at the huge scale companies, when the new opportunity appears they simply want to get it done. If the complex software doesn’t allow them to release the new solution in a matter of days then in many cases they see the simple Zapier integration with Google Spreadsheet might be valuable. After they got the lightweight working solution then they are super happy about the continuation of this idea by implementing a high-quality system for it.&lt;/p&gt;
+
+&lt;h1 id=&quot;building-products-with-no-operational-experience&quot;&gt;Building products with no operational experience&lt;/h1&gt;
+
+&lt;p&gt;Coming back to the beginning of this article, when we mentioned that our developer managed to leave the project just after going live with it.&lt;/p&gt;
+
+&lt;p&gt;The best understanding of the user’s perspective doesn’t come up from being in 50 projects during the development phase. As long as the project is not being used by the real users, we are just making guesses on how our implementation meets the needs.&lt;/p&gt;
+
+&lt;p&gt;We may ask the questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How our implementation will help in achieving operational excellence after releasing it to production?&lt;/li&gt;
+  &lt;li&gt;How are we going to maintain the application and if all of the applied code-level techniques will enable us to keep implementing the new features; or the post-live reality will require us to focus on maintenance in 100%?&lt;/li&gt;
+  &lt;li&gt;How are we going to release its new versions? Will we be able to deploy every day?&lt;/li&gt;
+  &lt;li&gt;Will the bug fixing become a pain in the ass? Can we assure relevant stability?&lt;/li&gt;
+  &lt;li&gt;Will the users like it?&lt;/li&gt;
+  &lt;li&gt;What would change if instead of being greenfield-focused we would become end-user focused? It is most likely, that we would get a better understanding of where the money comes from. The software is starting to make the money once it is released to production. Once we understand it, we will come up with the proper perspective on enabling technology. The purpose of technology is “to enable”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The best engineering practices and keeping the software quality as high as we can are the best steps to reduce the cost in the long term. However, we need to keep in mind that all the practices, which we apply need to come from the needs. Not from our own engineering desires or biases.&lt;/p&gt;
+
+&lt;p&gt;Eventually, maybe it will make the decision about staying in the project after going live with it much easier? We will not want to run away from what we’ve created and what we are blaming our decision-changing customer for.&lt;/p&gt;
+
+&lt;p&gt;If you’re given the opportunity to maintain and develop the live system then this is the best opportunity to learn a lot about real software development, management and delivery techniques.&lt;/p&gt;
+
+&lt;h1 id=&quot;iterations-and-prioritization-to-the-rescue&quot;&gt;Iterations and prioritization to the rescue&lt;/h1&gt;
+
+&lt;p&gt;All the battles around “real Scrum” and “not-by-the book Scrum” led us to focus on the wrong thing. Mechanics and practices.&lt;/p&gt;
+
+&lt;p&gt;Agile Manifesto tells us that our ability to respond to constant changes in close collaboration with our customer is the key. What is missing in it is the end-user and proper understanding of the “working software”.&lt;/p&gt;
+
+&lt;p&gt;Even when working on the new software systems before running them live, we may imagine that we already have our end-users and we want to set our highest priority on satisfying them by early and continuous delivery. That means, by applying the proper prioritisation, we may implement the critical journey for the specific user persona first. Wrap it with the best engineering practices required for a given phase and then iterate from it.&lt;/p&gt;
+
+&lt;p&gt;“Working software” means - really, the working software. Working software means: the end-users may use it to achieve something they need.&lt;/p&gt;
+
+&lt;h1 id=&quot;greenfield---what-to-keep-in-mind&quot;&gt;Greenfield - What to keep in mind?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set up a test environment as early as possible and share it with your customer. Use it to practice frequent and stable deployments. Think about delivery.&lt;/li&gt;
+  &lt;li&gt;Focus on defining and delivering the critical user journey first. No bikeshedding.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;No big architecture upfront&lt;/em&gt; doesn’t mean no architecture at all. Starting with the code and repository is not always the best first step. A workshop may work.&lt;/li&gt;
+  &lt;li&gt;People will not understand something just because we give them an explanation. Give the team the questions to answer in the early stages and help them to find the answers by themselves; even if you already know them. Quoting (probably) Alberto Brandolini: &lt;em&gt;“It’s not stakeholder knowledge but developers’ ignorance that gets deployed into production”&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Communicate the goals and expectations. Make the team understand the business context, not just the descriptions of the Jira tickets.&lt;/li&gt;
+  &lt;li&gt;Keep codebase quality as high as possible, but do not over-engineer for something that you think will be needed in the future. Quality is the key in long term.&lt;/li&gt;
+  &lt;li&gt;In most cases, when working in waterfall-kind-of-project, iterations are the best tool for reducing the project’s risk. The critical aspect here is to remember about the working software, after each iteration.&lt;/li&gt;
+  &lt;li&gt;Create software that you will want to maintain.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>2021-04-05T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Essay-on-greenfield-software-projects</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Essay-on-greenfield-software-projects</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>End-users&apos; pain. How web dev and Scrum destroy engineers.</title>
+          <description>&lt;h1 id=&quot;my-careers-childhood&quot;&gt;My career’s childhood&lt;/h1&gt;
+
+&lt;p&gt;My engineering childhood was located around many ancient technologies. Before I got into the modern world, my engineering path in 2003 started with writing some C++ code and trainers for Diablo 2. Then I moved on to Webmajster 2, Macromedia Flash, Macromedia Dreamweaver, and mIRC Scripting. After that, when I started my first commercial software engineering job, I had a pleasure working with a super complex system (from the domain perspective) built on top of legacy fundaments in Delphi and PL/SQL.&lt;/p&gt;
+
+&lt;p&gt;All of these technologies suffer from similar things, sharing history with Tyrannosaurus, Diplodocus, Triceratops, and other dinosaurs. Technologies mentioned above put me in a much better place in the past than I was in nowadays when I was doing web development as a project manager, product owner, or scrum master.&lt;/p&gt;
+
+&lt;p&gt;What’s the difference?&lt;/p&gt;
+
+&lt;p&gt;The purpose of this article is to leave you with three questions. But first…&lt;/p&gt;
+
+&lt;h1 id=&quot;the-hype-on-the-users-feedback&quot;&gt;The hype on the user’s feedback&lt;/h1&gt;
+
+&lt;p&gt;When we think about software and product engineering nowadays, we tend to speak a lot about feedback loops. In most cases, Scrum is always around the corner as a 100% receipt for gathering the user’s feedback after each Sprint in the form of Sprint Review.&lt;/p&gt;
+
+&lt;p&gt;It is not only related to software engineers. I am a guy who likes to visit meetups, which are not related to my core skills. I sometimes go to some UX Design, Business Analyst, Human Resources events, and more. Most of them are somewhere around “We are so cool, meeting end-users’ exceptions is what we love! We do everything to respond to the user’s feedback, which is the most important aspect of our job!”.&lt;/p&gt;
+
+&lt;p&gt;And let’s get back to mighty Scrum and Sprint Reviews. When we work as web developers, we are most likely to develop some webpage, which will be used by many end-users through the web browser. In a Sprint Review, we usually do not meet with end-users but with business stakeholders. We receive the feedback related to meeting the commitment that we made during Sprint Planning. After the Sprint Review, in the most favourable scenario, we will be able to click the “Approve” button in our continuous delivery process and release the changes to production. Maybe after 1-6 weeks, we will send some surveys to our end-users about their opinion on the changes applied in a production environment. Perhaps we will use some analytics tools, user behavior monitoring tools like HotJar. Maybe we will calculate the average revenue made during the specific time. I do not see the end user’s feedback here.&lt;/p&gt;
+
+&lt;p&gt;I think when it comes to getting feedback from the end-users. Scrum is the thing, which destroyed the real user feedback. Core agile values and principles were built around the feedback. Scrum was not. The idea that made gathering information from the end-users possible was DevOps. We may do that by raising the frequency of deployments and releases to the production environment and performing A/B tests. It is much closer to collecting the data, which we may interpret as “end-users feedback”, than the feedback we get during Sprint Reviews.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s think about the distance. If you travel from Warsaw, Poland to Wroclaw, Poland then a distance is smaller than when traveling from Warsaw, Poland to Barcelona, Spain.&lt;/p&gt;
+
+&lt;h1 id=&quot;data-distance-in-engineering&quot;&gt;Data distance in engineering&lt;/h1&gt;
+
+&lt;p&gt;There is the following concept - a distance of the data might be a measure of latency. On a hardware level, we may think about using the multi-tier caches (L1, L2, L3…) in a CPU as a closer source of data to the one that we have in RAM, and also when we are accessing the data from HDD/SSD then it is even greater range.&lt;/p&gt;
+
+&lt;p&gt;We can expand it even further and think about the Internet. When we access something in LAN, we may get it faster than get it from the server located in some hosting company or cloud provider through WAN. Then we may think about some server located on the other continent and the optical fiber, which go under the ocean. Then we may think about CDN, availability zones, or companies like Akamai.&lt;/p&gt;
+
+&lt;p&gt;All of the terms mentioned above are related to - if something is far away from us, we need to wait a little longer to receive it.&lt;/p&gt;
+
+&lt;p&gt;The length of the road and its quality - matter. Let’s move it on the human level.&lt;/p&gt;
+
+&lt;h1 id=&quot;legacy-implementations&quot;&gt;Legacy implementations&lt;/h1&gt;
+
+&lt;p&gt;In the story about ancient technologies and my first steps in the commercial engineering career path when I worked with Delphi, I worked on ERP and WMS systems. Both systems were using a client-server architecture. There were a few desktop applications and additional devices like handheld warehouse scanners, fiscal printers, and more.&lt;/p&gt;
+
+&lt;p&gt;To implement such a system for our customers, we had to travel to some factory located in Europe or China. Talk to the people, look them in the eyes, sit down together at the computer, and teach them how to use the software.&lt;/p&gt;
+
+&lt;p&gt;We also had to talk with the people in top company management and teach them how to use reporting. Talk to middle management and show to manage the orders, procurement, inventory fulfilment, supply orders, and customer orders. Also, people in the warehouse, who needed the training to organize the warehouse more efficiently, perform daily work in terms of taking some products from one place to the other in the warehouse (by using muscles!), when to do the scanning etc.&lt;/p&gt;
+
+&lt;p&gt;I remember two stories.&lt;/p&gt;
+
+&lt;h1 id=&quot;first-story---inventory-taking&quot;&gt;First story - Inventory taking&lt;/h1&gt;
+
+&lt;p&gt;Story number one is associated with an inventory taking process, that each warehouse had do make just after New Year’s Eve.&lt;/p&gt;
+
+&lt;p&gt;I was getting drunk at midnight, and the next day on the 1st of January, we were traveling to the customer’s warehouse to help employees. I used our software, lifted 20-40 kg products from one place to another, scanning the barcodes. I was even using the handheld scanner 7 meters above the ground, standing on a forklift.&lt;/p&gt;
+
+&lt;h1 id=&quot;second-story---fixing-the-bug&quot;&gt;Second story - Fixing the bug&lt;/h1&gt;
+
+&lt;p&gt;The second story is about using computers to support people who worked in the warehouse in the same company.&lt;/p&gt;
+
+&lt;p&gt;It was 5 pm when a few trucks were waiting for the products to be loaded so that the drivers can start the logistics process and travel to the other country. There were eight warehousemen still at work who wanted to load the trucks as soon as possible, go home, and have fun with friends and family. And also, there was me staying in the warehouse with a notebook placed on the warehouse pallet. I tried to fix a bug, which locked eight people in the warehouse… not only from scanning the barcode, creating an outcome warehouse document, giving it to the truck driver, and loading the truck. The bug was blocking them from going back to home to have fun with their friends. They couldn’t leave because the drivers would have to spend an additional night sleeping in the truck to wait for the next day before they could start travelling to another country.&lt;/p&gt;
+
+&lt;p&gt;As a result, I stayed with this laptop, having 10+ people around me sniffing behind my neck, and watching me clicking on the keyboard. After many naughty SQL statements on the production database, I ended up saying, “Done. Scan it. Print. Go home”. Everyone ended up happy.&lt;/p&gt;
+
+&lt;h1 id=&quot;third-story---using-saas-to-run-my-company&quot;&gt;Third story - Using SaaS to run my company&lt;/h1&gt;
+
+&lt;p&gt;The third story is about me running a little company after hours. I was importing GSM accessories from China and selling them in Poland via Allegro (e-commerce platform). I had 1-2 employees. We were using something called “Sales Manager for Allegro” - a software for improving the process of managing the auctions, sold products, collaboration with postal office, payment gateways, and more.&lt;/p&gt;
+
+&lt;p&gt;I was selling about 100~ products a day. Every day, after finishing my software development job at 4 pm, I was going back home, running Sales Manager for Allegro, preparing the stickers, preparing the packages, going to the postal office, and sending it to my customers.&lt;/p&gt;
+
+&lt;p&gt;There was an issue with this tool. When I was getting money from my customers through the payment gateways, then sold items were getting flagged with “Paid by payment gateway”. Every day, I had to go through 100 rows in the table, tick checkboxes at the rows, which have been paid and move these to the other section. Just to separate paid orders from the ones that haven’t been paid yet. After that, I was able to continue with the process of preparing postal stickers and packages.&lt;/p&gt;
+
+&lt;p&gt;I asked my friend to help me write a JavaScript code to automate this daily process. The code added just one additional button in Sales Manager for Allegro. Its functionality was “tick all the checkboxes at rows, which have been paid” so I could move these to the other section by doing 2 clicks instead of 102. Every day.&lt;/p&gt;
+
+&lt;h1 id=&quot;feedback-distance&quot;&gt;Feedback distance&lt;/h1&gt;
+
+&lt;p&gt;The learning from the stories above is - feedback distance. When I was working with Delphi and doing on-site implementations, all of those who were using my code and my software were close enough to hit me in the face because my work had a negative impact on their lives.&lt;/p&gt;
+
+&lt;p&gt;When we work in web development, we have a few big firewalls between our users and us. Internet, Sprint Review, Product Owners, Business Stakeholders. In most cases, we never meet our users. In most cases, we do not even use our products, our code.&lt;/p&gt;
+
+&lt;p&gt;When we are behind these firewalls, we do not feel end-users pain. We do not look them into the eyes. We do not feel guilty. We do not see how they’re losing trust and how it stresses them daily.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An empowered engineer depends on having a visceral understanding of the customer’s pain. Strong engineers hate to see customers that are struggling or unhappy. They take it personally.&lt;/p&gt;
+
+  &lt;p&gt;– Marty Cagan&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;sprint-backlog-is-your-enemy&quot;&gt;Sprint Backlog is your enemy&lt;/h1&gt;
+
+&lt;p&gt;The continuation of that problem is working as a software developer just on the sprint backlog items in Jira. When we do so, we simply focus on delivering the single ticket to the right on the board, so the Development process finishes for us and we can pass it to some Delivery, DevOps, or Operations team.&lt;/p&gt;
+
+&lt;p&gt;There is a great quote popularised by Amazon and Atlassian in the past - “you build it, you ship it”, which is about taking the total accountability for writing the code, delivering it to the end-users, listening, and proactively asking about their feedback.&lt;/p&gt;
+
+&lt;p&gt;Taking ownership of the whole process, All of it by a single developer, who started the journey by assigning himself/herself a Jira ticket.&lt;/p&gt;
+
+&lt;h1 id=&quot;project-manager-is-not-better&quot;&gt;Project Manager is not better&lt;/h1&gt;
+
+&lt;p&gt;When we use project managers as our single point of contact with our clients, stakeholders, who are not our end-users, it may get even worse. We are adding 1 step in the feedback loop. It becomes more like the Chinese Whispers Game (PL: Głuchy Telefon) when the feedback is being modified on each communication stage.&lt;/p&gt;
+
+&lt;p&gt;Thanks to many modern concepts like DDD and Event Storming - developers tend to get closer to the business stakeholders and users, which leads to positive impacts on all of us (including project managers).&lt;/p&gt;
+
+&lt;h1 id=&quot;engineers-accountability&quot;&gt;Engineer’s accountability&lt;/h1&gt;
+
+&lt;p&gt;I wouldn’t like to force anyone to use some specific methods of working. The software engineering world needs the people, who write code, the ones who work with the customers, and the ones who are the mix of both. Everyone is needed in the industry.&lt;/p&gt;
+
+&lt;p&gt;The ask here for you is to ask yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt; Which type of engineer you want to be?&lt;/p&gt;
+
+&lt;p&gt;All types are worth a lot. All types are needed. All types are essential for our team’s joint success, customers, and the software engineering industry.&lt;/p&gt;
+
+&lt;p&gt;My concern here is - ask yourself the question, and answer it with self-awareness. Then being conscious - continue going through the path and do your job as you like, to satisfy yourself. To be happy and help others.&lt;/p&gt;
+
+&lt;h1 id=&quot;delphi-is-better-than-cloud-native&quot;&gt;Delphi is better than Cloud-Native&lt;/h1&gt;
+
+&lt;p&gt;For me, personally. Starting another greenfield web application project, having all of these firewalls, not feeling the daily pain of the people (users, teams, or whoever); focusing on the code instead of the value it delivers and impacts it creates - is not my cup of tea.&lt;/p&gt;
+
+&lt;p&gt;Keeping that in mind, working in legacy Delphi code decade ago was more interesting to me than working with cool stuff with scalability, queues, pipelines, monitoring tools, scrums. All of it for the users I will never see.&lt;/p&gt;
+
+&lt;p&gt;The problem here is not technology, not a tool. The question that I would like to ask is:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question 2:&lt;/strong&gt; What do you do to feel end-users’ pain to improve your software products as a development team member?&lt;/p&gt;
+
+&lt;h1 id=&quot;my-future&quot;&gt;My future&lt;/h1&gt;
+
+&lt;p&gt;The thing that makes me happy today is the possibility of working with the teams and doing my best to make their daily lives better. If I can deliver “the value” to the end-customers by making my team members and colleagues happier and more productive, this is my understanding of the “value,” and it is worth my time.&lt;/p&gt;
+
+&lt;p&gt;However, maybe it is time to start working on the important stuff, which creates a positive impact on our planet, environment, and human lives? Or maybe start working for the company that produces the product that I use daily? Maybe get back to supporting operations in the non-IT company and grow them by applying technology? Work on companies’ digitalization to help all its employees? Or leave the software industry and become a crossfit or water sports coach? Maybe shall I focus 100% on people?&lt;/p&gt;
+
+&lt;p&gt;Having broad experience instead of being an expert in a single thing is the root of all evil for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question 3:&lt;/strong&gt; Where do you imagine yourself in the future?&lt;/p&gt;
+</description>
+          <pubDate>2020-08-25T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//End-users-pain-How-web-dev-and-Scrum-destroy-engineers</link>
+          <guid isPermaLink="true">https://rmakara.github.io//End-users-pain-How-web-dev-and-Scrum-destroy-engineers</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Being non-billable</title>
           <description>&lt;h1 id=&quot;how-software-houses-make-money&quot;&gt;How software houses make money?&lt;/h1&gt;
 
@@ -28,7 +341,7 @@
 
 &lt;p&gt;The following scenario creates a specific mindset in software developers and splits them into two groups - people who work on billable projects and those who do not. Comparing that to the fact how most of the projects are being delivered, we might think that we all want to become &lt;a href=&quot;https://idioms.thefreedictionary.com/cog+in+a+machine&quot;&gt;cogs in the machine&lt;/a&gt; to produce the working solution. In most cases, we want to get the office (or a desk, which is 2 meters from our bed), start the computer, do a daily, deliver Jira tickets, leave the office.&lt;/p&gt;
 
-&lt;p&gt;The ability to work in a billable project provides a &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;psychical safety&lt;/a&gt; for the people who need stable working conditions.&lt;/p&gt;
+&lt;p&gt;The ability to work in a billable project provides a &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;psychologically safe&lt;/a&gt; environment and stable work conditions.&lt;/p&gt;
 
 &lt;p&gt;In Poland, some say that our parents 30 years ago wanted to feel safe at work, so they were spending like 20-40 years in the same job. Now, we change jobs every 1-5 years. However, we can do that because this way, we are getting the same psychological comfort, which our parents were getting back then. We change the job because it is quite easy. And then we start pushing Jira tickets again and again.&lt;/p&gt;
 
@@ -78,8 +391,8 @@
 
 &lt;ul&gt;
   &lt;li&gt;[1] &lt;a href=&quot;https://martinfowler.com/bliki/DevOpsCulture.html&quot;&gt;DevOps Culture, Martin Fowler&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time&amp;amp;Materials&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;Psychical safety, re:Work with Google&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_and_materials&quot;&gt;Time&amp;amp;Materials, Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/&quot;&gt;POsychological safety, re:Work with Google&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[4] &lt;a href=&quot;https://en.wikipedia.org/wiki/Andon_(manufacturing)&quot;&gt;Andon, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[5] &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomation&quot;&gt;Jidoka, Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[6] &lt;a href=&quot;https://en.wikipedia.org/wiki/Poka-yoke&quot;&gt;Poka-yoke, Wikipedia&lt;/a&gt;&lt;/li&gt;
@@ -1741,7 +2054,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;W celu określenia wydajności działania backendu oraz podjęcia decyzji o wykorzystaniu grace time Varnish pozwala na wykonywanie health checków. Sposób ich działania jest samoopisujący się przez poniższy kod pochodzący z dokumentacji Varnisha.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;backend server1 {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;backend server1 {
   .host = &quot;server1.example.com&quot;;
   .probe = {
          .url = &quot;/&quot;;
@@ -1761,11 +2074,11 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 &lt;p&gt;Stany można rozumieć jako sposób obsłużenia danego żądania HTTP, które trafia do Varnisha. Podstawowe z nich to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;miss&lt;/code&gt; - Żądanie od użytkownika przechodząc przez Varnish szukało i nie znalazło zcacheowanej wersji elementu, którego potrzebowało. W takiej sytuacji konieczne jest odwołanie się do z aplikacji.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pass&lt;/code&gt; - Żądanie nie szukało wersji zcacheowanej, a jedynie “przeszło” przez Varnisha prosto do aplikacji. W momencie zwracania odpowiedzi również nie jest ono cacheowane.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hit&lt;/code&gt; - Żądanie znalazło aktualny cache w Varnishu. Pobiera element z cache i zwraca odpowiedź użytkownikowi. Nie obciąża aplikacji.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; - Typ akcji, który mówi o tym, że Varnish to nie tylko warstwa cache, a także mądre oprogramowanie stanowiące firewall stojący przed aplikacją. &lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; to działanie, przy którym w cache nie znajduje się zcacheowany obiekt i inicjuje ono pobranie go z aplikacji. Oznacza jednak dane żądanie jako “w trakcie pobierania” i dzięki temu inni użytkownicy aplikacji, którzy zapytają o to samo nie generują kolejnych żądań odwołania do backendu, a czekają w warstwie reverse proxy, aż to jedno dojdzie z aplikacji do Varnisha. Dzięki temu, w przypadku 1000 użytkowników pytających o to samo przekazujemy 1 żądanie do aplikacji, 999 żądań czeka w Varnishu. Gdy odpowiedź wróci do Varnisha z backendu - otrzyma ją 1000 użytkowników.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;waiting&lt;/code&gt; - Akcja określająca, że żądanie użytkownika czeka na aktualizację wynikającą z innego żądania &lt;code class=&quot;highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;miss&lt;/code&gt; - Żądanie od użytkownika przechodząc przez Varnish szukało i nie znalazło zcacheowanej wersji elementu, którego potrzebowało. W takiej sytuacji konieczne jest odwołanie się do z aplikacji.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pass&lt;/code&gt; - Żądanie nie szukało wersji zcacheowanej, a jedynie “przeszło” przez Varnisha prosto do aplikacji. W momencie zwracania odpowiedzi również nie jest ono cacheowane.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hit&lt;/code&gt; - Żądanie znalazło aktualny cache w Varnishu. Pobiera element z cache i zwraca odpowiedź użytkownikowi. Nie obciąża aplikacji.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; - Typ akcji, który mówi o tym, że Varnish to nie tylko warstwa cache, a także mądre oprogramowanie stanowiące firewall stojący przed aplikacją. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt; to działanie, przy którym w cache nie znajduje się zcacheowany obiekt i inicjuje ono pobranie go z aplikacji. Oznacza jednak dane żądanie jako “w trakcie pobierania” i dzięki temu inni użytkownicy aplikacji, którzy zapytają o to samo nie generują kolejnych żądań odwołania do backendu, a czekają w warstwie reverse proxy, aż to jedno dojdzie z aplikacji do Varnisha. Dzięki temu, w przypadku 1000 użytkowników pytających o to samo przekazujemy 1 żądanie do aplikacji, 999 żądań czeka w Varnishu. Gdy odpowiedź wróci do Varnisha z backendu - otrzyma ją 1000 użytkowników.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;waiting&lt;/code&gt; - Akcja określająca, że żądanie użytkownika czeka na aktualizację wynikającą z innego żądania &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hit_for_pass&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Kompletną listę stanów i wyjaśnienie ich działania warto przestudiować w rozdziałach &lt;a href=&quot;https://book.varnish-software.com/4.0/chapters/VCL_Basics.html&quot;&gt;VCL Basics&lt;/a&gt; oraz &lt;a href=&quot;https://varnish-cache.org/docs/trunk/users-guide/vcl-built-in-subs.html.&quot;&gt;Build in subroutines&lt;/a&gt; zawartych w oficjalnej dokumentacji.&lt;/p&gt;
@@ -1780,7 +2093,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;Większość systemów nie opiera się jedynie na samym odczytywaniu danych, a pozwala dodatkowo na ich modyfikację. Programista implementujący rozwiązanie jest w stanie wyznaczyć operacje, które powinny natychmiastowo wymuszać wyczyszczenie cache. Przykładem może być aktualizacja nazwy produktu w sklepie internetowym. Załóżmy, że nasza strona produktowa jest na tyle niezmienna, że cacheujemy ją w pełni. Pewnego dnia, administrator sklepu aktualizuje nazwę produktu. W związku z tym, użytkownicy wchodzący na omawianą stronę powinni zobaczyć jego nową nazwę. W tym celu programista po zapisaniu produktu w panelu administracyjnym może wyczyścić dane elementy cache omawianej strony produktowej i tym samym wymusić załadowanie nowej zawartości strony wprost z serwera aplikacyjnego.&lt;/p&gt;
 
-&lt;p&gt;Do przeprowadzania powyższych operacji korzystamy z dwóch typów żądań. Pierwsze z nich to &lt;code class=&quot;highlighter-rouge&quot;&gt;purge&lt;/code&gt;, który pozwala nam na wyczyszczenie pamięci podręcznej konkretnego adresu URL / elementu. Wywoływany jest on podobnie do typowych requestów HTTP GET. Drugim typem żądania jest &lt;code class=&quot;highlighter-rouge&quot;&gt;ban&lt;/code&gt;, który na podstawie wskazanego wyrażenia regularnego może nam pomóc z wyczyszczeniem cache wielu stron / elementów. Ban może również zostać wywołany podobnie do requestu HTTP, ale domyślnym momentem jego uruchamiania jest moment trafienia w cache (&lt;code class=&quot;highlighter-rouge&quot;&gt;hit&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Do przeprowadzania powyższych operacji korzystamy z dwóch typów żądań. Pierwsze z nich to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;purge&lt;/code&gt;, który pozwala nam na wyczyszczenie pamięci podręcznej konkretnego adresu URL / elementu. Wywoływany jest on podobnie do typowych requestów HTTP GET. Drugim typem żądania jest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ban&lt;/code&gt;, który na podstawie wskazanego wyrażenia regularnego może nam pomóc z wyczyszczeniem cache wielu stron / elementów. Ban może również zostać wywołany podobnie do requestu HTTP, ale domyślnym momentem jego uruchamiania jest moment trafienia w cache (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hit&lt;/code&gt;).&lt;/p&gt;
 
 &lt;h1 id=&quot;edge-side-includes&quot;&gt;Edge Side Includes&lt;/h1&gt;
 
@@ -1937,46 +2250,46 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 &lt;p&gt;Pracując na Ubuntu 16.04 LTS, wykonanie tutoriala znajdującego się na oficjalnej stronie Dockera przechodzi całkiem bezproblemowo. Podczas jego realizacji przydatnych było kilka poleceń:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker ps&lt;/code&gt; - Listuje kontenery.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;container_id&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt; - Wykonuje polecenie CLI wewnątrz wskazanego kontenera.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker logs &amp;lt;container_id&amp;gt;&lt;/code&gt; - Wyświetla logi ze wskazanego kontenera.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker rmi [rf] &amp;lt;image_id&amp;gt;&lt;/code&gt; - Usuwa wskazany obraz.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker build . --no-cache&lt;/code&gt; - Flaga &lt;code class=&quot;highlighter-rouge&quot;&gt;--no-cache&lt;/code&gt; wymusza zbudowanie kontenera od zera.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose up&lt;/code&gt; - Buduje, tworzy, uruchamia kontener, obrazy, wolumeny.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose down&lt;/code&gt; - Zatrzymuje i usuwa kontenery, obrazy, wolumeny stworzone podczas &lt;code class=&quot;highlighter-rouge&quot;&gt;up&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose build&lt;/code&gt; - Buduje kontener(y).&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose exec web bash&lt;/code&gt; - Uruchamia interaktywny prompt wewnątrz kontenera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker ps&lt;/code&gt; - Listuje kontenery.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker exec -it &amp;lt;container_id&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt; - Wykonuje polecenie CLI wewnątrz wskazanego kontenera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker logs &amp;lt;container_id&amp;gt;&lt;/code&gt; - Wyświetla logi ze wskazanego kontenera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker rmi [rf] &amp;lt;image_id&amp;gt;&lt;/code&gt; - Usuwa wskazany obraz.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build . --no-cache&lt;/code&gt; - Flaga &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--no-cache&lt;/code&gt; wymusza zbudowanie kontenera od zera.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose up&lt;/code&gt; - Buduje, tworzy, uruchamia kontener, obrazy, wolumeny.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose down&lt;/code&gt; - Zatrzymuje i usuwa kontenery, obrazy, wolumeny stworzone podczas &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;up&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose build&lt;/code&gt; - Buduje kontener(y).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose exec web bash&lt;/code&gt; - Uruchamia interaktywny prompt wewnątrz kontenera.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Przy wykorzystywaniu powyższych poleceń pojawiło się kilka ciekawostek.&lt;/p&gt;
 
 &lt;h1 id=&quot;docker-vs-docker-compose&quot;&gt;docker vs docker-compose&lt;/h1&gt;
 
-&lt;p&gt;Czym jest &lt;code class=&quot;highlighter-rouge&quot;&gt;docker&lt;/code&gt;, a czym &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;? &lt;code class=&quot;highlighter-rouge&quot;&gt;docker&lt;/code&gt; jest interfejsem CLI służącym do zarządzania poszczególnymi kontenerami. &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; jest pewnym API/fasadą stojącą warstwę przed interfejsem Dockera. &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; pozwala wykonywać operacje na wielu kontenerach i dzięki temu skraca listę komend potrzebnych do osiągnięcia określonego celu, po to wykorzystuje plik &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Czym jest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker&lt;/code&gt;, a czym &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;? &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker&lt;/code&gt; jest interfejsem CLI służącym do zarządzania poszczególnymi kontenerami. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; jest pewnym API/fasadą stojącą warstwę przed interfejsem Dockera. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; pozwala wykonywać operacje na wielu kontenerach i dzięki temu skraca listę komend potrzebnych do osiągnięcia określonego celu, po to wykorzystuje plik &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;docker-exec--it&quot;&gt;docker exec -it&lt;/h1&gt;
 
-&lt;p&gt;Interesujący jest parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; występujący obok &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec&lt;/code&gt;. Tutaj szczerze mówiąc nie wiem czy jestem w stanie to dobrze wyjaśnić, ponieważ źródła które czytałem nie były dla mnie w pełni zrozumiałe, a wyjaśnienie znajdujące się w oficjalnej dokumentacji również jest niejasne. Całość ma związek z &lt;code class=&quot;highlighter-rouge&quot;&gt;stdin&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;stdout&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;tty&lt;/code&gt;. Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-t&lt;/code&gt; dotyczy &lt;code class=&quot;highlighter-rouge&quot;&gt;tty&lt;/code&gt;, które jest pojęciem mającym swoje korzenie w historii używania terminali w starych komputerach i jest rozwinięciem skrótu jest &lt;code class=&quot;highlighter-rouge&quot;&gt;TeleTYpewriter&lt;/code&gt;. W dzisiejszych czasach oznacza wirtualną tekstową konsolę do których (jest ich 6) w Ubuntu możemy wejść przez użycie jednego ze skrótów:&lt;/p&gt;
+&lt;p&gt;Interesujący jest parametr &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-it&lt;/code&gt; występujący obok &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker exec&lt;/code&gt;. Tutaj szczerze mówiąc nie wiem czy jestem w stanie to dobrze wyjaśnić, ponieważ źródła które czytałem nie były dla mnie w pełni zrozumiałe, a wyjaśnienie znajdujące się w oficjalnej dokumentacji również jest niejasne. Całość ma związek z &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stdin&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stdout&lt;/code&gt; oraz &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty&lt;/code&gt;. Parametr &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-t&lt;/code&gt; dotyczy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty&lt;/code&gt;, które jest pojęciem mającym swoje korzenie w historii używania terminali w starych komputerach i jest rozwinięciem skrótu jest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TeleTYpewriter&lt;/code&gt;. W dzisiejszych czasach oznacza wirtualną tekstową konsolę do których (jest ich 6) w Ubuntu możemy wejść przez użycie jednego ze skrótów:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty1&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F1&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty2&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F2&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty3&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F3&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty4&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F4&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty5&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F5&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tty6&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F6&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;Powrót do GUI - &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + F7&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty1&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F1&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty2&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F2&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty3&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F3&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty4&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F4&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty5&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F5&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tty6&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F6&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;Powrót do GUI - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + F7&lt;/code&gt;,&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Parametr &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; oznacza dodanie strumieniu wejściowego. W połączeniu &lt;code class=&quot;highlighter-rouge&quot;&gt;-it&lt;/code&gt; mówi Dockerowi, że w ramach polecenia &lt;code class=&quot;highlighter-rouge&quot;&gt;exec&lt;/code&gt; chcemy dodać silnik terminalu wraz z możliwością przekazania czegoś do wejścia, po czym wynik wykonania operacji otrzymujemy w strumieniu wyjściowym, w warstwie, w której wykonujemy polecenie &lt;code class=&quot;highlighter-rouge&quot;&gt;docker exec -it &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Parametr &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-i&lt;/code&gt; oznacza dodanie strumieniu wejściowego. W połączeniu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-it&lt;/code&gt; mówi Dockerowi, że w ramach polecenia &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exec&lt;/code&gt; chcemy dodać silnik terminalu wraz z możliwością przekazania czegoś do wejścia, po czym wynik wykonania operacji otrzymujemy w strumieniu wyjściowym, w warstwie, w której wykonujemy polecenie &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker exec -it &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;volumes&quot;&gt;Volumes&lt;/h1&gt;
 
-&lt;p&gt;W pliku konfiguracyjnym definiujemy &lt;code class=&quot;highlighter-rouge&quot;&gt;volumes&lt;/code&gt;. Wykorzystywane są one w celu skopiowania naszego kodu źródłowego z lokalnego hosta (do którego mamy podpięte repozytorium) w głąb kontenera. Innymi słowy, przekazujemy aktualny kod źródłowy nad którym pracujemy do kontenera, aby mógł on zostać uruchomiony wewnątrz kontenera. Nie musimy go kopiować ręcznie.&lt;/p&gt;
+&lt;p&gt;W pliku konfiguracyjnym definiujemy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;volumes&lt;/code&gt;. Wykorzystywane są one w celu skopiowania naszego kodu źródłowego z lokalnego hosta (do którego mamy podpięte repozytorium) w głąb kontenera. Innymi słowy, przekazujemy aktualny kod źródłowy nad którym pracujemy do kontenera, aby mógł on zostać uruchomiony wewnątrz kontenera. Nie musimy go kopiować ręcznie.&lt;/p&gt;
 
 &lt;h1 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h1&gt;
 
-&lt;p&gt;Wykorzystywanie Dockera jest przydatne nie tylko w środowisku produkcyjnym do łatwego skalowania aplikacji, ale też jest wygodnym rozwiązaniem umożliwiającym prace w środowisku developerskim. Po przygotowaniu kilku plików możemy umieścić je w repozytorium, aby ułatwić życie naszym kolegom, których zadanie ograniczy się do pobrania kodu z repozytorium i uruchomienia kontenerów przez &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Wykorzystywanie Dockera jest przydatne nie tylko w środowisku produkcyjnym do łatwego skalowania aplikacji, ale też jest wygodnym rozwiązaniem umożliwiającym prace w środowisku developerskim. Po przygotowaniu kilku plików możemy umieścić je w repozytorium, aby ułatwić życie naszym kolegom, których zadanie ograniczy się do pobrania kodu z repozytorium i uruchomienia kontenerów przez &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -2303,7 +2616,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
     
       
         <item>
-          <title>Gynveal's Mission 003&amp;#58; Optymalizacja</title>
+          <title>Gynveal&apos;s Mission 003&amp;#58; Optymalizacja</title>
           <description>&lt;h1 id=&quot;wystarczy-poczekać&quot;&gt;Wystarczy poczekać&lt;/h1&gt;
 
 &lt;p&gt;Powodem pominięcia Misji 002 jest fakt, że trudno było mi wpaść na pomysł jej rozwiązania. Uznałem, że na dzień dzisiejszy potrzebuję czegoś bardziej trywialnego, a taka wydała się być Misja 003. Z czasem jednak wrócę do wykonania również zadania drugiego.&lt;/p&gt;
@@ -2316,49 +2629,49 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
   &lt;p&gt;Tym razem nie trzeba nic robić. Wystarczy uruchomić poniższy skrypt, chwilkę poczekać, a hasło zostanie wypisane. No, taką dłuższą chwilkę…&lt;/p&gt;
 
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/python&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/usr/bin/python
+def magic1(a, b):
+  o = 0
+  i = 0
+  while i &amp;lt; a:
+    o += 1
+    i += 1
+  i = 0
 
-  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+  while i &amp;lt; b:
+    o += 1
+    i += 1
+  return o
 
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+def magic2(a, b):
+  o = 0
+  i = 0
+  while i &amp;lt; b:
+    o = magic1(o, a)
+    i += 1
+  return o
 
-&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2867279575674690971609643216365&quot;&lt;/span&gt;
-         &lt;span class=&quot;s&quot;&gt;&quot;4161626212087501848651843132337&quot;&lt;/span&gt;
-         &lt;span class=&quot;s&quot;&gt;&quot;3373323997065608342&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+n1 = int(&quot;2867279575674690971609643216365&quot;
+         &quot;4161626212087501848651843132337&quot;
+         &quot;3373323997065608342&quot;)
 
-&lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1240905467219837578349182398365&quot;&lt;/span&gt;
-         &lt;span class=&quot;s&quot;&gt;&quot;3459812983123659128386518235966&quot;&lt;/span&gt;
-         &lt;span class=&quot;s&quot;&gt;&quot;4109783723654812937&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+n2 = int(&quot;1240905467219837578349182398365&quot;
+         &quot;3459812983123659128386518235966&quot;
+         &quot;4109783723654812937&quot;)
 
-&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1337&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+n = magic2(magic1(n1, n2), 1337)
+print hex(n)[2:-1].decode(&quot;hex&quot;).splitlines()[0]
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Na pierwszy rzut oka program wygląda bardzo prosto. Poziom zadania określony jako 2/10 popiera tezę mówiącą o tym, że wystarczy uruchomić skrypt. W celu rozwiązania zadania ściągamy kod, zapisujemy w pliku &lt;code class=&quot;highlighter-rouge&quot;&gt;Gynveal_003.py&lt;/code&gt; i wykonujemy. Po dopiciu kawy tracimy nadzieję na otrzymanie wyniku jego działania i podejmujemy decyzję o przejściu do optymalizacji.&lt;/p&gt;
+&lt;p&gt;Na pierwszy rzut oka program wygląda bardzo prosto. Poziom zadania określony jako 2/10 popiera tezę mówiącą o tym, że wystarczy uruchomić skrypt. W celu rozwiązania zadania ściągamy kod, zapisujemy w pliku &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gynveal_003.py&lt;/code&gt; i wykonujemy. Po dopiciu kawy tracimy nadzieję na otrzymanie wyniku jego działania i podejmujemy decyzję o przejściu do optymalizacji.&lt;/p&gt;
 
 &lt;h1 id=&quot;analiza&quot;&gt;Analiza&lt;/h1&gt;
 
-&lt;p&gt;W kodzie aplikacji mamy dwie zmienne &lt;code class=&quot;highlighter-rouge&quot;&gt;n1&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;n2&lt;/code&gt; przechowujące bardzo duże wartości całkowite, które następnie wykorzystywane są jako parametry metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(n1, n2)&lt;/code&gt;. Ta następnie jest wykorzystywana jako parametr metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic2(magic1(n1, n2), 1337)&lt;/code&gt;. Żartobliwie, ostatnim parametrem jest &lt;a href=&quot;https://pl.wikipedia.org/wiki/Leet_speak&quot;&gt;leet&lt;/a&gt; popularyzowany w społeczności IRCowej już kilkanaście lat temu.&lt;/p&gt;
+&lt;p&gt;W kodzie aplikacji mamy dwie zmienne &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n1&lt;/code&gt; oraz &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n2&lt;/code&gt; przechowujące bardzo duże wartości całkowite, które następnie wykorzystywane są jako parametry metody &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic1(n1, n2)&lt;/code&gt;. Ta następnie jest wykorzystywana jako parametr metody &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic2(magic1(n1, n2), 1337)&lt;/code&gt;. Żartobliwie, ostatnim parametrem jest &lt;a href=&quot;https://pl.wikipedia.org/wiki/Leet_speak&quot;&gt;leet&lt;/a&gt; popularyzowany w społeczności IRCowej już kilkanaście lat temu.&lt;/p&gt;
 
-&lt;p&gt;Przeanalizujmy metodę &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Przeanalizujmy metodę &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
@@ -2375,16 +2688,16 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Zauważamy, że zawiera ona dwie pętle w których liczba przebiegów jest uwarunkowana od &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, czyli parametrów przekazywanych do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; są sobie równe. Po zakończeniu pętli &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; wartość zmiennej jest zerowana w ramach przygotowania do wykonania kolejnej. Zmienna &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; natomiast zerowana nie jest, a jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Zauważamy, że zawiera ona dwie pętle w których liczba przebiegów jest uwarunkowana od &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;, czyli parametrów przekazywanych do metody. Pamiętając o naszych dwóch dużych zmiennych spostrzegamy, że daje nam to 4.108185e+80 iteracji. W ramach każdego z kolejnych przebiegów wartości zmiennych &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; oraz &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; są sobie równe. Po zakończeniu pętli &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; wartość zmiennej jest zerowana w ramach przygotowania do wykonania kolejnej. Zmienna &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; natomiast zerowana nie jest, a jest inkrementowana dalej w drugiej pętli, której liczba przebiegów jest zdefiniowana przez wartość parametru &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;W efekcie, pierwsza pętla ustawia wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; na równą parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, a druga pętla zwiększa wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; o wartość parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt; realizuje operację dodawania. Możemy ją przekształcić do postaci:&lt;/p&gt;
+&lt;p&gt;W efekcie, pierwsza pętla ustawia wartość zmiennej &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; na równą parametrowi &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt;, a druga pętla zwiększa wartość zmiennej &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; o wartość parametru &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;. Innymi słowy, metoda &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic1(a, b)&lt;/code&gt; realizuje operację dodawania. Możemy ją przekształcić do postaci:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def magic1(a, b)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def magic1(a, b)
   return a + b
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Druga z magicznych metod &lt;code class=&quot;highlighter-rouge&quot;&gt;magic2(a, b)&lt;/code&gt; na pierwszy rzut oka wygląda dość podobnie:&lt;/p&gt;
+&lt;p&gt;Druga z magicznych metod &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic2(a, b)&lt;/code&gt; na pierwszy rzut oka wygląda dość podobnie:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
@@ -2396,7 +2709,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Wewnętrz pętli zawarte jest jednak wywołanie metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;. Podobnie jak w poprzednim przypadku &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; jest inkrementowane, aż do uzyskania wartości równej parametrowi &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Zaczynamy z wartością &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; ustawioną na 0. Wewnątrz pętli, do wartości &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; jest przypisywany wynik dodawania otrzymany z metody &lt;code class=&quot;highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;, czyli suma aktualnej wartości parametru &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; i naszej dużej zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, dzieje się to tyle razy ile wynosi wartość zmiennej &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Oznacza to, że metoda realizuję operację mnożenia. Optymalizujemy przekształcając do postaci:&lt;/p&gt;
+&lt;p&gt;Wewnętrz pętli zawarte jest jednak wywołanie metody &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;. Podobnie jak w poprzednim przypadku &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; jest inkrementowane, aż do uzyskania wartości równej parametrowi &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;. Zaczynamy z wartością &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; ustawioną na 0. Wewnątrz pętli, do wartości &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; jest przypisywany wynik dodawania otrzymany z metody &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magic1(o, a)&lt;/code&gt;, czyli suma aktualnej wartości parametru &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o&lt;/code&gt; i naszej dużej zmiennej &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt;, dzieje się to tyle razy ile wynosi wartość zmiennej &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b&lt;/code&gt;. Oznacza to, że metoda realizuję operację mnożenia. Optymalizujemy przekształcając do postaci:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
@@ -2421,7 +2734,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;magic1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1337&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2431,7 +2744,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Ostatnia linia konwertuje wartość zapisaną w systemie dziesiętnym na system szesnastkowy. Wycina początkowe &lt;code class=&quot;highlighter-rouge&quot;&gt;0x&lt;/code&gt; z notacji i dekoduje wszystkie kolejne bajty, aż do ostatniego znaku, tym samym zwracając:&lt;/p&gt;
+&lt;p&gt;Ostatnia linia konwertuje wartość zapisaną w systemie dziesiętnym na system szesnastkowy. Wycina początkowe &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x&lt;/code&gt; z notacji i dekoduje wszystkie kolejne bajty, aż do ostatniego znaku, tym samym zwracając:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Haslo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;WolneOprogramowanie!&quot;&lt;/span&gt;
 
@@ -2483,7 +2796,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
     
       
         <item>
-          <title>Gynveal's Mission 001&amp;#58; Szyfrowanie XORem</title>
+          <title>Gynveal&apos;s Mission 001&amp;#58; Szyfrowanie XORem</title>
           <description>&lt;h1 id=&quot;misje-gynvaela-coldwinda&quot;&gt;Misje Gynvaela Coldwinda&lt;/h1&gt;
 
 &lt;p&gt;Gynveal pracuje jako Security Engineer w Google oraz jest kapitanem jednej z topowych drużyn CTF Security na świecie. Napisał takie książki jak &lt;a href=&quot;https://zrozumiecprogramowanie.pl/#/mainPage&quot;&gt;Zrozumieć programowanie&lt;/a&gt; i &lt;a href=&quot;http://gynvael.coldwind.pl/?id=630&quot;&gt;Praktyczna Inżynieria Wsteczna&lt;/a&gt;. Prowadzi &lt;a href=&quot;http://gynvael.coldwind.pl/0&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/GynvaelEN&quot;&gt;anglojęzyczny kanał YouTube&lt;/a&gt; oraz &lt;a href=&quot;https://www.youtube.com/user/GynvaelColdwind&quot;&gt;polskojęzyczny kanał YouTube&lt;/a&gt;. W ramach tego ostatniego, realizuje cotygodniowe live streamy dotyczące programowania oraz bezpieczeństwa oprogramowania. Ostatnimi czasy, chcąc bardziej zaangażować swoich widzów zaczął udostępniać zadania do wykonania nawiązujące do tematyki odcinka. Okazują się one być bardzo ciekawe. Seria Gynveal’s Mission omawiać będzie moje realizacje zadań, pochodzących ze streamów Gynveala.&lt;/p&gt;
@@ -2553,7 +2866,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
   &lt;li&gt;1 słowo składa się z 7 bajtów.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Pamiętając o tym, że jest to tekst anglojęzyczny możemy wywnioskować, że jedyne jednoliterowe słowa występujące w języku angielskim to &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pamiętając o tym, że jest to tekst anglojęzyczny możemy wywnioskować, że jedyne jednoliterowe słowa występujące w języku angielskim to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; oraz &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Tablica prawdy XOR’a wygląda następująco:&lt;/p&gt;
 
@@ -2603,47 +2916,47 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;Taką zależność można zobrazować poniższym kodem:&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b111111&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b101001&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b010101&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mb&quot;&gt;0b111111&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mb&quot;&gt;0b101001&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mb&quot;&gt;0b010101&lt;/span&gt;
 
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111111&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101001&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10101&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b101010&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b111100&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c&quot;&gt;# 0b10110&lt;/span&gt;
-
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b111111
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b101001
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b10101
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;-&apos;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b101010
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b111100
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;-&apos;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# 0b10110
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 0b10110
+&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; przy założeniu, że jest to &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; lub &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt;. Tworzymy funkcję:&lt;/p&gt;
+&lt;p&gt;Dzięki powyższym faktom, możemy spróbować wyciągnąć wykorzystać słowo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; przy założeniu, że jest to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; lub &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;. Tworzymy funkcję:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Xor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex_letter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;chr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex_letter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; ze słowem &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;oraz tablicę, która posłuży nam do przechowywania klucza i umieszczamy w niej pierwszy bajt powstały przez XOR &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x1f&lt;/code&gt; ze słowem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Teraz tworzymy pętlę, która wyświetli nam na ekranie wszystkie z zaszyfrowanych słów odszyfrowanych przy użyciu klucza przechowywanego w tablicy &lt;code class=&quot;highlighter-rouge&quot;&gt;keys&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Teraz tworzymy pętlę, która wyświetli nam na ekranie wszystkie z zaszyfrowanych słów odszyfrowanych przy użyciu klucza przechowywanego w tablicy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keys&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
   &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;  
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
   &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
 
@@ -2651,7 +2964,7 @@ Tylko żaba pozostała na środku.&lt;/li&gt;
 
 &lt;p&gt;Wynik:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
 a
 0x17 0x99 
 i
@@ -2676,19 +2989,19 @@ l
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to &lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;. Podstawiamy te znaki do tablicy z kluczem i testujemy:&lt;/p&gt;
+&lt;p&gt;Jeżeli pierwszy znak naszego klucza jest poprawny to możemy założyć, że pierwsze trzyliterowe słowo to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;and&lt;/code&gt;. Podstawiamy te znaki do tablicy z kluczem i testujemy:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;n&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;d&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Wynik:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -2713,20 +3026,20 @@ lif
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko &lt;code class=&quot;highlighter-rouge&quot;&gt;the&lt;/code&gt;. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że &lt;code class=&quot;highlighter-rouge&quot;&gt;lif?&lt;/code&gt; może oznaczać &lt;code class=&quot;highlighter-rouge&quot;&gt;life&lt;/code&gt;. Podstawiamy do tablicy z kluczem:&lt;/p&gt;
+&lt;p&gt;Odszyfrowany fragment wygląda dobrze, ponieważ zawiera w pełni poprawne słówko &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;the&lt;/code&gt;. Wyszukujemy słowo w którym brakuje nam tylko jednej literki (ostatnie) i domyślamy się, że &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lif?&lt;/code&gt; może oznaczać &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;life&lt;/code&gt;. Podstawiamy do tablicy z kluczem:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;n&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;d&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Tym razem, wynik zawiera poprawnie odszyfrowane słówko &lt;code class=&quot;highlighter-rouge&quot;&gt;walk&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Tym razem, wynik zawiera poprawnie odszyfrowane słówko &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;walk&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -2751,22 +3064,22 @@ life
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Skupiamy się na słowach sześcioznakowych i początku &lt;code class=&quot;highlighter-rouge&quot;&gt;you'&lt;/code&gt;. Można zaryzykować, że chodzi o &lt;code class=&quot;highlighter-rouge&quot;&gt;you're&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Skupiamy się na słowach sześcioznakowych i początku &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;you&apos;&lt;/code&gt;. Można zaryzykować, że chodzi o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;you&apos;re&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;n&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;d&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;r&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Wynik:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -2791,23 +3104,23 @@ life
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Do końcu słówka &lt;code class=&quot;highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Do końcu słówka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;throug&lt;/code&gt; dodajemy literkę &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;t&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'e'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;n&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;d&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;r&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;t&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;dzięki czemu otrzymujemy w pełni odszyfrowany tekst:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x1f 0x91 0x11 
 and
 0x17 0x99 
 if
@@ -2834,15 +3147,15 @@ life
 
 &lt;p&gt;Możemy teraz odczytać pierwsze 7 bajtów klucza:&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Key: '&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Key: &apos;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;wynik-rozwiązania&quot;&gt;Wynik rozwiązania&lt;/h1&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Encrypted text:
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Encrypted text:
 1f9111 1799 0790001226d8 0a9e1e5c3ada 1f 099e195e 0a97075a21dac1 0a9710 199e075131d3 1199 12961350
 
 Key: 
@@ -3123,22 +3436,22 @@ and if you`re taking a walk throught the garden of life
 &lt;p&gt;Realizacja, w formie dość proceduralnego kodu:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_issues_from_jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JIRA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'domain'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'username'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JIRA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;domain&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;username&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     
-        &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project='{0}' ORDER BY created DESC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_key'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project=&apos;{0}&apos; ORDER BY created DESC&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;project_key&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_issues_to_toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TogglPy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setAPIKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'token'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/projects/{0}/tasks'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TogglPy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setAPIKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;token&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;https://www.toggl.com/api/v8/projects/{0}/tasks&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;project_id&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
     
         &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
         &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
@@ -3146,40 +3459,40 @@ and if you`re taking a walk throught the garden of life
         &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key_last_idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;id&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;issue_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     
-        &lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
     
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
             &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
             &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;&apos;task&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
             &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'pid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'project_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'wid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'workspace_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;task&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;task&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;pid&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;project_id&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;task&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;wid&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;workspace_id&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     
             &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
                 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;        
                     &lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Updating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;putRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks/{0}'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Updating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;ascii&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;ignore&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;putRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;https://www.toggl.com/api/v8/tasks/{0}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggl_issues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
             &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
                 &lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Creating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ascii'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ignore'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.toggl.com/api/v8/tasks'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Creating [{0}/{1}] {2} {3}.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;ascii&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;ignore&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jira_issues_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jira_summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;toggl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;https://www.toggl.com/api/v8/tasks&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     
         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of created Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Number of updated Toggl tasks: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updated_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Ustawienia konfiguracyjne są ładowane z pliku &lt;code class=&quot;highlighter-rouge&quot;&gt;config.py&lt;/code&gt;. Została dodana możliwość uruchamiania skryptu z argumentem &lt;code class=&quot;highlighter-rouge&quot;&gt;--maxResults&lt;/code&gt; w celu uniknięcia pobierania kompletu zadań przy każdym wykonaniu kodu.&lt;/p&gt;
+&lt;p&gt;Ustawienia konfiguracyjne są ładowane z pliku &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.py&lt;/code&gt;. Została dodana możliwość uruchamiania skryptu z argumentem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--maxResults&lt;/code&gt; w celu uniknięcia pobierania kompletu zadań przy każdym wykonaniu kodu.&lt;/p&gt;
 
-&lt;p&gt;Ciekawostka, na którą się natknąłem to problem z przeprocesowaniem stringu, w którym występują pewne znaki ascii, pojawiający się w momencie wykorzystania interpolacji, który nie występował podczas łączenia stringów plusikiem. Kłopot został ominięty dzięki metodzie &lt;code class=&quot;highlighter-rouge&quot;&gt;decode('ascii', 'ignore')&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Ciekawostka, na którą się natknąłem to problem z przeprocesowaniem stringu, w którym występują pewne znaki ascii, pojawiający się w momencie wykorzystania interpolacji, który nie występował podczas łączenia stringów plusikiem. Kłopot został ominięty dzięki metodzie &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;decode(&apos;ascii&apos;, &apos;ignore&apos;)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;wnioski-i-cele&quot;&gt;Wnioski i cele&lt;/h1&gt;
 
