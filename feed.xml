@@ -10,13 +10,13 @@
           <title>Does Product Mindset Leave The Space For Services?</title>
           <description>&lt;h1 id=&quot;does-the-product-mindset-leave-the-space-for-services&quot;&gt;Does The Product Mindset Leave The Space For Services?&lt;/h1&gt;
 
-&lt;p&gt;Last year, I wrote an article about &lt;a href=&quot;https://rmakara.github.io/End-users-pain-How-web-dev-and-Scrum-destroy-engineers&quot;&gt;Scrum and web development destroying development teams because of separating them from the end users&lt;/a&gt;. What I experienced after writing that one was that there are just a few people who had an opportunity to work in different setups differentiated by the distance to the customers and the business. I spent some time jumping between &lt;a href=&quot;https://rmakara.github.io/Stress-and-metrics-in-tech-companies&quot;&gt;service companies, product companies, and business companies&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last year, I wrote an article about &lt;a href=&quot;https://rmakara.github.io/End-users-pain-How-web-dev-and-Scrum-destroy-engineers&quot;&gt;Scrum and web development destroying development teams because of separating them from the end users&lt;/a&gt;. What I experienced after writing that one was that there are just a few people who had an opportunity to work in different setups differentiated by the distance to the users and the business. I spent some time jumping between &lt;a href=&quot;https://rmakara.github.io/Stress-and-metrics-in-tech-companies&quot;&gt;service companies, product companies, and business companies&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In this article I use the following phrases:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Services Company - the company, which sells the service of design and coding in a time&amp;amp;materials manner.&lt;/li&gt;
   &lt;li&gt;Product Company - the company, which builds the digital product, that they sell.&lt;/li&gt;
-  &lt;li&gt;Business Company - the company, which sells non-digital products/services, but they do that with the use of technology.&lt;/li&gt;
+  &lt;li&gt;Business Company - the company, which sells non-digital stuff, but they do that with the use of technology.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-product-mindset-delivers-value-and-empowers-engineers&quot;&gt;The Product Mindset delivers value and empowers engineers&lt;/h2&gt;
@@ -51,9 +51,9 @@
 
 &lt;h3 id=&quot;lowering-the-seniority-median&quot;&gt;Lowering the seniority median&lt;/h3&gt;
 
-&lt;p&gt;That might cause a similar effect, which is happening in service companies. The more people = the lower entry-level = the lower the percentage of experienced engineers = the faster the promotions. Due to this disproportion of junior to senior people, it will be hard to support the new generation of developers with proper guidance and coaching. Most of them will end up in service companies coding the Jira tickets described by the product owner for the users they will never see.&lt;/p&gt;
+&lt;p&gt;Exponential growth of the number of programmers might cause a similar effect, which is happening in service companies when these want to scale up. The more people = the lower entry-level = the lower the percentage of experienced engineers = the faster the promotions. Due to this disproportion of junior to senior people, it will be hard to support the new generation of developers with proper guidance and coaching. Most of them will end up in service companies coding the Jira tickets described by the product owner, they will code stuff for the users they will never see.&lt;/p&gt;
 
-&lt;p&gt;And it is not that bad. Talent acquisition for the big players is super challenging and it will be more challenging. Simply put - there are not be enough engineers to deliver the needs. As a result, many companies look for the team extension in the services/outsourcing model for software delivery.&lt;/p&gt;
+&lt;p&gt;And it is not that bad. Talent acquisition for the big players is super challenging. Simply put - there are no enough engineers to deliver the needs. As a result, many companies look for the team extension in the services/outsourcing model for software delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;shall-we-get-rid-of-service-companies&quot;&gt;Shall we get rid of service companies?&lt;/h2&gt;
 
@@ -65,7 +65,7 @@
 
 &lt;p&gt;It is very unlikely to happen that the service companies will disappear and all the people will move closer to the end-users and business by moving to product and business companies. There is a huge space for team extension in environments working on complex products as well as a huge space for delivery teams for the applications in well-known domains, which do not require strong discovery skills. Based on the knowledge from books like &lt;a href=&quot;https://teamtopologies.com/&quot;&gt;Team Topologies&lt;/a&gt;, some companies started to play around with structures, that enable them to create an in-house product team working on the core differentiator of the product/service, that they offer and outsource the rest.&lt;/p&gt;
 
-&lt;p&gt;Sad truth is, there are projects, which just need to be delivered. Pretty often the key metric which is being optimized in such cases is that there is a manager in the company of your client, who promised something to the bosses. And that’s it. Many organizations measure success on just the delivery of the promise. There might not be a space for the product mindset as long as the sponsor doesn’t want or doesn’t know how to create it.&lt;/p&gt;
+&lt;p&gt;Sad truth is, there are projects, which just need to be delivered. Pretty often the key metric which is being optimized in such cases is that there is a manager in the company of your client, who promised something to the bosses. And that’s it. Many organizations measure success on just the delivery of the promise. There might not be a space for the product mindset as long as the sponsor doesn’t want or doesn’t know how to create it. Sponsor pushes for the delivery, service companies push for the money, pretty often noone pushes for the value.&lt;/p&gt;
 
 &lt;p&gt;We’re a young industry and it will be getting shaped in the next years.&lt;/p&gt;
 
@@ -81,11 +81,11 @@
 
 &lt;h3 id=&quot;cost-of-delay-vs-long-term-quality-of-the-product&quot;&gt;Cost of delay vs long-term quality of the product&lt;/h3&gt;
 
-&lt;p&gt;Could the sponsor switch the approach from using the services of 5 programming service companies to an in-house built truly empowered teams? In theory, they could. In practice, it may take years to build the in-house team to deliver something at that scale. Especially, taking into consideration the pressure being created from the top of the organization. Many existing and successful companies can’t afford the cost of delay due to competing in a highly competitive (and pretty often commoditized) market.&lt;/p&gt;
+&lt;p&gt;Could the sponsor switch the approach from using the services of 5 programming service companies to in-house built truly empowered teams? In theory, they could. In practice, it may take years to build the in-house team to deliver something at that scale. Especially, taking into consideration the pressure being created from the top of the organization. Many existing and successful companies can’t afford the cost of delay due to competing in a highly competitive (and pretty often commoditized) market.&lt;/p&gt;
 
 &lt;p&gt;Why they do not let 5 service companies work on the outcomes? It doesn’t make sense to let people, who have never seen the business or end-users make the decisions. They cannot fully understand the product strategy, nor the business strategy.&lt;/p&gt;
 
-&lt;p&gt;Is it possible that service companies would become part of the sponsor company to become truly empowered? Yes, it is possible. There are a few companies even in Poland, which achieved that state. However, from my experience in such scenarios, the demand for software engineering is pretty small. Successful service companies, that managed to achieve that are white ravens. Maybe I am just not experienced enough to imagine how that could work at a huge scale complex system.&lt;/p&gt;
+&lt;p&gt;Is it possible that service companies would become part of the sponsor company to become truly empowered? Yes, it is possible. There are a few companies even in Poland, which achieved that state. However, from my experience in such scenarios, the demand for software engineering is pretty small. Successful service companies, that managed to achieve that are white ravens. But, maybe I am just not experienced enough to imagine how that could work at a huge scale complex system.&lt;/p&gt;
 
 &lt;p&gt;For many sponsor companies, the trade-off is about choosing speed or quality. Choosing quality especially in corporate environments might be hard. The leaders need to make tough decisions to balance these 2 aspects.&lt;/p&gt;
 
@@ -97,7 +97,7 @@
 
 &lt;p&gt;Usually, the job of the service companies is to deliver and to bring design and programming kind of expertise.&lt;/p&gt;
 
-&lt;p&gt;In the majority of the cases, this setup leads to unsatisfying outcomes, a lack of empowerment, and a lower level of engagement. However, due to the lack of engineers in the world and the rising demand for the software &lt;strong&gt;maybe we need to come up with the methodologies, that will allow this structure to create an empowered environment&lt;/strong&gt;? Maybe the new buzzword of product mindset services company will appear?&lt;/p&gt;
+&lt;p&gt;In the majority of the cases, this setup leads to unsatisfying outcomes, a lack of empowerment, and a lower level of engagement. However, due to the lack of engineers in the world and the rising demand for the software &lt;strong&gt;maybe we need to come up with the methods, that will allow this structure to create an empowered environment&lt;/strong&gt;? Maybe the new buzzword of product mindset services company will appear?&lt;/p&gt;
 
 &lt;h2 id=&quot;the-key-is-acceptance-and-education&quot;&gt;The key is acceptance and education&lt;/h2&gt;
 
