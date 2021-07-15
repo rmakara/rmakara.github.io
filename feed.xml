@@ -253,7 +253,7 @@
 
 &lt;p&gt;What’s important, each company type should apply a slightly different approach to performance measurement.&lt;/p&gt;
 
-&lt;h2 id=&quot;services-company&quot;&gt;Services Company&lt;/h2&gt;
+&lt;h2 id=&quot;type-a-services-company&quot;&gt;Type A: Services Company&lt;/h2&gt;
 
 &lt;p&gt;In Poland, we call it - software houses (did you know: this term is not widely used abroad?).&lt;/p&gt;
 
@@ -280,7 +280,7 @@
   &lt;li&gt;&lt;em&gt;“The go-live date was set for this month. We must deliver it ASAP.”&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;tech-product-company&quot;&gt;Tech product company&lt;/h2&gt;
+&lt;h2 id=&quot;type-b-tech-product-company&quot;&gt;Type B: Tech Product Company&lt;/h2&gt;
 
 &lt;p&gt;If you are building a tech product, then the users are your clients. The users have expectations. They chose your product, and they believe that you will be the best to fulfill their needs. In the case of small SaaS, they may pay you hundreds of dollars or, in the case of big platforms, millions of dollars.&lt;/p&gt;
 
@@ -323,7 +323,7 @@
   &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Tech product companies, which build safety-critical systems for taking care of human lives may experience it differently.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;business-company&quot;&gt;Business company&lt;/h2&gt;
+&lt;h2 id=&quot;type-c-business-company&quot;&gt;Type C: Business Company&lt;/h2&gt;
 
 &lt;p&gt;This company earns money using tech. Tech is the enabler. Let’s consider a furniture production company that uses many systems like ERP, MRP, WMS, eCommerce, CRM, PIM, POS, 3D modeling, and more. The company doesn’t see the tech as the cost place but rather as a part of their business.&lt;/p&gt;
 
