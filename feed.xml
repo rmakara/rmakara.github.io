@@ -7,6 +7,109 @@
     
       
         <item>
+          <title>Discovery Workshop for PWr Students</title>
+          <description>&lt;h2 id=&quot;info-for-non-pwr-students&quot;&gt;Info for Non-PWr Students&lt;/h2&gt;
+
+&lt;p&gt;On 2021-10-19, I gave pre-recorded lecture on Discovery Workshops to PWr students. Unfortunately, I was not able to do it live because I was sick and I lost my voice.&lt;/p&gt;
+
+&lt;p&gt;This article is a collection of resources to fulfil my presentation.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-you-do-right-now&quot;&gt;What can you do right now?&lt;/h2&gt;
+
+&lt;p&gt;If you listened to my lecture then I encourage you to work on your own project in this way. You can perform Competitive Analysis, Segment Your Customers, then open Miro and proceed with Product Vision, Unfair Advantage, Proto-Persona, Journey Mapping, User Story Mapping and Prioritization.&lt;/p&gt;
+
+&lt;p&gt;Below you may find some resources for each step.&lt;/p&gt;
+
+&lt;p&gt;After that (or in the middle) you can msg me on &lt;a href=&quot;https://www.linkedin.com/in/rafalmakara/&quot;&gt;LinkedIn&lt;/a&gt; to ask questions. I will be super happy to answer.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;h3 id=&quot;how-to-be-an-awesome-developer&quot;&gt;How to be an awesome developer?&lt;/h3&gt;
+
+&lt;p&gt;Go to YouTube and find presentations made by Wojciech Seliga. You can simply click &lt;a href=&quot;https://www.youtube.com/results?search_query=wojciech+seliga&quot;&gt;here&lt;/a&gt;. I encourage you to watch all Wojtek’s presentations from 2012 to 2018.&lt;/p&gt;
+
+&lt;h3 id=&quot;cynefin-framework&quot;&gt;Cynefin Framework&lt;/h3&gt;
+
+&lt;p&gt;Watch this &lt;a href=&quot;https://www.youtube.com/watch?v=N7oz366X0-8&quot;&gt;YouTube video on Cynefin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;competitive-analysis&quot;&gt;Competitive Analysis&lt;/h3&gt;
+
+&lt;p&gt;Just ask if there are any competitors on the market with similar idea to yours. If so, try to use their experiences. Analyze their products.&lt;/p&gt;
+
+&lt;p&gt;However, you may be really innovating, which means you may work on Blue Ocean product. Then it will be super hard to proceed with Competitive Analysis. In this scenario, you can understand what it means to be in the Blue Ocean by watching this video - &lt;a href=&quot;https://www.youtube.com/watch?v=sYdaa02CS5E&quot;&gt;https://www.youtube.com/watch?v=sYdaa02CS5E&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;customer-segmentation&quot;&gt;Customer Segmentation&lt;/h3&gt;
+
+&lt;p&gt;Your product will be used by people. Try to think about them. Maybe you can group them into a few separate segments? It will help you understand the differences between them and create much better final solution, which is going to meet their expectations.&lt;/p&gt;
+
+&lt;h3 id=&quot;product-vision&quot;&gt;Product Vision&lt;/h3&gt;
+
+&lt;p&gt;To work on that you can use template from Radical Product available in their toolkit - &lt;a href=&quot;https://www.radicalproduct.com/toolkit/&quot;&gt;https://www.radicalproduct.com/toolkit/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;unfair-advantage&quot;&gt;Unfair Advantage&lt;/h3&gt;
+
+&lt;p&gt;This is additional step, which may help you focus on the biggest advantage that you would like to provide in comparision to your another existing solutions. What’s the ONE thing that you want to do better than everyone else does?&lt;/p&gt;
+
+&lt;h3 id=&quot;simplified-value-stream&quot;&gt;Simplified Value Stream&lt;/h3&gt;
+
+&lt;p&gt;In that case, do not focus too much on theory that you may find on Google. Just take a paper and try to draw people and systems, who exchange information in the domain that you would like to build a solution for.&lt;/p&gt;
+
+&lt;p&gt;Try to understand very big picture. Use icons, avatars, logos to paint the process.&lt;/p&gt;
+
+&lt;h3 id=&quot;proto-personas&quot;&gt;Proto-personas&lt;/h3&gt;
+
+&lt;p&gt;Personas are great. This is one of the best tools you can imagine. However, performing high quality user research is very expensive. For your own projects maybe it will be enough to ideate on some imaginary person, who will be using your product.&lt;/p&gt;
+
+&lt;p&gt;Try to get into their shoes and uderstand the pain points, which they have. List the pain points down.&lt;/p&gt;
+
+&lt;h3 id=&quot;journey-mapping&quot;&gt;Journey Mapping&lt;/h3&gt;
+
+&lt;p&gt;Map the process, that the persona lives in. Your solution will be the part of it.&lt;/p&gt;
+
+&lt;p&gt;If you get understanding of what’s happening in the beggining and at the end - it will enable you to build better product for your users. Do not narrow your perspective only to the part, which is going to be directly covered by your product.&lt;/p&gt;
+
+&lt;p&gt;This is not a list of features! This is a list of activities, which your persona does when they want to get the job done.&lt;/p&gt;
+
+&lt;p&gt;Finish this step by drawing a rectangle to highlight an area in the process, that you would like to create your solution for.&lt;/p&gt;
+
+&lt;h3 id=&quot;event-storming&quot;&gt;Event Storming&lt;/h3&gt;
+
+&lt;p&gt;This is a method, which may help to understand more complex problems. I do not want to ellaborate on it today. You can skip it. However, if yoy would like to learn mor then go to this page - &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;https://github.com/mariuszgil/awesome-eventstorming&lt;/a&gt;. Btw, maintainer of this repository is from Wroclaw! :)&lt;/p&gt;
+
+&lt;h3 id=&quot;user-story-mapping&quot;&gt;User Story Mapping&lt;/h3&gt;
+
+&lt;p&gt;This step is entirely about your product. Map the process, that you will be building. List down the storis at each step.&lt;/p&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;https://www.jpattonassociates.com/story-mapping/&quot;&gt;https://www.jpattonassociates.com/story-mapping/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;prioritization&quot;&gt;Prioritization&lt;/h3&gt;
+
+&lt;p&gt;Use user story map to define 1st testable increment and MVP.&lt;/p&gt;
+
+&lt;p&gt;Leave everything else in the backlog at the bottom of user story map.&lt;/p&gt;
+
+&lt;p&gt;Remember, the most important elements go on top of the map.&lt;/p&gt;
+
+&lt;h3 id=&quot;take-a-break-and-start-your-project&quot;&gt;Take a break and start your project&lt;/h3&gt;
+
+&lt;p&gt;Go for a walk. Think about it. Get back to the computer and work with your colleagues on building this awesome product!&lt;/p&gt;
+
+&lt;h2 id=&quot;want-to-ask-rafal-a-question&quot;&gt;Want to ask Rafal a question?&lt;/h2&gt;
+
+&lt;p&gt;I will be happy to answer your questions via LinkedIn. Add me to your LinkedIn connections and simply ask whatever you want. Maybe even we can have a call after I get my voice back?&lt;/p&gt;
+
+&lt;p&gt;Do not forget to say “Hi!” to Maciej and Mieszko during the hackathon! :)&lt;/p&gt;
+
+&lt;p&gt;Good luck! :)&lt;/p&gt;
+</description>
+          <pubDate>2021-10-18T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Discovery-Workshop-for-PWr-Students</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Discovery-Workshop-for-PWr-Students</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Why do I hate Unlimited PTO?</title>
           <description>&lt;h1 id=&quot;why-do-i-hate-unlimited-pto&quot;&gt;Why do I hate Unlimited PTO?&lt;/h1&gt;
 
