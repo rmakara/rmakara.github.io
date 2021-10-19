@@ -82,11 +82,11 @@
 
 &lt;h3 id=&quot;event-storming&quot;&gt;Event Storming&lt;/h3&gt;
 
-&lt;p&gt;This is a method, which may help to understand more complex problems. I do not want to ellaborate on it today. You can skip it. However, if yoy would like to learn mor then go to this page - &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;https://github.com/mariuszgil/awesome-eventstorming&lt;/a&gt;. Btw, maintainer of this repository is from Wroclaw! :)&lt;/p&gt;
+&lt;p&gt;This is a method, which may help to understand more complex problems. I do not want to ellaborate on it today. You can skip it. However, if you would like to learn more then go to this page - &lt;a href=&quot;https://github.com/mariuszgil/awesome-eventstorming&quot;&gt;https://github.com/mariuszgil/awesome-eventstorming&lt;/a&gt;. Btw, maintainer of this repository is from Wroclaw! :)&lt;/p&gt;
 
 &lt;h3 id=&quot;user-story-mapping&quot;&gt;User Story Mapping&lt;/h3&gt;
 
-&lt;p&gt;This step is entirely about your product. Map the process, that you will be building. List down the storis at each step.&lt;/p&gt;
+&lt;p&gt;This step is entirely about your product. Map the process, that you will be building. List down the stories for each step.&lt;/p&gt;
 
 &lt;p&gt;More info: &lt;a href=&quot;https://www.jpattonassociates.com/story-mapping/&quot;&gt;https://www.jpattonassociates.com/story-mapping/&lt;/a&gt;.&lt;/p&gt;
 
@@ -97,6 +97,8 @@
 &lt;p&gt;Leave everything else in the backlog at the bottom of user story map.&lt;/p&gt;
 
 &lt;p&gt;Remember, the most important elements go on top of the map.&lt;/p&gt;
+
+&lt;p&gt;If you want to learn more about prioritization methods, check: HiPPO, ICE, Cost of Delay, Impact/Effort.&lt;/p&gt;
 
 &lt;h3 id=&quot;take-a-break-and-start-your-project&quot;&gt;Take a break and start your project&lt;/h3&gt;
 
