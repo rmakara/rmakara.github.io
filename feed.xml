@@ -7,6 +7,44 @@
     
       
         <item>
+          <title>Make it easy for others to disagree with us</title>
+          <description>&lt;p&gt;When we speak publicly, we add &lt;em&gt;“in my opinion/context/experience”&lt;/em&gt; statements. It blocks others from disagreeing with us. Our image remains safe. At some point, this statement becomes painful to listen to.&lt;/p&gt;
+
+&lt;p&gt;Let’s say it works for &lt;em&gt;“non-real-work”&lt;/em&gt; or &lt;em&gt;“brainstorming”&lt;/em&gt; or &lt;em&gt;“discussions”&lt;/em&gt;. However, it provides quite a low value for &lt;em&gt;“decisions”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In decision-making process, we want to make it easy for others to disagree with us.&lt;/p&gt;
+
+&lt;p&gt;We want more of &lt;em&gt;“Given the facts … I see pros/opportunities … and cons/risks …, I make the following assumptions … I bet the best step is to …”&lt;/em&gt;, which looks like &lt;a href=&quot;https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/&quot;&gt;RFC doc (Request For Comments)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, consider silence as disagreement.&lt;/p&gt;
+
+&lt;p&gt;Then, we may experiment with a bet and succeed or fail.&lt;/p&gt;
+</description>
+          <pubDate>2022-02-01T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Make-it-easy-for-others-to-disagree-with-us</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Make-it-easy-for-others-to-disagree-with-us</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Respect the need of stability</title>
+          <description>&lt;p&gt;In &lt;a href=&quot;https://radicalcandor.com/&quot;&gt;Radical Candor&lt;/a&gt;, there’s a concept of &lt;a href=&quot;https://www.radicalcandor.com/growth-and-stability/&quot;&gt;Growth/Stability Trajectories&lt;/a&gt;, which (imo) expands the idea of Growth/Fixed Mindsets very well.&lt;/p&gt;
+
+&lt;p&gt;While Mindset may put a long-lived label on a person, Trajectories are temporary and refer more to decisions made by a person in a specific period.&lt;/p&gt;
+
+&lt;p&gt;This is what I tend to forget from time to time. Luckily, there were a few developers, who reminded me of it months ago.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://critter.blog/2022/01/19/dont-force-growth-on-people/&quot;&gt;Article by Mike Crittenden: Don’t force growth on people&lt;/a&gt; is the next reminder, that I’ve found.&lt;/p&gt;
+</description>
+          <pubDate>2022-01-23T00:00:00+01:00</pubDate>
+          <link>https://rmakara.github.io//Respect-the-need-of-stability</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Respect-the-need-of-stability</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Discovery Workshop for PWr Students</title>
           <description>&lt;h2 id=&quot;info-for-non-pwr-students&quot;&gt;Info for Non-PWr Students&lt;/h2&gt;
 
