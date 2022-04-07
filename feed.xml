@@ -7,6 +7,95 @@
     
       
         <item>
+          <title>Shape Up, When not to follow the book</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is the 2nd article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;how-do-we-learn-and-obtain-mastery&quot;&gt;How do we learn and obtain mastery?&lt;/h2&gt;
+
+&lt;p&gt;A widely shared example says that when you do not know how to cook and need to prepare spaghetti, you look for the recipe on the Internet and follow it.&lt;/p&gt;
+
+&lt;p&gt;After a few times, you start experimenting with other ingredients. You become better and better. After many years, you cook it in your way and get a Michelin Star.&lt;/p&gt;
+
+&lt;p&gt;All frameworks like Scrum or Shape Up are such recipes. It is a set of basic knowledge, which most likely will make your team more performant than when working without any idea how to organize.&lt;/p&gt;
+
+&lt;p&gt;In applying all of these, you may fall into two extremes.&lt;/p&gt;
+
+&lt;h3 id=&quot;extreme-of-by-the-book&quot;&gt;Extreme of By-The-Book&lt;/h3&gt;
+
+&lt;p&gt;You may blindly apply all of the rules from the guide without taking your company, teams, current state and constraints under consideration. If a single rule is not used, then there is a person to say &lt;em&gt;“It is not real &amp;lt;methodology/framework&amp;gt; because we do not do X”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Such an approach will not solve all the problems that you have. Of course, it may solve some of these but also will create new ones.&lt;/p&gt;
+
+&lt;h3 id=&quot;extreme-of-skip-the-book&quot;&gt;Extreme of Skip-The-Book&lt;/h3&gt;
+
+&lt;p&gt;On the other hand, you may find yourself over-confident or over-complaining. If you are in a group of people saying &lt;em&gt;“this is not going to work for our company”&lt;/em&gt; or &lt;em&gt;“I know better and this book is stupid”&lt;/em&gt; then it is worth finding some counterpart for your discussions. You might be burnt out, tired or biased.&lt;/p&gt;
+
+&lt;p&gt;Even if some methodology is stupid, you most likely may find a few learnings in it that you might apply in your context.&lt;/p&gt;
+
+&lt;h3 id=&quot;common-sense-is-the-right-way-to-go&quot;&gt;Common Sense is the right way to go&lt;/h3&gt;
+
+&lt;p&gt;Your experiences, past failures and successes, feelings, thinking abilities, and colleagues are your common sense. For successful and smooth implementation you need to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Imagine how you may work in X weeks/months/years. Call it a vision.&lt;/li&gt;
+  &lt;li&gt;Plan how you and your colleagues can go through this journey to get there. Call it a strategy.&lt;/li&gt;
+  &lt;li&gt;Find your way for experimentation to make it safe to fail.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Success lies in-between two extremes mentioned above. Usually, if you are less experienced, you should follow most of the rules. If you are more experienced, you need to balance your over-confidence and biases, but most likely, you will be able to find a much better path for your company than when blindly following a single guide.&lt;/p&gt;
+
+&lt;h2 id=&quot;apply-your-knowledge-from-the-other-areas&quot;&gt;Apply your knowledge from the other areas&lt;/h2&gt;
+
+&lt;p&gt;If you are getting into the new topic, that’s quite natural to use your other skills and knowledge within’ the new methods. That’s totally fine to fill Shape Up’s framework with other techniques that you find useful.&lt;/p&gt;
+
+&lt;h3 id=&quot;inspiration-from-software-developers&quot;&gt;Inspiration from Software Developers&lt;/h3&gt;
+
+&lt;p&gt;A long time ago, there was a joke in the PHP community about Symfony Docs showing how to put all the business and persistence logic inside Controllers.&lt;/p&gt;
+
+&lt;p&gt;However, this is not how you use the programming language/framework after you get some experience. You use the documentation, but you do not apply 100% of the available statements to make your project work. You use your common sense to use only the parts of the language which will help you achieve the desired result. Experienced PHP engineers knew that.&lt;/p&gt;
+
+&lt;p&gt;Let’s learn from them and not make management a 0-1 game.&lt;/p&gt;
+
+&lt;h3 id=&quot;inspiration-from-pmbok-book&quot;&gt;Inspiration from PMBOK book&lt;/h3&gt;
+
+&lt;p&gt;In 2015, I spent five days to learn the theory on Scrum from scratch to pass my PSM  exam. I thought Agile rocks and Project Management does not.&lt;/p&gt;
+
+&lt;p&gt;Then a few years later, I took a training on PMBOK. Trainer said that PMBOK is not a strict set of rules that you need to follow. You use it as an encyclopedia. You face a specific challenge, you choose tools and then use the book to ensure that you do not forget something that has already been tested thousands of times in the world. Once you read it, it is up to you how you are going to use it.&lt;/p&gt;
+
+&lt;p&gt;Experiences from the Project Management Body of Knowledge might help you in the Shape Up journey.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-steps-with-shape-up&quot;&gt;First steps with Shape Up&lt;/h2&gt;
+
+&lt;p&gt;We went through the theory on - thinking about what we are doing. But where to start?&lt;/p&gt;
+
+&lt;p&gt;Basecamp recommends their set of &lt;a href=&quot;https://basecamp.com/shapeup/4.1-appendix-02&quot;&gt;Basic truths for Shape You&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My recommendation for 6-20 people big teams would be to start by focusing on:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Explicitly separating Shaping and Building.&lt;/li&gt;
+  &lt;li&gt;Setting the Appetite for the Shapes.&lt;/li&gt;
+  &lt;li&gt;Using shorter Cycles than 6+2 for the first two or three Cycles. Like 3+1 or 4+1.&lt;/li&gt;
+  &lt;li&gt;Respecting the Cooldown.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you set this up, you may start filling its frames and improve iteration by iteration.&lt;/p&gt;
+
+&lt;p&gt;Do not apply 100% of the book on the very first day.&lt;/p&gt;
+
+&lt;p&gt;If you are in big organization, then you may start with 1 or 2 teams working this way.&lt;/p&gt;
+
+&lt;p&gt;In the next article, we will take a look at &lt;a href=&quot;#&quot;&gt;Shaping vs Building&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>2022-04-07T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-When-not-to-follow-the-book</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-When-not-to-follow-the-book</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Introduction</title>
           <description>&lt;p&gt;Shape Up is the book written by &lt;a href=&quot;https://world.hey.com/rjs&quot;&gt;Ryan Singer&lt;/a&gt;. It is a product development methodology.&lt;/p&gt;
 
@@ -30,7 +119,7 @@
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;When not to follow the book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rmakara.github.io/Shape-Up-When-not-to-follow-the-book&quot;&gt;When not to follow the book&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Shaping vs Building&lt;/li&gt;
   &lt;li&gt;Building:
     &lt;ol&gt;
