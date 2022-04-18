@@ -7,6 +7,192 @@
     
       
         <item>
+          <title>Shape Up, Who does the Shaping?</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is the 4th article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;who-does-the-shaping&quot;&gt;Who does the Shaping?&lt;/h2&gt;
+
+&lt;p&gt;The most common question for the Shaping phase is who does the Shaping. Basecamp answers this question in &lt;a href=&quot;https://basecamp.com/shapeup/1.1-chapter-02#who-shapes&quot;&gt;Who Shapes&lt;/a&gt; chapter of the book.&lt;/p&gt;
+
+&lt;p&gt;The conclusion that we may see is to involve someone aware of the design, business, and technicals. It usually leads to building a group of people who can collaborate to create the following pitches. To set the Appetite, there should also be someone empowered to set the concrete level of investment into some specific Shape/Pitch.&lt;/p&gt;
+
+&lt;p&gt;From my perspective, the composition of the Shapers may differ. Here’s how.&lt;/p&gt;
+
+&lt;h3 id=&quot;board--founder--leader-does-the-shaping&quot;&gt;Board / Founder / Leader does the Shaping&lt;/h3&gt;
+
+&lt;p&gt;In early-stage companies, usually, there is a Product Leader / Chief Product Officer who will be strongly involved in the Shaping process. In many organizations, this person will be the only one to have the authority to make the calls on the following features to implement.&lt;/p&gt;
+
+&lt;p&gt;The good thing about that is that it lowers the need to involve the whole team in the discovery process and doesn’t create the need to educate everyone with the domain knowledge. Ouch, stop! Writers of the most modern books would blame me for that, but yes… I think this approach is ok in many cases.&lt;/p&gt;
+
+&lt;p&gt;However, there are two main drawbacks of this approach.&lt;/p&gt;
+
+&lt;p&gt;The first one is that once the organization gets bigger, the CPO becomes a bottleneck for everyone else.&lt;/p&gt;
+
+&lt;p&gt;The second one is that it produces a team of people focused on just the delivery. To understand this topic more widely, you can refer to &lt;a href=&quot;https://www.svpg.com/missionaries-vs-mercenaries/&quot;&gt;Missionaries vs Mercaneries by Marty Cagan&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;product-trio-does-the-shaping&quot;&gt;Product Trio does the Shaping&lt;/h3&gt;
+
+&lt;p&gt;Once your company evolves, you may take another approach, which doesn’t narrow the Shaping process to just a single person. There is an idea of the Product Trio in &lt;a href=&quot;https://www.producttalk.org/2021/05/continuous-discovery-habits/&quot;&gt;Continuous Discovery Habits book by Teresa Torres&lt;/a&gt; in [Continuous Discovery Habits book. It is quite similar to &lt;a href=&quot;https://www.agilealliance.org/glossary/three-amigos/&quot;&gt;Three Amigos&lt;/a&gt; popularized in Scrum. Both views are about bringing different perspectives together and letting them collaborate.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.producttalk.org/2021/05/product-trio/&quot;&gt;Product Trio&lt;/a&gt; is built by the Product Manager, Engineer and Designer. These people might be a “Head/Chief Level”, but do not have to.&lt;/p&gt;
+
+&lt;h3 id=&quot;everyone-does-the-shaping&quot;&gt;Everyone does the Shaping&lt;/h3&gt;
+
+&lt;p&gt;The third approach is to let everyone at the company write Shapes/Pitches. This step usually raises involvement on all levels within the organization. It may surprise you with many valuable ideas that you may get from people.&lt;/p&gt;
+
+&lt;p&gt;To make this approach successful, it is mandatory providing everyone with a Product Vision and Strategy. Without sharing the strategic context with them, the likelyhood of shaping something irrelevant to your strategic goals is relatively high. If you reject many of these ideas during the betting table while choosing your own ones, people will get demotivated and stop participating in any discovery activities.&lt;/p&gt;
+
+&lt;p&gt;Once you share the context and strategy with them, it is worth creating the space for the Shaping. Most likely, Builders will not have the time to write the Pitches during the Building Phase. Of course, they may try to do that during the Cooldown phases.&lt;/p&gt;
+
+&lt;p&gt;Also, many people will have great ideas, but they’ll not be willing to write that down just because they might not be the best writers. In such a case, you can share a simple Google Form with everyone asking them to describe their idea in 2 sentences and recommend the Appetite. Then you may review the survey, get in touch with them and help write the Shape/Pitch.&lt;/p&gt;
+
+&lt;h3 id=&quot;mix-all-above&quot;&gt;Mix all above&lt;/h3&gt;
+
+&lt;p&gt;Once we know three different approaches, I think you’ll get the best results if you mix them.&lt;/p&gt;
+
+&lt;p&gt;Allowing everyone at the company to work on the Shapes while you’re still letting CPO or Product Trio do the Shaping is a good move. It enables leaders to execute the strategy and gives all employees the possibility to participate in the future of the product.&lt;/p&gt;
+
+&lt;p&gt;Then you can bet on the Pitches from these various sources.&lt;/p&gt;
+
+&lt;p&gt;Just think about how to make this mixture work.&lt;/p&gt;
+
+&lt;h2 id=&quot;ask-for-feedback-on-the-pitch-early&quot;&gt;Ask for feedback on the Pitch, early&lt;/h2&gt;
+
+&lt;p&gt;There is a single risk worth mentioning for the Shaping. Many people in both Discovery and Delivery tend to keep their hard work hidden as long as something becomes “demoable”. During the Shaping process, it is much better to make all the shapes public drafts and share the pitches in the early stages so that the other people can provide some feedback.&lt;/p&gt;
+
+&lt;p&gt;Even if just one person is working on a Shapes, opening them for feedback usually leads to positive results.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-does-the-building&quot;&gt;Who does the Building?&lt;/h2&gt;
+
+&lt;p&gt;The answer for this seems to be - the ones who can code and design—however, at least one more person must be involved in Building.&lt;/p&gt;
+
+&lt;h3 id=&quot;include-the-owner-of-the-pitch-into-building&quot;&gt;Include the owner of the Pitch into Building&lt;/h3&gt;
+
+&lt;p&gt;Builders will need direct and constant access to the person who prepared the Pitch or any other person who understands the &lt;em&gt;why?&lt;/em&gt; behind the Pitch.&lt;/p&gt;
+
+&lt;p&gt;Soon, we will focus more on the project roles and responsibilities.&lt;/p&gt;
+
+&lt;p&gt;For now, keep in mind that Shape Up is not meant to be a waterfall process. People who wrote the Pitch need to be involved during the Building phase to support builders with knowledge and feedback.&lt;/p&gt;
+
+&lt;p&gt;In the following article, we will discuss the &lt;a href=&quot;#&quot;&gt;Building phase&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+          <pubDate>2022-04-18T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Who-does-the-Shaping</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Who-does-the-Shaping</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Shape Up, Shaping vs Building</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is the 3rd article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;same-shit-different-naming&quot;&gt;Same shit, different naming&lt;/h2&gt;
+
+&lt;p&gt;The whole process from idea to production might be called differently. Shape Up hasn’t invented the concept of separation, but it made it clear when the crossing line goes in this specific methodology.&lt;/p&gt;
+
+&lt;p&gt;If we take a look at different ways of producing the software, we may realize such stages:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Earlier in the process&lt;/th&gt;
+      &lt;th&gt;Later in the process&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Analyse &amp;amp; Specify&lt;/td&gt;
+      &lt;td&gt;Design &amp;amp; Develop &amp;amp; Test &amp;amp; Release&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Discovery&lt;/td&gt;
+      &lt;td&gt;Delivery&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Problem&lt;/td&gt;
+      &lt;td&gt;Solution&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Opportunity&lt;/td&gt;
+      &lt;td&gt;Solution&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Experiment&lt;/td&gt;
+      &lt;td&gt;Invest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Shaping&lt;/td&gt;
+      &lt;td&gt;Building&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Refine&lt;/td&gt;
+      &lt;td&gt;Implement&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;No matter the religion. Phrases closer to the left-hand side are here to answer &lt;strong&gt;What we will build&lt;/strong&gt;, while phrases on the right-hand side focus on &lt;strong&gt;Getting the solution done&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The overlap of these two areas and the feedback frequency may differ depending on the methodology. &lt;strong&gt;The crossing line is the main difference between the methodologies&lt;/strong&gt;. Think where the crossing line goes for your implementation of Shape Up.&lt;/p&gt;
+
+&lt;p&gt;It is worth keeping the Shaping &amp;amp; Building naming convention for Shape Up as it will enable people to look for it in a book. Using this naming convention will also positively influence most people by enabling them to work in a new fancy methodology.&lt;/p&gt;
+
+&lt;h2 id=&quot;explicit-separation-of-shaping-and-building&quot;&gt;Explicit separation of Shaping and Building&lt;/h2&gt;
+
+&lt;p&gt;When you start implementing the Shape Up, you need to understand the current state of Shaping and Building within’ your organization.&lt;/p&gt;
+
+&lt;p&gt;In most companies, the whole Shaping process happens before something goes into Jira. Most engineers have no idea where the stories are coming from. If you want to learn how to visualize these stages, I encourage you to watch &lt;a href=&quot;https://www.youtube.com/watch?v=wmaDppWNBJc&quot;&gt;Upstream Kanban by Radoslaw Orszewski&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In Shape Up, we want to raise awareness of the existence of the left-hand-side-phases for the Development Team / Builders. To do that, it is worth starting Shape Up implementation by explicit separation of Shaping and Building. This is the moment to let everyone know what these phrases mean and what they will look like.&lt;/p&gt;
+
+&lt;p&gt;Make it clear and explain &lt;em&gt;What Shaping means?&lt;/em&gt; and &lt;em&gt;What Building means?&lt;/em&gt;. Also, share your expectations on &lt;em&gt;Who should participate in which phase?&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage-of-non-shape-up-methods&quot;&gt;Usage of non-Shape Up methods&lt;/h2&gt;
+
+&lt;p&gt;As there are many similarities in Discovery/Shaping - Delivery/Building processes in various methodologies; this is wise to use techniques popularized elsewhere.&lt;/p&gt;
+
+&lt;p&gt;For both stages, you may use such the methods or at least take some inspiration from:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Personas&lt;/li&gt;
+  &lt;li&gt;Competitive Analysis&lt;/li&gt;
+  &lt;li&gt;Unfair Advantage&lt;/li&gt;
+  &lt;li&gt;Customer Interviews, Surveys, Visits&lt;/li&gt;
+  &lt;li&gt;User Journey Mapping&lt;/li&gt;
+  &lt;li&gt;User Story Mapping&lt;/li&gt;
+  &lt;li&gt;Impact Mapping&lt;/li&gt;
+  &lt;li&gt;Event Storming&lt;/li&gt;
+  &lt;li&gt;Jobs-to-be-done&lt;/li&gt;
+  &lt;li&gt;Opportunity Solution Tree&lt;/li&gt;
+  &lt;li&gt;Mind Mapping&lt;/li&gt;
+  &lt;li&gt;Prototyping&lt;/li&gt;
+  &lt;li&gt;A/B Testing&lt;/li&gt;
+  &lt;li&gt;Value Stream Mapping&lt;/li&gt;
+  &lt;li&gt;MoSCoW&lt;/li&gt;
+  &lt;li&gt;Vertical Slices&lt;/li&gt;
+  &lt;li&gt;Increments&lt;/li&gt;
+  &lt;li&gt;Kickoff&lt;/li&gt;
+  &lt;li&gt;Planning&lt;/li&gt;
+  &lt;li&gt;… and many more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just think twice and adjust it to your own needs within’ Shape Up.&lt;/p&gt;
+
+&lt;p&gt;In the following article, we will answer the simple question &lt;em&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Who-does-the-Shaping&quot;&gt;Who does the Shaping?&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+</description>
+          <pubDate>2022-04-14T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Shaping-vs-Building</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Shaping-vs-Building</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, When not to follow the book</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is the 2nd article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
@@ -75,7 +261,7 @@
 &lt;p&gt;My recommendation for 6-20 people big teams would be to start by focusing on:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Explicitly separating Shaping and Building.&lt;/li&gt;
-  &lt;li&gt;Setting the Appetite for the Shapes.&lt;/li&gt;
+  &lt;li&gt;Setting the Appetite for the Shapes / Pitches.&lt;/li&gt;
   &lt;li&gt;Using shorter Cycles than 6+2 for the first two or three Cycles. Like 3+1 or 4+1.&lt;/li&gt;
   &lt;li&gt;Respecting the Cooldown.&lt;/li&gt;
 &lt;/ul&gt;
@@ -86,7 +272,7 @@
 
 &lt;p&gt;If you are in big organization, then you may start with 1 or 2 teams working this way.&lt;/p&gt;
 
-&lt;p&gt;In the next article, we will take a look at &lt;a href=&quot;#&quot;&gt;Shaping vs Building&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the next article, we will take a look at &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Shaping-vs-Building&quot;&gt;Shaping vs Building&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2022-04-07T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Shape-Up-When-not-to-follow-the-book</link>
@@ -120,7 +306,7 @@
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://rmakara.github.io/Shape-Up-When-not-to-follow-the-book&quot;&gt;When not to follow the book&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Shaping vs Building&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Shaping-vs-Building&quot;&gt;Shaping vs Building&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Building:
     &lt;ol&gt;
       &lt;li&gt;Project kickoff&lt;/li&gt;
