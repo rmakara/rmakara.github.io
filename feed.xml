@@ -26,7 +26,7 @@
 
 &lt;p&gt;The good thing about that is that it lowers the need to involve the whole team in the discovery process and doesn’t create the need to educate everyone with the domain knowledge. Ouch, stop! Writers of the most modern books would blame me for that, but yes… I think this approach is ok in many cases.&lt;/p&gt;
 
-&lt;p&gt;However, there are two main drawbacks of this approach.&lt;/p&gt;
+&lt;p&gt;However, there are two main drawbacks of going this way.&lt;/p&gt;
 
 &lt;p&gt;The first one is that once the organization gets bigger, the CPO becomes a bottleneck for everyone else.&lt;/p&gt;
 
@@ -50,9 +50,9 @@
 
 &lt;h3 id=&quot;mix-all-above&quot;&gt;Mix all above&lt;/h3&gt;
 
-&lt;p&gt;Once we know three different approaches, I think you’ll get the best results if you mix them.&lt;/p&gt;
+&lt;p&gt;Once we know three different approaches, you may mix them together.&lt;/p&gt;
 
-&lt;p&gt;Allowing everyone at the company to work on the Shapes while you’re still letting CPO or Product Trio do the Shaping is a good move. It enables leaders to execute the strategy and gives all employees the possibility to participate in the future of the product.&lt;/p&gt;
+&lt;p&gt;Allowing everyone at the company to work on the Shapes while you’re still letting CPO or Product Trio do the Shaping is a good move. It enables leaders to execute the strategy and also it gives all employees the possibility to participate in the future of the product.&lt;/p&gt;
 
 &lt;p&gt;Then you can bet on the Pitches from these various sources.&lt;/p&gt;
 
@@ -60,13 +60,17 @@
 
 &lt;h2 id=&quot;ask-for-feedback-on-the-pitch-early&quot;&gt;Ask for feedback on the Pitch, early&lt;/h2&gt;
 
-&lt;p&gt;There is a single risk worth mentioning for the Shaping. Many people in both Discovery and Delivery tend to keep their hard work hidden as long as something becomes “demoable”. During the Shaping process, it is much better to make all the shapes public drafts and share the pitches in the early stages so that the other people can provide some feedback.&lt;/p&gt;
+&lt;p&gt;There is a single risk worth mentioning for the Shaping.&lt;/p&gt;
+
+&lt;p&gt;Many people in both Discovery and Delivery tend to keep their hard work hidden as long as something becomes “demoable”.&lt;/p&gt;
+
+&lt;p&gt;During the Shaping process, it is worth publishing drafts and sharing the Pitches in the early stages (before the Betting) so that other people can provide some feedback.&lt;/p&gt;
 
 &lt;p&gt;Even if just one person is working on a Shapes, opening them for feedback usually leads to positive results.&lt;/p&gt;
 
 &lt;h2 id=&quot;who-does-the-building&quot;&gt;Who does the Building?&lt;/h2&gt;
 
-&lt;p&gt;The answer for this seems to be - the ones who can code and design—however, at least one more person must be involved in Building.&lt;/p&gt;
+&lt;p&gt;Obviously, the ones who can code and design — however, at least one more person must be involved.&lt;/p&gt;
 
 &lt;h3 id=&quot;include-the-owner-of-the-pitch-into-building&quot;&gt;Include the owner of the Pitch into Building&lt;/h3&gt;
 
@@ -74,7 +78,7 @@
 
 &lt;p&gt;Soon, we will focus more on the project roles and responsibilities.&lt;/p&gt;
 
-&lt;p&gt;For now, keep in mind that Shape Up is not meant to be a waterfall process. People who wrote the Pitch need to be involved during the Building phase to support builders with knowledge and feedback.&lt;/p&gt;
+&lt;p&gt;For now, keep in mind that Shape Up is not meant to be a waterfall process. People who wrote the Pitch need to be involved during the Building phase to support Builders with knowledge and feedback.&lt;/p&gt;
 
 &lt;p&gt;In the following article, we will discuss the &lt;a href=&quot;#&quot;&gt;Building phase&lt;/a&gt;.&lt;/p&gt;
 
@@ -149,7 +153,7 @@
 
 &lt;p&gt;In most companies, the whole Shaping process happens before something goes into Jira. Most engineers have no idea where the stories are coming from. If you want to learn how to visualize these stages, I encourage you to watch &lt;a href=&quot;https://www.youtube.com/watch?v=wmaDppWNBJc&quot;&gt;Upstream Kanban by Radoslaw Orszewski&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;In Shape Up, we want to raise awareness of the existence of the left-hand-side-phases for the Development Team / Builders. To do that, it is worth starting Shape Up implementation by explicit separation of Shaping and Building. This is the moment to let everyone know what these phrases mean and what they will look like.&lt;/p&gt;
+&lt;p&gt;In Shape Up, we want to raise awareness of the existence of the left-hand-side-phases. To do that, it is worth starting Shape Up implementation by explicit separation of Shaping and Building. This is the moment to let everyone know what these phrases mean and what they will look like.&lt;/p&gt;
 
 &lt;p&gt;Make it clear and explain &lt;em&gt;What Shaping means?&lt;/em&gt; and &lt;em&gt;What Building means?&lt;/em&gt;. Also, share your expectations on &lt;em&gt;Who should participate in which phase?&lt;/em&gt;.&lt;/p&gt;
 
