@@ -7,9 +7,127 @@
     
       
         <item>
+          <title>Shape Up, Are Pitches the problems to solve?</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the previous article, we’ve answered &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Who-does-the-Shaping&quot;&gt;who does the shaping&lt;/a&gt;. Now, let’s look at the Pitch and what it contains.&lt;/p&gt;
+
+&lt;h2 id=&quot;pitch-structure-by-the-book&quot;&gt;Pitch structure by the book&lt;/h2&gt;
+
+&lt;p&gt;Based on the &lt;a href=&quot;https://basecamp.com/shapeup/1.5-chapter-06&quot;&gt;knowledge from Shape Up book&lt;/a&gt;, the Pitch contains:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Problem&lt;/li&gt;
+  &lt;li&gt;Appetite&lt;/li&gt;
+  &lt;li&gt;Solution&lt;/li&gt;
+  &lt;li&gt;Rabbit holes&lt;/li&gt;
+  &lt;li&gt;No-gos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this article, I want to focus on how concrete the Pitch should be.&lt;/p&gt;
+
+&lt;h2 id=&quot;way-how-we-delegate---matters&quot;&gt;Way how we delegate - matters&lt;/h2&gt;
+
+&lt;p&gt;A long time ago, someone said that how we describe work to be done matters.&lt;/p&gt;
+
+&lt;p&gt;The most modern product management techniques keep saying about giving engineers the problems to solve. It is not a 0-1 game, and not all companies and not all engineers are ready to work in this way. While it might be a good desired state, you may need to start from a different level of work delegation.&lt;/p&gt;
+
+&lt;p&gt;Taking inspiration from &lt;a href=&quot;https://medium.com/@jurgenappelo/the-7-levels-of-delegation-672ec2a48103&quot;&gt;7 Levels of Delegation model&lt;/a&gt;, we can imagine a few levels of describing the pitches. On one side, pitches might be micromanaged list of tasks, and on the other side, they may give full autonomy to the Builders.&lt;/p&gt;
+
+&lt;p&gt;Let’s use the legendary case of eCommerce Cart. Each paragraph below is a separate example.&lt;/p&gt;
+
+&lt;h3 id=&quot;l1---tech-tasks-to-be-done&quot;&gt;L1 - Tech tasks to be done&lt;/h3&gt;
+
+&lt;p&gt;Please add API methods to enable frontend developers to call it from the UI. The following API interfaces should be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;addToCart(itemId, quantity)&lt;/li&gt;
+  &lt;li&gt;getCart()&lt;/li&gt;
+  &lt;li&gt;changeCartItemQuantity(cartItemId, newQuantity)&lt;/li&gt;
+  &lt;li&gt;removeCartItem(cartItemId)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember to include a customer token in a cookie for each endpoint.&lt;/p&gt;
+
+&lt;p&gt;Implement the frontend layer to give users the ability to call these API methods. UI layer needs to be implemented based on the designs from Figma.&lt;/p&gt;
+
+&lt;h3 id=&quot;l2---functional-scope-to-be-delivered&quot;&gt;L2 - Functional scope to be delivered&lt;/h3&gt;
+
+&lt;p&gt;Please implement the following actions for the customer:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make it possible to add a new item to the cart.&lt;/li&gt;
+  &lt;li&gt;Make it possible to fetch the current state of the cart.&lt;/li&gt;
+  &lt;li&gt;Make it possible to change the quantity of an item in the cart.&lt;/li&gt;
+  &lt;li&gt;Make it possible to remove an item from the cart.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The final solution should contain backend logic and the UI to make it usable for the end-user.&lt;/p&gt;
+
+&lt;h3 id=&quot;l3---solution-to-be-delivered&quot;&gt;L3 - Solution to be delivered&lt;/h3&gt;
+
+&lt;p&gt;Currently, customers of our eCommerce store can purchase only a single item from our catalogue within a single checkout process. We want to let them purchase many items in a single order.&lt;/p&gt;
+
+&lt;p&gt;Please implement the eCommerce cart with 4 basic behaviours for adding cart items, fetching the cart, changing quantity and removing an item. Customer needs to be able to proceed to checkout with their cart.&lt;/p&gt;
+
+&lt;p&gt;Deliver end to end functionality.&lt;/p&gt;
+
+&lt;h3 id=&quot;l4---problem-to-solve&quot;&gt;L4 - Problem to solve&lt;/h3&gt;
+
+&lt;p&gt;Currently, customers of our eCommerce store can purchase only a single item from our catalogue. Customers can click the “Purchase Now” button on Products Listing Page or Product Details Page and then buy it by going through the checkout page.&lt;/p&gt;
+
+&lt;p&gt;Many of them started asking about having the possibility to buy many items with a single purchase. They want to be able to buy many pieces of the same thing as well as many different items in a single checkout process.&lt;/p&gt;
+
+&lt;h3 id=&quot;l5---problem-to-understand-and-solve&quot;&gt;L5 - Problem to understand and solve&lt;/h3&gt;
+
+&lt;p&gt;Many of our customers shop about 20 times a day. We sell kitchen furniture in our eCommerce. That’s weird. Why do each of them place that many orders to the same delivery address?&lt;/p&gt;
+
+&lt;h3 id=&quot;l6---problem-to-discover-and-solve&quot;&gt;L6 - Problem to discover and solve&lt;/h3&gt;
+
+&lt;p&gt;Satisfaction analysis of our customers who shop online states the average score is 6 on a scale from 0 to 10. We want to raise their level of satisfaction to 8 during this quarter.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-strategy-is-the-best&quot;&gt;Which strategy is the best?&lt;/h2&gt;
+
+&lt;p&gt;All of them are good. Before writing a Pitch, you need to understand the context, which applies just to you and your surroundings.&lt;/p&gt;
+
+&lt;p&gt;In not experienced teams delegating concrete tasks to be done may work best. In a super-skilled team, writing down the API methods and classes in a Pitch will make engineers annoyed.&lt;/p&gt;
+
+&lt;p&gt;Also, giving problems to solve to the engineering team with no discovery/analysis/experimentation skills might also be risky. Some engineers may not like doing discovery work. The other ones may love it.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-the-desired-state-and-go-for-it&quot;&gt;Set the desired state and go for it&lt;/h2&gt;
+
+&lt;p&gt;In your implementation of Shape Up, you will most likely cooperate with engineers, designers, product managers and other stakeholders to understand the current state and the desired state of how you would like to work.&lt;/p&gt;
+
+&lt;p&gt;Based on the results of this assessment, you will be able to choose which strategy to use for writing your pitches.&lt;/p&gt;
+
+&lt;p&gt;How you work today in Shape Up is not written in stone. That’s going to evolve. Suppose today you describe technical tasks for engineers. In that case, you may agree to reach the level of giving them the whole functional project at the end of this quarter and then continue this journey towards giving them problems to solve at the end of the year.&lt;/p&gt;
+
+&lt;p&gt;Even if you reach the highest level of maturity, sometimes you need to get something done. Sometimes you need to experiment with a few solutions for a given problem. Sometimes you need to verify if a problem exists.&lt;/p&gt;
+
+&lt;h2 id=&quot;arent-l4-l5-and-l6-a-shaping-process&quot;&gt;Aren’t L4, L5 and L6 a Shaping process?&lt;/h2&gt;
+
+&lt;p&gt;It looks like they are.&lt;/p&gt;
+
+&lt;p&gt;But once you know the levels of delegating the work, you can try to draw a line between Shaping and Building. Maybe you will include more experimentation into the Building phase for some of the pitches? Or you will not.&lt;/p&gt;
+
+&lt;p&gt;If you are just starting with Shape Up, then going with &lt;em&gt;L3 - Solution to be delivered&lt;/em&gt; might be a good idea. What you are going to do in the next Shape Up cycles will be up to you.&lt;/p&gt;
+
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Keep in mind, content under the paragraphs above is not an example of the Pitch. It is just an idea of how to describe work to be done.&lt;/p&gt;
+
+&lt;p&gt;For some examples of the Pitches go to the official website &lt;a href=&quot;https://basecamp.com/shapeup/1.5-chapter-06#examples&quot;&gt;Shape Up, Write the Pitch, Examples&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>2022-05-03T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Are-Shapes-The-Problems-To-Solve</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Are-Shapes-The-Problems-To-Solve</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Who does the Shaping?</title>
           <description>&lt;blockquote&gt;
-  &lt;p&gt;It is the 4th article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;who-does-the-shaping&quot;&gt;Who does the Shaping?&lt;/h2&gt;
@@ -82,7 +200,7 @@
 
 &lt;p&gt;For now, keep in mind that Shape Up is not meant to be a waterfall process. People who wrote the Pitch need to be involved during the Building phase to support Builders with knowledge and feedback.&lt;/p&gt;
 
-&lt;p&gt;The following article will discuss &lt;a href=&quot;#&quot;&gt;what the Pitches/Shapes define&lt;/a&gt;. Are these about the legendary &lt;em&gt;“problems to solve”&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;The following article will discuss &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Are-Shapes-The-Problems-To-Solve&quot;&gt;how concrete the Pitches should be&lt;/a&gt;.&lt;/p&gt;
 </description>
           <pubDate>2022-04-18T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Shape-Up-Who-does-the-Shaping</link>
@@ -94,7 +212,7 @@
         <item>
           <title>Shape Up, Shaping vs Building</title>
           <description>&lt;blockquote&gt;
-  &lt;p&gt;It is the 3rd article in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;same-shit-different-naming&quot;&gt;Same shit, different naming&lt;/h2&gt;
@@ -156,7 +274,7 @@
 
 &lt;p&gt;When you start implementing the Shape Up, you need to understand the current state of Shaping and Building within’ your organization.&lt;/p&gt;
 
-&lt;p&gt;In most companies, the whole Shaping process happens before something goes into Jira. Most engineers have no idea where the stories are coming from. If you want to learn how to visualize these stages, I encourage you to watch &lt;a href=&quot;https://www.youtube.com/watch?v=wmaDppWNBJc&quot;&gt;Upstream Kanban by Radoslaw Orszewski&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In most companies, the whole Shaping process happens before something goes into Jira. Most engineers have no idea where the stories are coming from. If you want to learn how to visualize these stages, I encourage you to watch &lt;a href=&quot;https://www.youtube.com/watch?v=wmaDppWNBJc&quot;&gt;Upstream Kanban by Radoslaw Orszewski&lt;/a&gt; or review a few images presenting the &lt;a href=&quot;https://www.google.com/search?q=double+diamond&quot;&gt;Double Diamong method&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In Shape Up, we want to raise awareness of the existence of the left-hand-side-phases. To do that, it is worth separating Shaping and Building explicitly. This is the moment to let everyone know what these phrases mean and what they will look like.&lt;/p&gt;
 
