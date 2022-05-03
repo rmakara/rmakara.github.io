@@ -41,7 +41,7 @@
 
 &lt;p&gt;Please add API methods to enable frontend developers to call it from the UI. The following API interfaces should be:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;addToCart(itemId, quantity)&lt;/li&gt;
+  &lt;li&gt;addToCart(productId, quantity)&lt;/li&gt;
   &lt;li&gt;getCart()&lt;/li&gt;
   &lt;li&gt;changeCartItemQuantity(cartItemId, newQuantity)&lt;/li&gt;
   &lt;li&gt;removeCartItem(cartItemId)&lt;/li&gt;
@@ -134,7 +134,7 @@
 
 &lt;p&gt;The most common question for the Shaping phase is who does the Shaping. Basecamp answers this question in &lt;a href=&quot;https://basecamp.com/shapeup/1.1-chapter-02#who-shapes&quot;&gt;Who Shapes&lt;/a&gt; chapter of the book.&lt;/p&gt;
 
-&lt;p&gt;The conclusion that we may see is to involve someone aware of the design, business, and technicals. It usually leads to building a team who can collaborate to create the following pitches. There should also be someone empowered to set the concrete level of investment (Appetite) for specific Shape/Pitch.&lt;/p&gt;
+&lt;p&gt;The conclusion that we may see is to involve someone aware of the design, business, and technicals. It usually leads to building a team who can collaborate to create the following pitches. There should also be someone empowered to set the concrete level of investment (Appetite).&lt;/p&gt;
 
 &lt;p&gt;From my perspective, the composition of the Shapers may differ. Here’s how.&lt;/p&gt;
 
