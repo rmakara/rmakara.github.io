@@ -7,6 +7,95 @@
     
       
         <item>
+          <title>Shape Up, Before Shaping there&apos;s a Chaos</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the previous article, we took a look at &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Are-Pitches-The-Problems-To-Solve&quot;&gt;different levels of describing the work to be done&lt;/a&gt;. Now, let’s think for a while if there is something before the Shaping.&lt;/p&gt;
+
+&lt;h2 id=&quot;shaping-from-top-of-the-head&quot;&gt;Shaping from top-of-the-head&lt;/h2&gt;
+
+&lt;p&gt;After reading the book, the common thing about the Shaping process is simply focusing on writing the Pitch.&lt;/p&gt;
+
+&lt;p&gt;The result is to have a well-described Jira Epic (in terms of the concept, not the tool being used) structured with a basic Pitch template from the book (Problem, Appetite, Solution, Rabbit Holes), with no stories and no tasks inside.&lt;/p&gt;
+
+&lt;p&gt;That’s enough to move it to the Betting Table and then to Building.&lt;/p&gt;
+
+&lt;p&gt;It is often a great starting point, and I recommend doing so.&lt;/p&gt;
+
+&lt;p&gt;This article will be about how you may evolve this process after some time.&lt;/p&gt;
+
+&lt;h2 id=&quot;ryan-signers-take-on-framing&quot;&gt;Ryan Signer’s take on Framing&lt;/h2&gt;
+
+&lt;p&gt;Recently, the author of Shape Up shared his experiences of coaching various teams about the process of Shaping. According to his writing, some teams started adding the Framing step to the whole process.&lt;/p&gt;
+
+&lt;p&gt;You can see it in &lt;a href=&quot;https://www.linkedin.com/posts/ryan-singer-9941592b_20-framing-activity-6925006742246281216-LVxA?utm_source=linkedin_share&amp;amp;utm_medium=member_desktop_web&quot;&gt;this LinkedIn post by Ryan Singer&lt;/a&gt; and in &lt;a href=&quot;https://world.hey.com/rjs/20-framing-2f64ddca&quot;&gt;this article at his blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;makes-sense-and-complicates-a-little&quot;&gt;Makes sense and complicates a little&lt;/h2&gt;
+
+&lt;p&gt;After you read an article linked above, you may feel like it makes a lot of sense - and it does.&lt;/p&gt;
+
+&lt;p&gt;Once you get to the last paragraph of Ryan’s writing, you may feel a little bit lost on how to put these things in order. Remember, it is his experience from coaching specific teams. It is not a part of the Shape Up book yet. Try to think about it on your own.&lt;/p&gt;
+
+&lt;p&gt;In my writing below, I will describe things which may happen before Shaping without giving it a name.&lt;/p&gt;
+
+&lt;h2 id=&quot;two-activities-before-shaping&quot;&gt;Two activities before Shaping&lt;/h2&gt;
+
+&lt;p&gt;I see two things that you need to think about before the Shaping.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thinking, researching, describing, and narrowing down the opportunity (e.g. problem).&lt;/li&gt;
+  &lt;li&gt;Gathering all the chaotic data, which may help you prepare the Pitch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on the opportunity you are approaching, these two steps may happen sequentially or parallel. Sometimes, they will occur sequentially in one order and sometimes in another.&lt;/p&gt;
+
+&lt;h2 id=&quot;thinking-about-the-opportunity&quot;&gt;Thinking about the opportunity&lt;/h2&gt;
+
+&lt;p&gt;While the process of Shaping produces the Pitch, which contains Problem and often the Solution; that’s worth explicitly separating the moment of thinking about the Opportunity/Problem.&lt;/p&gt;
+
+&lt;p&gt;We can solve many things for our customers; we can name them differently and split them differently.&lt;/p&gt;
+
+&lt;p&gt;If you want to understand this step more, then I strongly recommend reading &lt;a href=&quot;https://www.producttalk.org/2021/05/continuous-discovery-habits/&quot;&gt;Continuous Discovery Habits by Teresa Torres&lt;/a&gt;. Just read the book. It is great. I will not describe it better than Teresa did.&lt;/p&gt;
+
+&lt;h2 id=&quot;gathering-all-the-chaotic-data-inputs&quot;&gt;Gathering all the chaotic data inputs&lt;/h2&gt;
+
+&lt;p&gt;This activity is about taking the step backwards and not jumping straight into Problem or Solution space.&lt;/p&gt;
+
+&lt;p&gt;Remember the first paragraph of this article? I mentioned writing the Pitch with the knowledge we have on top of our heads. Often this strategy is similar to &lt;a href=&quot;https://www.google.com/search?q=hippo+prioritization&quot;&gt;HiPPO prioritization&lt;/a&gt; method when we assume that we can process most of the knowledge in a single brain and put it into some long writing form.&lt;/p&gt;
+
+&lt;p&gt;We can approach it differently by gathering all the possible data sources, which may help us in the Shaping process. It might be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;All the research data,&lt;/li&gt;
+  &lt;li&gt;Notes from customer interviews,&lt;/li&gt;
+  &lt;li&gt;Data analytics and tracking data about the behaviour of our users,&lt;/li&gt;
+  &lt;li&gt;Customer Support Team feedback,&lt;/li&gt;
+  &lt;li&gt;NPS score around specific already available features,&lt;/li&gt;
+  &lt;li&gt;Feedback delivered via social media.&lt;/li&gt;
+  &lt;li&gt;Market research,&lt;/li&gt;
+  &lt;li&gt;Analysis of similar solutions of our competitors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All the data sources that you can imagine.&lt;/p&gt;
+
+&lt;p&gt;Then you put this chaotic information on a single Miro board.&lt;/p&gt;
+
+&lt;h2 id=&quot;shaping-is-about-tidying-up-the-chaos&quot;&gt;Shaping is about tidying up the Chaos&lt;/h2&gt;
+
+&lt;p&gt;Once we are done with all the considerations and gathering the data - we can proceed to Shaping.&lt;/p&gt;
+
+&lt;p&gt;Now, our job is to take this Chaos, work on it, and by Shaping, convert it into a Pitch.&lt;/p&gt;
+
+&lt;p&gt;In the next article, finally, we will jump into the Building phase.&lt;/p&gt;
+</description>
+          <pubDate>2022-05-24T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Before-Shaping-there-is-a-Chaos</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Before-Shaping-there-is-a-Chaos</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Are Pitches the problems to solve?</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
