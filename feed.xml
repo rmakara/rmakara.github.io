@@ -7,6 +7,178 @@
     
       
         <item>
+          <title>Shape Up, How to do a Project Kickoff?</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We’ve got a few projects to be delivered in the Building phase. The development team has assigned specific people to work on Project A. How to start it?&lt;/p&gt;
+
+&lt;h2 id=&quot;kickoff-by-the-book&quot;&gt;Kickoff by the book&lt;/h2&gt;
+
+&lt;p&gt;After the betting table, Shape Up mentions the need to &lt;a href=&quot;https://basecamp.com/shapeup/2.3-chapter-09#post-the-kick-off-message&quot;&gt;post a kickoff message&lt;/a&gt; and I agree with it. I wouldn’t use the word kickoff for that, but the idea is correct.&lt;/p&gt;
+
+&lt;p&gt;What happens next in the book is &lt;a href=&quot;https://basecamp.com/shapeup/3.1-chapter-10#getting-oriented&quot;&gt;getting oriented&lt;/a&gt;, which explicitly says the very first days will not look like work. After some time, Ryan Singer wrote an article on &lt;a href=&quot;https://world.hey.com/rjs/15-systemizing-kick-off-c05bbbf2&quot;&gt;Systemizing kickoff&lt;/a&gt;. The structure mentioned in Ryan’s article may help you a lot - but there are a few items which I recommend adding.&lt;/p&gt;
+
+&lt;p&gt;The article below describes the structure of the perfect kickoff, which enables the whole team to be effective just after leaving the kickoff meeting without making the very first days not look like “work”.&lt;/p&gt;
+
+&lt;h2 id=&quot;recipe-for-shape-up-project-kickoff&quot;&gt;Recipe for Shape Up Project Kickoff&lt;/h2&gt;
+
+&lt;p&gt;First, I am a massive fan of async work and low-meetings culture, but &lt;strong&gt;Project Kickoff is the Meeting&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-the-kickoff&quot;&gt;Before the kickoff&lt;/h3&gt;
+
+&lt;p&gt;Everyone must read the pitch before the kickoff meeting.&lt;/p&gt;
+
+&lt;p&gt;By reading the pitch earlier, people will process the pitch in their heads and come up with better questions.&lt;/p&gt;
+
+&lt;p&gt;If you’re having trouble encouraging team members to come prepared, then there are 3 basic strategies to deal with it:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Accept the fact and waste time during the meeting.&lt;/li&gt;
+  &lt;li&gt;Timeblock the calendar before the kickoff and ask everyone to read the pitch in this timeframe.&lt;/li&gt;
+  &lt;li&gt;Use &lt;a href=&quot;https://www.cnbc.com/2019/10/14/jeff-bezos-this-is-the-smartest-thing-we-ever-did-at-amazon.html&quot;&gt;Amazon’s idea&lt;/a&gt; to start the meeting silently by reading the document.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I recommend just explaining the importance of reading it before the meeting. If it doesn’t work - try to micromanage with #2.&lt;/p&gt;
+
+&lt;h3 id=&quot;kickoff-agenda&quot;&gt;Kickoff agenda&lt;/h3&gt;
+
+&lt;p&gt;The agenda of the kickoff is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Present the pitch&lt;/li&gt;
+  &lt;li&gt;Ask questions&lt;/li&gt;
+  &lt;li&gt;Convert pitch into Imagined Tasks / Scopes&lt;/li&gt;
+  &lt;li&gt;List down Known Unknowns, Unanswered Questions, Risks&lt;/li&gt;
+  &lt;li&gt;Write down the Project Goal&lt;/li&gt;
+  &lt;li&gt;Agree on Ways of Working&lt;/li&gt;
+  &lt;li&gt;Choose the First Problem To Tackle&lt;/li&gt;
+  &lt;li&gt;Summarize&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Eight steps to make the whole cycle successful. Let’s go through them one by one.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1---present-the-pitch&quot;&gt;Step 1 - Present the pitch&lt;/h3&gt;
+
+&lt;p&gt;The common pitfall is asking at the beginning of the meeting if everyone’s read the pitch. After getting a confirmation, we jump into asking questions.&lt;/p&gt;
+
+&lt;p&gt;This way, we risk having people who haven’t read it and are afraid to say it loudly.&lt;/p&gt;
+
+&lt;p&gt;Even the ideal writers, when presenting something verbally, tend to add details that haven’t been written down and paraphrase what they’ve written. Team members may experience many aha moments during the presentation, so before letting the audience speak, it is worth letting the pitch owner tell the story.&lt;/p&gt;
+
+&lt;p&gt;I prefer to ask people to note down the questions and not interrupt the presenter.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2---ask-questions&quot;&gt;Step 2 - Ask questions&lt;/h3&gt;
+
+&lt;p&gt;After the presentation, we may go to the Q&amp;amp;A session on the pitch.&lt;/p&gt;
+
+&lt;p&gt;Many of these questions will be answered during the meeting, and some will not. Make sure to ask one person to take notes, which will be later shared with everyone.&lt;/p&gt;
+
+&lt;p&gt;We do not want to update the original pitch with the new knowledge because it makes it hard to spot the updates. The better way is to create a separate page with kickoff meeting notes.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3---convert-pitch-into-imagined-tasks--scopes&quot;&gt;Step 3 - Convert pitch into Imagined Tasks / Scopes&lt;/h3&gt;
+
+&lt;p&gt;Shape Up calls it Imagined Tasks, which means the scope of work, we can predict before getting our hands dirty.&lt;/p&gt;
+
+&lt;p&gt;List all the tasks you think you will need to complete and group them into the Scopes.&lt;/p&gt;
+
+&lt;p&gt;I find the issue trackers like Jira too heavy for this step. Real-time-text-editing tools like Notion, Google Docs or any knowledge management software will do a better job.&lt;/p&gt;
+
+&lt;p&gt;During this conversion, we make a team-level agreement on how we understand what needs to be done. We accept that the list isn’t complete, but that’s fine - the &lt;a href=&quot;https://basecamp.com/shapeup/3.1-chapter-10#imagined-vs-discovered-tasks&quot;&gt;Discovered Tasks&lt;/a&gt; will appear during the project.&lt;/p&gt;
+
+&lt;p&gt;It is worth thinking not only about the functional aspects but also about the project’s release. Spending even 3 minutes speaking about the release strategy during the kickoff is usually worth it. Often, it improves engineering practices and leads to the earlier deployment of the feature to production.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4---list-down-known-unknowns-unanswered-questions-risks&quot;&gt;Step 4 - List down Known Unknowns, Unanswered Questions, Risks&lt;/h3&gt;
+
+&lt;p&gt;During the previous step, many unknowns, questions and risks were spotted. Note them down.&lt;/p&gt;
+
+&lt;p&gt;You may create a separate section/scope for it in your document. During the project, someone will need to find the answers to them. We may think about each unknown as a separate task someone will need to take care of.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5---write-down-the-project-goal&quot;&gt;Step 5 - Write down the Project Goal&lt;/h3&gt;
+
+&lt;p&gt;Once we have the Imagined Tasks grouped into the Scopes, I find it helpful to bring the people back to the big picture by asking them to write down the Project Goal on the top of the page.&lt;/p&gt;
+
+&lt;p&gt;By the Project Goal, I mean a two-sentence summary of why we are working on this project and what we want to achieve.&lt;/p&gt;
+
+&lt;p&gt;This step often helps the teams clarify the proper working mode for the project. Shape Up mentiones the existence of &lt;a href=&quot;https://basecamp.com/shapeup/2.3-chapter-09#existing-products&quot;&gt;existing products, new products, R&amp;amp;D, production modes&lt;/a&gt;. By asking for the goal, you get a shared understanding of the mode.&lt;/p&gt;
+
+&lt;h4 id=&quot;close-the-scope-for-now&quot;&gt;Close the scope for now&lt;/h4&gt;
+
+&lt;p&gt;At this point, park the scope and not think about planning its execution. We will get back to it soon.&lt;/p&gt;
+
+&lt;p&gt;Now, it is time for…&lt;/p&gt;
+
+&lt;h2 id=&quot;step-6---agree-on-ways-of-working&quot;&gt;Step 6 - Agree on Ways of Working&lt;/h2&gt;
+
+&lt;p&gt;This topic doesn’t exist in the Shape Up book.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development&quot;&gt;Tuckman’s cycle&lt;/a&gt; describes the process of building the team as forming-storming-norming-performing.&lt;/p&gt;
+
+&lt;p&gt;When working in Shape Up, we slightly change the team’s composition between the cycles. At the beginning of the new cycle, we must help the team move through these stages as soon as possible. Most teams will waste the project’s first days if we do not do it.&lt;/p&gt;
+
+&lt;p&gt;Create a Miro/Document exercise that will ask the team to answer the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What’s your role in the team, and what can you bring?&lt;/li&gt;
+  &lt;li&gt;What kind of project leadership do we use in this project?&lt;/li&gt;
+  &lt;li&gt;What do you expect from the other people in the team?&lt;/li&gt;
+  &lt;li&gt;How we are going to communicate, report and give feedback?&lt;/li&gt;
+  &lt;li&gt;Do we want to work async, with meetings on-demand or do we schedule some 
+meetings right now?&lt;/li&gt;
+  &lt;li&gt;Are there any non-software risks that we see?&lt;/li&gt;
+  &lt;li&gt;Do we need to do a separate project planning session?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By addressing the questions above, you get a shared understanding of how you will collaborate. It is a Project Team Contract.&lt;/p&gt;
+
+&lt;p&gt;Now, you can focus on delivering.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-7---choose-the-first-problem-to-tackle&quot;&gt;Step 7 - Choose the First Problem To Tackle&lt;/h3&gt;
+
+&lt;p&gt;Before leaving the meeting, we must clarify which problem we will tackle first. If we do not do it, many people will work on not valuable parts of the project. Getting this strong agreement and focusing on the most significant risks first is essential.&lt;/p&gt;
+
+&lt;p&gt;Explicitly name it and write it down.&lt;/p&gt;
+
+&lt;p&gt;Now we are sure that the team members will go in this specific direction after leaving the meeting.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-8---summarize&quot;&gt;Step 8 - Summarize&lt;/h3&gt;
+
+&lt;p&gt;Finally, you may quickly summarize all agreements and let everyone know where the notes are available.&lt;/p&gt;
+
+&lt;p&gt;Congratulations, you have nailed the kickoff.&lt;/p&gt;
+
+&lt;h2 id=&quot;importance-of-kickoffs&quot;&gt;Importance of Kickoffs&lt;/h2&gt;
+
+&lt;p&gt;From my experience, poor kickoffs are the root cause of many issues for the Shape Up teams.&lt;/p&gt;
+
+&lt;p&gt;Because of not doing them effectively, many teams waste the project’s first days being disorganized.&lt;/p&gt;
+
+&lt;p&gt;This meeting is here to bring all the questions and agreements into a single session on the first day of the project.&lt;/p&gt;
+
+&lt;p&gt;Without running kickoff effectively, you’re taking a massive risk of not finishing projects on time, and you will end up closing the projects and fixing bugs during the cooldown.&lt;/p&gt;
+
+&lt;p&gt;Why not do it right so we can use cooldown for learning opportunities?&lt;/p&gt;
+
+&lt;h3 id=&quot;key-learning-from-project-management&quot;&gt;Key learning from project management&lt;/h3&gt;
+
+&lt;p&gt;Years ago, as a project manager, I learnt that PMs, who live in constant stress, tend to take the beginning of the projects easy and move all the stressors to their end.&lt;/p&gt;
+
+&lt;p&gt;To help the team have a happy life, you need to raise the stress and engagement level in the project’s early days.&lt;/p&gt;
+
+&lt;p&gt;An effort taken at the beginning will save you sleepless nights at the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;After some time, in the case of non-trivial projects, the time for planning may come. That’s the topic of the following article.&lt;/p&gt;
+</description>
+          <pubDate>2022-06-11T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-How-to-do-a-Project-Kickoff</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-How-to-do-a-Project-Kickoff</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Before Shaping there&apos;s a Chaos</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
