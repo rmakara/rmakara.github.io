@@ -7,6 +7,124 @@
     
       
         <item>
+          <title>Shape Up, Project Leadership and Project Roles</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is no definition of the project roles within’ Shape Up book - everyone is a team member. What’s happening in the world is that most people &lt;a href=&quot;https://rmakara.github.io//Shape-Up-When-not-to-follow-the-book&quot;&gt;follow the book&lt;/a&gt; and do not add additional elements.&lt;/p&gt;
+
+&lt;p&gt;I encourage you to add Project Roles to your implementation of Shape Up. We’ll discuss the purpose of the roles on an example of leadership within’ the Shape Up project.&lt;/p&gt;
+
+&lt;p&gt;By roles, I do not mean the specializations like Backend Developer, Frontend Developer, or UX Designer. When I say roles, I mean project length-long responsibility assigned to the team member to help the team be successful.&lt;/p&gt;
+
+&lt;h2 id=&quot;leadership-modes&quot;&gt;Leadership modes&lt;/h2&gt;
+
+&lt;p&gt;Let’s discuss the topic based on the leadership model within the project. Leadership might be organized in four different ways:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;No one is a leader&lt;/li&gt;
+  &lt;li&gt;Everyone is a leader&lt;/li&gt;
+  &lt;li&gt;Pitch Owner is a leader&lt;/li&gt;
+  &lt;li&gt;Choose the Project Lead&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;no-one-is-a-leader&quot;&gt;No one is a leader&lt;/h2&gt;
+
+&lt;p&gt;For me, this is an anti-pattern, but this is the default approach of the newly founded Shape Up teams.&lt;/p&gt;
+
+&lt;p&gt;When our team works with no plan, we will continue pushing our little parts of the job forward and eventually believe that these parts will work together after integrating at some point.&lt;/p&gt;
+
+&lt;p&gt;Most likely, no one will take care of uncertainties and risks, looking at the big picture. Focus on end-user value will go away, and every single part will get prioritized separately over the shared success.&lt;/p&gt;
+
+&lt;p&gt;An alternative to this approach is to grant leadership to all people explicitly.&lt;/p&gt;
+
+&lt;h2 id=&quot;everyones-a-leader&quot;&gt;Everyone’s a leader&lt;/h2&gt;
+
+&lt;p&gt;What’s the difference between this and the previous approach? Just in saying it out loud - you are all accountable for the successful delivery of the project.&lt;/p&gt;
+
+&lt;p&gt;When we assume everyone’s a leader, we believe everyone will be proactive enough to volunteer to take care of all unmanaged aspects of the project, or all people collaboratively will be able to manage it together.&lt;/p&gt;
+
+&lt;p&gt;The approach is brilliant, but it requires lots of experience from the team members to raise this highest level of flat leadership structure while still sharing all accountabilities and not skipping one.&lt;/p&gt;
+
+&lt;p&gt;To make this leadership mode successful, first, you need to define what it means to be a leader, then help them learn to do it and finally, you’ll have this spread leadership mode.&lt;/p&gt;
+
+&lt;p&gt;The most important thing is to find your way to deal with the areas that no one is volunteering to lead. This problem is usually solved by grouping leadership areas, writing them down and making them visible on the single screen, assuring all areas are covered.&lt;/p&gt;
+
+&lt;p&gt;Just remember… it requires a lot of training and maturity to make this leadership mode very successful.&lt;/p&gt;
+
+&lt;h2 id=&quot;pitch-owner-is-the-leader&quot;&gt;Pitch owner is the leader&lt;/h2&gt;
+
+&lt;p&gt;Another strategy is to give a Pitch Owner the accountability of project leadership.&lt;/p&gt;
+
+&lt;p&gt;A single person is our primary source of knowledge of the problems which must be solved by delivering on the pitch. In parallel, this person is responsible for making the project delivery successful.&lt;/p&gt;
+
+&lt;p&gt;This approach is similar to making one person a Product Owner and Scrum Master simultaneously in a Scrum environment. There’ll be times when both decisions will be correct. One will push toward the business value and the other towards technical excellence, people safety or growth. It is possible to manage it for a single person, but it requires a lot of maturity and calm to find the right balance.&lt;/p&gt;
+
+&lt;p&gt;Often this person will feel caught between a rock and a hard place. Usually, having a counterpart to the Pitch Owner would be a better option.&lt;/p&gt;
+
+&lt;h2 id=&quot;choose-the-project-lead&quot;&gt;Choose the Project Lead&lt;/h2&gt;
+
+&lt;p&gt;My favourite approach.&lt;/p&gt;
+
+&lt;p&gt;During the kickoff, we ask one person to become a Project Lead for the project length. Usually, this is an engineer, but it might also be a designer, researcher, actually anyone.&lt;/p&gt;
+
+&lt;p&gt;The Project Lead is a counterpart for the discussions for the Pitch Owner. This is the setup that I find the most effective and the easiest to implement.&lt;/p&gt;
+
+&lt;p&gt;This approach perfectly matches the cultural approach for building a company where everyone might be a leader. As this is a project-length role, various team members will volunteer for it in the following projects. It creates a safe environment to grow new leaders, which your team members will like. Project length-long commitment is much easier to make instead of changing the job title.&lt;/p&gt;
+
+&lt;p&gt;Project Lead becomes accountable for the delivery of the whole project. It is their job to delegate all the responsibilities and manage the not delegated ones.&lt;/p&gt;
+
+&lt;p&gt;If you are an Engineering Manager, your job is to support Project Leads along the way.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-job-of-a-project-lead&quot;&gt;What’s the job of a Project Lead?&lt;/h3&gt;
+
+&lt;p&gt;In short, it is making sure that all pieces work together.&lt;/p&gt;
+
+&lt;p&gt;I may point to a few basic aspects like making sure the team is aligned, a scope if not forgotten, risks are visible, questions do not remain unanswered, the team thinks about releasing the project early enough and not on the last day of the project, the team focuses on the project delivery instead of single-task-delivery.&lt;/p&gt;
+
+&lt;p&gt;However, I recommend you perform the Impact Mapping exercise with the goal of &lt;em&gt;“Being the best Project Lead”&lt;/em&gt; and then find the areas which impact the Project Lead and which are being impacted by the Project Lead in your context. This exercise will make your team aligned on the understanding of this role.&lt;/p&gt;
+
+&lt;p&gt;After clarifying it, you are ready to start using this role in Shape Up. When to assign the role? Do you remember two questions we had during &lt;a href=&quot;https://rmakara.github.io/Shape-Up-How-to-do-a-Project-Kickoff&quot;&gt;the kickoff&lt;/a&gt;?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What’s your role in the team, and what can you bring?&lt;/li&gt;
+  &lt;li&gt;What kind of project leadership do we use in this project?.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;what-are-the-other-roles&quot;&gt;What are the other roles?&lt;/h2&gt;
+
+&lt;p&gt;Depending on the complexity, size of your organization, and size of the teams, the roles may differ. You need to find the right balance and explicitly name the roles to give the team total confidence on the kickoff on who will take care of which aspects.&lt;/p&gt;
+
+&lt;p&gt;Let me give you a few examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Decision Log Hero&lt;/li&gt;
+  &lt;li&gt;External Blockers &amp;amp; Dependencies Synchronizer&lt;/li&gt;
+  &lt;li&gt;Docs &amp;amp; Meeting Notes Keeper&lt;/li&gt;
+  &lt;li&gt;Deployment &amp;amp; Release Strategist&lt;/li&gt;
+  &lt;li&gt;API Contracts Architect&lt;/li&gt;
+  &lt;li&gt;Domain Architect&lt;/li&gt;
+  &lt;li&gt;Credit Card Holder&lt;/li&gt;
+  &lt;li&gt;Keep The Lights On Engineer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then the job of a person with a role is not to do everything with their own hands. Their job is to make sure that something happens. In the terminology of RACI, this person is Accountable for something, not necessarily Responsible.&lt;/p&gt;
+
+&lt;p&gt;Some examples above might sound like an anti-pattern, but at many points in a team’s lifetime, it is simply more practical to delegate 1 person to take care of something than assuming that our ways of working are mature enough to make these areas tidy magically.&lt;/p&gt;
+
+&lt;p&gt;Let me give you one more extreme example if you work in a startup with no UX Designers. How about asking 1 engineer to take the role of &lt;em&gt;“Seeing the new feature from the user’s perspective”&lt;/em&gt;?&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;Suppose a project is not trivial. The time for project planning may come.&lt;/p&gt;
+</description>
+          <pubDate>2022-06-16T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Project-Leadership-and-Project-Roles</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Project-Leadership-and-Project-Roles</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, How to do a Project Kickoff?</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
@@ -32,14 +150,20 @@
 
 &lt;p&gt;By reading the pitch earlier, people will process the pitch in their heads and come up with better questions.&lt;/p&gt;
 
-&lt;p&gt;If you’re having trouble encouraging team members to come prepared, then there are 3 basic strategies to deal with it:&lt;/p&gt;
+&lt;p&gt;If the team members keep coming unprepared, I recommend explaining the importance of reading the pitch upfront. If it doesn’t work then there are 3 basic strategies to deal with it:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Accept the fact and waste time during the meeting.&lt;/li&gt;
   &lt;li&gt;Timeblock the calendar before the kickoff and ask everyone to read the pitch in this timeframe.&lt;/li&gt;
   &lt;li&gt;Use &lt;a href=&quot;https://www.cnbc.com/2019/10/14/jeff-bezos-this-is-the-smartest-thing-we-ever-did-at-amazon.html&quot;&gt;Amazon’s idea&lt;/a&gt; to start the meeting silently by reading the document.&lt;/li&gt;
+  &lt;li&gt;Accept the fact and waste time.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I recommend just explaining the importance of reading it before the meeting. If it doesn’t work - try to micromanage with #2.&lt;/p&gt;
+&lt;h3 id=&quot;writing-is-essential&quot;&gt;Writing is essential&lt;/h3&gt;
+
+&lt;p&gt;Before starting the meeting, we want to ask 1 person to take care of tidying up all the notes. The whole meeting must be a collaborative session where the screen is being shared, and many people use their keyboards to create a shared document.&lt;/p&gt;
+
+&lt;p&gt;The worst thing that may happen is letting all team members create private notes and keep them secret. As a result, we end up having a group of individuals with separate plans for the project. The only documents that matter are the shared ones. It is mandatory if we want to build the proper team-level collaboration.&lt;/p&gt;
+
+&lt;p&gt;Speaking with no writing is a waste.&lt;/p&gt;
 
 &lt;h3 id=&quot;kickoff-agenda&quot;&gt;Kickoff agenda&lt;/h3&gt;
 
@@ -56,7 +180,7 @@
   &lt;li&gt;Summarize&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Eight steps to make the whole cycle successful. Let’s go through them one by one.&lt;/p&gt;
+&lt;p&gt;Let’s go through each agenda items one by one.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-1---present-the-pitch&quot;&gt;Step 1 - Present the pitch&lt;/h3&gt;
 
@@ -64,7 +188,7 @@
 
 &lt;p&gt;This way, we risk having people who haven’t read it and are afraid to say it loudly.&lt;/p&gt;
 
-&lt;p&gt;Even the ideal writers, when presenting something verbally, tend to add details that haven’t been written down and paraphrase what they’ve written. Team members may experience many aha moments during the presentation, so before letting the audience speak, it is worth letting the pitch owner tell the story.&lt;/p&gt;
+&lt;p&gt;Even the ideal writers, when presenting something verbally, tend to add details that haven’t been written down and they paraphrase what they’ve written. Team members may experience many aha moments during the presentation, so before letting the audience speak, it is worth letting the pitch owner tell the story.&lt;/p&gt;
 
 &lt;p&gt;I prefer to ask people to note down the questions and not interrupt the presenter.&lt;/p&gt;
 
@@ -72,7 +196,7 @@
 
 &lt;p&gt;After the presentation, we may go to the Q&amp;amp;A session on the pitch.&lt;/p&gt;
 
-&lt;p&gt;Many of these questions will be answered during the meeting, and some will not. Make sure to ask one person to take notes, which will be later shared with everyone.&lt;/p&gt;
+&lt;p&gt;Many of these questions will be answered during the meeting, and some will not. Make sure to take notes.&lt;/p&gt;
 
 &lt;p&gt;We do not want to update the original pitch with the new knowledge because it makes it hard to spot the updates. The better way is to create a separate page with kickoff meeting notes.&lt;/p&gt;
 
@@ -82,7 +206,7 @@
 
 &lt;p&gt;List all the tasks you think you will need to complete and group them into the Scopes.&lt;/p&gt;
 
-&lt;p&gt;I find the issue trackers like Jira too heavy for this step. Real-time-text-editing tools like Notion, Google Docs or any knowledge management software will do a better job.&lt;/p&gt;
+&lt;p&gt;I find the issue trackers like Jira too heavy for this step. Real-time-text-editing tools like Notion, Google Docs or any knowledge management software will do a better job to keep the high tempo of the meeting, and not making people fall asleep.&lt;/p&gt;
 
 &lt;p&gt;During this conversion, we make a team-level agreement on how we understand what needs to be done. We accept that the list isn’t complete, but that’s fine - the &lt;a href=&quot;https://basecamp.com/shapeup/3.1-chapter-10#imagined-vs-discovered-tasks&quot;&gt;Discovered Tasks&lt;/a&gt; will appear during the project.&lt;/p&gt;
 
@@ -96,11 +220,11 @@
 
 &lt;h3 id=&quot;step-5---write-down-the-project-goal&quot;&gt;Step 5 - Write down the Project Goal&lt;/h3&gt;
 
-&lt;p&gt;Once we have the Imagined Tasks grouped into the Scopes, I find it helpful to bring the people back to the big picture by asking them to write down the Project Goal on the top of the page.&lt;/p&gt;
+&lt;p&gt;Previous scoping steps are very involving, and most teams lose focus on the project’s initial goal during them. I find it helpful to bring the people back to the big picture by asking them to write down the Project Goal on the top of the page.&lt;/p&gt;
 
 &lt;p&gt;By the Project Goal, I mean a two-sentence summary of why we are working on this project and what we want to achieve.&lt;/p&gt;
 
-&lt;p&gt;This step often helps the teams clarify the proper working mode for the project. Shape Up mentiones the existence of &lt;a href=&quot;https://basecamp.com/shapeup/2.3-chapter-09#existing-products&quot;&gt;existing products, new products, R&amp;amp;D, production modes&lt;/a&gt;. By asking for the goal, you get a shared understanding of the mode.&lt;/p&gt;
+&lt;p&gt;This step often helps the teams clarify the proper working mode for the project. Shape Up mentiones the existence of &lt;a href=&quot;https://basecamp.com/shapeup/2.3-chapter-09#existing-products&quot;&gt;existing products, new products, R&amp;amp;D, production modes&lt;/a&gt;. By asking for the goal, you get a shared understanding of the mode. Also, Project Goal makes prioritisation easier, which will need to happen soon.&lt;/p&gt;
 
 &lt;h4 id=&quot;close-the-scope-for-now&quot;&gt;Close the scope for now&lt;/h4&gt;
 
@@ -108,7 +232,7 @@
 
 &lt;p&gt;Now, it is time for…&lt;/p&gt;
 
-&lt;h2 id=&quot;step-6---agree-on-ways-of-working&quot;&gt;Step 6 - Agree on Ways of Working&lt;/h2&gt;
+&lt;h3 id=&quot;step-6---agree-on-ways-of-working&quot;&gt;Step 6 - Agree on Ways of Working&lt;/h3&gt;
 
 &lt;p&gt;This topic doesn’t exist in the Shape Up book.&lt;/p&gt;
 
@@ -126,6 +250,7 @@
   &lt;li&gt;Do we want to work async, with meetings on-demand or do we schedule some 
 meetings right now?&lt;/li&gt;
   &lt;li&gt;Are there any non-software risks that we see?&lt;/li&gt;
+  &lt;li&gt;Are there any other stakeholders in the company that we should keep in the loop?&lt;/li&gt;
   &lt;li&gt;Do we need to do a separate project planning session?&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -169,7 +294,7 @@ meetings right now?&lt;/li&gt;
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
 
-&lt;p&gt;After some time, in the case of non-trivial projects, the time for planning may come. That’s the topic of the following article.&lt;/p&gt;
+&lt;p&gt;Above, I mentioned project roles and leadership modes. That’s the topic of the following article.&lt;/p&gt;
 </description>
           <pubDate>2022-06-11T00:00:00+02:00</pubDate>
           <link>https://rmakara.github.io//Shape-Up-How-to-do-a-Project-Kickoff</link>
@@ -721,8 +846,8 @@ meetings right now?&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Before-Shaping-there-is-a-Chaos&quot;&gt;Before Shaping there is a Chaos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Building:
     &lt;ol&gt;
-      &lt;li&gt;Project kickoff&lt;/li&gt;
-      &lt;li&gt;Roles in the team&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-How-to-do-a-Project-Kickoff&quot;&gt;Project kickoff&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Project-Leadership-and-Project-Roles&quot;&gt;Project Leadership and Project Roles&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Planning the execution&lt;/li&gt;
       &lt;li&gt;Respecting people’s strengths&lt;/li&gt;
       &lt;li&gt;Focusing on feedback and early testing&lt;/li&gt;
