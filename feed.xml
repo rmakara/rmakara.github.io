@@ -304,6 +304,57 @@ meetings right now?&lt;/li&gt;
     
       
         <item>
+          <title>Shape Up, Building - when Pitches get converted into Projects</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Before we describe how to make your Building phase successful, there is one thing that I want to clarify. Something that exists in the Shape Up book, but for some reason, most people implementing Shape Up tend to overlook it.&lt;/p&gt;
+
+&lt;h2 id=&quot;product-development-as-a-series-of-projects&quot;&gt;Product Development as a series of Projects&lt;/h2&gt;
+
+&lt;p&gt;Shape Up is a methodology for product development. It converts an infinite product development process into a series of projects with flexible scope, which are being delivered within’ the Shape Up cycle.&lt;/p&gt;
+
+&lt;p&gt;After the betting table, &lt;strong&gt;The Pitch is converted into The Project&lt;/strong&gt; - that’s it.&lt;/p&gt;
+
+&lt;p&gt;Team members start working on the Project.&lt;/p&gt;
+
+&lt;p&gt;If you open &lt;a href=&quot;https://basecamp.com/shapeup/shape-up.pdf&quot;&gt;Shape Up PDF&lt;/a&gt; and use CTRL/CMD+F to search for &lt;em&gt;“project”&lt;/em&gt;, you will get around 300 results.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-does-it-matter&quot;&gt;Why does it matter?&lt;/h2&gt;
+
+&lt;p&gt;When in the Building phase, you use the sentence &lt;em&gt;“we are working on the pitches”&lt;/em&gt; or &lt;em&gt;“we are working on the batches”&lt;/em&gt; you make it hard for the people to understand how to actually work with it.&lt;/p&gt;
+
+&lt;p&gt;Try to google for &lt;em&gt;“work on the pitch”&lt;/em&gt;, &lt;em&gt;“pitch management”&lt;/em&gt;, &lt;em&gt;“work on the batch”&lt;/em&gt;, &lt;em&gt;“batch management”&lt;/em&gt;. You will get close to zero results related to software development.&lt;/p&gt;
+
+&lt;p&gt;But if you use the proper naming of Projects, you can google for &lt;em&gt;“project management”&lt;/em&gt;, which gives you 3,470,000,000 results. You can also google for &lt;em&gt;“how to manage a software project”&lt;/em&gt; giving you 854,000,000 results.&lt;/p&gt;
+
+&lt;p&gt;You can also open &lt;a href=&quot;https://www.google.com/search?q=project+management+process+group+and+knowledge+area+mapping&quot;&gt;Project Management Process Group and Knowledge Area Mapping&lt;/a&gt; page in PMBOK and instantly get the single page containing the list of areas that you should consider.&lt;/p&gt;
+
+&lt;h2 id=&quot;choose-the-proper-techniques&quot;&gt;Choose the proper techniques&lt;/h2&gt;
+
+&lt;p&gt;Now, it is your job to choose the techniques that you find helpful for your specific Project. You can make them as lightweight as possible to help you. Do not apply all the project management techniques that you can find - choose only the right ones for a given context.&lt;/p&gt;
+
+&lt;p&gt;This is the beauty of Shape Up. You can execute each Project using slightly different methods that precisely match your current needs.&lt;/p&gt;
+
+&lt;p&gt;Is the project backend heavy? Frontend heavy? Infra heavy? Are there many unknowns? Is everything clear? Is it a migration? Low risk? High risk? Are there many stakeholders?&lt;/p&gt;
+
+&lt;p&gt;Many of such aspects will make you choose a different set of project management and engineering techniques to make your life easier and the Project successful.&lt;/p&gt;
+
+&lt;p&gt;Use the knowledge from the world, do not reinvent the wheel.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;The moment to choose the right tools is the &lt;a href=&quot;https://rmakara.github.io/Shape-Up-How-to-do-a-Project-Kickoff&quot;&gt;Kickoff&lt;/a&gt;, which is the topic of our next article.&lt;/p&gt;
+</description>
+          <pubDate>2022-06-06T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Building-when-pitches-get-converted-into-projects</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Building-when-pitches-get-converted-into-projects</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Before Shaping there&apos;s a Chaos</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
@@ -844,7 +895,7 @@ meetings right now?&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Who-does-the-Shaping&quot;&gt;Who does the Shaping?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Are-Pitches-The-Problems-To-Solve&quot;&gt;Are Pitches the problems to solve?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Before-Shaping-there-is-a-Chaos&quot;&gt;Before Shaping there is a Chaos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Building:
+  &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Building-when-pitches-get-converted-into-projects&quot;&gt;Building, when Pitches get converted into Projects:&lt;/a&gt;
     &lt;ol&gt;
       &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-How-to-do-a-Project-Kickoff&quot;&gt;Project kickoff&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://rmakara.github.io/Shape-Up-Project-Leadership-and-Project-Roles&quot;&gt;Project Leadership and Project Roles&lt;/a&gt;&lt;/li&gt;
@@ -891,6 +942,7 @@ meetings right now?&lt;/li&gt;
   &lt;li&gt;Thank you, &lt;a href=&quot;https://surferseo.com/&quot;&gt;Surfer SEO Team&lt;/a&gt;, for the environment, your support and ideas in playing around with various methods within Shape Up.&lt;/li&gt;
   &lt;li&gt;Thank you, &lt;a href=&quot;https://www.linkedin.com/in/lucjansuski&quot;&gt;Lucjan Suski&lt;/a&gt;, for coming up with the idea for Shape Up’s implementation at Surfer.&lt;/li&gt;
   &lt;li&gt;Thank you, &lt;a href=&quot;https://www.linkedin.com/in/ryan-singer-9941592b&quot;&gt;Ryan Singer&lt;/a&gt;, for sharing writing the book and making the next big step in closing the gap between discovery and delivery.&lt;/li&gt;
+  &lt;li&gt;And all the people who taught me to use the common sense in the agile world.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; This is a series of my thoughts. People mentioned above may have different opinions on this topic. They most likely disagree with me in many cases, just as I agree and disagree with them.&lt;/p&gt;
