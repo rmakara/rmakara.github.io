@@ -7,6 +7,127 @@
     
       
         <item>
+          <title>Shape Up, Planning the execution</title>
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is not easy to plan the whole project on the 1st day. Shape Up mentions the idea of discovered tasks. Long time ago there was a joke in IT industry saying “do not ask developer how long this task will take them to get it done; but ask them when they will be able to provide you with an estimate”.&lt;/p&gt;
+
+&lt;p&gt;This is the idea that’s nicely visualised by climbing the rock exercise described in Shape Up. I like this one. Visualisation really does a good job.&lt;/p&gt;
+
+&lt;p&gt;So, some time after the kickoff, after diggning more into the first problem to tackle, that will be worth to meet again to plan the whole project.&lt;/p&gt;
+
+&lt;p&gt;Depending on the project type - backend heavy, frontend heavy, infrastructure heavy, UX experimentation heavy or whatever, the techniques you may use for the planning may differ.&lt;/p&gt;
+
+&lt;p&gt;Shape Up mentions only Scopes as a planning technique. Unfortunately, the teams tend to see it as a golden bullet for all the plannings.&lt;/p&gt;
+
+&lt;p&gt;Please, do not use Scopes for everything.&lt;/p&gt;
+
+&lt;p&gt;Planning approach should be selected for the specific project.&lt;/p&gt;
+
+&lt;h2 id=&quot;start-with-the-mindset&quot;&gt;Start with the mindset&lt;/h2&gt;
+
+&lt;p&gt;Before we jump into the techniques, let me tell you a story.&lt;/p&gt;
+
+&lt;p&gt;In 2010, when I was coding in Delphi. We had a very highly coupled application, that mixed a lot of in-app business logic with logic stored in database stored proceudres as well as database triggers. From the engineering perspective, that architecture wouldn’t be considered as high quality one. As it was a desktop application, we were releasing an EXE file by putting that on FTP server, that the application was checking during the start up. If there was a new version available on FTP - application was downloading the new version of the EXE file. After successful download, application process was being restarted to load the new version of the app.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t sound too modern. However, at that time, using that technology we were able to release multiple times a day, the failure rate was low, even if we had any failures we were able to fix that in the matter of minutes. Our cycle time from the very first line of the code to moving that code to production was no longer than 2 days.&lt;/p&gt;
+
+&lt;p&gt;DORA metrics didn’t exist and it was 2-3 years after the DevOps presentation made by Flickr. As we were a team from a small city in Poland, we didn’t even know about people coming up with the “DevOps” term in the second part of the world.&lt;/p&gt;
+
+&lt;p&gt;However, our flow was optimized based on common sense and logical thinking. Our customers were happy because they were getting the new versions of the software very often and it was relatively stable.&lt;/p&gt;
+
+&lt;h2 id=&quot;shape-up-by-default-is-slow&quot;&gt;Shape Up by default is slow&lt;/h2&gt;
+
+&lt;p&gt;Now, we can combine the story with approach that we have in 2022. In Shape Up book, there is an idea of 6 week long cycles.&lt;/p&gt;
+
+&lt;p&gt;What happens is that teams focus too much on that number and they start planning the projects to keep working on that for the following 6 weeks, and do a big-bang testing or release process after that time. In 99% of the cases, that doesn’t work becuase if we wait so long for the feedback loop then there’ll be always some additional work to do after testing the solution with stakeholders or customers.&lt;/p&gt;
+
+&lt;p&gt;If first feedback loop happens later than 3 days after starting the project - we are slow.&lt;/p&gt;
+
+&lt;p&gt;What we must do instead is to get back to the roots of agile development, extreme programming, risk reduction and team collaboration.&lt;/p&gt;
+
+&lt;p&gt;Inside 6 weeks long building cycle we DO NOT want to do a single release. We want to aim for short cycle time of each story, frequent feedback loops, very early testing of unfinished work.&lt;/p&gt;
+
+&lt;p&gt;Shape Up projects shouldn’t be delivered in a big-bang way. Iterative and incremental approaches are the right way to go.&lt;/p&gt;
+
+&lt;p&gt;Practical example of what I mean by that narrow scoping of the first vertical slices might be easily visualised by the concept of Walking Skeleton of User Story Mapping method.&lt;/p&gt;
+
+&lt;h2 id=&quot;techniques&quot;&gt;Techniques&lt;/h2&gt;
+
+&lt;p&gt;Techniques mentioned below are here to help us collaborate on a team level to deliver the project. They are also here to help us think about slicing the scope.&lt;/p&gt;
+
+&lt;h3 id=&quot;shape-up-scopes&quot;&gt;Shape Up Scopes&lt;/h3&gt;
+
+&lt;p&gt;Technique based on grouping the checkbox into selected scopes. I find this technique light-weight and useful for functional scoping step during the kickoff.&lt;/p&gt;
+
+&lt;p&gt;It is also very good for low-mid complexity projects with not many external dependencies.&lt;/p&gt;
+
+&lt;h3 id=&quot;event-storming&quot;&gt;Event Storming&lt;/h3&gt;
+
+&lt;p&gt;This technique is not so commonly known as the way to plan the projects. It is mostly known for its big picture part to map the process, list down domain events, hot spots and relief the bounded contexts.&lt;/p&gt;
+
+&lt;p&gt;I find it useful for process or backend heavy projects. It may help you to clarify ubiquities language and find the proper technican architecture for the solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-story-mapping&quot;&gt;User Story Mapping&lt;/h3&gt;
+
+&lt;p&gt;This is the approach that focuses more on the persona’s perspective. If you are a developer, who is not passionate for UX then you can imagine it as a good technique for Behavioral Driven Development. Or alternatively the ideas of focusing on the knowledge that we can get from our customers or domain experts, that we know from Domain Driven Design by learning from them.&lt;/p&gt;
+
+&lt;p&gt;What’s the best about this technique is that it enables us to easily split the whole project into the series of increments. Presentation of the backlog in 2 dimensions helps a lot.&lt;/p&gt;
+
+&lt;p&gt;By effectively choosing the next increments you may work very closely within the team and shorten the feedback loop very strongly.&lt;/p&gt;
+
+&lt;p&gt;This is my favourite technique for most of the projects. Doesn’t matter if you are in Experience or Platform Team. You can use 2D visualisation to plan your work more effectively.&lt;/p&gt;
+
+&lt;h2 id=&quot;impact-mapping&quot;&gt;Impact Mapping&lt;/h2&gt;
+
+&lt;p&gt;Technique mentioned in the last article. Its job is again not to plan the project in original but to clarify the actors, that have some specific impact on the goal that we want to achieve.&lt;/p&gt;
+
+&lt;p&gt;However, if you use this visualisation for clarifying the stuff to be delivered. It may help you a lot in planning the execution of the project.&lt;/p&gt;
+
+&lt;p&gt;It might be used for starting the discussion around the whole project or some single issue in the project scope. Again, the visualisation helps to drive the discussion a lot.&lt;/p&gt;
+
+&lt;h2 id=&quot;priorities&quot;&gt;Priorities&lt;/h2&gt;
+
+&lt;p&gt;List of the Jira tickets is not a project plan.&lt;/p&gt;
+
+&lt;p&gt;USM gives you the most crystal way to set the priorities. In all the other methods you need to find the right way to agree on the priorities as well.&lt;/p&gt;
+
+&lt;p&gt;You may use colours or just separate note with agreement around the priorities to make sure everyone understand it in the same way.&lt;/p&gt;
+
+&lt;h2 id=&quot;it-is-a-teams-plan&quot;&gt;It is a Team’s plan&lt;/h2&gt;
+
+&lt;p&gt;The biggest failure is having 5 members in a team and being in position when these 5 members have hiden project plans for themselves.&lt;/p&gt;
+
+&lt;p&gt;Private notes are the root of all evil.&lt;/p&gt;
+
+&lt;p&gt;The job of the planning is to make the whole team collaborate on the same project plan. This is the only way to deliver the project as a team.&lt;/p&gt;
+
+&lt;p&gt;When I say team I mean everyone, not just the developers building a plan in separation from the others. If you are a developer and involve other people in planning, you will end up having a better plan, you will learn what you do not know and you will skip the standard questions that piss you off in the middle of the project about “when it will be done?”.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-a-one-off-exercise&quot;&gt;Is it a one-off exercise?&lt;/h2&gt;
+
+&lt;p&gt;You want to start planning shortly after you start the project. Often you will not have enough knowledge to create the whole plan. And that’s fine.&lt;/p&gt;
+
+&lt;p&gt;Then you can do some spiking, research, dig into the code, implement something and revisit the plan.&lt;/p&gt;
+
+&lt;p&gt;Use it as a tool for daily collaboration with your team and keep updating the plan on the daily basis.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-most-important-about-planning&quot;&gt;What is the most important about planning?&lt;/h2&gt;
+
+&lt;p&gt;Team collaboration, effective discussions, shared understanding, shared agreements, making decisions, palcing bets, spiking, focusing on shortening the feedback loops, slicing the scope into small vertical slices, finding and claryfing the risks and unknowns, learning, setting expectations, making sure we all understand what we want to deliver.&lt;/p&gt;
+
+&lt;p&gt;Planning process and the plan are just the tools to achieve the above.&lt;/p&gt;
+</description>
+          <pubDate>2022-07-10T00:00:00+02:00</pubDate>
+          <link>https://rmakara.github.io//Shape-Up-Planning-the-execution</link>
+          <guid isPermaLink="true">https://rmakara.github.io//Shape-Up-Planning-the-execution</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Shape Up, Project Leadership and Project Roles</title>
           <description>&lt;blockquote&gt;
   &lt;p&gt;It is one of the articles in the Shape Up series. For Table of Contents go to: &lt;a href=&quot;https://rmakara.github.io/Shape-Up-Introduction&quot;&gt;Shape Up, Introduction&lt;/a&gt;&lt;/p&gt;
@@ -847,7 +968,10 @@ meetings right now?&lt;/li&gt;
 &lt;ul&gt;
   &lt;li&gt;Explicitly separating Shaping and Building.&lt;/li&gt;
   &lt;li&gt;Setting the Appetite for the Shapes / Pitches.&lt;/li&gt;
-  &lt;li&gt;Using shorter Cycles than 6+2 for the first two or three Cycles. Like 3+1 or 4+1.&lt;/li&gt;
+  &lt;li&gt;Using shorter Cycles than 6+2. Like 3+1 or 4+1.&lt;/li&gt;
+  &lt;li&gt;Doing your best in terms of vertical slicing of the scope, planning, early testing and early deployments.&lt;/li&gt;
+  &lt;li&gt;Writing the project plan (stories? tasks? scopes?) down and using it.&lt;/li&gt;
+  &lt;li&gt;Doing dailies at least in the first days of the new project.&lt;/li&gt;
   &lt;li&gt;Respecting the Cooldown.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2493,29 +2617,31 @@ meetings right now?&lt;/li&gt;
       
         <item>
           <title>Czym jest SPIKE? Wyjaśnienie dla Project Managera</title>
-          <description>&lt;h1 id=&quot;wina-analityków&quot;&gt;Wina analityków&lt;/h1&gt;
+          <description>&lt;h2 id=&quot;wina-analityków&quot;&gt;Wina analityków&lt;/h2&gt;
 
-&lt;p&gt;W firmach często pracujemy w systemie projektowym. W związku z tym zdarza się nam realizować spore analizy upfront. Jest to jak najbardziej ok i zwiększa naszą wiedzę w sposób pozwalający na wycenę projektu oraz późniejszą jego realizację. Często jednak programiści narzekają, że &lt;em&gt;“analiza była słaba”&lt;/em&gt;. Nie jest to oczywiście wina analityków. Jest to kwestia tego, że zawsze narzeka się na osoby “przed nami” w nieperfekcyjnym procesie w którym brakuje poprawnych przepływów feedbacku, więc… być może to wina programistów, że nie rozmawiają z analitykami? Who knows. :) A być może późniejsza analiza to coś normalnego?&lt;/p&gt;
+&lt;p&gt;W firmach usługowych zdarza nam się pracować w systemie projektowym. W związku z tym czasami wykonujemy spory etap analizy jeszcze przed rozpoczęciem prac programistycznych. Jest to jak najbardziej ok i zwiększa naszą wiedzę w sposób pozwalający na wycenę projektu oraz późniejszą jego realizację.&lt;/p&gt;
 
-&lt;h1 id=&quot;co-na-to-pani-agile&quot;&gt;Co na to Pan(i) Agile?&lt;/h1&gt;
+&lt;p&gt;Często jednak zespoły programistyczne narzekają, że &lt;em&gt;“analiza była słaba”&lt;/em&gt;. Nie jest to oczywiście wina analityków. Jest to kwestia tego, że zazwyczaj narzeka się na osoby “przed nami” w nieperfekcyjnym procesie w którym brakuje poprawnych mechanizmów współpracy między rolami, więc… być może jest to wina programistów, że nie rozmawiają z analitykami? A być może późniejsza analiza to coś normalnego?&lt;/p&gt;
 
-&lt;p&gt;W podejściu zwinnym, effort “uczenia się” lub effort analityczny jest częścią Sprintu. Oznacza to, że każdy członek Development Teamu za taką analizę odpowiada. Jeżeli braki w wiedzy do zrealizowania danej historyjki są dość małe to można taką analizę wykonać w obrębie tego samego issue co samą implementację.&lt;/p&gt;
+&lt;h2 id=&quot;co-na-to-agile-i-extreme-programming&quot;&gt;Co na to Agile i Extreme Programming?&lt;/h2&gt;
 
-&lt;p&gt;Co jednak, gdy mamy duże braki w wiedzy i nie pozwalają nam one na oszacowanie czasu potrzebnego do realizacji zadania, rozpisanie sub-tasków, ani nawet podjęcie decyzji czy jego implementacja powinna się w ogóle odbyć? Innymi słowy, nie mamy wiedzy, aby rozpocząć realizację zadania. PM pyta &lt;em&gt;“ile godzin?”&lt;/em&gt;, a odpowiedzi nie da się udzielić.&lt;/p&gt;
+&lt;p&gt;W podejściu zwinnym, effort “uczenia się” lub effort analityczny jest częścią Sprintu. Oznacza to, że każdy członek Development Teamu moe za taką analizę odpowiada. Jeżeli braki w wiedzy do zrealizowania danej historyjki są dość małe to można taką analizę wykonać w obrębie tego samego issue co samą implementację.&lt;/p&gt;
 
-&lt;p&gt;Na pomoc przychodzi typ zadania znany w środowisku programowania ekstremalnego jako - SPIKE.&lt;/p&gt;
+&lt;p&gt;Co jednak, gdy mamy duże braki w wiedzy i nie pozwalają nam one na oszacowanie czasu potrzebnego do realizacji zadania, rozpisanie sub-tasków lub na podjęcie decyzji czy jego implementacja powinna się w ogóle odbyć? Innymi słowy, nie mamy wiedzy, aby rozpocząć realizację zadania. PM pyta &lt;em&gt;“ile godzin?”&lt;/em&gt;, a odpowiedzi nie da się udzielić.&lt;/p&gt;
 
-&lt;h1 id=&quot;czym-jest-spike&quot;&gt;Czym jest spike?&lt;/h1&gt;
+&lt;p&gt;Na pomoc przychodzi znany w środowisku programowania ekstremalnego - SPIKE.&lt;/p&gt;
 
-&lt;p&gt;SPIKE to wysiłek / effort, który może być wydzielony z historyjek implementacji konkretnych funkcjonalności na rzecz zdobycia wiedzy, która pozwoli nam rozpocząć faktyczną pracę nad zadaniem (lub podjąć decyzję o jego odrzuceniu). Spajki mogą być funkcjonalne, techniczne, architektoniczne […].&lt;/p&gt;
+&lt;h2 id=&quot;czym-jest-spike&quot;&gt;Czym jest Spike?&lt;/h2&gt;
 
-&lt;p&gt;Ich wynikiem jest zwiększenie wiedzy o danym problemie co pozwolą na podjęcie lepszej decyzji.&lt;/p&gt;
+&lt;p&gt;W świecie Agile, Spike to wysiłek / effort, który może być wydzielony z historyjek implementacji konkretnych funkcjonalności na rzecz zdobycia wiedzy, która pozwoli nam rozpocząć faktyczną pracę nad zadaniem (lub podjąć decyzję o jego odrzuceniu). Spajki mogą być funkcjonalne, techniczne, architektoniczne […].&lt;/p&gt;
 
-&lt;h1 id=&quot;przykład&quot;&gt;Przykład&lt;/h1&gt;
+&lt;p&gt;W świecie Extreme Programming, jest to najmniejszy mozliwy eksperyment pozwalajcy na rozeznanie sie w potencjalnych rozwiazaniach przed zdecydowaniem sie na pelna implementacje. Celem jest obnizanie ryzyka wynikajacego z konkretnej niepewnosci w zakresie technicznym.&lt;/p&gt;
 
-&lt;p&gt;Mamy user story: &lt;em&gt;“Jako Content Manager chcę w Prismicu zbudować stronę statyczną z odnośnikami do polecanych artykułów, aby następnie została ona wyświetlona na stronie statycznej w naszym storefroncie”&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;przykład&quot;&gt;Przykład&lt;/h2&gt;
 
-&lt;p&gt;Załóżmy, że nasz zespół nigdy nie integrował się z &lt;a href=&quot;https://prismic.io/&quot;&gt;Prismiciem&lt;/a&gt; i trochę nie wie od czego zacząć. Oszacowanie punktowe / czasowe realizacji tej historyjki będzie strzałem bazującym na domysłach. Nie są znane też ryzyka, które mogą zaistnieć podczas implementacji. No i teraz możemy wydzielić przykładowe spike. Opiszmy je w formie storiesów (kilka różnych wersji):&lt;/p&gt;
+&lt;p&gt;Mamy user story: &lt;em&gt;“Jako Content Manager chcę przy uzyciu Prismica zbudować stronę statyczną z odnośnikami do polecanych artykułów, aby następnie została ona wyświetlona na stronie statycznej w naszym storefroncie”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Załóżmy, że nasz zespół nigdy nie integrował się z &lt;a href=&quot;https://prismic.io/&quot;&gt;Prismiciem&lt;/a&gt; i nie wie od czego zacząć. Oszacowanie punktowe / czasowe realizacji tej historyjki będzie strzałem bazującym na domysłach. Nie są znane też ryzyka, które mogą zaistnieć podczas implementacji. No i teraz możemy wydzielić przykładowe spike. Opiszmy je w formie storiesów (kilka różnych wersji):&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[SPIKE] Jako Dev Team chcemy zdobyć wiedzę o tym jak pobierać dane z Prismica oraz w jakiej formie przekazywane są strony z Prismica na storefront, aby precyzyjnie zdefiniować zadania z zakresu integracji z Prismic i je wyestymować&lt;/li&gt;
@@ -2523,7 +2649,7 @@ meetings right now?&lt;/li&gt;
   &lt;li&gt;[SPIKE] Jako Dev Team chcemy zebrać wnioski z integracji z systemami CMS w innych naszych projektach, aby przyjąć jak najlepszą koncepcję architektoniczną dla integracji z Prismiciem&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;przykłady-spikeów-z-innej-beczki&quot;&gt;Przykłady spike’ów z innej beczki&lt;/h1&gt;
+&lt;h2 id=&quot;przykłady-spikeów-z-innej-beczki&quot;&gt;Przykłady spike’ów z innej beczki&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[SPIKE] Chcemy wykonać analizę SWOT, aby ustalić czy powinniśmy zaimplementować system rekomendacji produktowych w naszym eCommerce wykorzystując PHP, Pythona, czy może powinniśmy kupić gotowe rozwiązanie?&lt;/li&gt;
@@ -2532,21 +2658,21 @@ meetings right now?&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/SAP/cloud-commerce-spartacus-storefront/issues/1218&quot;&gt;https://github.com/SAP/cloud-commerce-spartacus-storefront/issues/1218&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;dobre-praktyki-spajkowania&quot;&gt;Dobre praktyki spajkowania&lt;/h1&gt;
+&lt;h2 id=&quot;dobre-praktyki-spajkowania&quot;&gt;Dobre praktyki spajkowania&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Dla każdego spike warto ustalić &lt;strong&gt;konkretny timebox&lt;/strong&gt;. Np. na realizację naszego spike o Prismica chcemy poświęcić &lt;strong&gt;maksymalnie 3 godziny&lt;/strong&gt;. W tym czasie zdobywamy jak najwięcej wiedzy + spisujemy wnioski. To musi nam wystarczyć do podjęcia kolejnych decyzji.&lt;/li&gt;
+  &lt;li&gt;Dla każdego spike warto ustalić &lt;strong&gt;konkretny timebox&lt;/strong&gt;. Np. na realizację naszego spike o Prismicu chcemy poświęcić &lt;strong&gt;maksymalnie 3 godziny&lt;/strong&gt;. W tym czasie zdobywamy jak najwięcej wiedzy + spisujemy wnioski. To musi nam wystarczyć do podjęcia kolejnych decyzji.&lt;/li&gt;
   &lt;li&gt;Warto zaznaczyć w kryteriach akceptacyjnych danego spike co powinno być wynikiem jego realizacji. Analiza SWOT, rekomendacja, lista ryzyk, lista sub-tasków, pseudo-kod?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;jak-ci-to-pomoże-jako-pmowi&quot;&gt;Jak Ci to pomoże jako PMowi?&lt;/h1&gt;
+&lt;h2 id=&quot;jak-ci-to-pomoże-jako-pmowi&quot;&gt;Jak Ci to pomoże jako PMowi?&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Estymaty historyjek do implementacji będą bardziej precyzyjne.&lt;/li&gt;
+  &lt;li&gt;Dyskusja o sensowności realizacji historyjek będzie bardziej rzeczowa.&lt;/li&gt;
   &lt;li&gt;Ludzie mają tendencję do implementacji pierwszego rozwiązania jakie wpadnie im do głowy. Spajkowanie pomaga na weryfikację czy pierwszy pomysł na pewno jest najlepszy.&lt;/li&gt;
   &lt;li&gt;Spajki skrócą czas implementacji oraz późniejszego ping-pongu na etapie testowania.&lt;/li&gt;
-  &lt;li&gt;Założenia techniczne prawdopodobnie będą lepsze i czas potrzebny na późniejszy refactoring będzie mniejszy.&lt;/li&gt;
-  &lt;li&gt;Zwiększenie wiedzy pozwoli na stworzenie sub-tasków, które uczynią proces implementacji bardziej transparentnym. Unikniemy sytuacji “koduję, będzie gotowe jak skończę”.&lt;/li&gt;
+  &lt;li&gt;Rozwiązania techniczne prawdopodobnie będą lepsze i czas potrzebny na późniejszy refactoring będzie mniejszy.&lt;/li&gt;
+  &lt;li&gt;Zwiększenie wiedzy pozwoli na stworzenie sub-tasków, które uczynią proces implementacji bardziej transparentnym. Unikniemy sytuacji &lt;em&gt;“koduję, będzie gotowe jak skończę”&lt;/em&gt;.&lt;/li&gt;
   &lt;li&gt;Odseparowanie “uczenia się” od implementacji zwiększy transparentność tego co aktualnie się dzieje z danym zadaniem. Unikniemy tego, że przez 2 tygodnie będziemy czekać na realizację czegoś, co w praktyce nawet się nie zaczęło, bo ktoś samodzielnie wchodzi w bardzo głębokie rozkminy na poziomie &lt;em&gt;“czy można płakać pod wodą?”&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
